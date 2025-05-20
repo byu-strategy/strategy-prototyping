@@ -1,0 +1,44 @@
+---
+title: "AI Tools Overview"
+editor: visual
+---
+
+## Backend
+
+- Supabase
+
+## No-Code
+
+- Lovable
+
+{{< video https://www.youtube.com/embed/dwsoP6DfU70 >}}
+
+- V0
+
+## Low-Code
+
+## Pro-Code
+
+### Windsurf
+
+{{< video https://www.youtube.com/embed/oLmHdymHHg0 >}}
+
+### Cursor
+
+### VS Code
+
+## Presentations
+
+- Gamma
+
+## ChatBots
+
+- ChatGPT
+- Gemini
+- Claude
+- Perplexity
+- DeepSeek
+- Grok
+
+
+

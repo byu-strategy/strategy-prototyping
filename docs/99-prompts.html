@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Scott Murff">
-<meta name="dcterms.date" content="2025-05-10">
 
-<title>STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
+<title>Prompt Library – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./98-tools.html" rel="next">
+<link href="./98-tools.html" rel="prev">
 <link href="./images/prototyping.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -84,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Syllabus</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -111,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Syllabus</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -121,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prompt Library</span></a>
+  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Prompt Library</span></a>
   </div>
 </li>
     </ul>
@@ -134,24 +132,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#syllabus" id="toc-syllabus" class="nav-link active" data-scroll-target="#syllabus">Syllabus</a>
-  <ul class="collapse">
-  <li><a href="#content-overview" id="toc-content-overview" class="nav-link" data-scroll-target="#content-overview">Content Overview</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#instructor-bio" id="toc-instructor-bio" class="nav-link" data-scroll-target="#instructor-bio">Instructor Bio</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
-  <ul class="collapse">
-  <li><a href="#late-work-policy" id="toc-late-work-policy" class="nav-link" data-scroll-target="#late-work-policy">Late work policy</a></li>
-  </ul></li>
-  <li><a href="#classroom-culture" id="toc-classroom-culture" class="nav-link" data-scroll-target="#classroom-culture">Classroom Culture</a>
-  <ul class="collapse">
-  <li><a href="#mission-and-aims" id="toc-mission-and-aims" class="nav-link" data-scroll-target="#mission-and-aims">Mission and Aims</a></li>
-  </ul></li>
-  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials">Required Materials</a></li>
-  <li><a href="#getting-help" id="toc-getting-help" class="nav-link" data-scroll-target="#getting-help">Getting Help</a></li>
-  <li><a href="#pre-enrollment-assessment" id="toc-pre-enrollment-assessment" class="nav-link" data-scroll-target="#pre-enrollment-assessment">Pre-enrollment Assessment</a></li>
-  </ul></li>
+  <li><a href="#architecture" id="toc-architecture" class="nav-link active" data-scroll-target="#architecture">Architecture</a></li>
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
+  <li><a href="#engineering" id="toc-engineering" class="nav-link" data-scroll-target="#engineering">Engineering</a></li>
   </ul>
 </nav>
     </div>
@@ -160,26 +143,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</h1>
+<h1 class="title"><span class="chapter-title">Prompt Library</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Scott Murff </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 10, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -189,238 +160,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="syllabus" class="level1">
-<h1>Syllabus</h1>
-<p><em>FALL 2025</em></p>
-<p><strong>Instructor:</strong> Scott Murff<br>
-<strong>TAs:</strong> Carter Adams, Eli Nelson<br>
-<strong>Class Time:</strong> Fridays Only, 9:30 AM – 12:15 PM<br>
-<strong>Class Location:</strong> MARB B113<br>
-<strong>LMS:</strong> LearningSuite</p>
-<section id="content-overview" class="level2">
-<h2 class="anchored" data-anchor-id="content-overview">Content Overview</h2>
-<p>Welcome to <em>Creating Digital Products with AI: Strategy &amp; Prototyping</em>. What should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer. Grounded in the principles of The Lean Product Playbook by Dan Olsen, students will explore the foundational frameworks of product strategy, customer-centric design, and rapid iteration. Building on these fundamentals, the course transitions into applied innovation—students will leverage modern AI tools to ideate, prototype, and build real digital products.</p>
-<p>Throughout the course, students will learn how AI is reshaping every stage of the product lifecycle—from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product concept, preparing them to lead in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.</p>
-<p>There are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.</p>
-</section>
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 47%">
-<col style="width: 52%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Learning Outcome</th>
-<th>Supported BYU Aims</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1. Develop and articulate a product strategy.</td>
-<td>Intellectually Enlarging, Lifelong Learning and Service</td>
-</tr>
-<tr class="even">
-<td>2. Demonstrate technical competency with AI tools to ideate, prototype, and test digital product concepts rapidly and iteratively.</td>
-<td>Intellectually Enlarging, Lifelong Learning and Service</td>
-</tr>
-<tr class="odd">
-<td>3. Work effectively in teams, demonstrating respect, responsibility, and Christian discipleship in leadership and collaboration.</td>
-<td>Character Building, Spiritually Strengthening</td>
-</tr>
-<tr class="even">
-<td>4. Apply gospel-centered creativity and faith to envision how digital products can serve others and build up communities, both temporally and spiritually.</td>
-<td>Spiritually Strengthening, Lifelong Learning and Service</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="instructor-bio" class="level2">
-<h2 class="anchored" data-anchor-id="instructor-bio">Instructor Bio</h2>
-<p>Scott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott School of Business, where he also serves as program director and teaches courses on business strategy, decision-making, and artificial intelligence. He brings over 15 years of experience at the intersection of business and technology, having worked as a consultant, product manager, and data scientist.</p>
-<p>Prior to joining BYU, Scott spent nearly seven years at McKinsey &amp; Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.</p>
-<p>Scott holds a Master’s degree in Management Science &amp; Engineering from Stanford University and a B.A. in Economics from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.</p>
-</section>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<p>Coming Soon.</p>
-</section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>The course is <strong>not</strong> graded on a curve. It’s possible for every student to earn an A. However, achieving an A is challenging and demonstrates true excellence. The grading scale is show below:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Letter Grade</th>
-<th>Percentage Range</th>
-<th>GPA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>A</td>
-<td>93–100%</td>
-<td>4.0</td>
-</tr>
-<tr class="even">
-<td>A-</td>
-<td>90–92%</td>
-<td>3.7</td>
-</tr>
-<tr class="odd">
-<td>B+</td>
-<td>87–89%</td>
-<td>3.4</td>
-</tr>
-<tr class="even">
-<td>B</td>
-<td>83–86%</td>
-<td>3.0</td>
-</tr>
-<tr class="odd">
-<td>B-</td>
-<td>80–82%</td>
-<td>2.7</td>
-</tr>
-<tr class="even">
-<td>C+</td>
-<td>77–79%</td>
-<td>2.4</td>
-</tr>
-<tr class="odd">
-<td>C</td>
-<td>73–76%</td>
-<td>2.0</td>
-</tr>
-<tr class="even">
-<td>C-</td>
-<td>70–72%</td>
-<td>1.7</td>
-</tr>
-<tr class="odd">
-<td>D+</td>
-<td>67–69%</td>
-<td>1.4</td>
-</tr>
-<tr class="even">
-<td>D</td>
-<td>63–66%</td>
-<td>1.0</td>
-</tr>
-<tr class="odd">
-<td>D-</td>
-<td>60–62%</td>
-<td>0.7</td>
-</tr>
-<tr class="even">
-<td>E (Fail)</td>
-<td>Below 60%</td>
-<td>0.0</td>
-</tr>
-</tbody>
-</table>
-<section id="late-work-policy" class="level3">
-<h3 class="anchored" data-anchor-id="late-work-policy">Late work policy</h3>
-<p>Late work will be accepted up to 9 days late for partial credit with a 10% penalty per day according to the following schedule</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Days Late</th>
-<th>Late Penalty</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>-10%</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>-20%</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>-30%</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>-40%</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>-50%</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>-60%</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>-70%</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>-80%</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>-90%</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>No Credit</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="classroom-culture" class="level2">
-<h2 class="anchored" data-anchor-id="classroom-culture">Classroom Culture</h2>
-<section id="mission-and-aims" class="level3">
-<h3 class="anchored" data-anchor-id="mission-and-aims">Mission and Aims</h3>
-<p>The mission of Brigham Young University — founded, supported, and guided by The Church of Jesus Christ of Latter-day Saints — is to assist individuals in their quest for perfection and eternal life. That assistance should provide a period of intensive learning in a stimulating setting where a commitment to excellence is expected and the full realization of human potential is pursued.</p>
-<p>BYU seeks to develop students of faith, intellect, and character who have the skills and the desire to continue learning and to serve others throughout their lives.</p>
-<p>A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service.</p>
-<p>Building on the foundational Mission and Aims, the Marriott School of Business aspires to transform the world through Christlike leadership by developing leaders of faith, intellect, and character guided by the following 4 values:</p>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<p>Open ChatGPT (4o, not o1/o3/o4) and say:</p>
+<p>“ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth.</p>
+<p>Give me the full architecture:</p>
 <ul>
-<li><p><strong>Faith in Christ</strong> - We value deep and abiding faith in Jesus Christ. Our faith gives us the capacity to envision a better future, the confidence to make that future happen, and the courage to act in the face of challenges.</p></li>
-<li><p><strong>Integrity in Action</strong> - We value integrity and hold ourselves to the highest moral and ethical standards. Acting with integrity builds trust, strengthens character, and focuses our ambitions on things of eternal consequence.</p></li>
-<li><p><strong>Respect for All</strong> - We value respect for all individuals as children of God and recognize the inherent worth, divine potential, and agency of each person. A climate of respect and belonging enhances our learning, facilitates collaboration, and encourages personal growth.</p></li>
-<li><p><strong>Excellence</strong> - We value excellence in learning, teaching, research, management, and leadership. An expectation of excellence magnifies our influence and motivates us to continually improve.</p></li>
+<li>File + folder structure</li>
+<li>What each part does</li>
+<li>Where state lives, how services connect</li>
 </ul>
-<p>We evaluate our decisions and actions by the impact they will have on the academic experience, professional preparation, character development, emotional well-being, and spiritual growth of our students.</p>
-<section id="prayer-in-class" class="level4">
-<h4 class="anchored" data-anchor-id="prayer-in-class">Prayer in class</h4>
-<p>We will begin each class with prayer. Each class member is invited to be voice for the prayer at least once throughout the semester. The TAs will reach out prior to class to invite you to pray on a particular day. If you’d rather not be voice for a prayer please let me know on the first day of class so I can instruct the TAs accordingly.</p>
+<p>Format this entire document in markdown.”</p>
+<p>Save its output as architecture.md and throw it in an empty folder where your project will live.</p>
 </section>
-<section id="laptop-policy" class="level4">
-<h4 class="anchored" data-anchor-id="laptop-policy">Laptop Policy</h4>
-<p>You may use laptops in class for note taking or other class related purposes. Laptops should not be used for activities that would be a distraction to nearby students when your screen is in their line of sight (e.g.&nbsp;sports, instagram, etc.)</p>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
+<p>“ Using that architecture, write a granular step-by-step plan to build the MVP. Each task should:</p>
+<ul>
+<li>Be incredibly small + testable</li>
+<li>Have a clear start + end</li>
+<li>Focus on one concern</li>
+</ul>
+<p>I’ll be passing this off to an engineering LLM that will be told to complete one task at a time, allowing me to test in between. ”</p>
+<p>Save it as tasks.md. Again, throw it in the folder.</p>
 </section>
-<section id="cold-calling" class="level4">
-<h4 class="anchored" data-anchor-id="cold-calling">Cold Calling</h4>
-<p>I teach in a fairly conversational style, which includes cold calling students to ask for your input or to pose questions. If you’d rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.</p>
-</section>
-</section>
-</section>
-<section id="required-materials" class="level2">
-<h2 class="anchored" data-anchor-id="required-materials">Required Materials</h2>
-<p>The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, $25 or less). Text and audio also available for free for BYU students digitally at O’Reilly books.</p>
-<p>Laptop or desktop (Mac or Windows)</p>
-<p>Paid account to at least 1 AI tool of your choosing.</p>
-<p>All other materials are provided for free on the course website.</p>
-</section>
-<section id="getting-help" class="level2">
-<h2 class="anchored" data-anchor-id="getting-help">Getting Help</h2>
-<p>The following resources are available to get help: - Start with AI chat bots and the course website to see if they can assist - Use the course Slack channel to ask classmates for help - Attend TA or Professor office hours (coming soon) - Use <strong>Slack</strong> or email to contact one of the course TAs - Use <strong>Slack</strong> or email to contact Professor Murff</p>
-</section>
-<section id="pre-enrollment-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="pre-enrollment-assessment">Pre-enrollment Assessment</h2>
-<p>Coming soon.</p>
+<section id="engineering" class="level2">
+<h2 class="anchored" data-anchor-id="engineering">Engineering</h2>
+<p>Step 3: In Cursor/Windsurf</p>
+<p>“ You’re an engineer building this codebase.</p>
+<p>You’ve been given architecture.md and tasks.md.</p>
+<ul>
+<li>Read both carefully. There should be no ambiguity about what we’re building.</li>
+<li>Follow http://tasks.md and complete one task at a time.</li>
+<li>After each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”</li>
+</ul>
+<p>Include this as well - this is crucial:</p>
+<p>CODING PROTOCOL</p>
+<p>” Coding Instructions</p>
+<ul>
+<li>Write the absolute minimum code required</li>
+<li>No sweeping changes</li>
+<li>No unrelated edits - focus on just the task you’re on</li>
+<li>Make code precise, modular, testable</li>
+<li>Don’t break existing functionality</li>
+<li>If I need to do anything (e.g.&nbsp;Supabase/AWS config), tell me clearly ”</li>
+</ul>
+<p>This system fixes the biggest problem with vibe coding:</p>
+<p>You’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.</p>
+<p>This workflow lets you ship clean, testable AI-assisted code - without the spiral.</p>
+<p>Normally I’d ask you to follow me for the playbook but this is literally it. Good luck</p>
+<p><a href="https://x.com/vasumanmoza/status/1923912878370980115?s=51&amp;t=miuEnFRF6fTUR36WiwEysw">Source: vasumanmoza on X</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -853,11 +644,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./98-tools.html" class="pagination-link" aria-label="AI Tools Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">AI Tools Overview</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./98-tools.html" class="pagination-link" aria-label="AI Tools Overview">
-        <span class="nav-page-text"><span class="chapter-title">AI Tools Overview</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

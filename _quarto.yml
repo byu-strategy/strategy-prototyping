@@ -6,10 +6,13 @@ project:
 
 book:
   title: "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
+  favicon: images/prototyping.png
   author: "Scott Murff"
   date: "5/10/2025"
   chapters:
     - index.qmd
+    - 98-tools.qmd
+    - 99-prompts.qmd
 #    - 00-intro.qmd
 #    - 01-history.qmd
 #    - 02-machine-learning.qmd
@@ -18,6 +21,7 @@ book:
 #    - references.qmd
 
 bibliography: references.bib
+csl: informs.csl
 
 format:
   html:
@@ -29,5 +33,5 @@ format:
     
 toc-title: On this page
       
-number-sections: true
+number-sections: false
 
