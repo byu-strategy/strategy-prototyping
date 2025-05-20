@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - images
+
+book:
+  title: "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
+  author: "Scott Murff"
+  date: "5/10/2025"
+  chapters:
+    - index.qmd
+#    - 00-intro.qmd
+#    - 01-history.qmd
+#    - 02-machine-learning.qmd
+#    - 03-deep-learning.qmd
+#    - summary.qmd
+#    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    link-external-icon: true
+    link-external-newwindow: true
+    css: styles.css
+    markdown: default
+    
+toc-title: On this page
+      
+number-sections: true
+
