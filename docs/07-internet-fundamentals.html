@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prompt Library – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
+<title>APIs &amp; Internet Fundamentals – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,7 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./98-tools.html" rel="prev">
+<link href="./08-software-design-principles.html" rel="next">
+<link href="./06-collaboration-git-triad.html" rel="prev">
 <link href="./images/prototyping-favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -85,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./07-internet-fundamentals.html"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -177,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07-internet-fundamentals.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></a>
+  <a href="./07-internet-fundamentals.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -233,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Prompt Library</span></a>
+  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prompt Library</span></a>
   </div>
 </li>
       </ul>
@@ -248,18 +283,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#architecture" id="toc-architecture" class="nav-link active" data-scroll-target="#architecture">Architecture</a></li>
-  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
-  <li><a href="#engineering" id="toc-engineering" class="nav-link" data-scroll-target="#engineering">Engineering</a></li>
+  <li><a href="#the-internet" id="toc-the-internet" class="nav-link active" data-scroll-target="#the-internet">The Internet</a>
+  <ul class="collapse">
+  <li><a href="#client" id="toc-client" class="nav-link" data-scroll-target="#client">Client</a></li>
+  <li><a href="#server" id="toc-server" class="nav-link" data-scroll-target="#server">Server</a></li>
+  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise 1</a></li>
+  <li><a href="#httphttps" id="toc-httphttps" class="nav-link" data-scroll-target="#httphttps">HTTP/HTTPS</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./07-internet-fundamentals.html"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Prompt Library</span></h1>
+<h1 class="title"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></h1>
 </div>
 
 
@@ -276,137 +315,306 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<p>Open ChatGPT (4o, not o1/o3/o4) and say:</p>
-<p>“ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth.</p>
-<p>Give me the full architecture:</p>
+<section id="the-internet" class="level2">
+<h2 class="anchored" data-anchor-id="the-internet">The Internet</h2>
+<p><strong>What is the internet?</strong></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yGiZfZQsk5U" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>“A series of tubes” is a phrase coined originally as an analogy by then-United States Senator Ted Stevens (R-Alaska) to describe the Internet in the context of opposing network neutrality.[1] On June 28, 2006, he used this metaphor to criticize a proposed amendment to a committee bill. The amendment would have prohibited Internet Access providers such as AT&amp;T, Comcast, Time Warner Cable, and Verizon Communications from charging fees to give some companies’ data a higher priority in relation to other traffic.”</p>
+<p><strong>What is the internet, really???</strong></p>
+<p>The Internet is a global system of interconnected computers and devices that communicate using standardized protocols—primarily the Internet Protocol Suite (TCP/IP)—to share information and services. These devices form a vast network-of-networks, exchanging data over physical infrastructure such as fiber-optic cables, satellites, and wireless technologies.</p>
+<p>The Internet is a decentralized system where independently operated networks agree to exchange data.</p>
+<p>The internet is a global network of devices connected via cables (fiber, copper, etc.), satellites, or wireless systems. Devices that connect to the internet communicate with each other by exchanging data using various sets of rules called protocols. Each protocol governs how a specific type of communication is carried out. For example, sending an email uses the SMTP protocol, while loading a webpage in your browser typically uses HTTPS.</p>
+<p>Therefore, when you open Gmail in your browser and send an email, multiple protocols are at work: HTTPS is used to load the Gmail web interface and securely interact with it, while SMTP is used behind the scenes to transmit the email to the recipient’s mail server.</p>
+<p>Each protocol has it’s own rules simliar to the grammar rules of a language (e.g.&nbsp;verb tense, sentence structure).</p>
+<p>Just as using proper grammar helps people understand each other clearly and effectively, the rules of a given protocol ensure that devices can reliably exchange a given type of data (e.g.&nbsp;email).</p>
+<p>One of the most important protocols on the modern internet is HyperText Transfer Protocol Secure (HTTPS), which smartphones and laptops use—typically through web browsers—to securely interact with websites.</p>
+<p>We dive into some of the rules later in this chapter.</p>
+<p>First, we need a better understanding for the kinds of devices that get connected to the Internet. When we say device, we mean any of the following:</p>
 <ul>
-<li>File + folder structure</li>
-<li>What each part does</li>
-<li>Where state lives, how services connect</li>
+<li>Client devices – such as smartphones, laptops, tablets, and desktop computers that request data or services from servers.</li>
+<li>Servers – computers (physical or virtual) that host websites, applications, files, or other data, and respond to client requests.</li>
+<li>Routers and switches – networking hardware that directs traffic across the internet and within local networks.</li>
+<li>Internet of Things (IoT) devices – smart thermostats, cameras, watches, appliances, and other gadgets that send and receive data.</li>
+<li>Data center infrastructure – large-scale systems including virtual machines and containerized environments that power cloud services.</li>
+<li>Edge devices – equipment like content delivery nodes or local caching servers that bring data closer to users for faster access.</li>
 </ul>
-<p>Format this entire document in markdown.”</p>
-<p>Save its output as architecture.md and throw it in an empty folder where your project will live.</p>
+<section id="client" class="level3">
+<h3 class="anchored" data-anchor-id="client">Client</h3>
 </section>
-<section id="tasks" class="level2">
-<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
-<p>“ Using that architecture, write a granular step-by-step plan to build the MVP. Each task should:</p>
-<ul>
-<li>Be incredibly small + testable</li>
-<li>Have a clear start + end</li>
-<li>Focus on one concern</li>
-</ul>
-<p>I’ll be passing this off to an engineering LLM that will be told to complete one task at a time, allowing me to test in between. ”</p>
-<p>Save it as tasks.md. Again, throw it in the folder.</p>
+<section id="server" class="level3">
+<h3 class="anchored" data-anchor-id="server">Server</h3>
+<p>What happens when you type a URL into a browser (e.g.&nbsp;Chrome, Safari)?</p>
+<p>Say you type: https://www.example.com into your browser.</p>
+<p>This triggers a sequence of events involving several systems:</p>
+<p><strong>Step 1: DNS Lookup</strong></p>
+<p>DNS (Domain Name System) is the internet’s phonebook. Imagine a look-up table where every text URL is matched to the the IP address (a number that uniquely identifies the device or server).</p>
+<p>You typed www.example.com. Your device asks a DNS server: “What is the IP address of this domain?” The DNS server replies with something like: 93.184.216.34. Now your computer knows where to send the request.</p>
+<p><strong>Step 2: HTTP/HTTPS Request Now that you know the server’s address:</strong></p>
+<p>Your browser sends an HTTP (or HTTPS) request to the IP address. This request says: “Please send me the web page for / (the homepage) of www.example.com.” If it’s HTTPS, the request is encrypted, so no one in between can read it.</p>
+<p>HTTP(S) stands for HyperText Transfer Protocol (Secure). A “protocol” is simply a formal set of rules for how computers communicate. Think of it like a shared language or etiquette for machines. These rules define how a client (like your browser) and a server (like example.com) exchange requests and responses.</p>
+<p><strong>Step 3: Client-Server Architecture</strong></p>
+<p>Your device (the client) made the request. The server (at 93.184.216.34) receives it, processes it, and sends back the necessary files — HTML, CSS, JavaScript, images, etc. You can think of this like a waiter (client) asking the kitchen (server) for your order (website) and bringing it back to your table (browser).</p>
+<p><strong>Step 4: Browser Renders the Page</strong></p>
+<p>Your browser receives the code and files. It renders the webpage visually — drawing the layout, loading images, executing JavaScript, and displaying the site</p>
+<p>Below is a code snippet that illustrates</p>
 </section>
-<section id="engineering" class="level2">
-<h2 class="anchored" data-anchor-id="engineering">Engineering</h2>
-<p>Step 3: In Cursor/Windsurf</p>
-<p>“ You’re an engineer building this codebase.</p>
-<p>You’ve been given architecture.md and tasks.md.</p>
-<ul>
-<li>Read both carefully. There should be no ambiguity about what we’re building.</li>
-<li>Follow http://tasks.md and complete one task at a time.</li>
-<li>After each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”</li>
-</ul>
-<p>Include this as well - this is crucial:</p>
-<p>CODING PROTOCOL</p>
-<p>” Coding Instructions</p>
-<ul>
-<li>Write the absolute minimum code required</li>
-<li>No sweeping changes</li>
-<li>No unrelated edits - focus on just the task you’re on</li>
-<li>Make code precise, modular, testable</li>
-<li>Don’t break existing functionality</li>
-<li>If I need to do anything (e.g.&nbsp;Supabase/AWS config), tell me clearly ”</li>
-</ul>
-<p>This system fixes the biggest problem with vibe coding:</p>
-<p>You’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.</p>
-<p>This workflow lets you ship clean, testable AI-assisted code - without the spiral.</p>
-<p>Normally I’d ask you to follow me for the playbook but this is literally it. Good luck</p>
-<p><a href="https://x.com/vasumanmoza/status/1923912878370980115?s=51&amp;t=miuEnFRF6fTUR36WiwEysw">Source: vasumanmoza on X</a></p>
+<section id="exercise-1" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1">Exercise 1</h3>
+<div id="cafbaa62" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> socket</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: DNS Lookup</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>domain <span class="op">=</span> <span class="st">"example.com"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Looking up IP address for: </span><span class="sc">{</span>domain<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>ip_address <span class="op">=</span> socket.gethostbyname(domain)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"IP address of </span><span class="sc">{</span>domain<span class="sc">}</span><span class="ss"> is </span><span class="sc">{</span>ip_address<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: HTTP Request</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Sending HTTP GET request to </span><span class="sc">{</span>domain<span class="sc">}</span><span class="ss">..."</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">The response is printed below:"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> requests.get(<span class="ss">f"http://</span><span class="sc">{</span>domain<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Print Response</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Response Status Code: </span><span class="sc">{</span>response<span class="sc">.</span>status_code<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Code of 200 means things went as planned."</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Response Headers:"</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(response.headers)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">First 500 characters of the HTML:"</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(response.text)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Save response to an HTML file</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>filename <span class="op">=</span> <span class="st">"response.html"</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(filename, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>) <span class="im">as</span> f:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    f.write(response.text)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Full HTML response saved to </span><span class="sc">{</span>filename<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"</span><span class="ch">\n</span><span class="ss">Open the HTML file in your browser."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Icons
+What are Response Status Code?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><a href="https://www.linkedin.com/posts/nigolos_ffffff-activity-7331341131089076226-G6AC?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAABxVuoByW5PDRHey5Wh_ef3dPtGKfJRCmw">AirBnB-style icons with ChatGPT-4o in 60 seconds 👇</a></p>
-<p>I used just ONE simple prompt to create 3D isometric illustrations that feel like Pixar vibes mixed with modern, minimal design.</p>
-<p>Use this prompt:</p>
-<p>–</p>
-<p>Generate [ Your Concept ] icon with this JSON style:</p>
-<pre class="{json}"><code>{  
-  "icon_style": {  
-    "perspective": "isometric",  
-    
-    "geometry": {  
-      "proportions": "1:1 ratio canvas, with objects fitting comfortably within margins",  
-      "element_arrangement": "central dominant object, with supporting elements symmetrically or diagonally placed"  
-    },  
-    
-    "composition": {  
-      "element_count": "2–4 main objects",  
-      "spatial_depth": "layered to create sense of dimension and slight elevation",  
-      "scale_consistency": "uniform object scale across icon set",  
-      "scene_density": "minimal to moderate, maintaining clarity and visual focus"  
-    },  
-    
-    "lighting": {  
-      "type": "soft ambient light",  
-      "light_source": "subtle top-right or front-top direction",  
-      "shadow": "gentle drop shadows below and behind objects",  
-      "highlighting": "mild edge illumination to define forms"  
-    },  
-    
-    "textures": {  
-      "material_finish": "semi-matte to satin surfaces",  
-      "surface_treatment": "smooth with light tactile variation (e.g., wood grain, soft textures)",  
-      "texture_realism": "stylized naturalism without hyper-realistic noise"  
-    },  
-    
-    "render_quality": {  
-      "resolution": "high-resolution octane 3D rendering",  
-      "edge_definition": "crisp, no outlines; separation achieved via lighting and depth",  
-      "visual_clarity": "clean, readable shapes with minimal clutter"  
-    },  
-    
-    "color_palette": {  
-      "tone": "naturalistic with slight saturation boost",  
-      "range": "harmonious muted tones with gentle contrast",  
-      "usage": "distinct colors per object to improve identification and readability"  
-    },  
-    
-    "background": {  
-      "color": "hashtag#FFFFFF",  
-      "style": "pure white, flat",  
-      "texture": "none"  
-    },  
-    
-    "stylistic_tone": "premium, friendly, clean with lifestyle or service-oriented appeal",  
-    
-    "icon_behavior": {  
-      "branding_alignment": "neutral enough for broad applications",  
-      "scalability": "legible at small and medium sizes",  
-      "interchangeability": "part of a cohesive icon system with interchangeable subject matter"  
-    }  
-  }  
-}</code></pre>
-<p>–</p>
-<p>Just swap [ Your Concept ] with what you want: • “coffee shop” • “bike rental” • “co-working space”</p>
-<p>And just like that, high-end, Airbnb-style icons are ready in seconds. This might be the easiest design cheat code of 2025.</p>
+<p>HTTP response codes are standardized 3-digit numbers sent by a web server to indicate the outcome of a client’s request. They let the client know whether the request was successful, redirected, resulted in an error, or requires additional action.</p>
+<p>Two of the most common codes you will encounter are 200 and 404.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Code Category</th>
+<th>Code</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1xx Informational</td>
+<td>100</td>
+<td>Continue</td>
+<td>The initial part of the request has been received, and the client should continue.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>101</td>
+<td>Switching Protocols</td>
+<td>Server is switching protocols as requested (e.g., HTTP to WebSocket).</td>
+</tr>
+<tr class="odd">
+<td>2xx Success</td>
+<td><strong>200</strong></td>
+<td><strong>OK</strong></td>
+<td><strong>The request succeeded, and the response contains the requested data.</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>201</td>
+<td>Created</td>
+<td>A new resource was successfully created (e.g., after a POST request).</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>202</td>
+<td>Accepted</td>
+<td>The request has been received but not yet processed.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>204</td>
+<td>No Content</td>
+<td>The request was successful, but there is no content to return.</td>
+</tr>
+<tr class="odd">
+<td>3xx Redirection</td>
+<td>301</td>
+<td>Moved Permanently</td>
+<td>The resource has permanently moved to a new URL.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>302</td>
+<td>Found</td>
+<td>The resource is temporarily at a different URL.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>304</td>
+<td>Not Modified</td>
+<td>The cached version is still valid; no need to resend data.</td>
+</tr>
+<tr class="even">
+<td>4xx Client Errors</td>
+<td>400</td>
+<td>Bad Request</td>
+<td>The server couldn’t understand the request due to malformed syntax.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>401</td>
+<td>Unauthorized</td>
+<td>Authentication is required or failed.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>403</td>
+<td>Forbidden</td>
+<td>The server understands the request but refuses to authorize it.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>404</strong></td>
+<td><strong>Not Found</strong></td>
+<td><strong>The requested resource could not be found.</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>405</td>
+<td>Method Not Allowed</td>
+<td>The HTTP method is not supported for this resource.</td>
+</tr>
+<tr class="odd">
+<td>5xx Server Errors</td>
+<td>500</td>
+<td>Internal Server Error</td>
+<td>A generic server error — something went wrong on the server.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>502</td>
+<td>Bad Gateway</td>
+<td>The server received an invalid response from an upstream server.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>503</td>
+<td>Service Unavailable</td>
+<td>The server is temporarily unavailable (e.g., overloaded or down for maintenance).</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>504</td>
+<td>Gateway Timeout</td>
+<td>The upstream server failed to respond in time.</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are Response Headers?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Headers are a core part of the HTTP protocol (i.e.&nbsp;the agreed upon rules of sending information across the internet). Headers take the form of key-value pairs which are sent between a client and server and carry metadata about the request or response (e.g.&nbsp;such as content type, caching rules, and encoding). Headers help browsers and servers understand how to handle the data being exchanged. Below is a description of the headers that were returned from the example above.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Header (key: value pair)</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Accept-Ranges: bytes</code></td>
+<td>The server supports partial content downloads (e.g., resuming a download from a byte offset).</td>
+</tr>
+<tr class="even">
+<td><code>Content-Type: text/html</code></td>
+<td>The response body is HTML — browsers know to render it as a webpage.</td>
+</tr>
+<tr class="odd">
+<td><code>ETag</code></td>
+<td>A unique ID (hash) representing this specific version of the file. Used for efficient caching.</td>
+</tr>
+<tr class="even">
+<td><code>Last-Modified</code></td>
+<td>Timestamp of the last modification to the resource. Useful for cache validation.</td>
+</tr>
+<tr class="odd">
+<td><code>Vary: Accept-Encoding</code></td>
+<td>Indicates that the response varies depending on how the client encodes requests (e.g., gzip).</td>
+</tr>
+<tr class="even">
+<td><code>Content-Encoding: gzip</code></td>
+<td>The response is compressed using gzip. The browser will decompress it automatically.</td>
+</tr>
+<tr class="odd">
+<td><code>Content-Length: 648</code></td>
+<td>Size of the response body in bytes <strong>after</strong> compression.</td>
+</tr>
+<tr class="even">
+<td><code>Cache-Control: max-age=3241</code></td>
+<td>Tells the browser it can cache this resource for 3,241 seconds (~54 minutes).</td>
+</tr>
+<tr class="odd">
+<td><code>Date</code></td>
+<td>The date and time when the response was generated by the server.</td>
+</tr>
+<tr class="even">
+<td><code>Connection: keep-alive</code></td>
+<td>Keeps the TCP connection open for reuse, improving performance for multiple requests.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="httphttps" class="level3">
+<h3 class="anchored" data-anchor-id="httphttps">HTTP/HTTPS</h3>
+<p>Ealier we said that a “protocol” is simply a formal set of rules for how computers communicate (exchange requests and responses). Let’s look at what some of those rules are.</p>
+<p>In the HTTP protocol, the commands used to tell the server what action the client wants to perform are called HTTP methods (or sometimes “verbs”)</p>
+<p>The HTTP protocol includes:</p>
+<p>Rules for message structure (request/response format) Allowed methods (GET, POST, etc.) Status codes (200, 404, 500, etc.) Headers (metadata) Optional message body Rules for connection management (e.g., keep-alive)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -849,11 +1057,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./98-tools.html" class="pagination-link" aria-label="AI Tools Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">AI Tools Overview</span></span>
+      <a href="./06-collaboration-git-triad.html" class="pagination-link" aria-label="GitHub &amp; Collaboration">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">GitHub &amp; Collaboration</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./08-software-design-principles.html" class="pagination-link" aria-label="SWE Eng. &amp; Design Principles">
+        <span class="nav-page-text"><span class="chapter-title">SWE Eng. &amp; Design Principles</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

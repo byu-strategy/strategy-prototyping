@@ -3,35 +3,53 @@ project:
   output-dir: docs
   resources:
     - images
-
+    
 book:
   title: "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
-  favicon: images/prototyping.png
+  favicon: images/prototyping-favicon.png
   author: "Scott Murff"
   date: "5/10/2025"
   chapters:
-    - index.qmd
-    - 98-tools.qmd
-    - 99-prompts.qmd
-#    - 00-intro.qmd
-#    - 01-history.qmd
-#    - 02-machine-learning.qmd
-#    - 03-deep-learning.qmd
-#    - summary.qmd
-#    - references.qmd
+    - part: Course Information
+      chapters:
+        - index.qmd
+        - 00-schedule.qmd
+        - 00-assessments.qmd
+    - part: Topics
+      chapters:
+    # Core Course Chapters
+        - 01-pm-ai-era-llms.qmd
+        - 02-llms-prompt-engineering.qmd
+        - 03-product-innovation.qmd
+        - 04-value-prop-validation.qmd
+        - 05-project-management-jira.qmd
+        - 06-collaboration-git-triad.qmd
+        - 07-internet-fundamentals.qmd
+        - 08-software-design-principles.qmd
+        - 09-ai-dev-platforms.qmd
+        - 10-build-feedback-1.qmd
+        - 11-product-metrics.qmd
+        - 12-build-feedback-2.qmd
+        - 14-final-presentations.qmd
+    - part: Resources
+      chapters:
+    # Resources and Appendices
+      - 97-resources.qmd
+      - 98-tools.qmd
+      - 99-prompts.qmd
 
 bibliography: references.bib
 csl: informs.csl
 
 format:
   html:
+    include-in-header: _header.html
+    include-after-body: _footer.html
     theme: cosmo
-    link-external-icon: true
+    #link-external-icon: true
     link-external-newwindow: true
     css: styles.css
-    markdown: default
+    toc: true
+    number-sections: false
     
 toc-title: On this page
-      
-number-sections: false
-

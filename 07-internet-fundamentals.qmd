@@ -1,0 +1,166 @@
+---
+title: "APIs & Internet Fundamentals"
+---
+
+## The Internet
+
+**What is the internet?**
+
+{{< video https://www.youtube.com/embed/yGiZfZQsk5U >}}
+
+"A series of tubes" is a phrase coined originally as an analogy by then-United States Senator Ted Stevens (R-Alaska) to describe the Internet in the context of opposing network neutrality.\[1\] On June 28, 2006, he used this metaphor to criticize a proposed amendment to a committee bill. The amendment would have prohibited Internet Access providers such as AT&T, Comcast, Time Warner Cable, and Verizon Communications from charging fees to give some companies' data a higher priority in relation to other traffic."
+
+**What is the internet, really???**
+
+The Internet is a global system of interconnected computers and devices that communicate using standardized protocols—primarily the Internet Protocol Suite (TCP/IP)—to share information and services. These devices form a vast network-of-networks, exchanging data over physical infrastructure such as fiber-optic cables, satellites, and wireless technologies.
+
+The Internet is a decentralized system where independently operated networks agree to exchange data.
+
+The internet is a global network of devices connected via cables (fiber, copper, etc.), satellites, or wireless systems. Devices that connect to the internet communicate with each other by exchanging data using various sets of rules called protocols. Each protocol governs how a specific type of communication is carried out. For example, sending an email uses the SMTP protocol, while loading a webpage in your browser typically uses HTTPS.
+
+Therefore, when you open Gmail in your browser and send an email, multiple protocols are at work: HTTPS is used to load the Gmail web interface and securely interact with it, while SMTP is used behind the scenes to transmit the email to the recipient’s mail server.
+
+Each protocol has it's own rules simliar to the grammar rules of a language (e.g. verb tense, sentence structure).
+
+Just as using proper grammar helps people understand each other clearly and effectively, the rules of a given protocol ensure that devices can reliably exchange a given type of data (e.g. email).
+
+One of the most important protocols on the modern internet is HyperText Transfer Protocol Secure (HTTPS), which smartphones and laptops use—typically through web browsers—to securely interact with websites.
+
+We dive into some of the rules later in this chapter.
+
+First, we need a better understanding for the kinds of devices that get connected to the Internet. When we say device, we mean any of the following:
+
+-   Client devices – such as smartphones, laptops, tablets, and desktop computers that request data or services from servers.
+-   Servers – computers (physical or virtual) that host websites, applications, files, or other data, and respond to client requests.
+-   Routers and switches – networking hardware that directs traffic across the internet and within local networks.
+-   Internet of Things (IoT) devices – smart thermostats, cameras, watches, appliances, and other gadgets that send and receive data.
+-   Data center infrastructure – large-scale systems including virtual machines and containerized environments that power cloud services.
+-   Edge devices – equipment like content delivery nodes or local caching servers that bring data closer to users for faster access.
+
+### Client
+
+### Server
+
+What happens when you type a URL into a browser (e.g. Chrome, Safari)?
+
+Say you type: https://www.example.com into your browser.
+
+This triggers a sequence of events involving several systems:
+
+**Step 1: DNS Lookup**
+
+DNS (Domain Name System) is the internet's phonebook. Imagine a look-up table where every text URL is matched to the the IP address (a number that uniquely identifies the device or server).
+
+You typed www.example.com. Your device asks a DNS server: "What is the IP address of this domain?" The DNS server replies with something like: 93.184.216.34. Now your computer knows where to send the request.
+
+**Step 2: HTTP/HTTPS Request Now that you know the server's address:**
+
+Your browser sends an HTTP (or HTTPS) request to the IP address. This request says: "Please send me the web page for / (the homepage) of www.example.com." If it's HTTPS, the request is encrypted, so no one in between can read it.
+
+HTTP(S) stands for HyperText Transfer Protocol (Secure). A "protocol" is simply a formal set of rules for how computers communicate. Think of it like a shared language or etiquette for machines. These rules define how a client (like your browser) and a server (like example.com) exchange requests and responses.
+
+**Step 3: Client-Server Architecture**
+
+Your device (the client) made the request. The server (at 93.184.216.34) receives it, processes it, and sends back the necessary files — HTML, CSS, JavaScript, images, etc. You can think of this like a waiter (client) asking the kitchen (server) for your order (website) and bringing it back to your table (browser).
+
+**Step 4: Browser Renders the Page**
+
+Your browser receives the code and files. It renders the webpage visually — drawing the layout, loading images, executing JavaScript, and displaying the site
+
+Below is a code snippet that illustrates
+
+### Exercise 1
+
+```{python}
+#| eval: false
+
+import socket
+import requests
+
+# Step 1: DNS Lookup
+domain = "example.com"
+print(f"Looking up IP address for: {domain}")
+ip_address = socket.gethostbyname(domain)
+print(f"IP address of {domain} is {ip_address}")
+
+# Step 2: HTTP Request
+print(f"\nSending HTTP GET request to {domain}...")
+print(f"\nThe response is printed below:")
+response = requests.get(f"http://{domain}")
+
+# Step 3: Print Response
+print(f"\nResponse Status Code: {response.status_code}")
+print(f"\nCode of 200 means things went as planned.")
+print("Response Headers:")
+print(response.headers)
+
+print("\nFirst 500 characters of the HTML:")
+print(response.text)
+
+# Step 4: Save response to an HTML file
+filename = "response.html"
+with open(filename, "w", encoding="utf-8") as f:
+    f.write(response.text)
+
+print(f"\nFull HTML response saved to {filename}.")
+print(f"\nOpen the HTML file in your browser.")
+
+```
+
+::: {.callout-note collapse="true"}
+### What are Response Status Code?
+
+HTTP response codes are standardized 3-digit numbers sent by a web server to indicate the outcome of a client's request. They let the client know whether the request was successful, redirected, resulted in an error, or requires additional action.
+
+Two of the most common codes you will encounter are 200 and 404.
+
+| Code Category | Code | Name | Description |
+|-----------------|-----------------|-----------------|---------------------|
+| 1xx Informational | 100 | Continue | The initial part of the request has been received, and the client should continue. |
+|  | 101 | Switching Protocols | Server is switching protocols as requested (e.g., HTTP to WebSocket). |
+| 2xx Success | **200** | **OK** | **The request succeeded, and the response contains the requested data.** |
+|  | 201 | Created | A new resource was successfully created (e.g., after a POST request). |
+|  | 202 | Accepted | The request has been received but not yet processed. |
+|  | 204 | No Content | The request was successful, but there is no content to return. |
+| 3xx Redirection | 301 | Moved Permanently | The resource has permanently moved to a new URL. |
+|  | 302 | Found | The resource is temporarily at a different URL. |
+|  | 304 | Not Modified | The cached version is still valid; no need to resend data. |
+| 4xx Client Errors | 400 | Bad Request | The server couldn't understand the request due to malformed syntax. |
+|  | 401 | Unauthorized | Authentication is required or failed. |
+|  | 403 | Forbidden | The server understands the request but refuses to authorize it. |
+|  | **404** | **Not Found** | **The requested resource could not be found.** |
+|  | 405 | Method Not Allowed | The HTTP method is not supported for this resource. |
+| 5xx Server Errors | 500 | Internal Server Error | A generic server error — something went wrong on the server. |
+|  | 502 | Bad Gateway | The server received an invalid response from an upstream server. |
+|  | 503 | Service Unavailable | The server is temporarily unavailable (e.g., overloaded or down for maintenance). |
+|  | 504 | Gateway Timeout | The upstream server failed to respond in time. |
+:::
+
+::: {.callout-note collapse="true"}
+### What are Response Headers?
+
+Headers are a core part of the HTTP protocol (i.e. the agreed upon rules of sending information across the internet). Headers take the form of key-value pairs which are sent between a client and server and carry metadata about the request or response (e.g. such as content type, caching rules, and encoding). Headers help browsers and servers understand how to handle the data being exchanged. Below is a description of the headers that were returned from the example above.
+
+| Header (key: value pair) | Meaning |
+|----------------------|--------------------------------------------------|
+| `Accept-Ranges: bytes` | The server supports partial content downloads (e.g., resuming a download from a byte offset). |
+| `Content-Type: text/html` | The response body is HTML — browsers know to render it as a webpage. |
+| `ETag` | A unique ID (hash) representing this specific version of the file. Used for efficient caching. |
+| `Last-Modified` | Timestamp of the last modification to the resource. Useful for cache validation. |
+| `Vary: Accept-Encoding` | Indicates that the response varies depending on how the client encodes requests (e.g., gzip). |
+| `Content-Encoding: gzip` | The response is compressed using gzip. The browser will decompress it automatically. |
+| `Content-Length: 648` | Size of the response body in bytes **after** compression. |
+| `Cache-Control: max-age=3241` | Tells the browser it can cache this resource for 3,241 seconds (\~54 minutes). |
+| `Date` | The date and time when the response was generated by the server. |
+| `Connection: keep-alive` | Keeps the TCP connection open for reuse, improving performance for multiple requests. |
+:::
+
+### HTTP/HTTPS
+
+Ealier we said that a "protocol" is simply a formal set of rules for how computers communicate (exchange requests and responses). Let's look at what some of those rules are.
+
+In the HTTP protocol, the commands used to tell the server what action the client wants to perform are called HTTP methods (or sometimes "verbs")
+
+The HTTP protocol includes:
+
+Rules for message structure (request/response format) Allowed methods (GET, POST, etc.) Status codes (200, 404, 500, etc.) Headers (metadata) Optional message body Rules for connection management (e.g., keep-alive)

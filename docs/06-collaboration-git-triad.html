@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prompt Library – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
+<title>GitHub &amp; Collaboration – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./98-tools.html" rel="prev">
+<link href="./07-internet-fundamentals.html" rel="next">
+<link href="./05-project-management-jira.html" rel="prev">
 <link href="./images/prototyping-favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -85,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./06-collaboration-git-triad.html"><span class="chapter-title">GitHub &amp; Collaboration</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -172,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-collaboration-git-triad.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">GitHub &amp; Collaboration</span></a>
+  <a href="./06-collaboration-git-triad.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">GitHub &amp; Collaboration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -233,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Prompt Library</span></a>
+  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prompt Library</span></a>
   </div>
 </li>
       </ul>
@@ -248,18 +249,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#architecture" id="toc-architecture" class="nav-link active" data-scroll-target="#architecture">Architecture</a></li>
-  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
-  <li><a href="#engineering" id="toc-engineering" class="nav-link" data-scroll-target="#engineering">Engineering</a></li>
+  <li><a href="#git-github" id="toc-git-github" class="nav-link active" data-scroll-target="#git-github">Git &amp; GitHub</a></li>
+  <li><a href="#the-four-sections-of-the-gitgithub-workflow" id="toc-the-four-sections-of-the-gitgithub-workflow" class="nav-link" data-scroll-target="#the-four-sections-of-the-gitgithub-workflow">The Four Sections of the Git/GitHub Workflow</a></li>
+  <li><a href="#illustrating-the-workflow" id="toc-illustrating-the-workflow" class="nav-link" data-scroll-target="#illustrating-the-workflow">Illustrating the Workflow</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./06-collaboration-git-triad.html"><span class="chapter-title">GitHub &amp; Collaboration</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Prompt Library</span></h1>
+<h1 class="title"><span class="chapter-title">GitHub &amp; Collaboration</span></h1>
 </div>
 
 
@@ -276,137 +280,325 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<p>Open ChatGPT (4o, not o1/o3/o4) and say:</p>
-<p>“ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth.</p>
-<p>Give me the full architecture:</p>
-<ul>
-<li>File + folder structure</li>
-<li>What each part does</li>
-<li>Where state lives, how services connect</li>
-</ul>
-<p>Format this entire document in markdown.”</p>
-<p>Save its output as architecture.md and throw it in an empty folder where your project will live.</p>
+<section id="git-github" class="level2">
+<h2 class="anchored" data-anchor-id="git-github">Git &amp; GitHub</h2>
+<p>Although the terms Git and GitHub are often used interchangeably, they are two distinct tools that work together.</p>
+<p><strong>Git</strong> is an open-source version control system that individual users install on their local computer. It tracks every change you make to the files in a specified folder (called a repository) and acts like a time machine allowing you to go back to any previous version, see what changed, when it changed, and who made the change. Git is the most widely used version control system in the world, with an estimated 90–95% of professional software development teams using it today.</p>
+<p><strong>GitHub</strong> is a cloud-based platform, owned by Microsoft, that allows you to store your Git repositories online, making it easy to collaborate with others over the internet. You can think of GitHub as the Google Drive or Dropbox of your code files, but with additional tools for teamwork and project management that extend the use of Git from individuals to entire teams. Developers use Git on their local machines and push their files and subsequent changes to GitHub when they’re ready to share or back them up online. Product Managers and other collaborators can then review, comment on, and track progress through the GitHub web interface.</p>
 </section>
-<section id="tasks" class="level2">
-<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
-<p>“ Using that architecture, write a granular step-by-step plan to build the MVP. Each task should:</p>
-<ul>
-<li>Be incredibly small + testable</li>
-<li>Have a clear start + end</li>
-<li>Focus on one concern</li>
-</ul>
-<p>I’ll be passing this off to an engineering LLM that will be told to complete one task at a time, allowing me to test in between. ”</p>
-<p>Save it as tasks.md. Again, throw it in the folder.</p>
+<section id="the-four-sections-of-the-gitgithub-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="the-four-sections-of-the-gitgithub-workflow">The Four Sections of the Git/GitHub Workflow</h2>
+<p>A typical workflow in get consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder for others to use.</p>
+<p><strong>1. Working Directory</strong></p>
+<p>The Working Directory is the folder on your computer where you’re actively making changes to files such as writing code, editing documents, or creating new files.</p>
+<p>A Working Directory is just a regular folder you’re already familiar with, the kind you see in Windows Explorer or Mac Finder.</p>
+<p><strong>2. Staging Area</strong></p>
+<p>The Staging Area is a place where you catalogue (or “stage”) the edited files from the Working Directory that you want to include in your next snapshot (version) of your project.</p>
+<p>Each snapshot is called a <strong>commit</strong>, and the Staging Area lets you choose exactly which edited files will be saved in the next official version of your project.</p>
+<p>Even if you’ve edited, say, 5 files, you may only want to include 3 of those changed files in your next commit. The Staging Area is where you make these choices, it gives you control over what gets saved and when.</p>
+<p>You may hear the Staging Area referred to as the <em>index</em> because that’s the technical name Git uses internally for this part of the system.</p>
+<p><strong>3. Local Repository</strong></p>
+<p>The Local Repository is the part of Git on your computer that stores the official history of your project: all the snapshots (commits) you’ve made so far.</p>
+<p>When you commit (i.e., Save) changes from the Staging Area, Git saves a permanent version of those changes in your Local Repository. This allows you to go back in time, review past versions, undo mistakes, or see who changed what and why.</p>
+<p>You can think of the Local Repository as your personal project archive that keeps track of every meaningful step in your project’s development.</p>
+<p>Unlike the Working Directory, the Local Repository is not a folder you typically see in Finder or Windows Explorer, rather, it lives inside a hidden folder named .git. Git uses the hidden .git folder to store all your commits as well as other project related information. It is possible to unhide the .git folder and browse it like a normal folder but many of the files are not human readable since they are designed for Git’s internal use and may look confusing or cryptic to most users.</p>
+<p>Even though the files in the .git folder aren’t meant to be read directly by humans, Git commands allow you to retrieve any saved snapshot of your project and restore files in their original, human-readable form.</p>
+<p>So the local repository contains everything from your Working Directory that you chose to stage and then commit.</p>
+<p>Think of the .git folder as a vault of your project’s history. You can’t really read the vault contents directly, but Git gives you keys (commands) to retrieve and restore anything you’ve ever committed.</p>
+<p><strong>4. Remote Repository</strong></p>
+<p>The Remote Repository is a copy of your Local Repository that is stored on the internet using a platform like GitHub.</p>
+<p>It contains the same kinds of commits and project history as your Local Repository, but it’s shared with others, which makes it perfect for collaborating with teammates, backing up your work, or deploying projects.</p>
+<p>Your Local Repository is your personal copy, just on your computer.</p>
+<p>The Remote Repository is the shared copy in the cloud that you and your team keep in sync.</p>
 </section>
-<section id="engineering" class="level2">
-<h2 class="anchored" data-anchor-id="engineering">Engineering</h2>
-<p>Step 3: In Cursor/Windsurf</p>
-<p>“ You’re an engineer building this codebase.</p>
-<p>You’ve been given architecture.md and tasks.md.</p>
-<ul>
-<li>Read both carefully. There should be no ambiguity about what we’re building.</li>
-<li>Follow http://tasks.md and complete one task at a time.</li>
-<li>After each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”</li>
-</ul>
-<p>Include this as well - this is crucial:</p>
-<p>CODING PROTOCOL</p>
-<p>” Coding Instructions</p>
-<ul>
-<li>Write the absolute minimum code required</li>
-<li>No sweeping changes</li>
-<li>No unrelated edits - focus on just the task you’re on</li>
-<li>Make code precise, modular, testable</li>
-<li>Don’t break existing functionality</li>
-<li>If I need to do anything (e.g.&nbsp;Supabase/AWS config), tell me clearly ”</li>
-</ul>
-<p>This system fixes the biggest problem with vibe coding:</p>
-<p>You’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.</p>
-<p>This workflow lets you ship clean, testable AI-assisted code - without the spiral.</p>
-<p>Normally I’d ask you to follow me for the playbook but this is literally it. Good luck</p>
-<p><a href="https://x.com/vasumanmoza/status/1923912878370980115?s=51&amp;t=miuEnFRF6fTUR36WiwEysw">Source: vasumanmoza on X</a></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Icons
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><a href="https://www.linkedin.com/posts/nigolos_ffffff-activity-7331341131089076226-G6AC?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAABxVuoByW5PDRHey5Wh_ef3dPtGKfJRCmw">AirBnB-style icons with ChatGPT-4o in 60 seconds 👇</a></p>
-<p>I used just ONE simple prompt to create 3D isometric illustrations that feel like Pixar vibes mixed with modern, minimal design.</p>
-<p>Use this prompt:</p>
-<p>–</p>
-<p>Generate [ Your Concept ] icon with this JSON style:</p>
-<pre class="{json}"><code>{  
-  "icon_style": {  
-    "perspective": "isometric",  
-    
-    "geometry": {  
-      "proportions": "1:1 ratio canvas, with objects fitting comfortably within margins",  
-      "element_arrangement": "central dominant object, with supporting elements symmetrically or diagonally placed"  
-    },  
-    
-    "composition": {  
-      "element_count": "2–4 main objects",  
-      "spatial_depth": "layered to create sense of dimension and slight elevation",  
-      "scale_consistency": "uniform object scale across icon set",  
-      "scene_density": "minimal to moderate, maintaining clarity and visual focus"  
-    },  
-    
-    "lighting": {  
-      "type": "soft ambient light",  
-      "light_source": "subtle top-right or front-top direction",  
-      "shadow": "gentle drop shadows below and behind objects",  
-      "highlighting": "mild edge illumination to define forms"  
-    },  
-    
-    "textures": {  
-      "material_finish": "semi-matte to satin surfaces",  
-      "surface_treatment": "smooth with light tactile variation (e.g., wood grain, soft textures)",  
-      "texture_realism": "stylized naturalism without hyper-realistic noise"  
-    },  
-    
-    "render_quality": {  
-      "resolution": "high-resolution octane 3D rendering",  
-      "edge_definition": "crisp, no outlines; separation achieved via lighting and depth",  
-      "visual_clarity": "clean, readable shapes with minimal clutter"  
-    },  
-    
-    "color_palette": {  
-      "tone": "naturalistic with slight saturation boost",  
-      "range": "harmonious muted tones with gentle contrast",  
-      "usage": "distinct colors per object to improve identification and readability"  
-    },  
-    
-    "background": {  
-      "color": "hashtag#FFFFFF",  
-      "style": "pure white, flat",  
-      "texture": "none"  
-    },  
-    
-    "stylistic_tone": "premium, friendly, clean with lifestyle or service-oriented appeal",  
-    
-    "icon_behavior": {  
-      "branding_alignment": "neutral enough for broad applications",  
-      "scalability": "legible at small and medium sizes",  
-      "interchangeability": "part of a cohesive icon system with interchangeable subject matter"  
-    }  
-  }  
-}</code></pre>
-<p>–</p>
-<p>Just swap [ Your Concept ] with what you want: • “coffee shop” • “bike rental” • “co-working space”</p>
-<p>And just like that, high-end, Airbnb-style icons are ready in seconds. This might be the easiest design cheat code of 2025.</p>
-</div>
-</div>
-</div>
+<section id="illustrating-the-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="illustrating-the-workflow">Illustrating the Workflow</h2>
+<p>The illustration below helps you visualize the four parts of a Git workflow.</p>
+<p><img src="images/git-visual.jpg" class="img-fluid"></p>
+<p>The most fundamental unit in Git is a repository, often called a repo for short. A repository is a special folder that contains all the files related to your project, along with the metadata Git uses to track the full history of changes.</p>
+<p>The best way to</p>
+<p>Git and GitHub Operate on a Four-Level Hierarchy</p>
+<p>Git and GitHub organize your project using a four-level hierarchy, each building on the one below:</p>
+<p>Level 1 – Files</p>
+<p>These are the individual files in your project, most commonly plain text files containing code (like <code>.py</code>, <code>.html</code>, or <code>.js</code>), but other file types such as images (<code>.png</code>, <code>.jpg</code>) and data files (<code>.csv</code>, <code>.json</code>) are also supported and commonly used.</p>
+<p>Level 2 – Commits</p>
+<p>A <strong>commit</strong> is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a <strong>hash</strong> (e.g., <code>f04e112</code>) that lets you reference or return to that version.<br>
+The word <em>commit</em> can be both a <strong>noun</strong> (“This commit broke the build”) and a <strong>verb</strong> (“I’m committing my changes”), meaning to save a snapshot of the current state of your project.</p>
+<p>Level 3 – Branches</p>
+<p>A branch is a named reference (a pointer) to the latest commit in a line of development.</p>
+<p>HEAD is a special pointer that tracks where you are in the Git repo.</p>
+<p>Most of the time, it points to a branch name (like main or feature-x). In special cases, HEAD can point directly to a commit, putting you in a detached HEAD state.</p>
+<p>A <strong>branch</strong> is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits — the branch’s history.</p>
+<p>A is a label (or pointer) to a single commit — specifically, the tip (latest commit) of a line of development. Git doesn’t store branches as separate sequences of commits. Instead:</p>
+<p>The branch points to the most recent commit. That commit points to the previous commit. And so on, forming a linked list of history. Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called <strong><code>main</code></strong> (previously called <code>master</code>), which typically represents the production-ready version of the code.</p>
+<p>When you check out a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself — instead, you’re preparing to build on top of it. Any changes you make and commit will be saved as a new commit, extending the history of the branch.</p>
+<p>Level 4 – Repositories</p>
+<p>A <strong>repository</strong> (or <strong>repo</strong>) is the top-level container that holds all your project’s files, commit history, branches, and metadata. It’s essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) or be hosted online (e.g., on GitHub) for sharing and collaboration.</p>
+<p>🔍 What Exactly Is in a Git Repository?</p>
+<p>A repository (or repo) in Git is the full structure that stores:</p>
+<p>Commits: Snapshots of the project’s file state over time Branches: Named pointers to specific commits Tags: Named, static pointers to commits (usually used for releases) Refs: Internally, all pointers (branches, tags, HEAD) are stored as refs Blobs: File contents (each version of each file) Trees: Directory structures (which files go in which folders) HEAD: A special ref pointing to your current working location Configuration: Repo settings like remotes, ignore rules, hooks, etc. So yes: a Git repo is the container for all of this — your entire project, including its full history and structure.</p>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 16%">
+<col style="width: 74%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Concept</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Files</td>
+<td>The individual contents of your project</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Commits</td>
+<td>Snapshots of the project at specific points in time</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Branches</td>
+<td>Timelines of commits used for parallel development</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Repositories</td>
+<td>The full project container with history and structure</td>
+</tr>
+</tbody>
+</table>
+<p>This structure can be visualized as follows:</p>
+<p>Although they’re often mentioned together, Git and GitHub are not the same thing.</p>
+<p><strong>Repositories: The Project Container</strong></p>
+<p>A repository (or repo) is your entire project — like a folder that holds all your code, history, and collaboration tools. If you’re writing a novel, the repository is the whole book project, including every chapter, draft, and note you’ve ever made.</p>
+<p>On your computer, a Git repo is just a regular folder with special tracking enabled. On GitHub, it’s a shared version of that folder hosted in the cloud where others can see, clone, or contribute.</p>
+<p>Branches: Versions You Can Work On Separately</p>
+<p>The Four Main Conceptual Areas in Git</p>
+<p>Here’s a complete, beginner-friendly framework:</p>
+<ol type="1">
+<li><p>Working Directory The actual files and folders on your computer that you’re editing. What you see in your file explorer or code editor. Untracked or modified files live here. 👉 You can change files freely here, but Git doesn’t track them until you stage or commit them.</p></li>
+<li><p>Staging Area (a.k.a. Index) A preview of what will go into your next commit. You use git add to move changes from the working directory to the staging area. Think of it like a “shopping cart” of changes you’re getting ready to commit. 👉 This gives you fine-grained control over what goes into each commit.</p></li>
+<li><p>Local Repository Where your commits live on your own computer. When you run git commit, you move changes from the staging area into your local repo. This is the full version history that Git manages in the .git directory. 👉 You can make lots of commits locally without pushing anything to the cloud.</p></li>
+<li><p>Remote Repository A shared copy of your repository hosted online (e.g., on GitHub). You use git push to send commits from your local repository to the remote. You use git pull or git fetch to bring changes from the remote down to your local repo. 👉 Enables collaboration, backups, and deployment.</p></li>
+</ol>
+<p>The primary purpose of a branch in Git is to give a human-readable name to a commit, so you don’t have to use the full hash.</p>
+<p>Why Branches Exist in Git</p>
+<ol type="1">
+<li>Commits Are Identified by Hashes Every commit is named by a SHA-1 hash like:</li>
+</ol>
+<p>Branches Are Named Pointers A branch (like main, feature-x, or fix-bug-7) is a named reference to a commit. As you commit, the branch name moves forward to the new commit.</p>
+<p>main → commit A → commit B → commit C refs/heads/main → abc123 → def456 → 9a3e6c2</p>
+<p>🧭 What a Branch Really Is</p>
+<p>A branch is just a label (a file inside .git/refs/heads/) that contains a commit hash. Example:</p>
+<p>cat .git/refs/heads/main Might output:</p>
+<p>9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60 That’s it. A branch is literally a text file with a hash in it.</p>
+<p>As you commit, the branch “moves forward” automatically</p>
+<p>Detached HEAD mode means that HEAD is pointing directly to a specific commit hash, not to a branch.</p>
+<p>What Is Detached HEAD Mode?</p>
+<p>In normal Git use:</p>
+<p>HEAD → main → commit abc123 In detached HEAD mode:</p>
+<p>HEAD → commit abc123 ← no branch involved This happens when you check out a commit directly:</p>
+<p>git checkout abc123 Now you’re no longer “on a branch.” You’re just sitting on a specific commit.</p>
+<p>🎯 Why Is This Useful?</p>
+<p>You might enter detached HEAD mode when:</p>
+<p>You want to test or explore an old version without changing any branches You want to build something temporary, like a patch or debug run You’re checking out a tag (tags also point to commits) ⚠️ Gotcha: What Happens If You Commit in Detached Mode?</p>
+<p>You can still make commits, and Git will let you — but:</p>
+<p>They’ll be “floating” — not attached to any branch If you switch branches afterward, you could lose them unless you create a new branch from that point</p>
+<p>A commit is the fundamental unit in Git. Branches, tags, and HEAD are just labels or pointers to commits. Let’s unpack it a bit more clearly:</p>
+<p>🧱 Commits: The Core Building Blocks</p>
+<p>Every commit: Has a unique SHA-1 hash Stores a snapshot of the project Links to its parent(s), forming the project history All real data lives in the commit graph Without any branches, Git would still work — you’d just need to use hashes to refer to everything. 🏷️ Branches: Named Pointers to Commits</p>
+<p>A branch is a label that moves as you add commits Think of it as a bookmark: main → commit ABC123 📌 HEAD: The “Current Position” Pointer</p>
+<p>HEAD is just a pointer to: A branch (e.g., main) → which points to a commit Or directly to a commit (in detached mode) 📷 Tags: Static Pointers to Commits</p>
+<p>A tag is like a permanent label (e.g., v1.0) Unlike branches, tags don’t move 🧠 Mental Model</p>
+<p>[Commit A] ← [Commit B] ← [Commit C] ↑ main, HEAD Commits = data Branches/tags = labels HEAD = where you currently are</p>
+<p>9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 60%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Initialize repo</strong></td>
+<td><code>git init</code></td>
+<td>Creates a new Git repository in the current directory</td>
+</tr>
+<tr class="even">
+<td><strong>Clone repo</strong></td>
+<td><code>git clone &lt;url&gt;</code></td>
+<td>Copies a remote repository to your local machine</td>
+</tr>
+<tr class="odd">
+<td><strong>Check status</strong></td>
+<td><code>git status</code></td>
+<td>Shows the current state of working directory and staging area</td>
+</tr>
+<tr class="even">
+<td><strong>Stage changes</strong></td>
+<td><code>git add &lt;file&gt;</code></td>
+<td>Adds file(s) to the staging area</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git add .</code></td>
+<td>Stages all changes in the current directory</td>
+</tr>
+<tr class="even">
+<td><strong>Unstage file</strong></td>
+<td><code>git restore --staged &lt;file&gt;</code></td>
+<td>Removes a file from the staging area</td>
+</tr>
+<tr class="odd">
+<td><strong>Discard changes</strong></td>
+<td><code>git restore &lt;file&gt;</code></td>
+<td>Reverts file to last committed state</td>
+</tr>
+<tr class="even">
+<td><strong>Commit changes</strong></td>
+<td><code>git commit -m "&lt;message&gt;"</code></td>
+<td>Saves staged changes with a message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git commit --amend</code></td>
+<td>Modifies the last commit (e.g., to fix message)</td>
+</tr>
+<tr class="even">
+<td><strong>View log</strong></td>
+<td><code>git log</code></td>
+<td>Shows commit history</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git log --oneline --graph</code></td>
+<td>Condensed log with branch structure</td>
+</tr>
+<tr class="even">
+<td><strong>View diff</strong></td>
+<td><code>git diff</code></td>
+<td>Shows unstaged changes</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git diff --staged</code></td>
+<td>Shows staged vs last commit</td>
+</tr>
+<tr class="even">
+<td><strong>Create branch</strong></td>
+<td><code>git branch &lt;name&gt;</code></td>
+<td>Creates a new branch</td>
+</tr>
+<tr class="odd">
+<td><strong>Switch branch</strong></td>
+<td><code>git switch &lt;name&gt;</code></td>
+<td>Switches to another branch</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>git switch -c &lt;name&gt;</code></td>
+<td>Creates and switches to a new branch</td>
+</tr>
+<tr class="odd">
+<td><strong>Merge branches</strong></td>
+<td><code>git merge &lt;branch&gt;</code></td>
+<td>Merges specified branch into current branch</td>
+</tr>
+<tr class="even">
+<td><strong>Delete branch</strong></td>
+<td><code>git branch -d &lt;name&gt;</code></td>
+<td>Deletes a branch (safe)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git branch -D &lt;name&gt;</code></td>
+<td>Forces deletion of a branch</td>
+</tr>
+<tr class="even">
+<td><strong>View branches</strong></td>
+<td><code>git branch</code></td>
+<td>Lists all local branches</td>
+</tr>
+<tr class="odd">
+<td><strong>Track remote branch</strong></td>
+<td><code>git branch -u origin/&lt;branch&gt;</code></td>
+<td>Sets upstream for local branch</td>
+</tr>
+<tr class="even">
+<td><strong>Push changes</strong></td>
+<td><code>git push</code></td>
+<td>Uploads commits to remote (default branch)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git push origin &lt;branch&gt;</code></td>
+<td>Pushes a specific branch to remote</td>
+</tr>
+<tr class="even">
+<td><strong>Pull changes</strong></td>
+<td><code>git pull</code></td>
+<td>Fetches + merges changes from remote into current branch</td>
+</tr>
+<tr class="odd">
+<td><strong>Fetch only</strong></td>
+<td><code>git fetch</code></td>
+<td>Downloads changes from remote but doesn’t merge</td>
+</tr>
+<tr class="even">
+<td><strong>Check remotes</strong></td>
+<td><code>git remote -v</code></td>
+<td>Lists configured remotes and URLs</td>
+</tr>
+<tr class="odd">
+<td><strong>Tag a commit</strong></td>
+<td><code>git tag &lt;name&gt;</code></td>
+<td>Tags the current commit</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><code>git tag -a &lt;name&gt; -m "&lt;msg&gt;"</code></td>
+<td>Annotated tag with message</td>
+</tr>
+<tr class="odd">
+<td><strong>Checkout commit</strong></td>
+<td><code>git checkout &lt;commit&gt;</code></td>
+<td>Switches to a specific commit (detached HEAD)</td>
+</tr>
+<tr class="even">
+<td><strong>Stash changes</strong></td>
+<td><code>git stash</code></td>
+<td>Temporarily saves uncommitted changes</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>git stash apply</code></td>
+<td>Reapplies stashed changes</td>
+</tr>
+<tr class="even">
+<td><strong>View staged files</strong></td>
+<td><code>git ls-files --stage</code></td>
+<td>Shows what’s in the staging area</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -849,11 +1041,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./98-tools.html" class="pagination-link" aria-label="AI Tools Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">AI Tools Overview</span></span>
+      <a href="./05-project-management-jira.html" class="pagination-link" aria-label="Project Mgmt w/Jira">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Project Mgmt w/Jira</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./07-internet-fundamentals.html" class="pagination-link" aria-label="APIs &amp; Internet Fundamentals">
+        <span class="nav-page-text"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

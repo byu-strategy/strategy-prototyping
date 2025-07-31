@@ -4,8 +4,9 @@
     "href": "index.html",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "",
-    "text": "Syllabus\nFALL 2025\nInstructor: Scott Murff\nTAs: Carter Adams, Eli Nelson\nClass Time: Fridays Only, 9:30 AM – 12:15 PM\nClass Location: MARB B113\nLMS: LearningSuite",
+    "text": "Syllabus\nFALL 2025\nInstructor: Scott Murff\nTAs: Carter Adams, Eli Nelson\nClass Time: Fridays Only, 9:30 AM – 12:15 PM\nClass Location: TNRB 230\nLMS: LearningSuite",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -14,8 +15,9 @@
     "href": "index.html#content-overview",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Content Overview",
-    "text": "Content Overview\nWelcome to Creating Digital Products with AI: Strategy & Prototyping. What should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer. Grounded in the principles of The Lean Product Playbook by Dan Olsen, students will explore the foundational frameworks of product strategy, customer-centric design, and rapid iteration. Building on these fundamentals, the course transitions into applied innovation—students will leverage modern AI tools to ideate, prototype, and build real digital products.\nThroughout the course, students will learn how AI is reshaping every stage of the product lifecycle—from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product concept, preparing them to lead in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.\nThere are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.",
+    "text": "Content Overview\nWelcome to Creating Digital Products with AI: Strategy & Prototyping.\nWhat should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer.\nStudents will explore foundational frameworks in product strategy, customer-centric design, and rapid iteration. Along the way, they’ll leverage both standard industry tools (i.e. GitHub, Jira, Figma) as well as modern AI tools (e.g. Lovable, Replit, Cursor, Windsurf) to ideate, prototype, and build real digital products.\nAI is blurring the traditional boundaries between Product Management, Engineering, and Design. This course explores how product managers can use AI to enhance collaboration and accelerate execution.\nThroughout the course, students will learn how AI is reshaping every stage of the product lifecycle, from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product, preparing them to excel in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.\nThere are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -24,8 +26,9 @@
     "href": "index.html#learning-outcomes",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\n\n\n\n\n\n\nLearning Outcome\nSupported BYU Aims\n\n\n\n\n1. Develop and articulate a product strategy.\nIntellectually Enlarging, Lifelong Learning and Service\n\n\n2. Demonstrate technical competency with AI tools to ideate, prototype, and test digital product concepts rapidly and iteratively.\nIntellectually Enlarging, Lifelong Learning and Service\n\n\n3. Work effectively in teams, demonstrating respect, responsibility, and Christian discipleship in leadership and collaboration.\nCharacter Building, Spiritually Strengthening\n\n\n4. Apply gospel-centered creativity and faith to envision how digital products can serve others and build up communities, both temporally and spiritually.\nSpiritually Strengthening, Lifelong Learning and Service",
+    "text": "Learning Outcomes\n\n\n\n\n\n\n\nLearning Outcome\nSupported BYU Aims\n\n\n\n\n1. Understand the basics of how LLMs generate natural language.\nIntellectually Enlarging\n\n\n2. Develop and articulate a product strategy.\nIntellectually Enlarging, Lifelong Learning and Service\n\n\n3. Analyze the physical, mental, and spiritual impact your product is likely to have on its users.\nSpiritually Strengthening, Character Building, Lifelong Learning and Service\n\n\n4. Create a digital product that delivers value to a target customer group.\nIntellectually Enlarging, Lifelong Learning and Service",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -34,8 +37,9 @@
     "href": "index.html#instructor-bio",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Instructor Bio",
-    "text": "Instructor Bio\nScott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott School of Business, where he also serves as program director and teaches courses on business strategy, decision-making, and artificial intelligence. He brings over 15 years of experience at the intersection of business and technology, having worked as a consultant, product manager, and data scientist.\nPrior to joining BYU, Scott spent nearly seven years at McKinsey & Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.\nScott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.",
+    "text": "Instructor Bio\nScott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott School of Business, where he also serves as program director and teaches courses on business strategy, decision-making, and artificial intelligence. He brings over 15 years of experience at the intersection of business and technology, having worked as a consultant, product manager, and data scientist.\nPrior to joining BYU, Scott spent nearly seven years at McKinsey & Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.\nScott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics with a minor in Math, from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -44,8 +48,9 @@
     "href": "index.html#schedule",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Schedule",
-    "text": "Schedule\nComing Soon.",
+    "text": "Schedule\nSee the Schedule section for a weekly schedule of class topics, assignments, due dates, etc.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -54,8 +59,9 @@
     "href": "index.html#grading",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Grading",
-    "text": "Grading\nThe course is not graded on a curve. It’s possible for every student to earn an A. However, achieving an A is challenging and demonstrates true excellence. The grading scale is show below:\n\n\n\nLetter Grade\nPercentage Range\nGPA\n\n\n\n\nA\n93–100%\n4.0\n\n\nA-\n90–92%\n3.7\n\n\nB+\n87–89%\n3.4\n\n\nB\n83–86%\n3.0\n\n\nB-\n80–82%\n2.7\n\n\nC+\n77–79%\n2.4\n\n\nC\n73–76%\n2.0\n\n\nC-\n70–72%\n1.7\n\n\nD+\n67–69%\n1.4\n\n\nD\n63–66%\n1.0\n\n\nD-\n60–62%\n0.7\n\n\nE (Fail)\nBelow 60%\n0.0\n\n\n\n\nLate work policy\nLate work will be accepted up to 9 days late for partial credit with a 10% penalty per day according to the following schedule\n\n\n\nDays Late\nLate Penalty\n\n\n\n\n1\n-10%\n\n\n2\n-20%\n\n\n3\n-30%\n\n\n4\n-40%\n\n\n5\n-50%\n\n\n6\n-60%\n\n\n7\n-70%\n\n\n8\n-80%\n\n\n9\n-90%\n\n\n10\nNo Credit",
+    "text": "Grading\nBelow is the grading breakdown for each assessment in the course. Each point is weighted equally.\n\n\n\nType\nDescription1\n% of Grade\nPoints\nLearning Outcome(s) Assessed\n\n\n\n\nExam\nPre-Course Knowledge Check2\n0%\n0\n1,2,3,4\n\n\nExam\nFinal Exam\n10%\n50\n1,2,3,4\n\n\nQuiz\nQuiz 1 - LLMs 1\n2%\n10\n1\n\n\nQuiz\nQuiz 2 - LLMs 2\n2%\n10\n1\n\n\nQuiz\nQuiz 3 - Product Strategy and Innovation\n2%\n10\n2\n\n\nQuiz\nQuiz 4 - Customer Validation\n2%\n10\n2\n\n\nQuiz\nQuiz 5 - Mid-semester Feedback Survey\n2%\n10\n\n\n\nQuiz\nQuiz 6 - GitHub and Collaboration\n2%\n10\n4\n\n\nQuiz\nQuiz 7 - APIs and How the Internet Works\n2%\n10\n4\n\n\nQuiz\nQuiz 8 - Principles of Software Engineering and Design\n2%\n10\n4\n\n\nQuiz\nQuiz 9 - AI Tools\n2%\n10\n4\n\n\nQuiz\nQuiz 10 - Product Metrics and Data Analysis\n2%\n10\n4\n\n\nHomework\nHomework 1 – Understanding Large Language Models\n8%\n40\n1\n\n\nHomework\nHomework 2 – Creating a Product Requirements Document (PRD)\n8%\n40\n2, 3\n\n\nHomework\nHomework 3 – Understanding the internet and APIs\n8%\n40\n4\n\n\nHomework\nHomework 4 – Using Git for collaboration and version control\n8%\n40\n4\n\n\nHomework\nHomework 5 – Choosing the right AI tools\n8%\n40\n4\n\n\nProject\nFinal Project\n30%\n150\n4\n\n\n\nTOTAL\n100%\n500\n\n\n\n\n\nNotes:\n\nCompletion of the Pre-Course Knowledge Check is required but does not affect your grade.\nAll assignments and quizzes are described in detail in Assessments section.\n\n\nThe course is not graded on a curve. It’s possible for every student to earn an A.\nAchieving an A is challenging and reflects real commitment and excellence.\nThe grading scale is show below:\n\n\n\nLetter Grade\nPercentage Range\nGPA\n\n\n\n\nA\n93–100%\n4.0\n\n\nA-\n90–92%\n3.7\n\n\nB+\n87–89%\n3.4\n\n\nB\n83–86%\n3.0\n\n\nB-\n80–82%\n2.7\n\n\nC+\n77–79%\n2.4\n\n\nC\n73–76%\n2.0\n\n\nC-\n70–72%\n1.7\n\n\nD+\n67–69%\n1.4\n\n\nD\n63–66%\n1.0\n\n\nD-\n60–62%\n0.7\n\n\nE (Fail)\nBelow 60%\n0.0\n\n\n\n\nLate work policy\nQuizzes: By their nature, in-class quizzes cannot be accepted late.\nHomework: May be turned in up to 9 days late for partial credit with a 10% penalty per day according to the following schedule:\n\n\n\nDays Late\nLate Penalty\n\n\n\n\n1\n-10%\n\n\n2\n-20%\n\n\n3\n-30%\n\n\n4\n-40%\n\n\n5\n-50%\n\n\n6\n-60%\n\n\n7\n-70%\n\n\n8\n-80%\n\n\n9\n-90%\n\n\n10\nNo Credit\n\n\n\nFinal Project: The Final Project must be submitted by 11:59pm on the day of our final class period. Final Projects cannot be turned in late for credit.\nFinal Exam: The Final Exam must be completed by the scheduled time. Final Exams cannot be taken late.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -64,8 +70,9 @@
     "href": "index.html#classroom-culture",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Classroom Culture",
-    "text": "Classroom Culture\n\nMission and Aims\nThe mission of Brigham Young University — founded, supported, and guided by The Church of Jesus Christ of Latter-day Saints — is to assist individuals in their quest for perfection and eternal life. That assistance should provide a period of intensive learning in a stimulating setting where a commitment to excellence is expected and the full realization of human potential is pursued.\nBYU seeks to develop students of faith, intellect, and character who have the skills and the desire to continue learning and to serve others throughout their lives.\nA BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service.\nBuilding on the foundational Mission and Aims, the Marriott School of Business aspires to transform the world through Christlike leadership by developing leaders of faith, intellect, and character guided by the following 4 values:\n\nFaith in Christ - We value deep and abiding faith in Jesus Christ. Our faith gives us the capacity to envision a better future, the confidence to make that future happen, and the courage to act in the face of challenges.\nIntegrity in Action - We value integrity and hold ourselves to the highest moral and ethical standards. Acting with integrity builds trust, strengthens character, and focuses our ambitions on things of eternal consequence.\nRespect for All - We value respect for all individuals as children of God and recognize the inherent worth, divine potential, and agency of each person. A climate of respect and belonging enhances our learning, facilitates collaboration, and encourages personal growth.\nExcellence - We value excellence in learning, teaching, research, management, and leadership. An expectation of excellence magnifies our influence and motivates us to continually improve.\n\nWe evaluate our decisions and actions by the impact they will have on the academic experience, professional preparation, character development, emotional well-being, and spiritual growth of our students.\n\nPrayer in class\nWe will begin each class with prayer. Each class member is invited to be voice for the prayer at least once throughout the semester. The TAs will reach out prior to class to invite you to pray on a particular day. If you’d rather not be voice for a prayer please let me know on the first day of class so I can instruct the TAs accordingly.\n\n\nLaptop Policy\nYou may use laptops in class for note taking or other class related purposes. Laptops should not be used for activities that would be a distraction to nearby students when your screen is in their line of sight (e.g. sports, instagram, etc.)\n\n\nCold Calling\nI teach in a fairly conversational style, which includes cold calling students to ask for your input or to pose questions. If you’d rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.",
+    "text": "Classroom Culture\n\nMission and Aims\nThe mission of Brigham Young University — founded, supported, and guided by The Church of Jesus Christ of Latter-day Saints — is to assist individuals in their quest for perfection and eternal life. That assistance should provide a period of intensive learning in a stimulating setting where a commitment to excellence is expected and the full realization of human potential is pursued.\nBYU seeks to develop students of faith, intellect, and character who have the skills and the desire to continue learning and to serve others throughout their lives.\nA BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service.\nBuilding on the foundational Mission and Aims, the Marriott School of Business aspires to transform the world through Christlike leadership by developing leaders of faith, intellect, and character guided by the following 4 values:\n\nFaith in Christ - We value deep and abiding faith in Jesus Christ. Our faith gives us the capacity to envision a better future, the confidence to make that future happen, and the courage to act in the face of challenges.\nIntegrity in Action - We value integrity and hold ourselves to the highest moral and ethical standards. Acting with integrity builds trust, strengthens character, and focuses our ambitions on things of eternal consequence.\nRespect for All - We value respect for all individuals as children of God and recognize the inherent worth, divine potential, and agency of each person. A climate of respect and belonging enhances our learning, facilitates collaboration, and encourages personal growth.\nExcellence - We value excellence in learning, teaching, research, management, and leadership. An expectation of excellence magnifies our influence and motivates us to continually improve.\n\nWe evaluate our decisions and actions by the impact they will have on the academic experience, professional preparation, character development, emotional well-being, and spiritual growth of our students.\n\nPrayer in class\nWe will begin each class with prayer. Each class member is invited to be voice for the prayer at least once throughout the semester. The TAs will reach out prior to class to invite you to pray on a particular day. If you’d rather not be voice for a prayer please let me know on the first day of class so I can instruct the TAs accordingly.\n\n\nLaptop Policy\nYou may use laptops in class for note taking or other class related purposes. Laptops should not be used for activities that would be a distraction to nearby students when your screen is in their line of sight (e.g. sports, instagram, etc.)\n\n\nCold Calling\nI teach in a conversational discussion based style, which includes cold calling students to ask for your input or to pose questions. If you’d rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -74,8 +81,9 @@
     "href": "index.html#required-materials",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Required Materials",
-    "text": "Required Materials\nThe Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, $25 or less). Text and audio also available for free for BYU students digitally at O’Reilly books.\nLaptop or desktop (Mac or Windows)\nPaid account to at least 1 AI tool of your choosing.\nAll other materials are provided for free on the course website.",
+    "text": "Required Materials\nThe Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, $25 or less). Text and audio also available for free for BYU students digitally at O’Reilly books.\nA modern Laptop or desktop (Mac or Windows).\nPaid account to at least 1 AI tool of your choosing (~$20 per month).\nAll other materials are provided for free on the course website.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -84,8 +92,9 @@
     "href": "index.html#getting-help",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Getting Help",
-    "text": "Getting Help\nThe following resources are available to get help: - Start with AI chat bots and the course website to see if they can assist - Use the course Slack channel to ask classmates for help - Attend TA or Professor office hours (coming soon) - Use Slack or email to contact one of the course TAs - Use Slack or email to contact Professor Murff",
+    "text": "Getting Help\nThe following resources are available to get help:\n\nStart with AI chat bots and the course website to see if they can assist\nUse the course Slack channel to ask classmates for help\nAttend TA or Professor office hours\nUse Slack or email to contact one of the course TAs\nUse Slack or email to contact Professor Murff",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
@@ -96,7 +105,206 @@
     "section": "Pre-enrollment Assessment",
     "text": "Pre-enrollment Assessment\nComing soon.",
     "crumbs": [
+      "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "00-schedule.html",
+    "href": "00-schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Below is the planned daily schedule. Dates, topics, and assignments may adjust as needed. All readings, slides, and homework are linked here.\n\n\n\nWeek\nDate\nTopics\nIn-class Quiz\nHomework Assigned\nHomework Due\n\n\n\n\n1\nFri, Sept 5\nCourse overview, Product Management and AI, Thought Leaders, Intro to LLMs\n–\n–\n–\n\n\n2\nFri, Sept 12\nLLMs continued, Prompt engineering\nQuiz 1 - LLMs 1\nHW 1 - Understanding Large Language Models\nFri, Sept 26\n\n\n3\nFri, Sept 19\nProduct Innovation Process, Target Market, Customer Discovery\nQuiz 2 - LLMs 2\n–\n–\n\n\n4\nFri, Sept 26\nValue prop design, hypothesize customer needs/unfulfilled jobs, customer pain/gain. Principles for choosing problems to work on. Validate customer needs: Prototyping intro · No-code/low-code tools · Figma or Glide workshop\nQuiz 3 - Product Strategy and Innovation\nHW 2 - Creating a Product Requirements Document (PRD)\nFri, Oct 10\n\n\n5\nFri, Oct 3\nProject Management with Jira, Backlog, user stories\nQuiz 4 - Customer Validation\n–\n–\n\n\n6\nFri, Oct 10\nGit/GitHub - Collaboration across PM, Eng, Design, Psychological safety, The triad and how it’s changing (ratios of PMs to engineers)\nQuiz 5 - Mid-semester Feedback Survey\nHW 3 - Understanding the internet and APIs\nFri, Oct 24\n\n\n7\nFri, Oct 17\nInternet fundamentals · APIs · JSON & HTTP requests\nQuiz 6 - GitHub and Collaboration\n–\n–\n\n\n8\nFri, Oct 24\nPrinciples of software engineering & Design\nQuiz 7 - APIs and How the Internet Works\nHW 4 - Using Git for collaboration and version control\nFri, Nov 14\n\n\n9\nFri, Oct 31\nV0, Bolt, Replit, Lovable, Cursor, Windsurf (homework: Build the same app in 5 platforms. Write up what you could do in each. Limitations.)\nQuiz 8 - Principles of Software Engineering and Design\n–\n–\n\n\n10\nFri, Nov 7\nBuild and feedback 1\nQuiz 9 - AI Tools\nHW 5 - Choosing the right AI tools\nFri, Nov 21\n\n\n11\nFri, Nov 14\nProduct metrics\nQuiz 10 - Product Metrics and Data Analysis\n–\n–\n\n\n12\nFri, Nov 21\nBuild and feedback 2\n–\n–\n–\n\n\n13\nFri, Nov 28\nNo class – Thanksgiving\n–\n–\n–\n\n\n14\nFri, Dec 5\nFinal Presentations · Reflections\n–\nExtra Credit - Student Ratings\nFinal Project Due\n\n\n15\nFri, Dec 12\nFinal Exam (50 questions, multiple choice, testing center)\n–\n–\n–",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html",
+    "href": "00-assessments.html",
+    "title": "Assessments",
+    "section": "",
+    "text": "List of All Assessments\nThe following assessments will be used to measure progress towards learning outcomes and to assign grades.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#list-of-all-assessments",
+    "href": "00-assessments.html#list-of-all-assessments",
+    "title": "Assessments",
+    "section": "",
+    "text": "Type\nDescription\n% of Grade\nPoints\nLearning Outcome(s) Assessed1\n\n\n\n\nExam\nPre-Course Knowledge Check\n0%\n0\n1,2,3,4\n\n\nExam\nFinal Exam\n10%\n50\n1,2,3,4\n\n\nQuiz\nQuiz 1 - LLMs 1\n2%\n10\n1\n\n\nQuiz\nQuiz 2 - LLMs 2\n2%\n10\n1\n\n\nQuiz\nQuiz 3 - Product Strategy and Innovation\n2%\n10\n2\n\n\nQuiz\nQuiz 4 - Customer Validation\n2%\n10\n2\n\n\nQuiz\nQuiz 5 - Mid-semester Feedback Survey\n2%\n10\n\n\n\nQuiz\nQuiz 6 - GitHub and Collaboration\n2%\n10\n4\n\n\nQuiz\nQuiz 7 - APIs and How the Internet Works\n2%\n10\n4\n\n\nQuiz\nQuiz 8 - Principles of Software Engineering and Design\n2%\n10\n4\n\n\nQuiz\nQuiz 9 - AI Tools\n2%\n10\n4\n\n\nQuiz\nQuiz 10 - Product Metrics and Data Analysis\n2%\n10\n4\n\n\nHomework\nHomework 1 – Understanding Large Language Models\n8%\n40\n1\n\n\nHomework\nHomework 2 – Creating a Product Requirements Document (PRD)\n8%\n40\n2, 3\n\n\nHomework\nHomework 3 – Understanding the internet and APIs\n8%\n40\n4\n\n\nHomework\nHomework 4 – Using Git for collaboration and version control\n8%\n40\n4\n\n\nHomework\nHomework 5 – Choosing the right AI tools\n8%\n40\n4\n\n\nProject\nFinal Project\n30%\n150\n4\n\n\n\nTOTAL\n100%\n500\n\n\n\n\n\nNotes\n\nTable of Learning Outcomes\n\n\n\n\n\n\n\n\nLearning Outcome\nSupported BYU Aims\n\n\n\n\n1. Understand the basics of how LLMs generate natural language.\nIntellectually Enlarging\n\n\n2. Develop and articulate a product strategy.\nIntellectually Enlarging, Lifelong Learning and Service\n\n\n3. Analyze the physical, mental, and spiritual impact your product is likely to have on its users.\nSpiritually Strengthening, Character Building, Lifelong Learning and Service\n\n\n4. Create a digital product that delivers value to a target customer group.\nIntellectually Enlarging, Lifelong Learning and Service",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#exams",
+    "href": "00-assessments.html#exams",
+    "title": "Assessments",
+    "section": "Exams",
+    "text": "Exams\n\nPre-Course Knowledge Check\n\n\nFinal Exam",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#homework",
+    "href": "00-assessments.html#homework",
+    "title": "Assessments",
+    "section": "Homework",
+    "text": "Homework\n\nHomework 1 – Understanding Large Language Models\n\n\nHomework 2 – Creating a Product Requirements Document (PRD)\n\n\nHomework 3 – Understanding the internet and APIs\n\n\nHomework 4 – Using Git for collaboration and version control\n\n\nHomework 5 – Choosing the right AI tools",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#quizzes",
+    "href": "00-assessments.html#quizzes",
+    "title": "Assessments",
+    "section": "Quizzes",
+    "text": "Quizzes\nAll quizzes are given during class and will consist of five questions drawn from the associated readings and displayed on the projector. Responses will be written on a note card and turned in during class. Smartphones and laptops or any other aids are not allowed during the quizzes. The purpose of these quizzes is to assess your unaided understanding of the course material.\nA list of the quiz dates and associated readings are shown on the course schedule.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#final-project",
+    "href": "00-assessments.html#final-project",
+    "title": "Assessments",
+    "section": "Final Project",
+    "text": "Final Project",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "00-assessments.html#feedback-surveys",
+    "href": "00-assessments.html#feedback-surveys",
+    "title": "Assessments",
+    "section": "Feedback Surveys",
+    "text": "Feedback Surveys\n\nMid-Semester Feedback Survey\n\n\nCourse Student Ratings",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessments</span>"
+    ]
+  },
+  {
+    "objectID": "06-collaboration-git-triad.html",
+    "href": "06-collaboration-git-triad.html",
+    "title": "GitHub & Collaboration",
+    "section": "",
+    "text": "Git & GitHub\nAlthough the terms Git and GitHub are often used interchangeably, they are two distinct tools that work together.\nGit is an open-source version control system that individual users install on their local computer. It tracks every change you make to the files in a specified folder (called a repository) and acts like a time machine allowing you to go back to any previous version, see what changed, when it changed, and who made the change. Git is the most widely used version control system in the world, with an estimated 90–95% of professional software development teams using it today.\nGitHub is a cloud-based platform, owned by Microsoft, that allows you to store your Git repositories online, making it easy to collaborate with others over the internet. You can think of GitHub as the Google Drive or Dropbox of your code files, but with additional tools for teamwork and project management that extend the use of Git from individuals to entire teams. Developers use Git on their local machines and push their files and subsequent changes to GitHub when they’re ready to share or back them up online. Product Managers and other collaborators can then review, comment on, and track progress through the GitHub web interface.",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>GitHub & Collaboration</span>"
+    ]
+  },
+  {
+    "objectID": "06-collaboration-git-triad.html#the-four-sections-of-the-gitgithub-workflow",
+    "href": "06-collaboration-git-triad.html#the-four-sections-of-the-gitgithub-workflow",
+    "title": "GitHub & Collaboration",
+    "section": "The Four Sections of the Git/GitHub Workflow",
+    "text": "The Four Sections of the Git/GitHub Workflow\nA typical workflow in get consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder for others to use.\n1. Working Directory\nThe Working Directory is the folder on your computer where you’re actively making changes to files such as writing code, editing documents, or creating new files.\nA Working Directory is just a regular folder you’re already familiar with, the kind you see in Windows Explorer or Mac Finder.\n2. Staging Area\nThe Staging Area is a place where you catalogue (or “stage”) the edited files from the Working Directory that you want to include in your next snapshot (version) of your project.\nEach snapshot is called a commit, and the Staging Area lets you choose exactly which edited files will be saved in the next official version of your project.\nEven if you’ve edited, say, 5 files, you may only want to include 3 of those changed files in your next commit. The Staging Area is where you make these choices, it gives you control over what gets saved and when.\nYou may hear the Staging Area referred to as the index because that’s the technical name Git uses internally for this part of the system.\n3. Local Repository\nThe Local Repository is the part of Git on your computer that stores the official history of your project: all the snapshots (commits) you’ve made so far.\nWhen you commit (i.e., Save) changes from the Staging Area, Git saves a permanent version of those changes in your Local Repository. This allows you to go back in time, review past versions, undo mistakes, or see who changed what and why.\nYou can think of the Local Repository as your personal project archive that keeps track of every meaningful step in your project’s development.\nUnlike the Working Directory, the Local Repository is not a folder you typically see in Finder or Windows Explorer, rather, it lives inside a hidden folder named .git. Git uses the hidden .git folder to store all your commits as well as other project related information. It is possible to unhide the .git folder and browse it like a normal folder but many of the files are not human readable since they are designed for Git’s internal use and may look confusing or cryptic to most users.\nEven though the files in the .git folder aren’t meant to be read directly by humans, Git commands allow you to retrieve any saved snapshot of your project and restore files in their original, human-readable form.\nSo the local repository contains everything from your Working Directory that you chose to stage and then commit.\nThink of the .git folder as a vault of your project’s history. You can’t really read the vault contents directly, but Git gives you keys (commands) to retrieve and restore anything you’ve ever committed.\n4. Remote Repository\nThe Remote Repository is a copy of your Local Repository that is stored on the internet using a platform like GitHub.\nIt contains the same kinds of commits and project history as your Local Repository, but it’s shared with others, which makes it perfect for collaborating with teammates, backing up your work, or deploying projects.\nYour Local Repository is your personal copy, just on your computer.\nThe Remote Repository is the shared copy in the cloud that you and your team keep in sync.",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>GitHub & Collaboration</span>"
+    ]
+  },
+  {
+    "objectID": "06-collaboration-git-triad.html#illustrating-the-workflow",
+    "href": "06-collaboration-git-triad.html#illustrating-the-workflow",
+    "title": "GitHub & Collaboration",
+    "section": "Illustrating the Workflow",
+    "text": "Illustrating the Workflow\nThe illustration below helps you visualize the four parts of a Git workflow.\n\nThe most fundamental unit in Git is a repository, often called a repo for short. A repository is a special folder that contains all the files related to your project, along with the metadata Git uses to track the full history of changes.\nThe best way to\nGit and GitHub Operate on a Four-Level Hierarchy\nGit and GitHub organize your project using a four-level hierarchy, each building on the one below:\nLevel 1 – Files\nThese are the individual files in your project, most commonly plain text files containing code (like .py, .html, or .js), but other file types such as images (.png, .jpg) and data files (.csv, .json) are also supported and commonly used.\nLevel 2 – Commits\nA commit is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a hash (e.g., f04e112) that lets you reference or return to that version.\nThe word commit can be both a noun (“This commit broke the build”) and a verb (“I’m committing my changes”), meaning to save a snapshot of the current state of your project.\nLevel 3 – Branches\nA branch is a named reference (a pointer) to the latest commit in a line of development.\nHEAD is a special pointer that tracks where you are in the Git repo.\nMost of the time, it points to a branch name (like main or feature-x). In special cases, HEAD can point directly to a commit, putting you in a detached HEAD state.\nA branch is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits — the branch’s history.\nA is a label (or pointer) to a single commit — specifically, the tip (latest commit) of a line of development. Git doesn’t store branches as separate sequences of commits. Instead:\nThe branch points to the most recent commit. That commit points to the previous commit. And so on, forming a linked list of history. Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called main (previously called master), which typically represents the production-ready version of the code.\nWhen you check out a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself — instead, you’re preparing to build on top of it. Any changes you make and commit will be saved as a new commit, extending the history of the branch.\nLevel 4 – Repositories\nA repository (or repo) is the top-level container that holds all your project’s files, commit history, branches, and metadata. It’s essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) or be hosted online (e.g., on GitHub) for sharing and collaboration.\n🔍 What Exactly Is in a Git Repository?\nA repository (or repo) in Git is the full structure that stores:\nCommits: Snapshots of the project’s file state over time Branches: Named pointers to specific commits Tags: Named, static pointers to commits (usually used for releases) Refs: Internally, all pointers (branches, tags, HEAD) are stored as refs Blobs: File contents (each version of each file) Trees: Directory structures (which files go in which folders) HEAD: A special ref pointing to your current working location Configuration: Repo settings like remotes, ignore rules, hooks, etc. So yes: a Git repo is the container for all of this — your entire project, including its full history and structure.\n\nSummary\n\n\n\n\n\n\n\n\nLevel\nConcept\nDescription\n\n\n\n\n1\nFiles\nThe individual contents of your project\n\n\n2\nCommits\nSnapshots of the project at specific points in time\n\n\n3\nBranches\nTimelines of commits used for parallel development\n\n\n4\nRepositories\nThe full project container with history and structure\n\n\n\nThis structure can be visualized as follows:\nAlthough they’re often mentioned together, Git and GitHub are not the same thing.\nRepositories: The Project Container\nA repository (or repo) is your entire project — like a folder that holds all your code, history, and collaboration tools. If you’re writing a novel, the repository is the whole book project, including every chapter, draft, and note you’ve ever made.\nOn your computer, a Git repo is just a regular folder with special tracking enabled. On GitHub, it’s a shared version of that folder hosted in the cloud where others can see, clone, or contribute.\nBranches: Versions You Can Work On Separately\nThe Four Main Conceptual Areas in Git\nHere’s a complete, beginner-friendly framework:\n\nWorking Directory The actual files and folders on your computer that you’re editing. What you see in your file explorer or code editor. Untracked or modified files live here. 👉 You can change files freely here, but Git doesn’t track them until you stage or commit them.\nStaging Area (a.k.a. Index) A preview of what will go into your next commit. You use git add to move changes from the working directory to the staging area. Think of it like a “shopping cart” of changes you’re getting ready to commit. 👉 This gives you fine-grained control over what goes into each commit.\nLocal Repository Where your commits live on your own computer. When you run git commit, you move changes from the staging area into your local repo. This is the full version history that Git manages in the .git directory. 👉 You can make lots of commits locally without pushing anything to the cloud.\nRemote Repository A shared copy of your repository hosted online (e.g., on GitHub). You use git push to send commits from your local repository to the remote. You use git pull or git fetch to bring changes from the remote down to your local repo. 👉 Enables collaboration, backups, and deployment.\n\nThe primary purpose of a branch in Git is to give a human-readable name to a commit, so you don’t have to use the full hash.\nWhy Branches Exist in Git\n\nCommits Are Identified by Hashes Every commit is named by a SHA-1 hash like:\n\nBranches Are Named Pointers A branch (like main, feature-x, or fix-bug-7) is a named reference to a commit. As you commit, the branch name moves forward to the new commit.\nmain → commit A → commit B → commit C refs/heads/main → abc123 → def456 → 9a3e6c2\n🧭 What a Branch Really Is\nA branch is just a label (a file inside .git/refs/heads/) that contains a commit hash. Example:\ncat .git/refs/heads/main Might output:\n9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60 That’s it. A branch is literally a text file with a hash in it.\nAs you commit, the branch “moves forward” automatically\nDetached HEAD mode means that HEAD is pointing directly to a specific commit hash, not to a branch.\nWhat Is Detached HEAD Mode?\nIn normal Git use:\nHEAD → main → commit abc123 In detached HEAD mode:\nHEAD → commit abc123 ← no branch involved This happens when you check out a commit directly:\ngit checkout abc123 Now you’re no longer “on a branch.” You’re just sitting on a specific commit.\n🎯 Why Is This Useful?\nYou might enter detached HEAD mode when:\nYou want to test or explore an old version without changing any branches You want to build something temporary, like a patch or debug run You’re checking out a tag (tags also point to commits) ⚠️ Gotcha: What Happens If You Commit in Detached Mode?\nYou can still make commits, and Git will let you — but:\nThey’ll be “floating” — not attached to any branch If you switch branches afterward, you could lose them unless you create a new branch from that point\nA commit is the fundamental unit in Git. Branches, tags, and HEAD are just labels or pointers to commits. Let’s unpack it a bit more clearly:\n🧱 Commits: The Core Building Blocks\nEvery commit: Has a unique SHA-1 hash Stores a snapshot of the project Links to its parent(s), forming the project history All real data lives in the commit graph Without any branches, Git would still work — you’d just need to use hashes to refer to everything. 🏷️ Branches: Named Pointers to Commits\nA branch is a label that moves as you add commits Think of it as a bookmark: main → commit ABC123 📌 HEAD: The “Current Position” Pointer\nHEAD is just a pointer to: A branch (e.g., main) → which points to a commit Or directly to a commit (in detached mode) 📷 Tags: Static Pointers to Commits\nA tag is like a permanent label (e.g., v1.0) Unlike branches, tags don’t move 🧠 Mental Model\n[Commit A] ← [Commit B] ← [Commit C] ↑ main, HEAD Commits = data Branches/tags = labels HEAD = where you currently are\n9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60\n\n\n\n\n\n\n\n\nCommand\nSyntax\nDescription\n\n\n\n\nInitialize repo\ngit init\nCreates a new Git repository in the current directory\n\n\nClone repo\ngit clone &lt;url&gt;\nCopies a remote repository to your local machine\n\n\nCheck status\ngit status\nShows the current state of working directory and staging area\n\n\nStage changes\ngit add &lt;file&gt;\nAdds file(s) to the staging area\n\n\n\ngit add .\nStages all changes in the current directory\n\n\nUnstage file\ngit restore --staged &lt;file&gt;\nRemoves a file from the staging area\n\n\nDiscard changes\ngit restore &lt;file&gt;\nReverts file to last committed state\n\n\nCommit changes\ngit commit -m \"&lt;message&gt;\"\nSaves staged changes with a message\n\n\n\ngit commit --amend\nModifies the last commit (e.g., to fix message)\n\n\nView log\ngit log\nShows commit history\n\n\n\ngit log --oneline --graph\nCondensed log with branch structure\n\n\nView diff\ngit diff\nShows unstaged changes\n\n\n\ngit diff --staged\nShows staged vs last commit\n\n\nCreate branch\ngit branch &lt;name&gt;\nCreates a new branch\n\n\nSwitch branch\ngit switch &lt;name&gt;\nSwitches to another branch\n\n\n\ngit switch -c &lt;name&gt;\nCreates and switches to a new branch\n\n\nMerge branches\ngit merge &lt;branch&gt;\nMerges specified branch into current branch\n\n\nDelete branch\ngit branch -d &lt;name&gt;\nDeletes a branch (safe)\n\n\n\ngit branch -D &lt;name&gt;\nForces deletion of a branch\n\n\nView branches\ngit branch\nLists all local branches\n\n\nTrack remote branch\ngit branch -u origin/&lt;branch&gt;\nSets upstream for local branch\n\n\nPush changes\ngit push\nUploads commits to remote (default branch)\n\n\n\ngit push origin &lt;branch&gt;\nPushes a specific branch to remote\n\n\nPull changes\ngit pull\nFetches + merges changes from remote into current branch\n\n\nFetch only\ngit fetch\nDownloads changes from remote but doesn’t merge\n\n\nCheck remotes\ngit remote -v\nLists configured remotes and URLs\n\n\nTag a commit\ngit tag &lt;name&gt;\nTags the current commit\n\n\n\ngit tag -a &lt;name&gt; -m \"&lt;msg&gt;\"\nAnnotated tag with message\n\n\nCheckout commit\ngit checkout &lt;commit&gt;\nSwitches to a specific commit (detached HEAD)\n\n\nStash changes\ngit stash\nTemporarily saves uncommitted changes\n\n\n\ngit stash apply\nReapplies stashed changes\n\n\nView staged files\ngit ls-files --stage\nShows what’s in the staging area",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>GitHub & Collaboration</span>"
+    ]
+  },
+  {
+    "objectID": "07-internet-fundamentals.html",
+    "href": "07-internet-fundamentals.html",
+    "title": "APIs & Internet Fundamentals",
+    "section": "",
+    "text": "The Internet\nWhat is the internet?\n“A series of tubes” is a phrase coined originally as an analogy by then-United States Senator Ted Stevens (R-Alaska) to describe the Internet in the context of opposing network neutrality.[1] On June 28, 2006, he used this metaphor to criticize a proposed amendment to a committee bill. The amendment would have prohibited Internet Access providers such as AT&T, Comcast, Time Warner Cable, and Verizon Communications from charging fees to give some companies’ data a higher priority in relation to other traffic.”\nWhat is the internet, really???\nThe Internet is a global system of interconnected computers and devices that communicate using standardized protocols—primarily the Internet Protocol Suite (TCP/IP)—to share information and services. These devices form a vast network-of-networks, exchanging data over physical infrastructure such as fiber-optic cables, satellites, and wireless technologies.\nThe Internet is a decentralized system where independently operated networks agree to exchange data.\nThe internet is a global network of devices connected via cables (fiber, copper, etc.), satellites, or wireless systems. Devices that connect to the internet communicate with each other by exchanging data using various sets of rules called protocols. Each protocol governs how a specific type of communication is carried out. For example, sending an email uses the SMTP protocol, while loading a webpage in your browser typically uses HTTPS.\nTherefore, when you open Gmail in your browser and send an email, multiple protocols are at work: HTTPS is used to load the Gmail web interface and securely interact with it, while SMTP is used behind the scenes to transmit the email to the recipient’s mail server.\nEach protocol has it’s own rules simliar to the grammar rules of a language (e.g. verb tense, sentence structure).\nJust as using proper grammar helps people understand each other clearly and effectively, the rules of a given protocol ensure that devices can reliably exchange a given type of data (e.g. email).\nOne of the most important protocols on the modern internet is HyperText Transfer Protocol Secure (HTTPS), which smartphones and laptops use—typically through web browsers—to securely interact with websites.\nWe dive into some of the rules later in this chapter.\nFirst, we need a better understanding for the kinds of devices that get connected to the Internet. When we say device, we mean any of the following:",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>APIs & Internet Fundamentals</span>"
+    ]
+  },
+  {
+    "objectID": "07-internet-fundamentals.html#the-internet",
+    "href": "07-internet-fundamentals.html#the-internet",
+    "title": "APIs & Internet Fundamentals",
+    "section": "",
+    "text": "Client devices – such as smartphones, laptops, tablets, and desktop computers that request data or services from servers.\nServers – computers (physical or virtual) that host websites, applications, files, or other data, and respond to client requests.\nRouters and switches – networking hardware that directs traffic across the internet and within local networks.\nInternet of Things (IoT) devices – smart thermostats, cameras, watches, appliances, and other gadgets that send and receive data.\nData center infrastructure – large-scale systems including virtual machines and containerized environments that power cloud services.\nEdge devices – equipment like content delivery nodes or local caching servers that bring data closer to users for faster access.\n\n\nClient\n\n\nServer\nWhat happens when you type a URL into a browser (e.g. Chrome, Safari)?\nSay you type: https://www.example.com into your browser.\nThis triggers a sequence of events involving several systems:\nStep 1: DNS Lookup\nDNS (Domain Name System) is the internet’s phonebook. Imagine a look-up table where every text URL is matched to the the IP address (a number that uniquely identifies the device or server).\nYou typed www.example.com. Your device asks a DNS server: “What is the IP address of this domain?” The DNS server replies with something like: 93.184.216.34. Now your computer knows where to send the request.\nStep 2: HTTP/HTTPS Request Now that you know the server’s address:\nYour browser sends an HTTP (or HTTPS) request to the IP address. This request says: “Please send me the web page for / (the homepage) of www.example.com.” If it’s HTTPS, the request is encrypted, so no one in between can read it.\nHTTP(S) stands for HyperText Transfer Protocol (Secure). A “protocol” is simply a formal set of rules for how computers communicate. Think of it like a shared language or etiquette for machines. These rules define how a client (like your browser) and a server (like example.com) exchange requests and responses.\nStep 3: Client-Server Architecture\nYour device (the client) made the request. The server (at 93.184.216.34) receives it, processes it, and sends back the necessary files — HTML, CSS, JavaScript, images, etc. You can think of this like a waiter (client) asking the kitchen (server) for your order (website) and bringing it back to your table (browser).\nStep 4: Browser Renders the Page\nYour browser receives the code and files. It renders the webpage visually — drawing the layout, loading images, executing JavaScript, and displaying the site\nBelow is a code snippet that illustrates\n\n\nExercise 1\n\nimport socket\nimport requests\n\n# Step 1: DNS Lookup\ndomain = \"example.com\"\nprint(f\"Looking up IP address for: {domain}\")\nip_address = socket.gethostbyname(domain)\nprint(f\"IP address of {domain} is {ip_address}\")\n\n# Step 2: HTTP Request\nprint(f\"\\nSending HTTP GET request to {domain}...\")\nprint(f\"\\nThe response is printed below:\")\nresponse = requests.get(f\"http://{domain}\")\n\n# Step 3: Print Response\nprint(f\"\\nResponse Status Code: {response.status_code}\")\nprint(f\"\\nCode of 200 means things went as planned.\")\nprint(\"Response Headers:\")\nprint(response.headers)\n\nprint(\"\\nFirst 500 characters of the HTML:\")\nprint(response.text)\n\n# Step 4: Save response to an HTML file\nfilename = \"response.html\"\nwith open(filename, \"w\", encoding=\"utf-8\") as f:\n    f.write(response.text)\n\nprint(f\"\\nFull HTML response saved to {filename}.\")\nprint(f\"\\nOpen the HTML file in your browser.\")\n\n\n\n\n\n\n\nWhat are Response Status Code?\n\n\n\n\n\nHTTP response codes are standardized 3-digit numbers sent by a web server to indicate the outcome of a client’s request. They let the client know whether the request was successful, redirected, resulted in an error, or requires additional action.\nTwo of the most common codes you will encounter are 200 and 404.\n\n\n\n\n\n\n\n\n\nCode Category\nCode\nName\nDescription\n\n\n\n\n1xx Informational\n100\nContinue\nThe initial part of the request has been received, and the client should continue.\n\n\n\n101\nSwitching Protocols\nServer is switching protocols as requested (e.g., HTTP to WebSocket).\n\n\n2xx Success\n200\nOK\nThe request succeeded, and the response contains the requested data.\n\n\n\n201\nCreated\nA new resource was successfully created (e.g., after a POST request).\n\n\n\n202\nAccepted\nThe request has been received but not yet processed.\n\n\n\n204\nNo Content\nThe request was successful, but there is no content to return.\n\n\n3xx Redirection\n301\nMoved Permanently\nThe resource has permanently moved to a new URL.\n\n\n\n302\nFound\nThe resource is temporarily at a different URL.\n\n\n\n304\nNot Modified\nThe cached version is still valid; no need to resend data.\n\n\n4xx Client Errors\n400\nBad Request\nThe server couldn’t understand the request due to malformed syntax.\n\n\n\n401\nUnauthorized\nAuthentication is required or failed.\n\n\n\n403\nForbidden\nThe server understands the request but refuses to authorize it.\n\n\n\n404\nNot Found\nThe requested resource could not be found.\n\n\n\n405\nMethod Not Allowed\nThe HTTP method is not supported for this resource.\n\n\n5xx Server Errors\n500\nInternal Server Error\nA generic server error — something went wrong on the server.\n\n\n\n502\nBad Gateway\nThe server received an invalid response from an upstream server.\n\n\n\n503\nService Unavailable\nThe server is temporarily unavailable (e.g., overloaded or down for maintenance).\n\n\n\n504\nGateway Timeout\nThe upstream server failed to respond in time.\n\n\n\n\n\n\n\n\n\n\n\n\nWhat are Response Headers?\n\n\n\n\n\nHeaders are a core part of the HTTP protocol (i.e. the agreed upon rules of sending information across the internet). Headers take the form of key-value pairs which are sent between a client and server and carry metadata about the request or response (e.g. such as content type, caching rules, and encoding). Headers help browsers and servers understand how to handle the data being exchanged. Below is a description of the headers that were returned from the example above.\n\n\n\n\n\n\n\nHeader (key: value pair)\nMeaning\n\n\n\n\nAccept-Ranges: bytes\nThe server supports partial content downloads (e.g., resuming a download from a byte offset).\n\n\nContent-Type: text/html\nThe response body is HTML — browsers know to render it as a webpage.\n\n\nETag\nA unique ID (hash) representing this specific version of the file. Used for efficient caching.\n\n\nLast-Modified\nTimestamp of the last modification to the resource. Useful for cache validation.\n\n\nVary: Accept-Encoding\nIndicates that the response varies depending on how the client encodes requests (e.g., gzip).\n\n\nContent-Encoding: gzip\nThe response is compressed using gzip. The browser will decompress it automatically.\n\n\nContent-Length: 648\nSize of the response body in bytes after compression.\n\n\nCache-Control: max-age=3241\nTells the browser it can cache this resource for 3,241 seconds (~54 minutes).\n\n\nDate\nThe date and time when the response was generated by the server.\n\n\nConnection: keep-alive\nKeeps the TCP connection open for reuse, improving performance for multiple requests.\n\n\n\n\n\n\n\n\nHTTP/HTTPS\nEalier we said that a “protocol” is simply a formal set of rules for how computers communicate (exchange requests and responses). Let’s look at what some of those rules are.\nIn the HTTP protocol, the commands used to tell the server what action the client wants to perform are called HTTP methods (or sometimes “verbs”)\nThe HTTP protocol includes:\nRules for message structure (request/response format) Allowed methods (GET, POST, etc.) Status codes (200, 404, 500, etc.) Headers (metadata) Optional message body Rules for connection management (e.g., keep-alive)",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>APIs & Internet Fundamentals</span>"
+    ]
+  },
+  {
+    "objectID": "97-resources.html",
+    "href": "97-resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Thought Leaders\nAakash Gupta\nLinkedIn, X, YouTube\nColin Matthews\nLinkedIn\nLenny Rachitsky\nSubstack\nPaweł Huryn\nDan Olsen\nMarty Cagan\nMelissa Perri\nX\nShreyas Doshi\nTeresa Torres\nGibson Biddle\nX",
+    "crumbs": [
+      "Resources",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "97-resources.html#interview-preparation",
+    "href": "97-resources.html#interview-preparation",
+    "title": "Resources",
+    "section": "Interview Preparation",
+    "text": "Interview Preparation\n\nProduct Manager interview simulator\nHow top tech companies interview product managers",
+    "crumbs": [
+      "Resources",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "97-resources.html#bookmarks",
+    "href": "97-resources.html#bookmarks",
+    "title": "Resources",
+    "section": "Bookmarks",
+    "text": "Bookmarks\n\nAI for PMs Roadmap",
+    "crumbs": [
+      "Resources",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "97-resources.html#ai-workflows",
+    "href": "97-resources.html#ai-workflows",
+    "title": "Resources",
+    "section": "AI Workflows",
+    "text": "AI Workflows\n\n\n\n\n\n\nCursor Workflow\n\n\n\n\n\nStanislav Beliaev CTO of GetFluently.App\nHow to make Cursor 10x more useful with this one system 👇\nAt Fluently (AI English Coach → https://getfluently.app) we use Cursor to streamline our development process.\nBy following these proven practices, you can ship features in hours, not days.\n→ Before using Cursor:\n• Ask Claude (or ChatGPT) to create a clear, detailed plan in markdown • Have the AI ask clarifying questions, critique its own plan, and regenerate if needed • Save this plan as “instructions. md” for easy reference during development. • Use ChatGPT to add an extra planning layer before coding by another AI, reducing errors and complexity.\n→ Workflow and incremental development:\nBreak work into small, manageable tasks or feature increments.\nUse an Edit-Test loop: 1. Write a failing test case first (TDD approach). 2. Instruct AI to write code to pass the test. 3. Run the test. 4. If it fails, AI analyzes failure and fixes code. 5. Repeat until tests pass.\nReview AI-generated changes after tests pass. Encourage AI to explain its chain of thought in prompts.\n→ Debugging\n• If stuck, ask Cursor to generate a detailed report of all files and their roles, including errors. • Use ChatGPT or Claude to analyze the report and suggest fixes. • Use tools like gitingest.com to collect all scripts, configs, and relevant files in a single page for easier AI ingestion. • Refer to the latest documentation via context7.com for up-to-date info.\n→ Cursor-specific tips\n• Use CursorRules to set broad project rules (always in AI context). Search Cursor Directory for examples. • Typical rule: Write tests → write code → run tests → update code until tests pass. • Use /Reference open editors to quickly add files to AI context. • Use cursorignore to exclude irrelevant files. • Keep context short by explicitly adding files via @. Longer context can confuse AI. • Start new chats when the context becomes too long. • Resync or reindex code frequently to keep AI up to date. • Notepads are useful for frequently used prompts.\n→ Version control and file management\n• Use Git often to commit changes regularly. • Avoid large sets of uncommitted changes. • Creating files and folders (e.g., touch, mkdir) is always acceptable. • Running tests (Vitest, PM test, NR test, build, tsc) is always allowed.\n→ Optional settings and modes\nEnable YOLO mode to have AI write tests automatically.\nUse a system prompt in “Rules for AI” in Cursor settings: • Keep answers concise and direct. • Suggest alternative solutions. • Avoid unnecessary explanations. • Prioritize technical details over generic advice.",
+    "crumbs": [
+      "Resources",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "97-resources.html#references",
+    "href": "97-resources.html#references",
+    "title": "Resources",
+    "section": "References",
+    "text": "References\nHow To Get The Most Out Of Vibe Coding, Y Combinator Startup School\nAll about pivoting, Y Combinator Startup School",
+    "crumbs": [
+      "Resources",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -104,19 +312,21 @@
     "href": "98-tools.html",
     "title": "AI Tools Overview",
     "section": "",
-    "text": "Backend",
+    "text": "Front end\nStitch by Google",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
     "objectID": "98-tools.html#backend",
     "href": "98-tools.html#backend",
     "title": "AI Tools Overview",
-    "section": "",
-    "text": "Supabase",
+    "section": "Backend",
+    "text": "Backend\n\nSupabase",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -126,7 +336,8 @@
     "section": "No-Code",
     "text": "No-Code\n\nLovable\n\n\n\nV0",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -136,7 +347,8 @@
     "section": "Low-Code",
     "text": "Low-Code",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -146,7 +358,8 @@
     "section": "Pro-Code",
     "text": "Pro-Code\n\nWindsurf\n\n\n\nCursor\n\n\nVS Code",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -156,7 +369,8 @@
     "section": "Presentations",
     "text": "Presentations\n\nGamma",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -166,7 +380,8 @@
     "section": "ChatBots",
     "text": "ChatBots\n\nChatGPT\nGemini\nClaude\nPerplexity\nDeepSeek\nGrok",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>AI Tools Overview</span>"
+      "Resources",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>AI Tools Overview</span>"
     ]
   },
   {
@@ -176,7 +391,8 @@
     "section": "",
     "text": "Architecture\nOpen ChatGPT (4o, not o1/o3/o4) and say:\n“ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth.\nGive me the full architecture:\nFormat this entire document in markdown.”\nSave its output as architecture.md and throw it in an empty folder where your project will live.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Prompt Library</span>"
+      "Resources",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Prompt Library</span>"
     ]
   },
   {
@@ -186,7 +402,8 @@
     "section": "",
     "text": "File + folder structure\nWhat each part does\nWhere state lives, how services connect",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Prompt Library</span>"
+      "Resources",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Prompt Library</span>"
     ]
   },
   {
@@ -196,7 +413,8 @@
     "section": "Tasks",
     "text": "Tasks\n“ Using that architecture, write a granular step-by-step plan to build the MVP. Each task should:\n\nBe incredibly small + testable\nHave a clear start + end\nFocus on one concern\n\nI’ll be passing this off to an engineering LLM that will be told to complete one task at a time, allowing me to test in between. ”\nSave it as tasks.md. Again, throw it in the folder.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Prompt Library</span>"
+      "Resources",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Prompt Library</span>"
     ]
   },
   {
@@ -204,9 +422,10 @@
     "href": "99-prompts.html#engineering",
     "title": "Prompt Library",
     "section": "Engineering",
-    "text": "Engineering\nStep 3: In Cursor/Windsurf\n“ You’re an engineer building this codebase.\nYou’ve been given architecture.md and tasks.md.\n\nRead both carefully. There should be no ambiguity about what we’re building.\nFollow http://tasks.md and complete one task at a time.\nAfter each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”\n\nInclude this as well - this is crucial:\nCODING PROTOCOL\n” Coding Instructions\n\nWrite the absolute minimum code required\nNo sweeping changes\nNo unrelated edits - focus on just the task you’re on\nMake code precise, modular, testable\nDon’t break existing functionality\nIf I need to do anything (e.g. Supabase/AWS config), tell me clearly ”\n\nThis system fixes the biggest problem with vibe coding:\nYou’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.\nThis workflow lets you ship clean, testable AI-assisted code - without the spiral.\nNormally I’d ask you to follow me for the playbook but this is literally it. Good luck\nSource: vasumanmoza on X",
+    "text": "Engineering\nStep 3: In Cursor/Windsurf\n“ You’re an engineer building this codebase.\nYou’ve been given architecture.md and tasks.md.\n\nRead both carefully. There should be no ambiguity about what we’re building.\nFollow http://tasks.md and complete one task at a time.\nAfter each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”\n\nInclude this as well - this is crucial:\nCODING PROTOCOL\n” Coding Instructions\n\nWrite the absolute minimum code required\nNo sweeping changes\nNo unrelated edits - focus on just the task you’re on\nMake code precise, modular, testable\nDon’t break existing functionality\nIf I need to do anything (e.g. Supabase/AWS config), tell me clearly ”\n\nThis system fixes the biggest problem with vibe coding:\nYou’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.\nThis workflow lets you ship clean, testable AI-assisted code - without the spiral.\nNormally I’d ask you to follow me for the playbook but this is literally it. Good luck\nSource: vasumanmoza on X\n\n\n\n\n\n\nIcons\n\n\n\n\n\nAirBnB-style icons with ChatGPT-4o in 60 seconds 👇\nI used just ONE simple prompt to create 3D isometric illustrations that feel like Pixar vibes mixed with modern, minimal design.\nUse this prompt:\n–\nGenerate [ Your Concept ] icon with this JSON style:\n{  \n  \"icon_style\": {  \n    \"perspective\": \"isometric\",  \n    \n    \"geometry\": {  \n      \"proportions\": \"1:1 ratio canvas, with objects fitting comfortably within margins\",  \n      \"element_arrangement\": \"central dominant object, with supporting elements symmetrically or diagonally placed\"  \n    },  \n    \n    \"composition\": {  \n      \"element_count\": \"2–4 main objects\",  \n      \"spatial_depth\": \"layered to create sense of dimension and slight elevation\",  \n      \"scale_consistency\": \"uniform object scale across icon set\",  \n      \"scene_density\": \"minimal to moderate, maintaining clarity and visual focus\"  \n    },  \n    \n    \"lighting\": {  \n      \"type\": \"soft ambient light\",  \n      \"light_source\": \"subtle top-right or front-top direction\",  \n      \"shadow\": \"gentle drop shadows below and behind objects\",  \n      \"highlighting\": \"mild edge illumination to define forms\"  \n    },  \n    \n    \"textures\": {  \n      \"material_finish\": \"semi-matte to satin surfaces\",  \n      \"surface_treatment\": \"smooth with light tactile variation (e.g., wood grain, soft textures)\",  \n      \"texture_realism\": \"stylized naturalism without hyper-realistic noise\"  \n    },  \n    \n    \"render_quality\": {  \n      \"resolution\": \"high-resolution octane 3D rendering\",  \n      \"edge_definition\": \"crisp, no outlines; separation achieved via lighting and depth\",  \n      \"visual_clarity\": \"clean, readable shapes with minimal clutter\"  \n    },  \n    \n    \"color_palette\": {  \n      \"tone\": \"naturalistic with slight saturation boost\",  \n      \"range\": \"harmonious muted tones with gentle contrast\",  \n      \"usage\": \"distinct colors per object to improve identification and readability\"  \n    },  \n    \n    \"background\": {  \n      \"color\": \"hashtag#FFFFFF\",  \n      \"style\": \"pure white, flat\",  \n      \"texture\": \"none\"  \n    },  \n    \n    \"stylistic_tone\": \"premium, friendly, clean with lifestyle or service-oriented appeal\",  \n    \n    \"icon_behavior\": {  \n      \"branding_alignment\": \"neutral enough for broad applications\",  \n      \"scalability\": \"legible at small and medium sizes\",  \n      \"interchangeability\": \"part of a cohesive icon system with interchangeable subject matter\"  \n    }  \n  }  \n}\n–\nJust swap [ Your Concept ] with what you want: • “coffee shop” • “bike rental” • “co-working space”\nAnd just like that, high-end, Airbnb-style icons are ready in seconds. This might be the easiest design cheat code of 2025.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Prompt Library</span>"
+      "Resources",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Prompt Library</span>"
     ]
   }
 ]

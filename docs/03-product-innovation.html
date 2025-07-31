@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prompt Library – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
+<title>Product Innovation – STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./98-tools.html" rel="prev">
+<link href="./04-value-prop-validation.html" rel="next">
+<link href="./02-llms-prompt-engineering.html" rel="prev">
 <link href="./images/prototyping-favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -85,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./03-product-innovation.html"><span class="chapter-title">Product Innovation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -157,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-product-innovation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Product Innovation</span></a>
+  <a href="./03-product-innovation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Product Innovation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -233,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Prompt Library</span></a>
+  <a href="./99-prompts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prompt Library</span></a>
   </div>
 </li>
       </ul>
@@ -243,23 +244,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#architecture" id="toc-architecture" class="nav-link active" data-scroll-target="#architecture">Architecture</a></li>
-  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
-  <li><a href="#engineering" id="toc-engineering" class="nav-link" data-scroll-target="#engineering">Engineering</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./97-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./99-prompts.html"><span class="chapter-title">Prompt Library</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era-llms.html">Topics</a></li><li class="breadcrumb-item"><a href="./03-product-innovation.html"><span class="chapter-title">Product Innovation</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Prompt Library</span></h1>
+<h1 class="title"><span class="chapter-title">Product Innovation</span></h1>
 </div>
 
 
@@ -276,138 +269,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<p>Open ChatGPT (4o, not o1/o3/o4) and say:</p>
-<p>“ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth.</p>
-<p>Give me the full architecture:</p>
-<ul>
-<li>File + folder structure</li>
-<li>What each part does</li>
-<li>Where state lives, how services connect</li>
-</ul>
-<p>Format this entire document in markdown.”</p>
-<p>Save its output as architecture.md and throw it in an empty folder where your project will live.</p>
-</section>
-<section id="tasks" class="level2">
-<h2 class="anchored" data-anchor-id="tasks">Tasks</h2>
-<p>“ Using that architecture, write a granular step-by-step plan to build the MVP. Each task should:</p>
-<ul>
-<li>Be incredibly small + testable</li>
-<li>Have a clear start + end</li>
-<li>Focus on one concern</li>
-</ul>
-<p>I’ll be passing this off to an engineering LLM that will be told to complete one task at a time, allowing me to test in between. ”</p>
-<p>Save it as tasks.md. Again, throw it in the folder.</p>
-</section>
-<section id="engineering" class="level2">
-<h2 class="anchored" data-anchor-id="engineering">Engineering</h2>
-<p>Step 3: In Cursor/Windsurf</p>
-<p>“ You’re an engineer building this codebase.</p>
-<p>You’ve been given architecture.md and tasks.md.</p>
-<ul>
-<li>Read both carefully. There should be no ambiguity about what we’re building.</li>
-<li>Follow http://tasks.md and complete one task at a time.</li>
-<li>After each task, stop. I’ll test it. If it works, commit to GitHub and move to the next. ”</li>
-</ul>
-<p>Include this as well - this is crucial:</p>
-<p>CODING PROTOCOL</p>
-<p>” Coding Instructions</p>
-<ul>
-<li>Write the absolute minimum code required</li>
-<li>No sweeping changes</li>
-<li>No unrelated edits - focus on just the task you’re on</li>
-<li>Make code precise, modular, testable</li>
-<li>Don’t break existing functionality</li>
-<li>If I need to do anything (e.g.&nbsp;Supabase/AWS config), tell me clearly ”</li>
-</ul>
-<p>This system fixes the biggest problem with vibe coding:</p>
-<p>You’re not dumping everything into the IDE and praying. You’re giving it a roadmap. You’re keeping it on rails. You stay in control.</p>
-<p>This workflow lets you ship clean, testable AI-assisted code - without the spiral.</p>
-<p>Normally I’d ask you to follow me for the playbook but this is literally it. Good luck</p>
-<p><a href="https://x.com/vasumanmoza/status/1923912878370980115?s=51&amp;t=miuEnFRF6fTUR36WiwEysw">Source: vasumanmoza on X</a></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Icons
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><a href="https://www.linkedin.com/posts/nigolos_ffffff-activity-7331341131089076226-G6AC?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAABxVuoByW5PDRHey5Wh_ef3dPtGKfJRCmw">AirBnB-style icons with ChatGPT-4o in 60 seconds 👇</a></p>
-<p>I used just ONE simple prompt to create 3D isometric illustrations that feel like Pixar vibes mixed with modern, minimal design.</p>
-<p>Use this prompt:</p>
-<p>–</p>
-<p>Generate [ Your Concept ] icon with this JSON style:</p>
-<pre class="{json}"><code>{  
-  "icon_style": {  
-    "perspective": "isometric",  
-    
-    "geometry": {  
-      "proportions": "1:1 ratio canvas, with objects fitting comfortably within margins",  
-      "element_arrangement": "central dominant object, with supporting elements symmetrically or diagonally placed"  
-    },  
-    
-    "composition": {  
-      "element_count": "2–4 main objects",  
-      "spatial_depth": "layered to create sense of dimension and slight elevation",  
-      "scale_consistency": "uniform object scale across icon set",  
-      "scene_density": "minimal to moderate, maintaining clarity and visual focus"  
-    },  
-    
-    "lighting": {  
-      "type": "soft ambient light",  
-      "light_source": "subtle top-right or front-top direction",  
-      "shadow": "gentle drop shadows below and behind objects",  
-      "highlighting": "mild edge illumination to define forms"  
-    },  
-    
-    "textures": {  
-      "material_finish": "semi-matte to satin surfaces",  
-      "surface_treatment": "smooth with light tactile variation (e.g., wood grain, soft textures)",  
-      "texture_realism": "stylized naturalism without hyper-realistic noise"  
-    },  
-    
-    "render_quality": {  
-      "resolution": "high-resolution octane 3D rendering",  
-      "edge_definition": "crisp, no outlines; separation achieved via lighting and depth",  
-      "visual_clarity": "clean, readable shapes with minimal clutter"  
-    },  
-    
-    "color_palette": {  
-      "tone": "naturalistic with slight saturation boost",  
-      "range": "harmonious muted tones with gentle contrast",  
-      "usage": "distinct colors per object to improve identification and readability"  
-    },  
-    
-    "background": {  
-      "color": "hashtag#FFFFFF",  
-      "style": "pure white, flat",  
-      "texture": "none"  
-    },  
-    
-    "stylistic_tone": "premium, friendly, clean with lifestyle or service-oriented appeal",  
-    
-    "icon_behavior": {  
-      "branding_alignment": "neutral enough for broad applications",  
-      "scalability": "legible at small and medium sizes",  
-      "interchangeability": "part of a cohesive icon system with interchangeable subject matter"  
-    }  
-  }  
-}</code></pre>
-<p>–</p>
-<p>Just swap [ Your Concept ] with what you want: • “coffee shop” • “bike rental” • “co-working space”</p>
-<p>And just like that, high-end, Airbnb-style icons are ready in seconds. This might be the easiest design cheat code of 2025.</p>
-</div>
-</div>
-</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <footer class="book-footer">
@@ -849,11 +712,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./98-tools.html" class="pagination-link" aria-label="AI Tools Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">AI Tools Overview</span></span>
+      <a href="./02-llms-prompt-engineering.html" class="pagination-link" aria-label="LLMs &amp; Prompting">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">LLMs &amp; Prompting</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./04-value-prop-validation.html" class="pagination-link" aria-label="Value Proposition">
+        <span class="nav-page-text"><span class="chapter-title">Value Proposition</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

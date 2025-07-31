@@ -1,7 +1,7 @@
 ---
 title: "Syllabus"
 author: "Scott Murff"
-date: "5/10/2025"
+date: "7/31/2025"
 format:
   html: default
   pdf: default
@@ -11,28 +11,34 @@ format:
 
 *FALL 2025*
 
-**Instructor:** Scott Murff  
-**TAs:** Carter Adams, Eli Nelson  
-**Class Time:** Fridays Only, 9:30 AM – 12:15 PM  
-**Class Location:** MARB B113  
+**Instructor:** Scott Murff\
+**TAs:** Carter Adams, Eli Nelson\
+**Class Time:** Fridays Only, 9:30 AM – 12:15 PM\
+**Class Location:** TNRB 230\
 **LMS:** LearningSuite
 
 ## Content Overview
 
-Welcome to *Creating Digital Products with AI: Strategy & Prototyping*. What should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer. Grounded in the principles of The Lean Product Playbook by Dan Olsen, students will explore the foundational frameworks of product strategy, customer-centric design, and rapid iteration. Building on these fundamentals, the course transitions into applied innovation—students will leverage modern AI tools to ideate, prototype, and build real digital products.
+Welcome to *Creating Digital Products with AI: Strategy & Prototyping*.
 
-Throughout the course, students will learn how AI is reshaping every stage of the product lifecycle—from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product concept, preparing them to lead in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.
+What should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer.
+
+Students will explore foundational frameworks in product strategy, customer-centric design, and rapid iteration. Along the way, they’ll leverage both standard industry tools (i.e. GitHub, Jira, Figma) as well as modern AI tools (e.g. Lovable, Replit, Cursor, Windsurf) to ideate, prototype, and build real digital products.
+
+AI is blurring the traditional boundaries between Product Management, Engineering, and Design. This course explores how product managers can use AI to enhance collaboration and accelerate execution.
+
+Throughout the course, students will learn how AI is reshaping every stage of the product lifecycle, from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product, preparing them to excel in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.
 
 There are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.
-  
+
 ## Learning Outcomes
 
 | Learning Outcome | Supported BYU Aims |
-|------------------|--------------------|
-| 1. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
-| 2. Demonstrate technical competency with AI tools to ideate, prototype, and test digital product concepts rapidly and iteratively. | Intellectually Enlarging, Lifelong Learning and Service |
-| 3. Work effectively in teams, demonstrating respect, responsibility, and Christian discipleship in leadership and collaboration. | Character Building, Spiritually Strengthening |
-| 4. Apply gospel-centered creativity and faith to envision how digital products can serve others and build up communities, both temporally and spiritually. | Spiritually Strengthening, Lifelong Learning and Service |
+|----------------------------------|--------------------------------------|
+| 1\. Understand the basics of how LLMs generate natural language. | Intellectually Enlarging |
+| 2\. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
+| 3\. Analyze the physical, mental, and spiritual impact your product is likely to have on its users. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
+| 4\. Create a digital product that delivers value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
 
 ## Instructor Bio
 
@@ -40,15 +46,51 @@ Scott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott S
 
 Prior to joining BYU, Scott spent nearly seven years at McKinsey & Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.
 
-Scott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.
+Scott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics with a minor in Math, from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.
 
 ## Schedule
 
-Coming Soon.
+See the [Schedule section](00-schedule.qmd) for a weekly schedule of class topics, assignments, due dates, etc.
 
 ## Grading
 
-The course is **not** graded on a curve. It's possible for every student to earn an A. However, achieving an A is challenging and demonstrates true excellence. The grading scale is show below:
+Below is the grading breakdown for each assessment in the course. Each point is weighted equally.
+
+| Type | Description<sup>1</sup> | \% of Grade | Points | Learning Outcome(s) Assessed |
+|-----------|-----------|-----------|-----------|-----------|
+| Exam | [Pre-Course Knowledge Check](00-assessments.qmd#pre-course-knowledge-check)<sup>2</sup> | 0% | 0 | 1,2,3,4 |
+| Exam | [Final Exam](00-assessments.qmd#final-exam) | 10% | 50 | 1,2,3,4 |
+| Quiz | [Quiz 1 - LLMs 1](01-pm-ai-era-llms.qmd) | 2% | 10 | 1 |
+| Quiz | [Quiz 2 - LLMs 2](02-llms-prompt-engineering.qmd) | 2% | 10 | 1 |
+| Quiz | [Quiz 3 - Product Strategy and Innovation](03-product-innovation.qmd) | 2% | 10 | 2 |
+| Quiz | [Quiz 4 - Customer Validation](04-value-prop-validation.qmd) | 2% | 10 | 2 |
+| Quiz | [Quiz 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
+| Quiz | [Quiz 6 - GitHub and Collaboration](06-collaboration-git-triad.qmd) | 2% | 10 | 4 |
+| Quiz | [Quiz 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
+| Quiz | [Quiz 8 - Principles of Software Engineering and Design](08-software-design-principles.qmd) | 2% | 10 | 4 |
+| Quiz | [Quiz 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
+| Quiz | [Quiz 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
+| Homework | [Homework 1 – Understanding Large Language Models](00-assessments.qmd#homework-1-understanding-large-language-models) | 8% | 40 | 1 |
+| Homework | [Homework 2 – Creating a Product Requirements Document (PRD)](00-assessments.qmd#homework-2-creating-a-product-requirements-document-prd) | 8% | 40 | 2, 3 |
+| Homework | [Homework 3 – Understanding the internet and APIs](00-assessments.qmd#homework-3-understanding-the-internet-and-apis) | 8% | 40 | 4 |
+| Homework | [Homework 4 – Using Git for collaboration and version control](00-assessments.qmd#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
+| Homework | [Homework 5 – Choosing the right AI tools](00-assessments.qmd#homework-5-choosing-the-right-ai-tools) | 8% | 40 | 4 |
+| Project | [Final Project](00-assessments.qmd#final-project) | 30% | 150 | 4 |
+|  | **TOTAL** | **100%** | **500** |  |
+
+::: {style="font-size:0.65em;"}
+**Notes:**
+
+1. Completion of the Pre-Course Knowledge Check is required but does not affect your grade.
+2. All assignments and quizzes are described in detail in [Assessments section](00-assessments.qmd).
+
+:::
+
+The course is **not** graded on a curve. It's possible for every student to earn an A. 
+
+Achieving an A is challenging and reflects real commitment and excellence. 
+
+The grading scale is show below:
 
 | Letter Grade | Percentage Range | GPA |
 |--------------|------------------|-----|
@@ -67,7 +109,9 @@ The course is **not** graded on a curve. It's possible for every student to earn
 
 ### Late work policy
 
-Late work will be accepted up to 9 days late for partial credit with a 10% penalty per day according to the following schedule
+**Quizzes**: By their nature, in-class quizzes cannot be accepted late.
+
+**Homework**: May be turned in up to 9 days late for partial credit with a 10% penalty per day according to the following schedule:
 
 | Days Late | Late Penalty |
 |-----------|--------------|
@@ -81,6 +125,10 @@ Late work will be accepted up to 9 days late for partial credit with a 10% penal
 | 8         | -80%         |
 | 9         | -90%         |
 | 10        | No Credit    |
+
+**Final Project**: The Final Project must be submitted by 11:59pm on the day of our final class period. Final Projects cannot be turned in late for credit.
+
+**Final Exam**: The Final Exam must be completed by the scheduled time. Final Exams cannot be taken late.
 
 ## Classroom Culture
 
@@ -106,7 +154,7 @@ We evaluate our decisions and actions by the impact they will have on the academ
 
 #### Prayer in class
 
-We will begin each class with prayer. Each class member is invited to be voice for the prayer at least once throughout the semester. The TAs will reach out prior to class to invite you to pray on a particular day. If you'd rather not be voice for a prayer please let me know on the first day of class so I can instruct the TAs accordingly. 
+We will begin each class with prayer. Each class member is invited to be voice for the prayer at least once throughout the semester. The TAs will reach out prior to class to invite you to pray on a particular day. If you'd rather not be voice for a prayer please let me know on the first day of class so I can instruct the TAs accordingly.
 
 #### Laptop Policy
 
@@ -114,25 +162,26 @@ You may use laptops in class for note taking or other class related purposes. La
 
 #### Cold Calling
 
-I teach in a fairly conversational style, which includes cold calling students to ask for your input or to pose questions. If you'd rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.
+I teach in a conversational discussion based style, which includes cold calling students to ask for your input or to pose questions. If you'd rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.
 
 ## Required Materials
 
-The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, \$25 or less). Text and audio also available for free for BYU students digitally at O'Reilly books. 
+The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, \$25 or less). Text and audio also available for free for BYU students digitally at O'Reilly books.
 
-Laptop or desktop (Mac or Windows)
+A modern Laptop or desktop (Mac or Windows).
 
-Paid account to at least 1 AI tool of your choosing.
+Paid account to at least 1 AI tool of your choosing (~$20 per month).
 
 All other materials are provided for free on the course website.
 
 ## Getting Help
 
-The following resources are available to get help:
-- Start with AI chat bots and the course website to see if they can assist
-- Use the course Slack channel to ask classmates for help
-- Attend TA or Professor office hours (coming soon)
-- Use **Slack** or email to contact one of the course TAs
+The following resources are available to get help: 
+
+- Start with AI chat bots and the course website to see if they can assist 
+- Use the course Slack channel to ask classmates for help 
+- Attend TA or Professor office hours
+- Use **Slack** or email to contact one of the course TAs 
 - Use **Slack** or email to contact Professor Murff
 
 ## Pre-enrollment Assessment
