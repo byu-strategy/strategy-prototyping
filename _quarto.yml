@@ -21,11 +21,11 @@ book:
         - 01-pm-ai-era-llms.qmd
         - 02-llms-prompt-engineering.qmd
         - 03-product-innovation.qmd
-        - 04-value-prop-validation.qmd
+        - 04-value-prop-design.qmd
         - 05-project-management-jira.qmd
         - 06-collaboration-git-triad.qmd
         - 07-internet-fundamentals.qmd
-        - 08-software-design-principles.qmd
+        - 08-software-engineering.qmd
         - 09-ai-dev-platforms.qmd
         - 10-build-feedback-1.qmd
         - 11-product-metrics.qmd

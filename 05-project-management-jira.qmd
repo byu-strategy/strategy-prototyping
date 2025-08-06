@@ -1,3 +1,16 @@
 ---
 title: "Project Mgmt w/Jira"
 ---
+
+## Agile
+
+[Manifesto for Agile Software Development](https://agilemanifesto.org/)
+
+### Cerimonies
+
+### Scrum and Kanban
+
+## User Stories
+
+## Jira and GitHub Projects
+

@@ -64,7 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./08-software-design-principles.html" rel="next">
+<link href="./08-software-engineering.html" rel="next">
 <link href="./06-collaboration-git-triad.html" rel="prev">
 <link href="./images/prototyping-favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -104,7 +104,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 </head><body class="nav-sidebar floating"><header class="book-header-banner">
-  <img src="images/strat-logo.png" alt="BYU Strategy - Marriott School of Business">
+  <a href="https://byu-strategy.github.io/program-guide/" target="_blank">
+    <img src="images/strat-logo.png" alt="BYU Strategy - Marriott School of Business">
+  </a>
 </header>
 
 
@@ -197,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-value-prop-validation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Value Proposition</span></a>
+  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Value Proposition &amp; Design</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -217,7 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-software-design-principles.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SWE Eng. &amp; Design Principles</span></a>
+  <a href="./08-software-engineering.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SWE Principles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -290,6 +292,89 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise 1</a></li>
   <li><a href="#httphttps" id="toc-httphttps" class="nav-link" data-scroll-target="#httphttps">HTTP/HTTPS</a></li>
   </ul></li>
+  <li><a href="#what-is-the-internet" id="toc-what-is-the-internet" class="nav-link" data-scroll-target="#what-is-the-internet">What IS the Internet?</a></li>
+  <li><a href="#key-infrastructure-components" id="toc-key-infrastructure-components" class="nav-link" data-scroll-target="#key-infrastructure-components">Key Infrastructure Components</a>
+  <ul class="collapse">
+  <li><a href="#internet-service-providers-isps" id="toc-internet-service-providers-isps" class="nav-link" data-scroll-target="#internet-service-providers-isps">Internet Service Providers (ISPs)</a></li>
+  <li><a href="#data-centers-the-cloud" id="toc-data-centers-the-cloud" class="nav-link" data-scroll-target="#data-centers-the-cloud">Data Centers &amp; The Cloud</a></li>
+  </ul></li>
+  <li><a href="#essential-protocols-technologies" id="toc-essential-protocols-technologies" class="nav-link" data-scroll-target="#essential-protocols-technologies">Essential Protocols &amp; Technologies</a>
+  <ul class="collapse">
+  <li><a href="#dns-domain-name-system" id="toc-dns-domain-name-system" class="nav-link" data-scroll-target="#dns-domain-name-system">DNS (Domain Name System)</a></li>
+  <li><a href="#ip-addresses-routing" id="toc-ip-addresses-routing" class="nav-link" data-scroll-target="#ip-addresses-routing">IP Addresses &amp; Routing</a></li>
+  <li><a href="#tcpip-stack" id="toc-tcpip-stack" class="nav-link" data-scroll-target="#tcpip-stack">TCP/IP Stack</a></li>
+  </ul></li>
+  <li><a href="#watch-this-video-for-the-big-picture" id="toc-watch-this-video-for-the-big-picture" class="nav-link" data-scroll-target="#watch-this-video-for-the-big-picture"><strong><em>Watch this video for the big picture:</em></strong></a></li>
+  <li><a href="#step-by-step-what-happens-when-you-visit-a-website" id="toc-step-by-step-what-happens-when-you-visit-a-website" class="nav-link" data-scroll-target="#step-by-step-what-happens-when-you-visit-a-website"><strong>Step-by-step: What happens when you visit a website</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-journey-of-a-web-request" id="toc-the-journey-of-a-web-request" class="nav-link" data-scroll-target="#the-journey-of-a-web-request">The Journey of a Web Request</a></li>
+  <li><a href="#why-this-matters-for-developers" id="toc-why-this-matters-for-developers" class="nav-link" data-scroll-target="#why-this-matters-for-developers">Why This Matters for Developers</a></li>
+  </ul></li>
+  <li><a href="#the-modern-internet-architecture" id="toc-the-modern-internet-architecture" class="nav-link" data-scroll-target="#the-modern-internet-architecture">The Modern Internet Architecture</a>
+  <ul class="collapse">
+  <li><a href="#content-delivery-networks-cdns" id="toc-content-delivery-networks-cdns" class="nav-link" data-scroll-target="#content-delivery-networks-cdns">Content Delivery Networks (CDNs)</a></li>
+  <li><a href="#load-balancers" id="toc-load-balancers" class="nav-link" data-scroll-target="#load-balancers">Load Balancers</a></li>
+  <li><a href="#microservices-apis" id="toc-microservices-apis" class="nav-link" data-scroll-target="#microservices-apis">Microservices &amp; APIs</a></li>
+  </ul></li>
+  <li><a href="#what-an-api-is-and-why-youll-use-them-constantly" id="toc-what-an-api-is-and-why-youll-use-them-constantly" class="nav-link" data-scroll-target="#what-an-api-is-and-why-youll-use-them-constantly"><strong>What an API Is (and Why You’ll Use Them Constantly)</strong></a>
+  <ul class="collapse">
+  <li><a href="#api-in-plain-english" id="toc-api-in-plain-english" class="nav-link" data-scroll-target="#api-in-plain-english">API in plain English</a></li>
+  </ul></li>
+  <li><a href="#api-keys-your-digital-passport" id="toc-api-keys-your-digital-passport" class="nav-link" data-scroll-target="#api-keys-your-digital-passport">API Keys — Your Digital Passport</a>
+  <ul class="collapse">
+  <li><a href="#when-youll-need-api-keys" id="toc-when-youll-need-api-keys" class="nav-link" data-scroll-target="#when-youll-need-api-keys">When you’ll need API keys</a></li>
+  <li><a href="#example-request-header" id="toc-example-request-header" class="nav-link" data-scroll-target="#example-request-header">Example request header</a></li>
+  <li><a href="#api-authentication-methods" id="toc-api-authentication-methods" class="nav-link" data-scroll-target="#api-authentication-methods">API Authentication Methods</a></li>
+  <li><a href="#api-security-basics" id="toc-api-security-basics" class="nav-link" data-scroll-target="#api-security-basics">API Security Basics</a></li>
+  </ul></li>
+  <li><a href="#connecting-everything-together" id="toc-connecting-everything-together" class="nav-link" data-scroll-target="#connecting-everything-together">Connecting Everything Together</a>
+  <ul class="collapse">
+  <li><a href="#common-tools-youll-use" id="toc-common-tools-youll-use" class="nav-link" data-scroll-target="#common-tools-youll-use">Common tools you’ll use:</a>
+  <ul class="collapse">
+  <li><a href="#ai-ml-apis" id="toc-ai-ml-apis" class="nav-link" data-scroll-target="#ai-ml-apis">AI &amp; ML APIs</a></li>
+  <li><a href="#automation-integration" id="toc-automation-integration" class="nav-link" data-scroll-target="#automation-integration">Automation &amp; Integration</a></li>
+  <li><a href="#data-backend" id="toc-data-backend" class="nav-link" data-scroll-target="#data-backend">Data &amp; Backend</a></li>
+  <li><a href="#payments-business" id="toc-payments-business" class="nav-link" data-scroll-target="#payments-business">Payments &amp; Business</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#real-startup-use-cases-your-actual-day-to-day" id="toc-real-startup-use-cases-your-actual-day-to-day" class="nav-link" data-scroll-target="#real-startup-use-cases-your-actual-day-to-day">Real Startup Use Cases (Your Actual Day-to-Day)</a>
+  <ul class="collapse">
+  <li><a href="#whats-a-chatgpt-wrapper" id="toc-whats-a-chatgpt-wrapper" class="nav-link" data-scroll-target="#whats-a-chatgpt-wrapper">What’s a “ChatGPT Wrapper”?</a></li>
+  </ul></li>
+  <li><a href="#api-design-best-practices" id="toc-api-design-best-practices" class="nav-link" data-scroll-target="#api-design-best-practices">API Design &amp; Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#restful-api-conventions" id="toc-restful-api-conventions" class="nav-link" data-scroll-target="#restful-api-conventions">RESTful API Conventions</a></li>
+  <li><a href="#error-handling" id="toc-error-handling" class="nav-link" data-scroll-target="#error-handling">Error Handling</a></li>
+  <li><a href="#api-documentation" id="toc-api-documentation" class="nav-link" data-scroll-target="#api-documentation">API Documentation</a></li>
+  <li><a href="#security-privacy-best-practices" id="toc-security-privacy-best-practices" class="nav-link" data-scroll-target="#security-privacy-best-practices">Security &amp; Privacy Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#secret-key-management" id="toc-secret-key-management" class="nav-link" data-scroll-target="#secret-key-management">Secret Key Management</a></li>
+  <li><a href="#privacy-data-protection" id="toc-privacy-data-protection" class="nav-link" data-scroll-target="#privacy-data-protection">Privacy &amp; Data Protection</a></li>
+  <li><a href="#api-communication-security" id="toc-api-communication-security" class="nav-link" data-scroll-target="#api-communication-security">API Communication Security</a></li>
+  <li><a href="#when-things-go-wrong" id="toc-when-things-go-wrong" class="nav-link" data-scroll-target="#when-things-go-wrong">When Things Go Wrong</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#hands-on-exercise-build-something-real" id="toc-hands-on-exercise-build-something-real" class="nav-link" data-scroll-target="#hands-on-exercise-build-something-real">Hands-On Exercise (Build Something Real)</a>
+  <ul class="collapse">
+  <li><a href="#build-your-first-ai-powered-api" id="toc-build-your-first-ai-powered-api" class="nav-link" data-scroll-target="#build-your-first-ai-powered-api">Build Your First AI-Powered API</a>
+  <ul class="collapse">
+  <li><a href="#step-1-set-up-your-environment" id="toc-step-1-set-up-your-environment" class="nav-link" data-scroll-target="#step-1-set-up-your-environment">Step 1: Set up your environment</a></li>
+  <li><a href="#step-2-create-your-api" id="toc-step-2-create-your-api" class="nav-link" data-scroll-target="#step-2-create-your-api">Step 2: Create your API</a></li>
+  <li><a href="#step-3-test-your-api" id="toc-step-3-test-your-api" class="nav-link" data-scroll-target="#step-3-test-your-api">Step 3: Test your API</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#cost-scale-considerations" id="toc-cost-scale-considerations" class="nav-link" data-scroll-target="#cost-scale-considerations">Cost &amp; Scale Considerations</a>
+  <ul class="collapse">
+  <li><a href="#api-pricing-models" id="toc-api-pricing-models" class="nav-link" data-scroll-target="#api-pricing-models">API Pricing Models</a></li>
+  <li><a href="#when-to-build-vs.-buy" id="toc-when-to-build-vs.-buy" class="nav-link" data-scroll-target="#when-to-build-vs.-buy">When to Build vs.&nbsp;Buy</a></li>
+  </ul></li>
+  <li><a href="#modern-api-architectures" id="toc-modern-api-architectures" class="nav-link" data-scroll-target="#modern-api-architectures">Modern API Architectures</a>
+  <ul class="collapse">
+  <li><a href="#rest-vs.-graphql" id="toc-rest-vs.-graphql" class="nav-link" data-scroll-target="#rest-vs.-graphql">REST vs.&nbsp;GraphQL</a></li>
+  <li><a href="#webhooks-real-time-apis" id="toc-webhooks-real-time-apis" class="nav-link" data-scroll-target="#webhooks-real-time-apis">Webhooks &amp; Real-time APIs</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why this matters:</a></li>
+  <li><a href="#key-takeaways-for-founders" id="toc-key-takeaways-for-founders" class="nav-link" data-scroll-target="#key-takeaways-for-founders">Key Takeaways for Founders</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -360,7 +445,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="exercise-1" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-1">Exercise 1</h3>
-<div id="cafbaa62" class="cell" data-execution_count="1">
+<div id="a8b826bb" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> socket</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -612,6 +697,470 @@ What are Response Headers?
 <p>In the HTTP protocol, the commands used to tell the server what action the client wants to perform are called HTTP methods (or sometimes “verbs”)</p>
 <p>The HTTP protocol includes:</p>
 <p>Rules for message structure (request/response format) Allowed methods (GET, POST, etc.) Status codes (200, 404, 500, etc.) Headers (metadata) Optional message body Rules for connection management (e.g., keep-alive)</p>
+</section>
+</section>
+<section id="what-is-the-internet" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-internet">What IS the Internet?</h2>
+<p>The internet is a <strong>global network of interconnected computers</strong> that communicate using standardized protocols. When you’re building digital products, you’re essentially building on top of this massive infrastructure.</p>
+<p>Think of it as three layers:</p>
+<ul>
+<li><strong>Physical layer</strong>: Cables, fiber optics, wireless signals, satellites</li>
+<li><strong>Network layer</strong>: Routers, switches, and protocols that move data<br>
+</li>
+<li><strong>Application layer</strong>: Websites, apps, and services — this is where your products live</li>
+</ul>
+</section>
+<section id="key-infrastructure-components" class="level2">
+<h2 class="anchored" data-anchor-id="key-infrastructure-components">Key Infrastructure Components</h2>
+<section id="internet-service-providers-isps" class="level3">
+<h3 class="anchored" data-anchor-id="internet-service-providers-isps">Internet Service Providers (ISPs)</h3>
+<ul>
+<li><strong>Tier 1</strong>: Backbone providers (AT&amp;T, Verizon, Level 3)</li>
+<li><strong>Tier 2</strong>: Regional providers that buy from Tier 1</li>
+<li><strong>Tier 3</strong>: Local ISPs that serve consumers</li>
+</ul>
+<p>When users complain about slow loading, it’s often their ISP, not your app. This hierarchy affects how you think about hosting locations and performance expectations.</p>
+</section>
+<section id="data-centers-the-cloud" class="level3">
+<h3 class="anchored" data-anchor-id="data-centers-the-cloud">Data Centers &amp; The Cloud</h3>
+<ul>
+<li><strong>Massive server farms</strong> around the world</li>
+<li><strong>Content Delivery Networks (CDNs)</strong> — bring content closer to users</li>
+<li><strong>Edge computing</strong> — processing data closer to where it’s generated</li>
+</ul>
+<p>Modern apps distribute globally through CDNs and multiple regions. If AWS US-East goes down (and it does), your European users keep working. AI processing at the edge means lower latency for real-time features.</p>
+</section>
+</section>
+<section id="essential-protocols-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="essential-protocols-technologies">Essential Protocols &amp; Technologies</h2>
+<section id="dns-domain-name-system" class="level3">
+<h3 class="anchored" data-anchor-id="dns-domain-name-system">DNS (Domain Name System)</h3>
+<ul>
+<li><strong>What it does</strong>: Translates <code>google.com</code> → <code>142.250.190.78</code></li>
+<li><strong>Why it matters</strong>: Humans remember names, computers need numbers</li>
+<li><strong>How it works</strong>: Hierarchical system of DNS servers worldwide</li>
+</ul>
+<p>DNS is often the invisible bottleneck. Slow DNS makes your app feel slow even when your servers are blazing fast. Smart founders use multiple DNS providers and aggressive caching.</p>
+</section>
+<section id="ip-addresses-routing" class="level3">
+<h3 class="anchored" data-anchor-id="ip-addresses-routing">IP Addresses &amp; Routing</h3>
+<ul>
+<li><strong>IPv4</strong>: <code>192.168.1.1</code> (we’re running out of these)</li>
+<li><strong>IPv6</strong>: <code>2001:0db8:85a3::8a2e:0370:7334</code> (the inevitable future)</li>
+<li><strong>Routing</strong>: How data finds the best path across networks</li>
+</ul>
+<p>The IPv4 shortage means higher hosting costs and eventual IPv6 migration. Geographic routing lets you serve users from the closest servers.</p>
+</section>
+<section id="tcpip-stack" class="level3">
+<h3 class="anchored" data-anchor-id="tcpip-stack">TCP/IP Stack</h3>
+<ul>
+<li><strong>Application Layer</strong>: HTTP, HTTPS, FTP, SMTP — your APIs live here</li>
+<li><strong>Transport Layer</strong>: TCP (reliable) vs UDP (fast)</li>
+<li><strong>Internet Layer</strong>: IP routing and addressing</li>
+<li><strong>Physical Layer</strong>: Actual cables and wireless signals</li>
+</ul>
+<p>HTTPS is no longer optional — it’s required for user trust, SEO, and modern browser features. Choose TCP for payments and critical data, UDP for gaming and real-time features where speed beats reliability.</p>
+</section>
+</section>
+<section id="watch-this-video-for-the-big-picture" class="level2">
+<h2 class="anchored" data-anchor-id="watch-this-video-for-the-big-picture"><strong><em>Watch this video for the big picture:</em></strong></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sfzo4xm5eX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</section>
+<section id="step-by-step-what-happens-when-you-visit-a-website" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-what-happens-when-you-visit-a-website"><strong>Step-by-step: What happens when you visit a website</strong></h2>
+<section id="the-journey-of-a-web-request" class="level3">
+<h3 class="anchored" data-anchor-id="the-journey-of-a-web-request">The Journey of a Web Request</h3>
+<ul>
+<li><strong>You type <code>google.com</code></strong> into your browser</li>
+<li><strong>DNS lookup</strong>: Your computer asks “What’s the IP address for google.com?”
+<ul>
+<li>Checks local cache first</li>
+<li>Asks your ISP’s DNS server</li>
+<li>May query root servers, then .com servers, then Google’s servers</li>
+</ul></li>
+<li><strong>DNS response</strong>: Returns something like <code>142.250.190.78</code></li>
+<li><strong>TCP handshake</strong>: Your computer establishes a reliable connection
+<ul>
+<li>SYN: “Can we talk?”</li>
+<li>SYN-ACK: “Yes, let’s talk”</li>
+<li>ACK: “Great, let’s start”</li>
+</ul></li>
+<li><strong>HTTP request</strong>: Your browser sends a request <code>http  GET / HTTP/1.1  Host: google.com  User-Agent: Mozilla/5.0...</code></li>
+<li><strong>Server processing</strong>: Google’s server processes your request</li>
+<li><strong>HTTP response</strong>: Server sends back HTML, CSS, JavaScript</li>
+<li><strong>Browser rendering</strong>: Your browser assembles and displays the page</li>
+<li><strong>Additional requests</strong>: Browser fetches images, stylesheets, scripts</li>
+</ul>
+</section>
+<section id="why-this-matters-for-developers" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-for-developers">Why This Matters for Developers</h3>
+<p>Understanding this flow helps you: - <strong>Debug performance issues</strong> — where are the bottlenecks? - <strong>Optimize loading times</strong> — reduce DNS lookups, use CDNs - <strong>Handle errors gracefully</strong> — network timeouts, DNS failures - <strong>Design better APIs</strong> — minimize round trips, cache effectively</p>
+</section>
+</section>
+<section id="the-modern-internet-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="the-modern-internet-architecture">The Modern Internet Architecture</h2>
+<section id="content-delivery-networks-cdns" class="level3">
+<h3 class="anchored" data-anchor-id="content-delivery-networks-cdns">Content Delivery Networks (CDNs)</h3>
+<p>Instead of everyone hitting one server, CDNs distribute content globally:</p>
+<pre><code>User in Tokyo → Tokyo CDN server (fast!)
+User in London → London CDN server (fast!)
+User in NYC → NYC CDN server (fast!)</code></pre>
+<p>A user in Australia waiting 2 seconds for your US server vs.&nbsp;0.2 seconds for a Sydney CDN server — that 10x difference shows up in conversion rates.</p>
+<p>Popular CDNs: Cloudflare (free tier), AWS CloudFront, Google Cloud CDN</p>
+</section>
+<section id="load-balancers" class="level3">
+<h3 class="anchored" data-anchor-id="load-balancers">Load Balancers</h3>
+<p>Distribute traffic across multiple servers: - <strong>Round robin</strong>: Request 1 → Server A, Request 2 → Server B - <strong>Least connections</strong>: Send to server with fewest active connections - <strong>Geographic</strong>: Route based on user location</p>
+<p>When one server crashes, load balancers route to healthy ones. When traffic spikes, they distribute the load. Essential for anything beyond a side project.</p>
+</section>
+<section id="microservices-apis" class="level3">
+<h3 class="anchored" data-anchor-id="microservices-apis">Microservices &amp; APIs</h3>
+<p>Modern apps aren’t monoliths — they’re collections of services:</p>
+<pre><code>Frontend App → Authentication API
+            → User Profile API  
+            → Payment API
+            → Notification API</code></pre>
+<p>This architecture lets you scale what matters, gives teams independence, and makes debugging easier. Problem with payments? Check the payment service logs, not the entire application.</p>
+<hr>
+</section>
+</section>
+<section id="what-an-api-is-and-why-youll-use-them-constantly" class="level1">
+<h1><strong>What an API Is (and Why You’ll Use Them Constantly)</strong></h1>
+<p><strong>Watch this video first:</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ByGJQzlzxQg" title="What is an API (in 5 Minutes)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<section id="api-in-plain-english" class="level2">
+<h2 class="anchored" data-anchor-id="api-in-plain-english">API in plain English</h2>
+<p>API = Application Programming Interface<br>
+It’s a set of rules for how software talks to other software.</p>
+<p><strong>Restaurant analogy:</strong><br>
+- The API is the waiter<br>
+- Your app is the customer<br>
+- The kitchen is the server<br>
+- The menu is what’s available via the API</p>
+<p>Your app sends a request → API delivers it → response comes back.</p>
+<p>Instead of building a payment processor from scratch, you use Stripe’s API. Instead of training your own AI model, you call OpenAI’s API. APIs let you focus on what makes your product unique while leveraging existing solutions for everything else.</p>
+<hr>
+</section>
+</section>
+<section id="api-keys-your-digital-passport" class="level1">
+<h1>API Keys — Your Digital Passport</h1>
+<p>An <strong>API key</strong> is like a password for your app when it talks to another service.</p>
+<section id="when-youll-need-api-keys" class="level2">
+<h2 class="anchored" data-anchor-id="when-youll-need-api-keys">When you’ll need API keys</h2>
+<ul>
+<li><strong>OpenAI</strong> — for AI features</li>
+<li><strong>Zapier workflows</strong> — for automation<br>
+</li>
+<li><strong>Frontend to backend</strong> — your app’s internal communication</li>
+<li><strong>Stripe</strong> — for payments</li>
+<li><strong>SendGrid</strong> — for emails</li>
+<li><strong>Analytics services</strong> — for tracking</li>
+</ul>
+<p>Most apps end up with 10+ API keys pretty quickly. Each one represents functionality you’re getting instantly instead of building over months.</p>
+</section>
+<section id="example-request-header" class="level2">
+<h2 class="anchored" data-anchor-id="example-request-header">Example request header</h2>
+<pre class="http"><code>Authorization: Bearer sk-abc123</code></pre>
+</section>
+<section id="api-authentication-methods" class="level2">
+<h2 class="anchored" data-anchor-id="api-authentication-methods">API Authentication Methods</h2>
+<p>Beyond API keys, you’ll encounter these authentication methods:</p>
+<ul>
+<li><strong>OAuth 2.0</strong> — for accessing user data from platforms like Google, GitHub, Twitter</li>
+<li><strong>JWT (JSON Web Tokens)</strong> — for stateless authentication in your own APIs</li>
+<li><strong>Bearer tokens</strong> — commonly used with AI services</li>
+</ul>
+</section>
+<section id="api-security-basics" class="level2">
+<h2 class="anchored" data-anchor-id="api-security-basics">API Security Basics</h2>
+<ul>
+<li><strong>Never hardcode API keys</strong> — use environment variables</li>
+<li><strong>Rotate keys regularly</strong> — especially if compromised</li>
+<li><strong>Use HTTPS always</strong> — never send keys over HTTP</li>
+<li><strong>Respect rate limits</strong> — avoid getting blocked</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="connecting-everything-together" class="level1">
+<h1>Connecting Everything Together</h1>
+<p>Let’s say your app does this:</p>
+<ul>
+<li>A user uploads a file<br>
+</li>
+<li>Your backend sends that file to OpenAI<br>
+</li>
+<li>OpenAI returns a summary<br>
+</li>
+<li>You store the summary in your database<br>
+</li>
+<li>Zapier sends the summary to Slack or Google Sheets</li>
+</ul>
+<p>All of that happens through <strong>APIs</strong> and <strong>API keys</strong>.</p>
+<hr>
+<section id="common-tools-youll-use" class="level2">
+<h2 class="anchored" data-anchor-id="common-tools-youll-use">Common tools you’ll use:</h2>
+<section id="ai-ml-apis" class="level3">
+<h3 class="anchored" data-anchor-id="ai-ml-apis">AI &amp; ML APIs</h3>
+<ul>
+<li><strong>OpenAI API</strong> — GPT models for text generation, summarization, chat</li>
+<li><strong>Anthropic Claude</strong> — advanced reasoning and analysis</li>
+<li><strong>Hugging Face</strong> — open-source models and transformers</li>
+<li><strong>Google Cloud AI</strong> — vision, translation, speech recognition</li>
+</ul>
+</section>
+<section id="automation-integration" class="level3">
+<h3 class="anchored" data-anchor-id="automation-integration">Automation &amp; Integration</h3>
+<ul>
+<li><strong>Zapier</strong> — to automate tasks (like sending data to Slack or Sheets)<br>
+</li>
+<li><strong>Webhooks</strong> — real-time notifications when events happen</li>
+</ul>
+</section>
+<section id="data-backend" class="level3">
+<h3 class="anchored" data-anchor-id="data-backend">Data &amp; Backend</h3>
+<ul>
+<li><strong>Firebase / Supabase</strong> — to store and manage your app’s data<br>
+</li>
+<li><strong>Your own custom API</strong> — to connect your app’s frontend to its backend logic</li>
+</ul>
+</section>
+<section id="payments-business" class="level3">
+<h3 class="anchored" data-anchor-id="payments-business">Payments &amp; Business</h3>
+<ul>
+<li><strong>Stripe API</strong> — to handle payments, billing, and subscriptions</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="real-startup-use-cases-your-actual-day-to-day" class="level1">
+<h1>Real Startup Use Cases (Your Actual Day-to-Day)</h1>
+<p>Here’s what you’ll actually be doing with APIs as a founder:</p>
+<ul>
+<li><strong>Generate content with OpenAI</strong><br>
+Blog posts, user summaries, chatbot replies, product descriptions</li>
+</ul>
+<section id="whats-a-chatgpt-wrapper" class="level2">
+<h2 class="anchored" data-anchor-id="whats-a-chatgpt-wrapper">What’s a “ChatGPT Wrapper”?</h2>
+<p>You’ll hear this term a lot in startup circles. A <strong>ChatGPT wrapper</strong> is essentially an app that:</p>
+<ul>
+<li>Takes user input through a custom interface</li>
+<li>Sends that input to OpenAI’s API behind the scenes</li>
+<li>Formats and presents the response in a specific way</li>
+<li>Often adds specialized prompts, context, or processing</li>
+</ul>
+<p><strong>Examples of successful wrappers:</strong> - <strong>Copy.ai</strong> — marketing copy generation - <strong>Jasper</strong> — content writing for businesses<br>
+- <strong>Notion AI</strong> — writing assistance within Notion - <strong>GitHub Copilot</strong> — code completion in your editor</p>
+<p><strong>Why wrappers work:</strong> - <strong>Specialized UI</strong> — better than ChatGPT’s generic interface for specific tasks - <strong>Custom prompts</strong> — pre-engineered for particular use cases - <strong>Integration</strong> — built into existing workflows - <strong>Branding</strong> — your product, not OpenAI’s</p>
+<p><strong>The business model:</strong> You pay OpenAI ~$0.002 per 1K tokens, charge users $20-50/month for unlimited access to your specialized interface.</p>
+<ul>
+<li><p><strong>Automate workflows with Zapier</strong><br>
+When new users sign up, auto-send welcome email + add to CRM + notify team in Slack</p></li>
+<li><p><strong>Process payments with Stripe</strong><br>
+Charge credit cards, manage subscriptions, send receipts, handle refunds</p></li>
+<li><p><strong>Build a backend API for your app</strong><br>
+Let your frontend make requests like <code>GET /tasks</code> or <code>POST /user</code></p></li>
+<li><p><strong>Track everything with analytics APIs</strong><br>
+User behavior, conversion rates, feature usage</p></li>
+<li><p><strong>Send emails with SendGrid/Mailgun</strong><br>
+Welcome sequences, password resets, marketing campaigns</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="api-design-best-practices" class="level1">
+<h1>API Design &amp; Best Practices</h1>
+<section id="restful-api-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="restful-api-conventions">RESTful API Conventions</h2>
+<p>When building your own APIs, follow these patterns:</p>
+<ul>
+<li><strong>GET</strong> <code>/users</code> — retrieve all users</li>
+<li><strong>GET</strong> <code>/users/123</code> — retrieve specific user</li>
+<li><strong>POST</strong> <code>/users</code> — create new user</li>
+<li><strong>PUT</strong> <code>/users/123</code> — update user</li>
+<li><strong>DELETE</strong> <code>/users/123</code> — delete user</li>
+</ul>
+</section>
+<section id="error-handling" class="level2">
+<h2 class="anchored" data-anchor-id="error-handling">Error Handling</h2>
+<p>Your API should return meaningful error codes:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"error"</span><span class="fu">:</span> <span class="st">"User not found"</span><span class="fu">,</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"code"</span><span class="fu">:</span> <span class="dv">404</span><span class="fu">,</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"message"</span><span class="fu">:</span> <span class="st">"No user exists with ID 123"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="api-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="api-documentation">API Documentation</h2>
+<p>Always document your APIs using tools like: - <strong>Swagger/OpenAPI</strong> — interactive documentation - <strong>Postman Collections</strong> — shareable API examples - <strong>ReadMe</strong> — beautiful documentation sites</p>
+</section>
+<section id="security-privacy-best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="security-privacy-best-practices">Security &amp; Privacy Best Practices</h2>
+<section id="secret-key-management" class="level3">
+<h3 class="anchored" data-anchor-id="secret-key-management">Secret Key Management</h3>
+<ul>
+<li><strong>Never hardcode API keys</strong> — use environment variables (.env files)</li>
+<li><strong>Rotate keys regularly</strong> — especially if compromised</li>
+<li><strong>Use different keys for different environments</strong> — dev, staging, production</li>
+<li><strong>Store secrets securely</strong> — use services like AWS Secrets Manager, HashiCorp Vault</li>
+<li><strong>Add .env to .gitignore</strong> — never commit secrets to version control</li>
+</ul>
+</section>
+<section id="privacy-data-protection" class="level3">
+<h3 class="anchored" data-anchor-id="privacy-data-protection">Privacy &amp; Data Protection</h3>
+<ul>
+<li><strong>Minimize data collection</strong> — only request what you actually need</li>
+<li><strong>Encrypt data in transit</strong> — always use HTTPS/TLS</li>
+<li><strong>Encrypt sensitive data at rest</strong> — especially user data, payment info</li>
+<li><strong>Implement proper access controls</strong> — not everyone needs admin API keys</li>
+<li><strong>Log carefully</strong> — never log API keys, passwords, or sensitive user data</li>
+<li><strong>GDPR/CCPA compliance</strong> — understand data retention and deletion requirements</li>
+</ul>
+</section>
+<section id="api-communication-security" class="level3">
+<h3 class="anchored" data-anchor-id="api-communication-security">API Communication Security</h3>
+<ul>
+<li><strong>Use HTTPS always</strong> — never send keys over HTTP</li>
+<li><strong>Validate all inputs</strong> — prevent injection attacks</li>
+<li><strong>Implement rate limiting</strong> — protect against abuse and DDoS</li>
+<li><strong>Use API versioning</strong> — maintain backward compatibility</li>
+<li><strong>Monitor API usage</strong> — detect unusual patterns or potential breaches</li>
+</ul>
+</section>
+<section id="when-things-go-wrong" class="level3">
+<h3 class="anchored" data-anchor-id="when-things-go-wrong">When Things Go Wrong</h3>
+<ul>
+<li><strong>Have an incident response plan</strong> — what to do if keys are compromised</li>
+<li><strong>Monitor for leaked secrets</strong> — tools like GitGuardian can scan your repos</li>
+<li><strong>Audit API access regularly</strong> — who has access to what keys</li>
+<li><strong>Document your security practices</strong> — for compliance and team onboarding</li>
+</ul>
+<p>A leaked Stripe key means unauthorized charges. A compromised OpenAI key means someone burns through your AI budget. Poor privacy practices can lead to regulatory fines and lost user trust. Environment variable mistakes have cost founders thousands overnight.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="hands-on-exercise-build-something-real" class="level1">
+<h1>Hands-On Exercise (Build Something Real)</h1>
+<section id="build-your-first-ai-powered-api" class="level2">
+<h2 class="anchored" data-anchor-id="build-your-first-ai-powered-api">Build Your First AI-Powered API</h2>
+<p><strong>Goal:</strong> Create a simple API that summarizes text using OpenAI</p>
+<p><strong>Why this exercise matters:</strong> This is the exact pattern you’ll use to build AI features into your product. Master this, and you can add AI to anything.</p>
+<section id="step-1-set-up-your-environment" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-set-up-your-environment">Step 1: Set up your environment</h3>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> init <span class="at">-y</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install express openai dotenv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="step-2-create-your-api" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-create-your-api">Step 2: Create your API</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">// server.js</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> express <span class="op">=</span> <span class="pp">require</span>(<span class="st">'express'</span>)<span class="op">;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> OpenAI <span class="op">=</span> <span class="pp">require</span>(<span class="st">'openai'</span>)<span class="op">;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="pp">require</span>(<span class="st">'dotenv'</span>)<span class="op">.</span><span class="fu">config</span>()<span class="op">;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> app <span class="op">=</span> <span class="fu">express</span>()<span class="op">;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>app<span class="op">.</span><span class="fu">use</span>(express<span class="op">.</span><span class="fu">json</span>())<span class="op">;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> openai <span class="op">=</span> <span class="kw">new</span> <span class="fu">OpenAI</span>({</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">apiKey</span><span class="op">:</span> <span class="bu">process</span><span class="op">.</span><span class="at">env</span><span class="op">.</span><span class="at">OPENAI_API_KEY</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>app<span class="op">.</span><span class="fu">post</span>(<span class="st">'/summarize'</span><span class="op">,</span> <span class="kw">async</span> (req<span class="op">,</span> res) <span class="kw">=&gt;</span> {</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">try</span> {</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> { text } <span class="op">=</span> req<span class="op">.</span><span class="at">body</span><span class="op">;</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> completion <span class="op">=</span> <span class="cf">await</span> openai<span class="op">.</span><span class="at">chat</span><span class="op">.</span><span class="at">completions</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>      <span class="dt">model</span><span class="op">:</span> <span class="st">"gpt-3.5-turbo"</span><span class="op">,</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>      <span class="dt">messages</span><span class="op">:</span> [</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>        {</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>          <span class="dt">role</span><span class="op">:</span> <span class="st">"user"</span><span class="op">,</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>          <span class="dt">content</span><span class="op">:</span> <span class="vs">`Summarize this text: </span><span class="sc">${</span>text<span class="sc">}</span><span class="vs">`</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>    })<span class="op">;</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    res<span class="op">.</span><span class="fu">json</span>({</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>      <span class="dt">summary</span><span class="op">:</span> completion<span class="op">.</span><span class="at">choices</span>[<span class="dv">0</span>]<span class="op">.</span><span class="at">message</span><span class="op">.</span><span class="at">content</span></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    })<span class="op">;</span></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">catch</span> (error) {</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    res<span class="op">.</span><span class="fu">status</span>(<span class="dv">500</span>)<span class="op">.</span><span class="fu">json</span>({</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>      <span class="dt">error</span><span class="op">:</span> <span class="st">"Failed to summarize text"</span><span class="op">,</span></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>      <span class="dt">message</span><span class="op">:</span> error<span class="op">.</span><span class="at">message</span></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    })<span class="op">;</span></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>app<span class="op">.</span><span class="fu">listen</span>(<span class="dv">3000</span><span class="op">,</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">'API running on port 3000'</span>)<span class="op">;</span></span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="step-3-test-your-api" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-test-your-api">Step 3: Test your API</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-X</span> POST http://localhost:3000/summarize <span class="dt">\</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">-H</span> <span class="st">"Content-Type: application/json"</span> <span class="dt">\</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-d</span> <span class="st">'{"text": "Your long text here..."}'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+</section>
+<section id="cost-scale-considerations" class="level1">
+<h1>Cost &amp; Scale Considerations</h1>
+<section id="api-pricing-models" class="level2">
+<h2 class="anchored" data-anchor-id="api-pricing-models">API Pricing Models</h2>
+<ul>
+<li><strong>Per request</strong> — OpenAI charges per token</li>
+<li><strong>Monthly subscription</strong> — Zapier has monthly limits</li>
+<li><strong>Usage tiers</strong> — Stripe charges percentage + fixed fee</li>
+</ul>
+</section>
+<section id="when-to-build-vs.-buy" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-build-vs.-buy">When to Build vs.&nbsp;Buy</h2>
+<p><strong>Build your own API when:</strong> - You need custom business logic - You want full control over data - Third-party options are too expensive</p>
+<p><strong>Use third-party APIs when:</strong> - The functionality already exists - It’s not core to your business - You need to move fast</p>
+<hr>
+</section>
+</section>
+<section id="modern-api-architectures" class="level1">
+<h1>Modern API Architectures</h1>
+<section id="rest-vs.-graphql" class="level2">
+<h2 class="anchored" data-anchor-id="rest-vs.-graphql">REST vs.&nbsp;GraphQL</h2>
+<p><strong>REST</strong> (what we’ve covered): - Simple and widely supported - Good for CRUD operations - Easy to cache</p>
+<p><strong>GraphQL</strong>: - Request exactly the data you need - Single endpoint for all operations - Better for complex, nested data</p>
+</section>
+<section id="webhooks-real-time-apis" class="level2">
+<h2 class="anchored" data-anchor-id="webhooks-real-time-apis">Webhooks &amp; Real-time APIs</h2>
+<p>Instead of constantly asking “is there new data?”, webhooks push data to you:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Stripe webhook example</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>app<span class="op">.</span><span class="fu">post</span>(<span class="st">'/webhook/stripe'</span><span class="op">,</span> (req<span class="op">,</span> res) <span class="kw">=&gt;</span> {</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> <span class="bu">event</span> <span class="op">=</span> req<span class="op">.</span><span class="at">body</span><span class="op">;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="bu">event</span><span class="op">.</span><span class="at">type</span> <span class="op">===</span> <span class="st">'payment_intent.succeeded'</span>) {</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">// User paid! Update your database</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">'Payment received:'</span><span class="op">,</span> <span class="bu">event</span><span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">object</span>)<span class="op">;</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  res<span class="op">.</span><span class="fu">json</span>({<span class="dt">received</span><span class="op">:</span> <span class="kw">true</span>})<span class="op">;</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why this matters:</h2>
+<p>APIs let you scale your product, connect tools, and automate workflows — without reinventing the wheel.</p>
+<p>Using APIs well means: - <strong>Faster development</strong> — don’t rebuild what exists - <strong>Cleaner architecture</strong> — separate concerns properly - <strong>Lower engineering costs</strong> — leverage existing infrastructure - <strong>Better user experience</strong> — integrate best-in-class services</p>
+</section>
+<section id="key-takeaways-for-founders" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways-for-founders">Key Takeaways for Founders</h2>
+<ul>
+<li><strong>Start with third-party APIs</strong> — build your MVP faster</li>
+<li><strong>Plan for scale</strong> — understand pricing and rate limits</li>
+<li><strong>Document everything</strong> — your future self will thank you</li>
+<li><strong>Security first</strong> — protect your keys and user data</li>
+<li><strong>Monitor and optimize</strong> — track API costs and performance</li>
+</ul>
+<p>These are mission-critical skills for anyone building or launching a tech product.</p>
 
 
 </section>
@@ -1062,8 +1611,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./08-software-design-principles.html" class="pagination-link" aria-label="SWE Eng. &amp; Design Principles">
-        <span class="nav-page-text"><span class="chapter-title">SWE Eng. &amp; Design Principles</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./08-software-engineering.html" class="pagination-link" aria-label="SWE Principles">
+        <span class="nav-page-text"><span class="chapter-title">SWE Principles</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,3 +1,11 @@
 ---
 title: "LLMs & Prompting"
 ---
+
+## Large Language Models and GenAI cont.
+
+### Embeddings
+
+## Prompt Engineering
+
+### Programatic Dynamic Prompting
