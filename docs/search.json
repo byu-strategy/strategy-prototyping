@@ -345,7 +345,7 @@
     "href": "04-value-prop-design.html#design-and-protyping-tools",
     "title": "Value Proposition & Design",
     "section": "",
-    "text": "Figma\n\n\nReplit, Bolt, V0, Lovable",
+    "text": "Figma\n\n\n\nReplit, Bolt, V0, Lovable",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition & Design</span>"
@@ -851,7 +851,7 @@
     "href": "09-ai-dev-platforms.html",
     "title": "AI Dev Tools",
     "section": "",
-    "text": "Cursor & Windsurf",
+    "text": "Cursor and Windsurf",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"
@@ -862,7 +862,7 @@
     "href": "09-ai-dev-platforms.html#claude-code",
     "title": "AI Dev Tools",
     "section": "Claude Code",
-    "text": "Claude Code",
+    "text": "Claude Code\n\nClaude Code: A Highly Agentic Coding Assistant",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"

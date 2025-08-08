@@ -6,8 +6,10 @@ title: "Value Proposition & Design"
 
 ### Figma
 
+{{< video https://www.youtube.com/embed/9Y2Yz-ir3JM >}}
+
 ### Replit, Bolt, V0, Lovable
 
+{{< video https://www.youtube.com/embed/Ojk51mNOUow >}}
+
 ## Customer Feedback and Rapid Iteration
-
-
