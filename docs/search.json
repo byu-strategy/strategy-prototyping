@@ -213,7 +213,7 @@
     "href": "01-pm-ai-era-llms.html#ai-product-management",
     "title": "AI Product Management",
     "section": "AI Product Management",
-    "text": "AI Product Management\nAI Will Save the World?",
+    "text": "AI Product Management\n\n\n\nAI Product Management Learning Roadmap from Paweł Huryn\n\n\nAI Will Save the World(?)",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>AI Product Management</span>"
@@ -224,7 +224,7 @@
     "href": "01-pm-ai-era-llms.html#ai-and-machine-learning",
     "title": "AI Product Management",
     "section": "AI and Machine Learning",
-    "text": "AI and Machine Learning",
+    "text": "AI and Machine Learning\n ### Supervised Learning\n\nGradient Descent",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>AI Product Management</span>"
@@ -235,18 +235,18 @@
     "href": "02-llms-prompt-engineering.html",
     "title": "LLMs & Prompting",
     "section": "",
-    "text": "Large Language Models and GenAI cont.",
+    "text": "Large Language Models and GenAI",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>LLMs & Prompting</span>"
     ]
   },
   {
-    "objectID": "02-llms-prompt-engineering.html#large-language-models-and-genai-cont.",
-    "href": "02-llms-prompt-engineering.html#large-language-models-and-genai-cont.",
+    "objectID": "02-llms-prompt-engineering.html#large-language-models-and-genai",
+    "href": "02-llms-prompt-engineering.html#large-language-models-and-genai",
     "title": "LLMs & Prompting",
     "section": "",
-    "text": "Embeddings",
+    "text": "Embeddings\n\n\nNeural Networks\n\n\nFoundation Models\n\n\nModel Fine-Tuning\n\n\nRetrieval Augmented Generation",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>LLMs & Prompting</span>"
@@ -257,7 +257,7 @@
     "href": "02-llms-prompt-engineering.html#prompt-engineering",
     "title": "LLMs & Prompting",
     "section": "Prompt Engineering",
-    "text": "Prompt Engineering\n\nProgramatic Dynamic Prompting",
+    "text": "Prompt Engineering\n\nAnatomy of Various Prompt Structures\n\n\nProgramatic and Dynamic Prompting",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>LLMs & Prompting</span>"
@@ -268,29 +268,62 @@
     "href": "03-product-innovation.html",
     "title": "Product Innovation",
     "section": "",
-    "text": "Jobs to be done",
+    "text": "The Lean Product Process",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
     ]
   },
   {
-    "objectID": "03-product-innovation.html#highlights-from-expeditionary-innovation",
-    "href": "03-product-innovation.html#highlights-from-expeditionary-innovation",
+    "objectID": "03-product-innovation.html#target-customer",
+    "href": "03-product-innovation.html#target-customer",
     "title": "Product Innovation",
-    "section": "Highlights from Expeditionary Innovation",
-    "text": "Highlights from Expeditionary Innovation",
+    "section": "Target Customer",
+    "text": "Target Customer\n\nUser personas",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
     ]
   },
   {
-    "objectID": "03-product-innovation.html#user-personas",
-    "href": "03-product-innovation.html#user-personas",
+    "objectID": "03-product-innovation.html#underserved-needs",
+    "href": "03-product-innovation.html#underserved-needs",
     "title": "Product Innovation",
-    "section": "User personas",
-    "text": "User personas",
+    "section": "Underserved Needs",
+    "text": "Underserved Needs\n\nImportance vs Satisfaction\n\n\nJobs to be done",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
+    ]
+  },
+  {
+    "objectID": "03-product-innovation.html#value-proposition",
+    "href": "03-product-innovation.html#value-proposition",
+    "title": "Product Innovation",
+    "section": "Value Proposition",
+    "text": "Value Proposition",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
+    ]
+  },
+  {
+    "objectID": "03-product-innovation.html#feature-set",
+    "href": "03-product-innovation.html#feature-set",
+    "title": "Product Innovation",
+    "section": "Feature Set",
+    "text": "Feature Set\n\nUser Stories",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
+    ]
+  },
+  {
+    "objectID": "03-product-innovation.html#user-experience",
+    "href": "03-product-innovation.html#user-experience",
+    "title": "Product Innovation",
+    "section": "User Experience",
+    "text": "User Experience\n\nPrinciples of UX Design",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Product Innovation</span>"
@@ -299,23 +332,34 @@
   {
     "objectID": "04-value-prop-design.html",
     "href": "04-value-prop-design.html",
-    "title": "Value Proposition & Design",
+    "title": "Value Proposition Refinement & Design",
     "section": "",
-    "text": "Protyping Tools",
+    "text": "Design and Protyping Tools",
     "crumbs": [
       "Topics",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition & Design</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition Refinement & Design</span>"
     ]
   },
   {
-    "objectID": "04-value-prop-design.html#protyping-tools",
-    "href": "04-value-prop-design.html#protyping-tools",
-    "title": "Value Proposition & Design",
+    "objectID": "04-value-prop-design.html#design-and-protyping-tools",
+    "href": "04-value-prop-design.html#design-and-protyping-tools",
+    "title": "Value Proposition Refinement & Design",
     "section": "",
-    "text": "Figma\n\n\nReplit",
+    "text": "Figma\n\n\nReplit, Bolt, V0, Lovable",
     "crumbs": [
       "Topics",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition & Design</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition Refinement & Design</span>"
+    ]
+  },
+  {
+    "objectID": "04-value-prop-design.html#customer-feedback-and-rapid-iteration",
+    "href": "04-value-prop-design.html#customer-feedback-and-rapid-iteration",
+    "title": "Value Proposition Refinement & Design",
+    "section": "Customer Feedback and Rapid Iteration",
+    "text": "Customer Feedback and Rapid Iteration",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Value Proposition Refinement & Design</span>"
     ]
   },
   {
@@ -807,7 +851,7 @@
     "href": "09-ai-dev-platforms.html",
     "title": "AI Dev Tools",
     "section": "",
-    "text": "Cursor Windsurf",
+    "text": "Cursor & Windsurf",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"

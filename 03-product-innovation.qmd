@@ -2,9 +2,36 @@
 title: "Product Innovation"
 ---
 
+## The Lean Product Process
 
-## Jobs to be done
+![](images/pm-fit-pyramid.webp)
 
-## Highlights from Expeditionary Innovation
+# Problem Space
 
-## User personas
+## Target Customer
+
+### User personas
+
+## Underserved Needs
+
+### Importance vs Satisfaction
+
+### Jobs to be done
+
+## Value Proposition
+
+# Solution Space
+
+## Feature Set
+
+### User Stories
+
+## User Experience
+
+### Principles of UX Design
+
+
+
+
+
+

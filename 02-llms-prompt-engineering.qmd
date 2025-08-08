@@ -2,10 +2,20 @@
 title: "LLMs & Prompting"
 ---
 
-## Large Language Models and GenAI cont.
+## Large Language Models and GenAI
 
 ### Embeddings
 
+### Neural Networks
+
+### Foundation Models
+
+### Model Fine-Tuning
+
+### Retrieval Augmented Generation
+
 ## Prompt Engineering
 
-### Programatic Dynamic Prompting
+### Anatomy of Various Prompt Structures
+
+### Programatic and Dynamic Prompting
