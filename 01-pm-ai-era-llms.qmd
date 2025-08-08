@@ -17,6 +17,7 @@ Software ate the world.
 ## AI and Machine Learning
 
 ![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/ai-ml-map.png)
+
 ### Supervised Learning
 
 ### Gradient Descent
