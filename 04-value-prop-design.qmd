@@ -1,5 +1,5 @@
 ---
-title: "Value Proposition Refinement & Design"
+title: "Value Proposition & Design"
 ---
 
 ## Design and Protyping Tools
