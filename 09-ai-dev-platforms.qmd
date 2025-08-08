@@ -2,12 +2,18 @@
 title: "AI Dev Tools"
 ---
 
-## Cursor and Windsurf
-
-{{< video https://www.youtube.com/embed/hDq8TdBWsWA >}}
-
 ## Claude Code
 
 {{< video https://www.youtube.com/embed/GqjvaBUk3Tc >}}
 
 [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
+
+## Windsurf
+
+{{< video https://www.youtube.com/embed/Ixnra7LETIA >}}
+
+## Cursor 
+
+{{< video https://www.youtube.com/embed/3289vhOUdKA >}}
+
+

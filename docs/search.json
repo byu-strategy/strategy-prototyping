@@ -851,18 +851,29 @@
     "href": "09-ai-dev-platforms.html",
     "title": "AI Dev Tools",
     "section": "",
-    "text": "Cursor and Windsurf",
+    "text": "Claude Code\nClaude Code: A Highly Agentic Coding Assistant",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"
     ]
   },
   {
-    "objectID": "09-ai-dev-platforms.html#claude-code",
-    "href": "09-ai-dev-platforms.html#claude-code",
+    "objectID": "09-ai-dev-platforms.html#windsurf",
+    "href": "09-ai-dev-platforms.html#windsurf",
     "title": "AI Dev Tools",
-    "section": "Claude Code",
-    "text": "Claude Code\n\nClaude Code: A Highly Agentic Coding Assistant",
+    "section": "Windsurf",
+    "text": "Windsurf",
+    "crumbs": [
+      "Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"
+    ]
+  },
+  {
+    "objectID": "09-ai-dev-platforms.html#cursor",
+    "href": "09-ai-dev-platforms.html#cursor",
+    "title": "AI Dev Tools",
+    "section": "Cursor",
+    "text": "Cursor",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"
