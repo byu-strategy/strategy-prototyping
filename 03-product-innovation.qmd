@@ -4,31 +4,116 @@ title: "Product Innovation"
 
 ## The Lean Product Process
 
-![](images/pm-fit-pyramid.webp)
+The Lean Product Process is a repeatable framework for systematically developing products that customers love developed by Dan Olsen.
+
+It moves from deeply understanding customer needs (problem space) to iterating on solutions (solution space), always validating with customer feedback.
+
+![](images/lean-product-process.png)
 
 # Problem Space
 
 ## Target Customer
 
-### User personas
+Identify the specific segment of people who will benefit most from your product.  
+
+Not “everyone who might use it” — your *primary* audience you will optimize for first.
+
+### User Personas
+
+- Create 2–3 detailed fictional profiles representing your core customers.
+- Include:
+  - Demographics (age, job role, location)
+  - Behaviors (habits, buying channels, product usage patterns)
+  - Goals and motivations
+  - Pain points and frustrations
+- Use direct quotes from customer interviews when possible.
+
 
 ## Underserved Needs
 
-### Importance vs Satisfaction
+Determine what matters most to your target customers and where current solutions fail them.
 
-### Jobs to be done
+### Importance vs. Satisfaction
+
+- Plot needs on a 2x2:
+
+- **Importance** (how critical is it to the customer?)
+- **Satisfaction** (how well do current solutions address it?)
+- High importance + low satisfaction = **prime opportunity**.
+
+![Image source: The Lean Product Playbook by Dan Olsen](images/importance-satisfaction.png)
+
+### Jobs to Be Done
+
+- Frame needs as *jobs* customers are trying to accomplish.
+- Format:  
+  - When I’m **[situation]**, I want to **[motivation]**, so I can **[desired outcome]**.
+- Capture all:
+  - **Emotional jobs** (how they want to feel)
+  - **Social jobs** (how they want to be perceived)
+  - **Functional jobs** (what they want to get done)
+
+
+
+![Image source: Jeff Dyer, Innovators DNA](images/jobs-to-be-done1.png)
 
 ## Value Proposition
+
+Craft a clear statement that answers:
+
+1. **Who** the product is for  
+2. **What** it does for them  
+3. **Why** it’s better or different than alternatives  
+
+Keep it short (1–2 sentences) and customer-oriented.
+
+![Image source: Strategyzer](images/value-prop.png)
+
+### Customer Journey Map
+
+A customer journey map is a tool that shows the step-by-step experience a customer has with a product or experience.
+
+It can be useful because it helps you:
+
+- See the experience through the customer’s eyes.
+- Spot pain points and improvement opportunities.
+- Align your team around what really matters to customers.
+
+It’s a tool for designing a smoother, more valuable customer experience.
+
+![Image source: Heart of the Customer](images/journey-map.png)
 
 # Solution Space
 
 ## Feature Set
 
-### User Stories
+List the features that directly address underserved needs.
+
+- Rank features by **customer value** and **feasibility**.
+- Avoid “feature creep” — every feature must trace back to a validated need.
 
 ## User Experience
 
+Translate features into an intuitive, delightful, and friction-free customer journey.
+
 ### Principles of UX Design
+
+- **Clarity** – Every screen communicates its purpose instantly.
+- **Consistency** – Patterns, language, and visual design align across the product.
+- **Feedback** – Users get immediate, understandable responses to actions.
+- **Efficiency** – Reduce cognitive load and clicks for key tasks.
+- **Empathy** – Design flows from the user’s point of view, not the internal org chart.
+
+Dan Olsen’s iceberg reminds us that **great UX starts deep below the surface**.
+
+- **Conceptual Design** → Drives **Clarity**: a solid mental model ensures screens make sense instantly.
+- **Information Architecture** → Enables **Efficiency**: well-organized content reduces cognitive load.
+- **Interaction Design** → Supports **Consistency** and **Feedback**: familiar patterns and responsive flows guide users.
+- **Visual Design** → Reinforces **Empathy**: aesthetics reflect users’ needs and context.
+
+A polished UI alone can’t deliver on these principles, they must be built into every layer of the iceberg.
+
+![Image source: The Lean Product Playbook by Dan Olsen](images/ux-iceberg.png)
 
 
 

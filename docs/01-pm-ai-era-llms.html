@@ -165,12 +165,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Value Proposition &amp; Design</span></a>
+  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prototying and MVP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Mgmt w/Jira</span></a>
+  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,21 +285,41 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="history-of-product-management" class="level2">
 <h2 class="anchored" data-anchor-id="history-of-product-management">History of Product Management</h2>
-<p><a href="https://a16z.com/why-software-is-eating-the-world/">Software Is Eating the World</a></p>
-<p>Software ate the world.</p>
+<p>Product Management has evolved from its origins at HP in the 1940s into a key driver of innovation in tech. Early influences like the SCRUM Development Process and the Agile Manifesto reshaped how products are built, while programs like Google’s Associate Product Manager (APM) program and influential books standardized best practices. In recent years, PM has become one of the most sought-after careers and today the field is entering a new era with the rise of the AI Product Manager.</p>
+<p>As Marc Andreessen famously wrote in <a href="https://a16z.com/why-software-is-eating-the-world/">Software Is Eating the World</a>, software transformed every industry, and now, AI is poised to do the same. This marks the rise of the AI Product Manager.</p>
+<p>Marc now predicts that <a href="https://a16z.com/ai-will-save-the-world/">AI Will Save the World</a>, but this certaintly won’t happen automatically. We are living in a time when “Discoveries latent with such potent power, either for the blessing or the destruction of human beings as to make men’s responsibility in controlling them the most gigantic ever placed in human hands. … This age is fraught with limitless perils, as well as untold possibilities.”</p>
+<p>You have the incredibly exciting and challenging opportunity to harness AI to improve the world. This class will help prepare you to seize that opportunity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/pm-history.png" class="img-fluid figure-img"></p>
+<figcaption>Credits: Aakash Gupta</figcaption>
+</figure>
+</div>
 </section>
 <section id="ai-product-management" class="level2">
 <h2 class="anchored" data-anchor-id="ai-product-management">AI Product Management</h2>
+<p>AI Product Management is about creating products that either leverage or embed artificial intelligence to solve real problems for people. An AI product manager doesn’t build the AI models themselves, but they understand how AI works well enough to choose the right tools, guide the team, and make sure the product is useful, safe, and valuable.</p>
+<p>They work on things like:</p>
+<ul>
+<li>Understanding what AI can and can’t do.</li>
+<li>Figuring out the best way to use AI for a specific problem.</li>
+<li>Working with engineers, designers, and data scientists to build and test the product. Although AI itself is blending and blurring the boundaries between these traditional roles enabling Product Managers to do more than previously possible.</li>
+<li>Making sure the AI’s results are accurate and helpful.</li>
+</ul>
+<p>AI product managers connect AI technology to real-world needs so the product actually works for the people who use it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ai-pm-roadmap.jpeg" class="img-fluid figure-img"></p>
 <figcaption>AI Product Management Learning Roadmap from Paweł Huryn</figcaption>
 </figure>
 </div>
-<p><a href="https://a16z.com/ai-will-save-the-world/">AI Will Save the World(?)</a></p>
 </section>
 <section id="ai-and-machine-learning" class="level2">
 <h2 class="anchored" data-anchor-id="ai-and-machine-learning">AI and Machine Learning</h2>
+<p>You first need to understand something about how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.</p>
+<p>Machine Learning (ML) is a subset of AI that focuses on teaching computers to learn from data instead of following hard-coded instructions. In ML, we give the computer many examples (data) and let it find the patterns on its own. The more and better-quality data it sees, the better it gets at making predictions or generating useful outputs.</p>
+<p>Within machine learning, deep learning uses layers of artificial “neurons” to handle extremely complex patterns—this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.</p>
+<p>Even if you won’t be building models yourself, understanding these basic concepts will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ai-ml-map.png" class="img-fluid figure-img"></p>
@@ -308,9 +328,26 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="supervised-learning" class="level3">
 <h3 class="anchored" data-anchor-id="supervised-learning">Supervised Learning</h3>
+<p>The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. A conceptual example of supervised learning is teaching someone to guess the next word in a sentence by giving them lots of examples with the right answers.</p>
+<p>For instance, imagine we train a model on sentences like:</p>
+<ul>
+<li>The cat sat on the <strong>mat</strong>.</li>
+<li>She went to the <strong>store</strong>.</li>
+<li>I like to eat <strong>pizza</strong>.</li>
+</ul>
+<p>In each case, the words before the blank are the <strong>input</strong>, and the correct missing word is the <strong>label</strong>. The model makes a guess, checks if it matches the label, and adjusts its internal weights to improve next time.</p>
+<p>After seeing millions of examples, the model learns patterns in how words are used so it can predict the missing word—even in sentences it has never seen before.</p>
+<p>In short: <strong>supervised learning is learning patterns from labeled examples so you can make accurate predictions on new, unseen data.</strong></p>
+<p>The simplest form of supervised learning is <strong>regression</strong>, where the goal is to predict a number based on input data. For example, given a set of sentences and their average reading times, a regression model could learn to predict how long it might take someone to read a new sentence. The model trains on many input–output pairs, gradually learning the relationship between the features in the input and the numeric value in the output.</p>
+<p>While regression can be done with simple formulas, modern AI—including Large Language Models—relies on <strong>neural networks</strong> to handle far more complex patterns. Neural networks are essentially many layers of interconnected regression-like steps, stacked and tuned to capture relationships in huge datasets.</p>
+<p>Understanding these building blocks will help you see how LLMs work under the hood, even if the scale and complexity are much greater than in basic regression.</p>
 </section>
 <section id="gradient-descent" class="level3">
 <h3 class="anchored" data-anchor-id="gradient-descent">Gradient Descent</h3>
+<p>Gradient descent is the learning process that tunes a model to make better predictions over time. Imagine you’re standing on a foggy hillside and want to get to the lowest point in the valley. You can’t see far, so you take small steps downhill in the steepest direction you can feel under your feet.</p>
+<p>In a neural network, the “hill” is the <strong>error</strong>, how wrong the model’s predictions are. The “steps” are <strong>weight adjustments</strong> which change the models predictions. After each guess, the network measures the error, figures out which direction will reduce it the most, and then tweaks the weights slightly to move in that direction.</p>
+<p>By repeating this process many times, the network eventually settles in a low spot where the error is as small as possible.</p>
+<p>In short: <strong>gradient descent is the process of taking small steps to reduce errors until the model’s predictions are as accurate as it can make them.</strong></p>
 
 
 </section>

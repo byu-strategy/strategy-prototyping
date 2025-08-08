@@ -51,5 +51,7 @@ format:
     css: styles.css
     toc: true
     number-sections: false
+execute:
+  eval: false
     
 toc-title: On this page

@@ -1,3 +1,5 @@
 ---
 title: "Build Session 2"
 ---
+
+Time to focus entirely on advancing your product, apply concepts from previous lectures, make design decisions, and work on your prototype to move it closer to a usable solution.

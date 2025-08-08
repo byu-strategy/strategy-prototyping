@@ -1,16 +1,50 @@
 ---
-title: "Project Mgmt w/Jira"
+title: "Project Management"
 ---
 
 ## Agile
 
+Agile is a way of managing work that emphasizes flexibility, collaboration, and delivering value quickly. Instead of long, rigid project plans, Agile teams work in short cycles, learn from feedback, and adjust as they go.
+
 [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 
-### Cerimonies
+### Ceremonies
+
+Agile frameworks often include regular team events (called ceremonies) to keep work organized and communication clear:
+
+- **Sprint Planning** – Decide what the team will work on in the next sprint.
+- **Daily Stand-up** – A quick, daily check-in to share progress and obstacles.
+- **Sprint Review** – Show completed work to stakeholders and get feedback.
+- **Sprint Retrospective** – Reflect on what went well and what could improve.
 
 ### Scrum and Kanban
 
+- **Scrum** – Work is organized into fixed-length sprints (usually 1–4 weeks) with defined roles like Product Owner, Scrum Master, and Development Team.
+- **Kanban** – Focuses on continuous flow of work using a visual board, with no fixed sprint cycles, limiting the number of tasks in progress at once.
+
 ## User Stories
+
+User stories describe features from the perspective of the person who will use them. A common format is:
+
+- As a **[type of user]**, I want **[goal]** so that **[reason/benefit]**.
+
+Example:  
+- As a **customer**, I want **to reset my password** so that **I can access my account if I forget it**.
 
 ## Jira and GitHub Projects
 
+- **Jira** – A project management tool widely used for tracking work in Agile teams. It supports Scrum and Kanban boards, backlogs, and reporting.
+- **GitHub Projects** – A flexible, board-based system integrated with GitHub repositories, useful for managing tasks alongside code development.
+
+## Product Requirements Documents (PRDs)
+
+A PRD explains what a product should do, why it’s needed, and how success will be measured. Typical sections include:
+
+- **Overview** – What the product or feature is.
+- **Objectives** – Why it’s being built.
+- **User Stories / Use Cases** – How users will interact with it.
+- **Functional Requirements** – Specific capabilities and behaviors.
+- **Non-Functional Requirements** – Performance, security, or usability standards.
+- **Success Metrics** – How you’ll know it’s working.
+
+PRDs help ensure everyone including design, engineering, and marketing share the same understanding of what’s being built and why.

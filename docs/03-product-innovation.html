@@ -165,12 +165,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Value Proposition &amp; Design</span></a>
+  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prototying and MVP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Mgmt w/Jira</span></a>
+  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -256,21 +256,21 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#target-customer" id="toc-target-customer" class="nav-link" data-scroll-target="#target-customer">Target Customer</a>
   <ul class="collapse">
-  <li><a href="#user-personas" id="toc-user-personas" class="nav-link" data-scroll-target="#user-personas">User personas</a></li>
+  <li><a href="#user-personas" id="toc-user-personas" class="nav-link" data-scroll-target="#user-personas">User Personas</a></li>
   </ul></li>
   <li><a href="#underserved-needs" id="toc-underserved-needs" class="nav-link" data-scroll-target="#underserved-needs">Underserved Needs</a>
   <ul class="collapse">
-  <li><a href="#importance-vs-satisfaction" id="toc-importance-vs-satisfaction" class="nav-link" data-scroll-target="#importance-vs-satisfaction">Importance vs Satisfaction</a></li>
-  <li><a href="#jobs-to-be-done" id="toc-jobs-to-be-done" class="nav-link" data-scroll-target="#jobs-to-be-done">Jobs to be done</a></li>
+  <li><a href="#importance-vs.-satisfaction" id="toc-importance-vs.-satisfaction" class="nav-link" data-scroll-target="#importance-vs.-satisfaction">Importance vs.&nbsp;Satisfaction</a></li>
+  <li><a href="#jobs-to-be-done" id="toc-jobs-to-be-done" class="nav-link" data-scroll-target="#jobs-to-be-done">Jobs to Be Done</a></li>
   </ul></li>
-  <li><a href="#value-proposition" id="toc-value-proposition" class="nav-link" data-scroll-target="#value-proposition">Value Proposition</a></li>
+  <li><a href="#value-proposition" id="toc-value-proposition" class="nav-link" data-scroll-target="#value-proposition">Value Proposition</a>
+  <ul class="collapse">
+  <li><a href="#customer-journey-map" id="toc-customer-journey-map" class="nav-link" data-scroll-target="#customer-journey-map">Customer Journey Map</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#solution-space" id="toc-solution-space" class="nav-link" data-scroll-target="#solution-space">Solution Space</a>
   <ul class="collapse">
-  <li><a href="#feature-set" id="toc-feature-set" class="nav-link" data-scroll-target="#feature-set">Feature Set</a>
-  <ul class="collapse">
-  <li><a href="#user-stories" id="toc-user-stories" class="nav-link" data-scroll-target="#user-stories">User Stories</a></li>
-  </ul></li>
+  <li><a href="#feature-set" id="toc-feature-set" class="nav-link" data-scroll-target="#feature-set">Feature Set</a></li>
   <li><a href="#user-experience" id="toc-user-experience" class="nav-link" data-scroll-target="#user-experience">User Experience</a>
   <ul class="collapse">
   <li><a href="#principles-of-ux-design" id="toc-principles-of-ux-design" class="nav-link" data-scroll-target="#principles-of-ux-design">Principles of UX Design</a></li>
@@ -303,41 +303,144 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-lean-product-process" class="level2">
 <h2 class="anchored" data-anchor-id="the-lean-product-process">The Lean Product Process</h2>
-<p><img src="images/pm-fit-pyramid.webp" class="img-fluid"></p>
+<p>The Lean Product Process is a repeatable framework for systematically developing products that customers love developed by Dan Olsen.</p>
+<p>It moves from deeply understanding customer needs (problem space) to iterating on solutions (solution space), always validating with customer feedback.</p>
+<p><img src="images/lean-product-process.png" class="img-fluid"></p>
 </section>
 <section id="problem-space" class="level1">
 <h1>Problem Space</h1>
 <section id="target-customer" class="level2">
 <h2 class="anchored" data-anchor-id="target-customer">Target Customer</h2>
+<p>Identify the specific segment of people who will benefit most from your product.</p>
+<p>Not “everyone who might use it” — your <em>primary</em> audience you will optimize for first.</p>
 <section id="user-personas" class="level3">
-<h3 class="anchored" data-anchor-id="user-personas">User personas</h3>
+<h3 class="anchored" data-anchor-id="user-personas">User Personas</h3>
+<ul>
+<li>Create 2–3 detailed fictional profiles representing your core customers.</li>
+<li>Include:
+<ul>
+<li>Demographics (age, job role, location)</li>
+<li>Behaviors (habits, buying channels, product usage patterns)</li>
+<li>Goals and motivations</li>
+<li>Pain points and frustrations</li>
+</ul></li>
+<li>Use direct quotes from customer interviews when possible.</li>
+</ul>
 </section>
 </section>
 <section id="underserved-needs" class="level2">
 <h2 class="anchored" data-anchor-id="underserved-needs">Underserved Needs</h2>
-<section id="importance-vs-satisfaction" class="level3">
-<h3 class="anchored" data-anchor-id="importance-vs-satisfaction">Importance vs Satisfaction</h3>
+<p>Determine what matters most to your target customers and where current solutions fail them.</p>
+<section id="importance-vs.-satisfaction" class="level3">
+<h3 class="anchored" data-anchor-id="importance-vs.-satisfaction">Importance vs.&nbsp;Satisfaction</h3>
+<ul>
+<li><p>Plot needs on a 2x2:</p></li>
+<li><p><strong>Importance</strong> (how critical is it to the customer?)</p></li>
+<li><p><strong>Satisfaction</strong> (how well do current solutions address it?)</p></li>
+<li><p>High importance + low satisfaction = <strong>prime opportunity</strong>.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/importance-satisfaction.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: The Lean Product Playbook by Dan Olsen</figcaption>
+</figure>
+</div>
 </section>
 <section id="jobs-to-be-done" class="level3">
-<h3 class="anchored" data-anchor-id="jobs-to-be-done">Jobs to be done</h3>
+<h3 class="anchored" data-anchor-id="jobs-to-be-done">Jobs to Be Done</h3>
+<ul>
+<li>Frame needs as <em>jobs</em> customers are trying to accomplish.</li>
+<li>Format:
+<ul>
+<li>When I’m <strong>[situation]</strong>, I want to <strong>[motivation]</strong>, so I can <strong>[desired outcome]</strong>.</li>
+</ul></li>
+<li>Capture all:
+<ul>
+<li><strong>Emotional jobs</strong> (how they want to feel)</li>
+<li><strong>Social jobs</strong> (how they want to be perceived)</li>
+<li><strong>Functional jobs</strong> (what they want to get done)</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/jobs-to-be-done1.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Jeff Dyer, Innovators DNA</figcaption>
+</figure>
+</div>
 </section>
 </section>
 <section id="value-proposition" class="level2">
 <h2 class="anchored" data-anchor-id="value-proposition">Value Proposition</h2>
+<p>Craft a clear statement that answers:</p>
+<ol type="1">
+<li><strong>Who</strong> the product is for<br>
+</li>
+<li><strong>What</strong> it does for them<br>
+</li>
+<li><strong>Why</strong> it’s better or different than alternatives</li>
+</ol>
+<p>Keep it short (1–2 sentences) and customer-oriented.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/value-prop.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Strategyzer</figcaption>
+</figure>
+</div>
+<section id="customer-journey-map" class="level3">
+<h3 class="anchored" data-anchor-id="customer-journey-map">Customer Journey Map</h3>
+<p>A customer journey map is a tool that shows the step-by-step experience a customer has with a product or experience.</p>
+<p>It can be useful because it helps you:</p>
+<ul>
+<li>See the experience through the customer’s eyes.</li>
+<li>Spot pain points and improvement opportunities.</li>
+<li>Align your team around what really matters to customers.</li>
+</ul>
+<p>It’s a tool for designing a smoother, more valuable customer experience.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/journey-map.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Heart of the Customer</figcaption>
+</figure>
+</div>
+</section>
 </section>
 </section>
 <section id="solution-space" class="level1">
 <h1>Solution Space</h1>
 <section id="feature-set" class="level2">
 <h2 class="anchored" data-anchor-id="feature-set">Feature Set</h2>
-<section id="user-stories" class="level3">
-<h3 class="anchored" data-anchor-id="user-stories">User Stories</h3>
-</section>
+<p>List the features that directly address underserved needs.</p>
+<ul>
+<li>Rank features by <strong>customer value</strong> and <strong>feasibility</strong>.</li>
+<li>Avoid “feature creep” — every feature must trace back to a validated need.</li>
+</ul>
 </section>
 <section id="user-experience" class="level2">
 <h2 class="anchored" data-anchor-id="user-experience">User Experience</h2>
+<p>Translate features into an intuitive, delightful, and friction-free customer journey.</p>
 <section id="principles-of-ux-design" class="level3">
 <h3 class="anchored" data-anchor-id="principles-of-ux-design">Principles of UX Design</h3>
+<ul>
+<li><strong>Clarity</strong> – Every screen communicates its purpose instantly.</li>
+<li><strong>Consistency</strong> – Patterns, language, and visual design align across the product.</li>
+<li><strong>Feedback</strong> – Users get immediate, understandable responses to actions.</li>
+<li><strong>Efficiency</strong> – Reduce cognitive load and clicks for key tasks.</li>
+<li><strong>Empathy</strong> – Design flows from the user’s point of view, not the internal org chart.</li>
+</ul>
+<p>Dan Olsen’s iceberg reminds us that <strong>great UX starts deep below the surface</strong>.</p>
+<ul>
+<li><strong>Conceptual Design</strong> → Drives <strong>Clarity</strong>: a solid mental model ensures screens make sense instantly.</li>
+<li><strong>Information Architecture</strong> → Enables <strong>Efficiency</strong>: well-organized content reduces cognitive load.</li>
+<li><strong>Interaction Design</strong> → Supports <strong>Consistency</strong> and <strong>Feedback</strong>: familiar patterns and responsive flows guide users.</li>
+<li><strong>Visual Design</strong> → Reinforces <strong>Empathy</strong>: aesthetics reflect users’ needs and context.</li>
+</ul>
+<p>A polished UI alone can’t deliver on these principles, they must be built into every layer of the iceberg.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ux-iceberg.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: The Lean Product Playbook by Dan Olsen</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -789,8 +892,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./04-value-prop-design.html" class="pagination-link" aria-label="Value Proposition &amp; Design">
-        <span class="nav-page-text"><span class="chapter-title">Value Proposition &amp; Design</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./04-value-prop-design.html" class="pagination-link" aria-label="Prototying and MVP">
+        <span class="nav-page-text"><span class="chapter-title">Prototying and MVP</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

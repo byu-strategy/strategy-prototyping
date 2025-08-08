@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -165,12 +199,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Value Proposition &amp; Design</span></a>
+  <a href="./04-value-prop-design.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Prototying and MVP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Mgmt w/Jira</span></a>
+  <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -251,18 +285,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#large-language-models-and-genai" id="toc-large-language-models-and-genai" class="nav-link active" data-scroll-target="#large-language-models-and-genai">Large Language Models and GenAI</a>
+  <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link active" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a>
   <ul class="collapse">
+  <li><a href="#gathering-and-processing-text-data" id="toc-gathering-and-processing-text-data" class="nav-link" data-scroll-target="#gathering-and-processing-text-data">1. Gathering and Processing Text Data</a></li>
+  <li><a href="#pretraining-the-model" id="toc-pretraining-the-model" class="nav-link" data-scroll-target="#pretraining-the-model">2. Pretraining the Model</a></li>
+  <li><a href="#fine-tuning-for-specific-tasks" id="toc-fine-tuning-for-specific-tasks" class="nav-link" data-scroll-target="#fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</a></li>
+  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link" data-scroll-target="#the-big-picture">4. The Big Picture</a></li>
   <li><a href="#embeddings" id="toc-embeddings" class="nav-link" data-scroll-target="#embeddings">Embeddings</a></li>
   <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural Networks</a></li>
-  <li><a href="#foundation-models" id="toc-foundation-models" class="nav-link" data-scroll-target="#foundation-models">Foundation Models</a></li>
-  <li><a href="#model-fine-tuning" id="toc-model-fine-tuning" class="nav-link" data-scroll-target="#model-fine-tuning">Model Fine-Tuning</a></li>
-  <li><a href="#retrieval-augmented-generation" id="toc-retrieval-augmented-generation" class="nav-link" data-scroll-target="#retrieval-augmented-generation">Retrieval Augmented Generation</a></li>
-  </ul></li>
-  <li><a href="#prompt-engineering" id="toc-prompt-engineering" class="nav-link" data-scroll-target="#prompt-engineering">Prompt Engineering</a>
-  <ul class="collapse">
+  <li><a href="#gpt-architecture" id="toc-gpt-architecture" class="nav-link" data-scroll-target="#gpt-architecture">GPT Architecture</a></li>
   <li><a href="#anatomy-of-various-prompt-structures" id="toc-anatomy-of-various-prompt-structures" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures">Anatomy of Various Prompt Structures</a></li>
-  <li><a href="#programatic-and-dynamic-prompting" id="toc-programatic-and-dynamic-prompting" class="nav-link" data-scroll-target="#programatic-and-dynamic-prompting">Programatic and Dynamic Prompting</a></li>
+  <li><a href="#anatomy-of-various-prompt-structures-1" id="toc-anatomy-of-various-prompt-structures-1" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures-1">Anatomy of Various Prompt Structures</a></li>
+  <li><a href="#programmatic-and-dynamic-prompting" id="toc-programmatic-and-dynamic-prompting" class="nav-link" data-scroll-target="#programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</a></li>
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps">Steps</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -289,31 +324,228 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="large-language-models-and-genai" class="level2">
-<h2 class="anchored" data-anchor-id="large-language-models-and-genai">Large Language Models and GenAI</h2>
+<section id="large-language-models-and-generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="large-language-models-and-generative-ai">Large Language Models and Generative AI</h2>
+<p>Large Language Models (LLMs) are the core technology behind much of today’s Generative AI. They are built in two main stages: <strong>pretraining</strong> and <strong>fine-tuning</strong></p>
+<section id="gathering-and-processing-text-data" class="level3">
+<h3 class="anchored" data-anchor-id="gathering-and-processing-text-data">1. Gathering and Processing Text Data</h3>
+<p>The process begins by collecting an enormous body of text from a variety of sources, including internet articles, books, Wikipedia, and research papers. This raw text can contain trillions of words. Before a model can use it, the text is converted into numbers through a process called <em>tokenization</em>. Each word or piece of a word is represented as a vector (a list of numbers) so the computer can process it mathematically.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tokenization.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+</section>
+<section id="pretraining-the-model" class="level3">
+<h3 class="anchored" data-anchor-id="pretraining-the-model">2. Pretraining the Model</h3>
+<p>Using this massive numerical dataset, the model is trained to perform one fundamental task: predicting the next word in a sequence. By doing this billions of times, it learns grammar, facts about the world, reasoning patterns, and relationships between concepts. After pretraining, the LLM becomes a <strong>foundation model</strong> with basic capabilities such as:</p>
+<ul>
+<li><strong>Text completion</strong> – finishing a sentence or paragraph.</li>
+<li><strong>Few-shot learning</strong> – adapting to new tasks with just a few examples in the prompt.</li>
+</ul>
+</section>
+<section id="fine-tuning-for-specific-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</h3>
+<p>Pretraining gives the model broad language skills, but it’s still general-purpose. Fine-tuning makes it specialized. In this stage, the pretrained model is trained again on a <em>labeled dataset</em>—data where each input has a known, correct output. This allows the LLM to excel at targeted applications such as:</p>
+<ul>
+<li><strong>Classification</strong> – sorting emails as spam or not spam.</li>
+<li><strong>Summarization</strong> – condensing long documents into key points.</li>
+<li><strong>Translation</strong> – converting text between languages.</li>
+<li><strong>Conversational assistance</strong> – answering questions and performing tasks as a chatbot or virtual assistant.</li>
+</ul>
+</section>
+<section id="the-big-picture" class="level3">
+<h3 class="anchored" data-anchor-id="the-big-picture">4. The Big Picture</h3>
+<ul>
+<li><strong>Pretraining</strong> = learning the <em>general rules of language and knowledge</em>.</li>
+<li><strong>Fine-tuning</strong> = specializing for <em>specific, high-performance applications</em>.</li>
+</ul>
+<p>Together, these steps create powerful AI systems capable of generating text, answering questions, and performing a wide variety of language-based tasks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/llm-overview.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/llm-process.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+</section>
 <section id="embeddings" class="level3">
 <h3 class="anchored" data-anchor-id="embeddings">Embeddings</h3>
+<p>Embeddings are a way to turn different kinds of information—like text, audio, or video—into numbers so a computer can work with them.</p>
+<p>An embedding model is a deep neural network that takes raw input (words, sounds, images, etc.) and converts it into a list of numbers that captures the meaning or important features of the input (i.e.&nbsp;a vector). Two inputs with similar meanings will have vectors that are close to each other, even if the exact words, sounds, or images are different.</p>
+<p>Embeddings are like coordinates on a map of word meanings. They let computers compare, search, and work with language in a numerical and mathematical way.</p>
+<p><img src="images/embedding.png" class="img-fluid" alt="Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka"> <img src="images/embedding-plot.png" class="img-fluid" alt="Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka"></p>
 </section>
 <section id="neural-networks" class="level3">
 <h3 class="anchored" data-anchor-id="neural-networks">Neural Networks</h3>
+<p>A neural network is a way for a computer to learn patterns and make predictions, inspired loosely by how our brains work. It’s built from layers of tiny “decision-makers” called neurons. Each connection between neurons has a <em>weight</em>, which is just a number that tells the network how important that connection is.</p>
+<p>Numerical representations of words (vectors) flow layer by layer through the network. At each layer, a neuron takes the numbers it receives, multiplies them by its connection weights, adds them together, and applies a simple rule (called an activation function) before passing the result to the next layer. This step-by-step movement of information is called feed-forward. In the context of LLMs, once all layers have done their work, the final output numbers indicate which word is most likely to come next based on the input provided.</p>
+<p>At first, the weights are random, so the network’s guesses for the next word are usually terrible. During training, it compares its guesses to the correct answers in the training corpus, measures how far off it was, and then adjusts the weights, analogous to turning millions (or even billions) of tiny knobs to make a slightly better guess next time. This process repeats again and again until the weights are tuned so well that the model predicts the next word correctly as often as possible.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/nn.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
 </section>
-<section id="foundation-models" class="level3">
-<h3 class="anchored" data-anchor-id="foundation-models">Foundation Models</h3>
+<section id="gpt-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="gpt-architecture">GPT Architecture</h3>
+<p>Digging into the full details of the GPT architecture is beyond the scope of this course. However, it’s useful to recognize diagrams like this, which present the high-level structure of the model. At the bottom, tokenized text (converted into numerical tokens) passes through an embedding layer that maps each token to a numerical vector. A positional embedding layer adds information about word order.</p>
+<p>The heart of GPT is the transformer block (shaded in blue), repeated many times (e.g., 12 layers for GPT-2 Small, 48 for GPT-2 XL). Each block contains:</p>
+<ul>
+<li>Masked multi-head attention – allows the model to focus on relevant words in the input while preventing it from “seeing” future words during training.</li>
+<li>Feed-forward layers – process and transform the attention outputs.</li>
+<li>Layer normalization and dropout – improve stability and reduce overfitting.</li>
+</ul>
+<p>Each layer in the GPT architecture is part of a deep neural network and performs a sequence of mathematical operations—primarily matrix multiplications and additions—that transform the input vectors into increasingly abstract representations of the text. During training, the model’s parameters (weights) are adjusted using gradient descent, an optimization process that reduces prediction errors by calculating how much each weight should change based on the difference between the model’s output and the correct answer.</p>
+<p>After going through all the layers, the model tidies up its final internal calculations and then turns them into a list of possible next words, each with a score for how likely it is to come next. The word with the highest score is usually chosen as the model’s prediction.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/gpt.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
 </section>
-<section id="model-fine-tuning" class="level3">
-<h3 class="anchored" data-anchor-id="model-fine-tuning">Model Fine-Tuning</h3>
-</section>
-<section id="retrieval-augmented-generation" class="level3">
-<h3 class="anchored" data-anchor-id="retrieval-augmented-generation">Retrieval Augmented Generation</h3>
-</section>
-</section>
-<section id="prompt-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="prompt-engineering">Prompt Engineering</h2>
 <section id="anatomy-of-various-prompt-structures" class="level3">
 <h3 class="anchored" data-anchor-id="anatomy-of-various-prompt-structures">Anatomy of Various Prompt Structures</h3>
+<p>Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.</p>
 </section>
-<section id="programatic-and-dynamic-prompting" class="level3">
-<h3 class="anchored" data-anchor-id="programatic-and-dynamic-prompting">Programatic and Dynamic Prompting</h3>
+<section id="anatomy-of-various-prompt-structures-1" class="level3">
+<h3 class="anchored" data-anchor-id="anatomy-of-various-prompt-structures-1">Anatomy of Various Prompt Structures</h3>
+<p>Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 27%">
+<col style="width: 20%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prompt Type</th>
+<th>What it is</th>
+<th>Example</th>
+<th>Best for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Single-Turn Prompt</strong></td>
+<td>A one-off instruction or question sent to the model.</td>
+<td>Summarize this article in three bullet points.</td>
+<td>Quick tasks where context isn’t needed beyond the immediate request.</td>
+</tr>
+<tr class="even">
+<td><strong>Role-Based Prompt</strong></td>
+<td>Sets a clear role or persona for the AI to adopt.</td>
+<td>You are an experienced product manager. Draft a launch plan for a new mobile app.</td>
+<td>When tone, perspective, or expertise level matters.</td>
+</tr>
+<tr class="odd">
+<td><strong>Context + Instruction Prompt</strong></td>
+<td>Combines background information with a direct request.</td>
+<td>Background: Our company sells eco-friendly cleaning products online. Task: Write a short ad targeting parents concerned about chemical safety.</td>
+<td>When the model needs background to produce relevant results.</td>
+</tr>
+<tr class="even">
+<td><strong>Few-Shot Prompt</strong></td>
+<td>Includes examples of desired input-output pairs to guide the model’s style or format.</td>
+<td>Q: What is the capital of France? A: Paris<br>Q: What is the capital of Germany? A: Berlin<br>Q: What is the capital of Italy? A:</td>
+<td>Training the model in your preferred style or pattern without fine-tuning.</td>
+</tr>
+<tr class="odd">
+<td><strong>Multi-Turn Conversation</strong></td>
+<td>A back-and-forth exchange where previous messages build context.</td>
+<td>User: Give me a list of U.S. national parks in the West.<br>AI: [List]<br>User: Now sort them by size.</td>
+<td>Complex tasks where you refine or expand the request over time.</td>
+</tr>
+<tr class="even">
+<td><strong>Dynamic, Variable-Injected Prompt</strong></td>
+<td>A template where parts of the prompt are filled in with live or changing data.</td>
+<td>Write a {tone} introduction to {topic} for someone named {name}.</td>
+<td>Automation, personalization, and programmatic API workflows.</td>
+</tr>
+</tbody>
+</table>
+<p>By mixing and matching these structures, you can create prompts that are concise, rich in context, and tailored for automation and enabling far more consistent and useful AI outputs.</p>
+</section>
+<section id="programmatic-and-dynamic-prompting" class="level3">
+<h3 class="anchored" data-anchor-id="programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</h3>
+<p>AI’s impact grows dramatically when you automate prompts and dynamically inject fresh data into them.</p>
+<p>The python code chunk below illustrates how to do this.</p>
+<div id="89e8cf12" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openai <span class="im">import</span> OpenAI</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Config ---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>INPUT_CSV <span class="op">=</span> <span class="st">"input.csv"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>OUTPUT_CSV <span class="op">=</span> <span class="st">"output.csv"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>MODEL <span class="op">=</span> <span class="st">"gpt-4o-mini"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>SYSTEM_PROMPT <span class="op">=</span> <span class="st">"You are a helpful assistant."</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>API_KEY <span class="op">=</span> os.getenv(<span class="st">"OPENAI_API_KEY"</span>, <span class="st">"YOUR_OPENAI_API_KEY"</span>)  <span class="co"># or set env var</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Client ---</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>client <span class="op">=</span> OpenAI(api_key<span class="op">=</span>API_KEY)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Load data ---</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(INPUT_CSV)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure expected columns exist</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> [<span class="st">"name"</span>, <span class="st">"topic"</span>, <span class="st">"tone"</span>]:</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="ss">f"Missing required column: </span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> call_api(row, retries<span class="op">=</span><span class="dv">3</span>, backoff<span class="op">=</span><span class="fl">2.0</span>):</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Call OpenAI once per row with simple retry/backoff."""</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    prompt <span class="op">=</span> <span class="ss">f"Write a </span><span class="sc">{</span>row[<span class="st">'tone'</span>]<span class="sc">}</span><span class="ss"> introduction to </span><span class="sc">{</span>row[<span class="st">'topic'</span>]<span class="sc">}</span><span class="ss"> for someone named </span><span class="sc">{</span>row[<span class="st">'name'</span>]<span class="sc">}</span><span class="ss">."</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> attempt <span class="kw">in</span> <span class="bu">range</span>(retries):</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            resp <span class="op">=</span> client.chat.completions.create(</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>                model<span class="op">=</span>MODEL,</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>                messages<span class="op">=</span>[</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>                    {<span class="st">"role"</span>: <span class="st">"system"</span>, <span class="st">"content"</span>: SYSTEM_PROMPT},</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>                    {<span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: prompt},</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>                ],</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>                temperature<span class="op">=</span><span class="fl">0.7</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Newer client returns attributes, not dicts:</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> resp.choices[<span class="dv">0</span>].message.content.strip()</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> attempt <span class="op">==</span> retries <span class="op">-</span> <span class="dv">1</span>:</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>                <span class="cf">return</span> <span class="ss">f"Error: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>            time.sleep(backoff <span class="op">**</span> attempt)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Run generation ---</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>df[<span class="st">"response"</span>] <span class="op">=</span> df.<span class="bu">apply</span>(call_api, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Save results ---</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>df.to_csv(OUTPUT_CSV, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Done. Wrote </span><span class="sc">{</span><span class="bu">len</span>(df)<span class="sc">}</span><span class="ss"> rows to </span><span class="sc">{</span>OUTPUT_CSV<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This script reads a CSV, sends each row’s data to the OpenAI API, and saves the responses to a new CSV.</p>
+<p><strong>Flow:</strong><br>
+<code>input.csv → Pandas DataFrame → AI prompt → OpenAI API → response → output.csv</code></p>
+</section>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<ol type="1">
+<li><strong>Import libraries</strong> – <code>pandas</code> for CSV handling, <code>openai</code> for API calls, <code>time</code> for retries.</li>
+<li><strong>Config settings</strong> – file paths, model name, system prompt, API key.</li>
+<li><strong>Create client</strong> – <code>client = OpenAI(api_key=API_KEY)</code> to connect to OpenAI.</li>
+<li><strong>Load CSV</strong> – <code>df = pd.read_csv(INPUT_CSV)</code> stores the spreadsheet in a DataFrame.</li>
+<li><strong>Check columns</strong> – ensure <code>name</code>, <code>topic</code>, and <code>tone</code> exist.</li>
+<li><strong>Define <code>call_api()</code></strong> – builds a dynamic prompt, sends it to the API, retries if needed.</li>
+<li><strong>Apply function</strong> – <code>df["response"] = df.apply(call_api, axis=1)</code> runs the prompt for each row.</li>
+<li><strong>Save output</strong> – <code>df.to_csv(OUTPUT_CSV, index=False)</code> writes results to a new file.</li>
+</ol>
 
 
 </section>
