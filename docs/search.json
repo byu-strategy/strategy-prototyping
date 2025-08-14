@@ -4,18 +4,51 @@
     "href": "index.html",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "",
-    "text": "Syllabus\nFALL 2025\nInstructor: Scott Murff\nTAs: Carter Adams, Eli Nelson\nClass Time: Fridays Only, 9:30 AM – 12:15 PM\nClass Location: TNRB 230\nLMS: LearningSuite",
+    "text": "Syllabus\nFALL 2025\nInstructor: Scott Murff\nOffice Hours: 2-3pm on T, TH Office Hours Location: 587 TNRB TAs: Carter Adams, Eli Nelson\nTA Office Hours: TBD TA Office Hours Location: Class Time: Fridays Only, 9:30 AM – 12:15 PM\nClass Location: 230 TNRB\nLMS: LearningSuite",
     "crumbs": [
       "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
   {
-    "objectID": "index.html#content-overview",
-    "href": "index.html#content-overview",
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
-    "section": "Content Overview",
-    "text": "Content Overview\nWelcome to Creating Digital Products with AI: Strategy & Prototyping.\nWhat should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer.\nStudents will explore foundational frameworks in product strategy, customer-centric design, and rapid iteration. Along the way, they’ll leverage both standard industry tools (i.e. GitHub, Jira, Figma) as well as modern AI tools (e.g. Lovable, Replit, Cursor, Windsurf) to ideate, prototype, and build real digital products.\nAI is blurring the traditional boundaries between Product Management, Engineering, and Design. This course explores how product managers can use AI to enhance collaboration and accelerate execution.\nThroughout the course, students will learn how AI is reshaping every stage of the product lifecycle, from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product, preparing them to excel in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.\nThere are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThere are no formal prerequisites for the course, but students should have an interest in going deep on a techincal level into AI tools. Prior programming experience is helpful but not expected.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#required-materials",
+    "href": "index.html#required-materials",
+    "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
+    "section": "Required Materials",
+    "text": "Required Materials\nPaid account to an AI tool to be determined by you in class. Expect $20 per month for the duration of the semester, about $80 total for the course. This is comparable to typical textbook fee for a course.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
+    "section": "Description",
+    "text": "Description\nCreating Digital Products with AI: Strategy & Prototyping immerses students in the evolving role of product managers in the era of AI-enabled innovation. This course combines strategic thinking with hands-on experimentation, giving students both the frameworks and the technical skills to envision, prototype, and launch AI-enhanced digital products.\nStudents will explore foundational concepts in product strategy, customer-centric design, and rapid iteration while learning how AI is transforming each stage of the product lifecycle. Core topics include identifying unmet customer needs, defining and validating minimum viable products (MVPs), accelerating prototyping, and gathering actionable user feedback.\nIn addition to standard product management tools such as GitHub, Jira, and Figma, students will work extensively with cutting-edge AI tools like Lovable, Replit, Cursor, and Claude Code. These tools enable them to ideate, design, and build at unprecedented speed, while gaining an understanding of how AI blurs traditional boundaries between product management, engineering, and design.\nBy the end of the semester, students will have developed, tested, and refined an AI-enabled product.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
+    "section": "Purpose",
+    "text": "Purpose\nThis course develops students’ ability to integrate strategic thinking and technical execution to deliver products that create genuine value for others.",
     "crumbs": [
       "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
@@ -77,8 +110,8 @@
     ]
   },
   {
-    "objectID": "index.html#required-materials",
-    "href": "index.html#required-materials",
+    "objectID": "index.html#required-materials-1",
+    "href": "index.html#required-materials-1",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
     "section": "Required Materials",
     "text": "Required Materials\nThe Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, $25 or less). Text and audio also available for free for BYU students digitally at O’Reilly books.\nA modern Laptop or desktop (Mac or Windows).\nPaid account to at least 1 AI tool of your choosing (~$20 per month).\nAll other materials are provided for free on the course website.",
@@ -99,11 +132,33 @@
     ]
   },
   {
-    "objectID": "index.html#pre-enrollment-assessment",
-    "href": "index.html#pre-enrollment-assessment",
+    "objectID": "index.html#honor-code",
+    "href": "index.html#honor-code",
     "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
-    "section": "Pre-enrollment Assessment",
-    "text": "Pre-enrollment Assessment\nComing soon.",
+    "section": "Honor Code",
+    "text": "Honor Code\nIn keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university’s expectation, and every instructor’s expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#preventing-responding-to-sexual-misconduct",
+    "href": "index.html#preventing-responding-to-sexual-misconduct",
+    "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
+    "section": "Preventing & Responding to Sexual Misconduct",
+    "text": "Preventing & Responding to Sexual Misconduct\nThe health and well-being of students is of paramount importance at Brigham Young University. If you or someone you know has experienced sexual harassment (including sexual violence), there are many resources available for assistance.\nIn accordance with Title IX of the Education Amendments of 1972, BYU prohibits unlawful sex discrimination, including sexual harassment, against any participant in its education programs or activities. The university also prohibits sexual harassment by its personnel and students. Sexual harassment occurs when\na person is subjected to unwelcome sexual speech or conduct so severe, pervasive, and offensive that it effectively denies their ability to access any BYU education program or activity; any aid, benefit, or service of BYU is conditioned on a person’s participation in unwelcome sexual conduct; or a person suffers sexual assault, dating violence, domestic violence, or stalking on the basis of sex. University policy requires all faculty members to promptly report incidents of sexual harassment that come to their attention in any way, including through face-to-face conversations, a written class assignment or paper, class discussion, email, text, or social media post. Incidents of sexual harassment should be reported to the Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692 or 1085 WSC. Reports may also be submitted online at https://titleix.byu.edu/report or 1-888-238-1062 (24-hours a day).\nBYU offers confidential resources for those affected by sexual harassment, including the university’s Sexual Assault Survivor Advocate, as well as a number of non-confidential resources and services that may be helpful. Additional information about Title IX, the university’s Sexual Harassment Policy, reporting requirements, and resources can be found at http://titleix.byu.edu or by contacting the university’s Title IX Coordinator.",
+    "crumbs": [
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#student-disability",
+    "href": "index.html#student-disability",
+    "title": "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping",
+    "section": "Student Disability",
+    "text": "Student Disability\nBrigham Young University is committed to providing a working and learning atmosphere that reasonably accommodates qualified persons with disabilities. A disability is a physical or mental impairment that substantially limits one or more major life activities. Whether an impairment is substantially limiting depends on its nature and severity, its duration or expected duration, and its permanent or expected permanent or long-term impact. Examples include vision or hearing impairments, physical disabilities, chronic illnesses, emotional disorders (e.g., depression, anxiety), learning disorders, and attention disorders (e.g., ADHD). If you have a disability which impairs your ability to complete this course successfully, please contact the University Accessibility Center (UAC), 2170 WSC or 801-422-2767 to request a reasonable accommodation. The UAC can also assess students for learning, attention, and emotional concerns. If you feel you have been unlawfully discriminated against on the basis of disability, please contact the Equal Opportunity Office at 801-422-5895, eo_manager@byu.edu, or visit https://hrs.byu.edu/equal-opportunity for help.”",
     "crumbs": [
       "Course Information",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
@@ -873,7 +928,7 @@
     "href": "09-ai-dev-platforms.html",
     "title": "AI Dev Tools",
     "section": "",
-    "text": "Claude Code\nClaude Code is Anthropic’s coding assistant that runs in your terminal. You talk to it in plain English (“build me a simple landing page with an email capture”), and it creates/edits files, runs commands, and helps you prototype end-to-end—front-end, back-end, docs, and even quick data tasks. Think of it as a teammate who can both generate and execute code directly in your project folder.\nClaude Code is used directly from the terminal but many users find it more intuitive to use it within a familiar IDE like VS code.\nClaude Code: A Highly Agentic Coding Assistant",
+    "text": "Claude Code\nModern AI development tools have completely transformed what it means to build digital products. Historically, taking a product from idea to a working prototype could take weeks or even months, requiring large teams and specialized skills. Today, with the rise of AI-powered coding assistants, no-code platforms, and rapid prototyping tools, a motivated person with basic technical knowledge, and a willingness to get their hands dirty, can make significant progress in a single evening. The barrier to entry has never been lower, and the speed of experimentation has never been higher.\nThink of AI development tools as power tools, they can dramatically speed up what you can build and how fast you can build it. But just like real power tools, they aren’t magic. They still require skill, care, and good judgment to use effectively, and in the wrong hands they can create more problems than they solve.\nSeveral of the leading AI dev tools are discussed next.\nClaude Code is Anthropic’s coding assistant that runs in your terminal. You talk to it in plain English (“build me a simple landing page with an email capture”), and it creates/edits files, runs commands, and helps you prototype end-to-end—front-end, back-end, docs, and even quick data tasks. Think of it as a teammate who can both generate and execute code directly in your project folder.\nClaude Code is used directly from the terminal but many users find it more intuitive to use it within a familiar IDE like VS code.\nClaude Code: A Highly Agentic Coding Assistant",
     "crumbs": [
       "Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>AI Dev Tools</span>"

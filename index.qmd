@@ -12,24 +12,36 @@ format:
 *FALL 2025*
 
 **Instructor:** Scott Murff\
+**Office Hours:** 2-3pm on T, TH
+**Office Hours Location**: 587 TNRB
 **TAs:** Carter Adams, Eli Nelson\
+**TA Office Hours:** TBD
+**TA Office Hours Location**: 
 **Class Time:** Fridays Only, 9:30 AM – 12:15 PM\
-**Class Location:** TNRB 230\
+**Class Location:** 230 TNRB\
 **LMS:** LearningSuite
 
-## Content Overview
+## Prerequisites
 
-Welcome to *Creating Digital Products with AI: Strategy & Prototyping*.
+There are no formal prerequisites for the course, but students should have an interest in going deep on a techincal level into AI tools. Prior programming experience is helpful but not expected.
 
-What should a product manager be able to do in the era of AI? This course offers a hands-on, forward-looking answer.
+## Required Materials
 
-Students will explore foundational frameworks in product strategy, customer-centric design, and rapid iteration. Along the way, they’ll leverage both standard industry tools (i.e. GitHub, Jira, Figma) as well as modern AI tools (e.g. Lovable, Replit, Cursor, Windsurf) to ideate, prototype, and build real digital products.
+Paid account to an AI tool to be determined by you in class. Expect \$20 per month for the duration of the semester, about \$80 total for the course. This is comparable to typical textbook fee for a course. 
 
-AI is blurring the traditional boundaries between Product Management, Engineering, and Design. This course explores how product managers can use AI to enhance collaboration and accelerate execution.
+## Description
 
-Throughout the course, students will learn how AI is reshaping every stage of the product lifecycle, from identifying customer needs and defining MVPs to accelerating prototyping, testing, and user feedback. By the end of the semester, students will have developed and validated an AI-enabled product, preparing them to excel in a world where successful product management requires both strategic insight and hands-on experimentation with emerging technologies.
+*Creating Digital Products with AI: Strategy & Prototyping* immerses students in the evolving role of product managers in the era of AI-enabled innovation. This course combines strategic thinking with hands-on experimentation, giving students both the frameworks and the technical skills to envision, prototype, and launch AI-enhanced digital products.
 
-There are no formal prerequisites for the course, but students should have an interest in going deep on a technical level and will learn to code with help from AI.
+Students will explore foundational concepts in product strategy, customer-centric design, and rapid iteration while learning how AI is transforming each stage of the product lifecycle. Core topics include identifying unmet customer needs, defining and validating minimum viable products (MVPs), accelerating prototyping, and gathering actionable user feedback.
+
+In addition to standard product management tools such as GitHub, Jira, and Figma, students will work extensively with cutting-edge AI tools like Lovable, Replit, Cursor, and Claude Code. These tools enable them to ideate, design, and build at unprecedented speed, while gaining an understanding of how AI blurs traditional boundaries between product management, engineering, and design.
+
+By the end of the semester, students will have developed, tested, and refined an AI-enabled product.
+
+## Purpose
+
+This course develops students’ ability to integrate strategic thinking and technical execution to deliver products that create genuine value for others.
 
 ## Learning Outcomes
 
@@ -184,6 +196,25 @@ The following resources are available to get help:
 - Use **Slack** or email to contact one of the course TAs 
 - Use **Slack** or email to contact Professor Murff
 
-## Pre-enrollment Assessment
+## Honor Code
 
-Coming soon.
+In keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university's expectation, and every instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.
+
+
+## Preventing & Responding to Sexual Misconduct
+
+The health and well-being of students is of paramount importance at Brigham Young University.  If you or someone you know has experienced sexual harassment (including sexual violence), there are many resources available for assistance. 
+
+In accordance with Title IX of the Education Amendments of 1972, BYU prohibits unlawful sex discrimination, including sexual harassment, against any participant in its education programs or activities. The university also prohibits sexual harassment by its personnel and students. Sexual harassment occurs when
+
+a person is subjected to unwelcome sexual speech or conduct so severe, pervasive, and offensive that it effectively denies their ability to access any BYU education program or activity;
+any aid, benefit, or service of BYU is conditioned on a person’s participation in unwelcome sexual conduct; or
+a person suffers sexual assault, dating violence, domestic violence, or stalking on the basis of sex.
+University policy requires all faculty members to promptly report incidents of sexual harassment that come to their attention in any way, including through face-to-face conversations, a written class assignment or paper, class discussion, email, text, or social media post. Incidents of sexual harassment should be reported to the Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692 or 1085 WSC. Reports may also be submitted online at https://titleix.byu.edu/report or 1-888-238-1062 (24-hours a day).
+
+BYU offers confidential resources for those affected by sexual harassment, including the university’s Sexual Assault Survivor Advocate, as well as a number of non-confidential resources and services that may be helpful. Additional information about Title IX, the university’s Sexual Harassment Policy, reporting requirements, and resources can be found at http://titleix.byu.edu or by contacting the university’s Title IX Coordinator.
+
+
+## Student Disability
+
+Brigham Young University is committed to providing a working and learning atmosphere that reasonably accommodates qualified persons with disabilities. A disability is a physical or mental impairment that substantially limits one or more major life activities. Whether an impairment is substantially limiting depends on its nature and severity, its duration or expected duration, and its permanent or expected permanent or long-term impact. Examples include vision or hearing impairments, physical disabilities, chronic illnesses, emotional disorders (e.g., depression, anxiety), learning disorders, and attention disorders (e.g., ADHD). If you have a disability which impairs your ability to complete this course successfully, please contact the University Accessibility Center (UAC), 2170 WSC or 801-422-2767 to request a reasonable accommodation. The UAC can also assess students for learning, attention, and emotional concerns. If you feel you have been unlawfully discriminated against on the basis of disability, please contact the Equal Opportunity Office at 801-422-5895, eo_manager@byu.edu, or visit https://hrs.byu.edu/equal-opportunity for help.”
