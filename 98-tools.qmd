@@ -3,6 +3,8 @@ title: "AI Tools Overview"
 editor: visual
 ---
 
+![](images/ai-tools.jpeg)
+
 ## Front end
 
 [Stitch by Google](https://stitch.withgoogle.com/)

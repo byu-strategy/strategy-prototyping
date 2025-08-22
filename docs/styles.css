@@ -65,3 +65,22 @@ table td {
   }
 }
 
+
+
+.tweet-center {
+  display: flex;
+  justify-content: center;
+}
+.tweet-center .twitter-tweet {
+  margin: 0 auto;      /* removes extra left offset */
+  display: inline-block;
+}
+
+.embed-center {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+

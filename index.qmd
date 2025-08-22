@@ -12,22 +12,26 @@ format:
 *FALL 2025*
 
 **Instructor:** Scott Murff\
-**Office Hours:** 2-3pm on T, TH
-**Office Hours Location**: 587 TNRB
+**Office Hours:** 2-3pm on T, TH\
+**Office Hours Location**: 587 TNRB\
 **TAs:** Carter Adams, Eli Nelson\
-**TA Office Hours:** TBD
-**TA Office Hours Location**: 
+**TA Office Hours:** TBD\
+**TA Office Hours Location**: \
 **Class Time:** Fridays Only, 9:30 AM – 12:15 PM\
 **Class Location:** 230 TNRB\
-**LMS:** LearningSuite
+**LMS:** LearningSuite\
 
 ## Prerequisites
 
-There are no formal prerequisites for the course, but students should have an interest in going deep on a techincal level into AI tools. Prior programming experience is helpful but not expected.
+*IS 201 - Introduction to Information Systems* OR similar. Students should have an interest in going deep on a technical level and learning to code with assistance from AI.
 
 ## Required Materials
 
-Paid account to an AI tool to be determined by you in class. Expect \$20 per month for the duration of the semester, about \$80 total for the course. This is comparable to typical textbook fee for a course. 
+A modern Laptop or desktop (Mac or Windows).
+
+We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax, comparable to the cost of a textbook.
+
+All other materials are available online at no cost.
 
 ## Description
 
@@ -176,16 +180,6 @@ You may use laptops in class for note taking or other class related purposes. La
 
 I teach in a conversational discussion based style, which includes cold calling students to ask for your input or to pose questions. If you'd rather I not cold call on you please let me know on the first day of class so that I can avoid doing so. I have deep respect for individual learning styles and will make accommodations when needed.
 
-## Required Materials
-
-The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback by Dan Olsen (physical copy recommended, \$25 or less). Text and audio also available for free for BYU students digitally at O'Reilly books.
-
-A modern Laptop or desktop (Mac or Windows).
-
-Paid account to at least 1 AI tool of your choosing (~$20 per month).
-
-All other materials are provided for free on the course website.
-
 ## Getting Help
 
 The following resources are available to get help: 
@@ -199,7 +193,6 @@ The following resources are available to get help:
 ## Honor Code
 
 In keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university's expectation, and every instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.
-
 
 ## Preventing & Responding to Sexual Misconduct
 

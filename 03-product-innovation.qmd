@@ -2,6 +2,25 @@
 title: "Product Innovation"
 ---
 
+<div class="tweet-center">
+  <blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+      Software development has historically been constrained by scarcity – high costs, 
+      specialized skills, and long timelines. So builders chased only big markets.<br><br>
+      AI is making it cheap, fast, and easy to build – suddenly it’s economically sane 
+      to solve niche workflows for small…
+    </p>
+    — Madhu Guru (@realmadhuguru) 
+    <a href="https://twitter.com/realmadhuguru/status/1953253968228040778?ref_src=twsrc%5Etfw">
+      August 7, 2025
+    </a>
+  </blockquote>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
 ## The Lean Product Process
 
 The Lean Product Process is a repeatable framework for systematically developing products that customers love developed by Dan Olsen.
@@ -114,7 +133,11 @@ Dan Olsen’s iceberg reminds us that **great UX starts deep below the surface**
 A polished UI alone can’t deliver on these principles, they must be built into every layer of the iceberg.
 
 ![Image source: The Lean Product Playbook by Dan Olsen](images/ux-iceberg.png)
+## Pitch Deck
 
+What do you have to believe for this to be a good idea?
+
+Being non-consensus and right
 
 
 
