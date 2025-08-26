@@ -15,9 +15,14 @@ Some people take issue with the “CEO” comparison, since product managers typ
 -   Execution & organization – planning roadmaps, prioritizing, and delivering results
 -   Communication & leadership – influencing, storytelling, and managing stakeholders
 
-Products can be hardware or software, but since software dominates in volume, product management is often associated with software, even though many of the principles can apply equally well to hardware. Today, many hardware products come with a software component or integrated app, at times blurring the line between hardware and software. The focus of this course will software (i.e. digital products).
+Products can be hardware or software, but since software dominates in volume, product management is often associated with software, even though many of the principles can apply equally well to hardware. Today, many hardware products come with a software component or integrated app, at times blurring the line between hardware and software. The focus of this course is software products that can be built with the assistance of AI.
 
-Product management, as a named discipline and job title, began at HP in the 1940s and has since evolved into a key driver of innovation in technology. Early influences such as the \[Scrum development process\](https://en.wikipedia.org/wiki/Scrum\_(software_development) and the [Agile Manifesto](https://agilemanifesto.org/) reshaped how products are built, while initiatives like Google’s Associate Product Manager (APM) program and influential books helped standardize best practices. In recent years, PM has become one of the most sought-after careers, and today the field is entering a new era with the rise of the AI Product Manager.
+Product Management, as a formal discipline and job title, traces its roots to Hewlett-Packard in the 1940s, where it emerged as a distinct driver of innovation in technology. Yet the concept predates HP: a 1931 Procter & Gamble memo introduced the role of “Brand Men,” whose responsibilities closely foreshadowed what would later be recognized as Product Management.
+
+![Image source: Wikimedia Commons](images/brand-men.jpg)
+
+
+Early influences such as the \[Scrum development process\](https://en.wikipedia.org/wiki/Scrum_(software_development))) and the [Agile Manifesto](https://agilemanifesto.org/) reshaped how products are built, while initiatives like Google’s Associate Product Manager (APM) program and influential books helped standardize best practices. In recent years, PM has become one of the most sought-after careers, and today the field is entering a new era with the rise of the AI Product Manager.
 
 ![A History of Product Management; Aakash Gupta and Scott Murff](images/pm-history.png)
 
@@ -183,8 +188,9 @@ open -a "Microsoft Word" mydoc.docx
 
 **Package management**
 
-Package management is the system your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once — a huge advantage when you’re building AI products that depend on multiple tools and libraries. Learning to use a package manager (Homebrew on Mac, Winget on Windows) puts you in control of your setup, reduces errors, and helps you work like a professional.
+Package management is the system your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager (Homebrew on Mac, Winget on Windows) puts you in control of your setup, reduces errors, and helps you work like a professional.
 
+Run the following commands.
 
 ```{python eval=false}
 # Mac
@@ -218,9 +224,11 @@ htop
 
 ### VS Code
 
-
+Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS, Linux), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects.
 
 ### Claude Code
+
+Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.
 
 ### Write a PRD
 
