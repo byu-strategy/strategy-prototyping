@@ -29,6 +29,10 @@ format:
 
 A modern Laptop or desktop (Mac or Windows).
 
+Operating Systems: macOS 10.15+ or Windows 10+
+
+Hardware: 4GB+ RAM (more is better)
+
 We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax, comparable to the cost of a textbook.
 
 All other materials are available online at no cost.

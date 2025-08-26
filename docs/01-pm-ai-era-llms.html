@@ -304,16 +304,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#the-command-line" id="toc-the-command-line" class="nav-link" data-scroll-target="#the-command-line">The Command Line</a></li>
   <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
   <li><a href="#claude-code" id="toc-claude-code" class="nav-link" data-scroll-target="#claude-code">Claude Code</a></li>
-  <li><a href="#write-a-prd" id="toc-write-a-prd" class="nav-link" data-scroll-target="#write-a-prd">Write a PRD</a></li>
-  <li><a href="#code-the-app" id="toc-code-the-app" class="nav-link" data-scroll-target="#code-the-app">Code the app</a></li>
+  <li><a href="#code-your-first-app" id="toc-code-your-first-app" class="nav-link" data-scroll-target="#code-your-first-app">Code your first app</a></li>
+  <li><a href="#code-your-second-app" id="toc-code-your-second-app" class="nav-link" data-scroll-target="#code-your-second-app">Code your second app</a></li>
   </ul></li>
   <li><a href="#student-demos" id="toc-student-demos" class="nav-link" data-scroll-target="#student-demos">Student Demos</a></li>
-  <li><a href="#claude-code-learning-mode" id="toc-claude-code-learning-mode" class="nav-link" data-scroll-target="#claude-code-learning-mode">Claude Code Learning Mode</a></li>
-  <li><a href="#ai-and-machine-learning" id="toc-ai-and-machine-learning" class="nav-link" data-scroll-target="#ai-and-machine-learning">AI and Machine Learning</a>
-  <ul class="collapse">
-  <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning">Supervised Learning</a></li>
-  <li><a href="#gradient-descent" id="toc-gradient-descent" class="nav-link" data-scroll-target="#gradient-descent">Gradient Descent</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -425,13 +419,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="the-command-line" class="level3">
 <h3 class="anchored" data-anchor-id="the-command-line">The Command Line</h3>
 <p>In order to be a serious AI Product Manager, you need to get comfortable interacting with your computer via the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command line</a>.</p>
-<p>The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. Instead of navigating through a graphical user interface (GUI), which is the typical window- and icon-based environment, you enter text commands directly and the computer executes them. This gives you the potential for more precision and speed, plus access to powerful tools that aren’t always available through a GUI.</p>
-<p>Using the command line is like having a direct conversation with your computer: you type an instruction (like “open this folder” or “run this program”), and the computer executes it immediately. Developers and data scientists use the command line because it’s faster, more precise, and more powerful for tasks like creating projects, installing software, running code, and automating workflows.</p>
-<p>ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less. The command line is where you unlock the real power of automation enabling you to run scripts and streamline repetitive tasks.</p>
-<p>Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an old-school developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.”</p>
-<p>Learn by doing. Spend the next 10 minutes exploring the following commands.</p>
-<p><strong>Navigation</strong></p>
-<div id="dbd2dc4d" class="cell" data-execution_count="1">
+<p>The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. You access the command line through a program called a terminal which is a simple black (or white) window with just text, no buttons or icons. On Mac, this program is literally called “Terminal.” On Windows, it’s called “Command Prompt” or “PowerShell.”</p>
+<p>Instead of navigating through a graphical user interface (GUI) with windows and icons, you type commands directly into this terminal window and press Enter to execute them. The command line acts as your gateway to the underlying operating system, giving you direct access to files, programs, and system functions that might be buried deep within GUI menus or not available graphically at all.</p>
+<p>This approach offers several advantages: greater precision in file operations, faster execution of repetitive tasks, access to powerful automation tools, and the ability to combine simple commands into complex workflows. Developers and data scientists rely on the command line because it’s faster and more powerful for tasks like creating projects, installing software, running code, and automating workflows.</p>
+<p><strong>ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less.</strong> The command line is where you unlock the real power of automation, enabling you to run scripts and streamline repetitive tasks. Many advanced system administration tasks, programming tools, and server management operations are primarily designed for command-line use, making terminal proficiency essential for developers and savvy product managers.</p>
+<p>Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an obscure developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.</p>
+<p>Now, let’s learn the command line by doing. Spend the next 10 minutes testing the following commands.</p>
+<div id="34cc4c6a" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># What folder am I in?: "print working directory"</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pwd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -475,100 +469,122 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co"># you can leave file name off if you just wanna open a blank instance.</span></span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="bu">open</span> <span class="op">-</span>a <span class="st">"Microsoft Word"</span> mydoc.docx</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><strong>Gotchas</strong></p>
+<section id="gotchas" class="level4">
+<h4 class="anchored" data-anchor-id="gotchas">Gotchas</h4>
 <ul>
 <li>Paths with spaces: quote them — cd “My Folder”</li>
 <li>Case sensitivity: macOS/Linux are usually case-sensitive; Windows is not.</li>
 <li>rm is more permanent than dragging something to the Trash/Recycle Bin. By default, it doesn’t send files to a “trash”, it permanently deletes them. Use with caution!</li>
 </ul>
-<p><strong>Package management</strong></p>
-<p>Package management is the system your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager (Homebrew on Mac, Winget on Windows) puts you in control of your setup, reduces errors, and helps you work like a professional.</p>
-<p>Run the following commands.</p>
-<div id="fecb655f" class="cell" data-execution_count="2">
+</section>
+<section id="package-management" class="level4">
+<h4 class="anchored" data-anchor-id="package-management">Package management</h4>
+<p>The next concept to tackle on the journey to becoming an AI powered Product Manager is <strong>package management.</strong> This is a tool your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager puts you in control of your setup, reduces errors, and helps you work like a professional.</p>
+<p>On Mac, <em>Homebrew</em> is the standard package manager and must be installed.</p>
+<p>For Windows, <em>Winget</em> comes pre-installed.</p>
+<p>Run the following commands to install and/or check the version of your package manager.</p>
+<div id="cf1f4432" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mac</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Install Homebrew</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">/</span><span class="bu">bin</span><span class="op">/</span>bash <span class="op">-</span>c <span class="st">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#confirm it’s set up correctly.</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>brew doctor</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Install the "htop" system monitor</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>brew install htop</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Run it to see your system processes</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>htop</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Confirm installation by checking which version</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>brew <span class="op">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="ee0f065f" class="cell" data-execution_count="3">
+<div id="050d87be" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Windows</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># winget should be preinstalled on windows</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>winget <span class="op">--</span>version</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Install the "htop" system monitor</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>winget install <span class="op">--</span><span class="bu">id</span><span class="op">=</span>htop</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Run it to see your system processes</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>htop</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>winget <span class="op">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Winget comes pre-installed on Windows 10 (version 1709+) and Windows 11 so there is generally no need to install it.</p>
+</section>
 </section>
 <section id="vs-code" class="level3">
 <h3 class="anchored" data-anchor-id="vs-code">VS Code</h3>
-<p>Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS, Linux), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects.</p>
+<p>Next we’ll get set up with Visual Studio Code (VS Code), a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects. We will build applications within VS code throughout the semester.</p>
+<p>Let’s install it via the package manager.</p>
+<div id="e12c6081" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install VS Code using Homebrew</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>brew install <span class="op">--</span>cask visual<span class="op">-</span>studio<span class="op">-</span>code</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Note: The –cask flag tells Homebrew to install a GUI application rather than a command-line tool.</p>
+<div id="feb9eed5" class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install VS Code using Windows Package Manager</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>winget install Microsoft.VisualStudioCode</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="claude-code" class="level3">
 <h3 class="anchored" data-anchor-id="claude-code">Claude Code</h3>
 <p>Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GqjvaBUk3Tc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="write-a-prd" class="level3">
-<h3 class="anchored" data-anchor-id="write-a-prd">Write a PRD</h3>
+<section id="code-your-first-app" class="level3">
+<h3 class="anchored" data-anchor-id="code-your-first-app">Code your first app</h3>
+<p>Open VS Code, open the folder where you want to save your application files and start up Claude Code via the terminal within VS Code.</p>
+<div id="56e00272" class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># star-up claude code</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>claude</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Turn on Explanatory mode:</p>
+<div id="13653d59" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># star-up claude code</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="op">/</span>output<span class="op">-</span>style explanatory</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Noticed that this created a .claude file.</p>
+<p>A .claude file is a configuration file used by Claude Code. These files help define project-specific settings and instructions for how Claude should approach coding tasks in your project.</p>
+<p>.claude files typically contain:</p>
+<ul>
+<li>Project context and instructions - Information about your project’s structure, coding standards, and specific requirements</li>
+<li>File patterns and exclusions - Rules about which files Claude should or shouldn’t modify</li>
+<li>Custom prompts and guidelines - Specific instructions for how you want Claude to approach coding tasks in this particular project</li>
+</ul>
+<p>These files allow you to give Claude persistent context about your project so you don’t have to re-explain your codebase structure, conventions, or preferences every time you use Claude Code. They essentially act as a “memory” for Claude about how to work effectively within your specific project.</p>
+<p>Now copy paste in the following prompt into the active Claude Code terminal session:</p>
+<blockquote class="blockquote">
+<p>Build me a simple todo list app using streamlit</p>
+</blockquote>
+<div class="callout callout-style-default callout-tip callout-titled" title="How many lines of code does a production grade business application typically require?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How many lines of code does a production grade business application typically require?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A production-grade business application for internal use typically ranges from 10,000 to 500,000+ lines of code, depending on several key factors: Small to Medium Internal Apps (10K-50K lines)</p>
+<p>Simple CRUD applications with basic workflows Departmental tools with limited integrations Small team usage (10-100 users)</p>
+<p>Medium Business Applications (50K-200K lines)</p>
+<p>Multi-module systems with complex business logic Integration with several external systems Company-wide usage (100-1000+ users) Advanced reporting and analytics features</p>
+<p>Large Enterprise Applications (200K-1M+ lines)</p>
+<p>Comprehensive business management systems Extensive integrations and APIs Multi-tenant or highly scalable architectures Complex compliance and security requirements</p>
+<p>Factors that significantly impact size:</p>
+<ul>
+<li><p>Complexity of business logic - Financial calculations, approval workflows, etc.</p></li>
+<li><p>Number of integrations - APIs, databases, third-party services</p></li>
+<li><p>User interface sophistication - Simple forms vs.&nbsp;rich dashboards Technology stack - Some frameworks require more boilerplate code</p></li>
+<li><p>Code quality practices - Well-structured code with proper separation of concerns Testing coverage - Test code can represent 30-50% of total codebase</p></li>
+</ul>
+<p>Modern considerations: Many internal applications today leverage low-code platforms, cloud services, and existing frameworks, which can reduce custom code requirements significantly. A modern internal app might accomplish what previously took 100K lines with just 20-30K lines by using pre-built components and services.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="code-the-app" class="level3">
-<h3 class="anchored" data-anchor-id="code-the-app">Code the app</h3>
+<section id="code-your-second-app" class="level3">
+<h3 class="anchored" data-anchor-id="code-your-second-app">Code your second app</h3>
+<p>Spend the next 15 minutes coming up with another application. For simplicity for now, continue using streamlit (i.e.&nbsp;include in your prompt that the application should be built using streamlit).</p>
 </section>
 </section>
 <section id="student-demos" class="level2">
 <h2 class="anchored" data-anchor-id="student-demos">Student Demos</h2>
-</section>
-<section id="claude-code-learning-mode" class="level2">
-<h2 class="anchored" data-anchor-id="claude-code-learning-mode">Claude Code Learning Mode</h2>
-</section>
-<section id="ai-and-machine-learning" class="level2">
-<h2 class="anchored" data-anchor-id="ai-and-machine-learning">AI and Machine Learning</h2>
-<p>You first need to understand something about how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.</p>
-<p>Machine Learning (ML) is a subset of AI that focuses on teaching computers to learn from data instead of following hard-coded instructions. In ML, we give the computer many examples (data) and let it find the patterns on its own. The more and better-quality data it sees, the better it gets at making predictions or generating useful outputs.</p>
-<p>Within machine learning, deep learning uses layers of artificial “neurons” to handle extremely complex patterns—this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.</p>
-<p>Even if you won’t be building models yourself, understanding these basic concepts will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/ai-ml-map.png" class="img-fluid figure-img"></p>
-<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
-</figure>
-</div>
-<section id="supervised-learning" class="level3">
-<h3 class="anchored" data-anchor-id="supervised-learning">Supervised Learning</h3>
-<p>The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. A conceptual example of supervised learning is teaching someone to guess the next word in a sentence by giving them lots of examples with the right answers.</p>
-<p>For instance, imagine we train a model on sentences like:</p>
-<ul>
-<li>The cat sat on the <strong>mat</strong>.</li>
-<li>She went to the <strong>store</strong>.</li>
-<li>I like to eat <strong>pizza</strong>.</li>
-</ul>
-<p>In each case, the words before the blank are the <strong>input</strong>, and the correct missing word is the <strong>label</strong>. The model makes a guess, checks if it matches the label, and adjusts its internal weights to improve next time.</p>
-<p>After seeing millions of examples, the model learns patterns in how words are used so it can predict the missing word—even in sentences it has never seen before.</p>
-<p>In short: <strong>supervised learning is learning patterns from labeled examples so you can make accurate predictions on new, unseen data.</strong></p>
-<p>The simplest form of supervised learning is <strong>regression</strong>, where the goal is to predict a number based on input data. For example, given a set of sentences and their average reading times, a regression model could learn to predict how long it might take someone to read a new sentence. The model trains on many input–output pairs, gradually learning the relationship between the features in the input and the numeric value in the output.</p>
-<p>While regression can be done with simple formulas, modern AI—including Large Language Models—relies on <strong>neural networks</strong> to handle far more complex patterns. Neural networks are essentially many layers of interconnected regression-like steps, stacked and tuned to capture relationships in huge datasets.</p>
-<p>Understanding these building blocks will help you see how LLMs work under the hood, even if the scale and complexity are much greater than in basic regression.</p>
-</section>
-<section id="gradient-descent" class="level3">
-<h3 class="anchored" data-anchor-id="gradient-descent">Gradient Descent</h3>
-<p>Gradient descent is the learning process that tunes a model to make better predictions over time. Imagine you’re standing on a foggy hillside and want to get to the lowest point in the valley. You can’t see far, so you take small steps downhill in the steepest direction you can feel under your feet.</p>
-<p>In a neural network, the “hill” is the <strong>error</strong>, how wrong the model’s predictions are. The “steps” are <strong>weight adjustments</strong> which change the models predictions. After each guess, the network measures the error, figures out which direction will reduce it the most, and then tweaks the weights slightly to move in that direction.</p>
-<p>By repeating this process many times, the network eventually settles in a low spot where the error is as small as possible.</p>
-<p>In short: <strong>gradient descent is the process of taking small steps to reduce errors until the model’s predictions are as accurate as it can make them.</strong></p>
+<p>Let’s see some of the apps that you built.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

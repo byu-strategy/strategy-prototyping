@@ -21,8 +21,7 @@ Product Management, as a formal discipline and job title, traces its roots to He
 
 ![Image source: Wikimedia Commons](images/brand-men.jpg)
 
-
-Early influences such as the \[Scrum development process\](https://en.wikipedia.org/wiki/Scrum_(software_development))) and the [Agile Manifesto](https://agilemanifesto.org/) reshaped how products are built, while initiatives like Google’s Associate Product Manager (APM) program and influential books helped standardize best practices. In recent years, PM has become one of the most sought-after careers, and today the field is entering a new era with the rise of the AI Product Manager.
+Early influences such as the \[Scrum development process\](https://en.wikipedia.org/wiki/Scrum\_(software_development))) and the [Agile Manifesto](https://agilemanifesto.org/) reshaped how products are built, while initiatives like Google’s Associate Product Manager (APM) program and influential books helped standardize best practices. In recent years, PM has become one of the most sought-after careers, and today the field is entering a new era with the rise of the AI Product Manager.
 
 ![A History of Product Management; Aakash Gupta and Scott Murff](images/pm-history.png)
 
@@ -105,13 +104,9 @@ Vibe coding is here to stay. I'd been worried it might be a fad, but I talked to
 ```
 
 ::: embed-center
-<iframe 
-    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362122859722256384?collapsed=1" 
-    height="567" 
-    width="504" 
-    frameborder="0" 
-    allowfullscreen="" 
-    title="Embedded post"> </iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362122859722256384?collapsed=1" height="567" width="504" frameborder="0" allowfullscreen title="Embedded post">
+
+</iframe>
 :::
 
 ![AI Product Management Learning Roadmap from Paweł Huryn](images/ai-pm-roadmap.jpeg)
@@ -122,17 +117,17 @@ Vibe coding is here to stay. I'd been worried it might be a fad, but I talked to
 
 In order to be a serious AI Product Manager, you need to get comfortable interacting with your computer via the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
 
-The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. Instead of navigating through a graphical user interface (GUI), which is the typical window- and icon-based environment, you enter text commands directly and the computer executes them. This gives you the potential for more precision and speed, plus access to powerful tools that aren’t always available through a GUI.
+The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. You access the command line through a program called a terminal which is a simple black (or white) window with just text, no buttons or icons. On Mac, this program is literally called "Terminal." On Windows, it's called "Command Prompt" or "PowerShell."
 
-Using the command line is like having a direct conversation with your computer: you type an instruction (like “open this folder” or “run this program”), and the computer executes it immediately. Developers and data scientists use the command line because it’s faster, more precise, and more powerful for tasks like creating projects, installing software, running code, and automating workflows.
+Instead of navigating through a graphical user interface (GUI) with windows and icons, you type commands directly into this terminal window and press Enter to execute them. The command line acts as your gateway to the underlying operating system, giving you direct access to files, programs, and system functions that might be buried deep within GUI menus or not available graphically at all.
 
-ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less. The command line is where you unlock the real power of automation enabling you to run scripts and streamline repetitive tasks.
+This approach offers several advantages: greater precision in file operations, faster execution of repetitive tasks, access to powerful automation tools, and the ability to combine simple commands into complex workflows. Developers and data scientists rely on the command line because it's faster and more powerful for tasks like creating projects, installing software, running code, and automating workflows.
 
-Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an old-school developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.”
+**ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less.** The command line is where you unlock the real power of automation, enabling you to run scripts and streamline repetitive tasks. Many advanced system administration tasks, programming tools, and server management operations are primarily designed for command-line use, making terminal proficiency essential for developers and savvy product managers.
 
-Learn by doing. Spend the next 10 minutes exploring the following commands.
+Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an obscure developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.
 
-**Navigation**
+Now, let's learn the command line by doing. Spend the next 10 minutes testing the following commands.
 
 ```{python eval=false}
 # What folder am I in?: "print working directory"
@@ -180,17 +175,21 @@ open -a "Microsoft Word" mydoc.docx
 
 ```
 
-**Gotchas**
+#### Gotchas
 
-- Paths with spaces: quote them — cd "My Folder" 
-- Case sensitivity: macOS/Linux are usually case-sensitive; Windows is not.
-- rm is more permanent than dragging something to the Trash/Recycle Bin. By default, it doesn’t send files to a “trash”, it permanently deletes them. Use with caution!
+-   Paths with spaces: quote them — cd "My Folder"
+-   Case sensitivity: macOS/Linux are usually case-sensitive; Windows is not.
+-   rm is more permanent than dragging something to the Trash/Recycle Bin. By default, it doesn’t send files to a “trash”, it permanently deletes them. Use with caution!
 
-**Package management**
+#### Package management
 
-Package management is the system your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager (Homebrew on Mac, Winget on Windows) puts you in control of your setup, reduces errors, and helps you work like a professional.
+The next concept to tackle on the journey to becoming an AI powered Product Manager is **package management.** This is a tool your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager puts you in control of your setup, reduces errors, and helps you work like a professional.
 
-Run the following commands.
+On Mac, *Homebrew* is the standard package manager and must be installed. 
+
+For Windows, *Winget* comes pre-installed.
+
+Run the following commands to install and/or check the version of your package manager.
 
 ```{python eval=false}
 # Mac
@@ -198,86 +197,106 @@ Run the following commands.
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-#confirm it’s set up correctly.
-brew doctor
-
-# Install the "htop" system monitor
-brew install htop
-
-# Run it to see your system processes
-htop
+# Confirm installation by checking which version
+brew --version
 ```
-
 
 ```{python eval=false}
 # Windows
 
 # winget should be preinstalled on windows
 winget --version
-# Install the "htop" system monitor
-winget install --id=htop
-
-# Run it to see your system processes
-htop
 ```
 
+Winget comes pre-installed on Windows 10 (version 1709+) and Windows 11 so there is generally no need to install it.
 
 ### VS Code
 
-Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS, Linux), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects.
+Next we'll get set up with Visual Studio Code (VS Code), a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects. We will build applications within VS code throughout the semester.
+
+Let's install it via the package manager. 
+
+```{python eval=false}
+# Install VS Code using Homebrew
+brew install --cask visual-studio-code
+```
+
+Note: The --cask flag tells Homebrew to install a GUI application rather than a command-line tool.
+
+```{python eval=false}
+# Install VS Code using Windows Package Manager
+winget install Microsoft.VisualStudioCode
+```
 
 ### Claude Code
 
 Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.
 
-### Write a PRD
+{{< video https://www.youtube.com/embed/GqjvaBUk3Tc >}}
 
-### Code the app
+### Code your first app
+
+Open VS Code, open the folder where you want to save your application files and start up Claude Code via the terminal within VS Code.
+
+```{python eval=false}
+# star-up claude code
+claude
+```
+
+Turn on Explanatory mode:
+
+```{python eval=false}
+# star-up claude code
+/output-style explanatory
+```
+
+Noticed that this created a .claude file. 
+
+A .claude file is a configuration file used by Claude Code. These files help define project-specific settings and instructions for how Claude should approach coding tasks in your project.
+
+.claude files typically contain:
+
+- Project context and instructions - Information about your project's structure, coding standards, and specific requirements
+- File patterns and exclusions - Rules about which files Claude should or shouldn't modify
+- Custom prompts and guidelines - Specific instructions for how you want Claude to approach coding tasks in this particular project
+
+These files allow you to give Claude persistent context about your project so you don't have to re-explain your codebase structure, conventions, or preferences every time you use Claude Code. They essentially act as a "memory" for Claude about how to work effectively within your specific project.
+
+Now copy paste in the following prompt into the active Claude Code terminal session:
+
+> Build me a simple todo list app using streamlit
+
+::: {.callout-tip collapse="true" title="How many lines of code does a production grade business application typically require?"}
+A production-grade business application for internal use typically ranges from 10,000 to 500,000+ lines of code, depending on several key factors: Small to Medium Internal Apps (10K-50K lines)
+
+Simple CRUD applications with basic workflows Departmental tools with limited integrations Small team usage (10-100 users)
+
+Medium Business Applications (50K-200K lines)
+
+Multi-module systems with complex business logic Integration with several external systems Company-wide usage (100-1000+ users) Advanced reporting and analytics features
+
+Large Enterprise Applications (200K-1M+ lines)
+
+Comprehensive business management systems Extensive integrations and APIs Multi-tenant or highly scalable architectures Complex compliance and security requirements
+
+Factors that significantly impact size:
+
+-   Complexity of business logic - Financial calculations, approval workflows, etc.
+
+-   Number of integrations - APIs, databases, third-party services
+
+-   User interface sophistication - Simple forms vs. rich dashboards Technology stack - Some frameworks require more boilerplate code
+
+-   Code quality practices - Well-structured code with proper separation of concerns Testing coverage - Test code can represent 30-50% of total codebase
+
+Modern considerations: Many internal applications today leverage low-code platforms, cloud services, and existing frameworks, which can reduce custom code requirements significantly. A modern internal app might accomplish what previously took 100K lines with just 20-30K lines by using pre-built components and services.
+:::
+
+### Code your second app
+
+Spend the next 15 minutes coming up with another application. For simplicity for now, continue using streamlit (i.e. include in your prompt that the application should be built using streamlit).
 
 ## Student Demos
 
-## Claude Code Learning Mode
+Let's see some of the apps that you built.
 
-## AI and Machine Learning
-
-You first need to understand something about how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.
-
-Machine Learning (ML) is a subset of AI that focuses on teaching computers to learn from data instead of following hard-coded instructions. In ML, we give the computer many examples (data) and let it find the patterns on its own. The more and better-quality data it sees, the better it gets at making predictions or generating useful outputs.
-
-Within machine learning, deep learning uses layers of artificial “neurons” to handle extremely complex patterns—this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.
-
-Even if you won’t be building models yourself, understanding these basic concepts will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.
-
-![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/ai-ml-map.png)
-
-### Supervised Learning
-
-The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. A conceptual example of supervised learning is teaching someone to guess the next word in a sentence by giving them lots of examples with the right answers.
-
-For instance, imagine we train a model on sentences like:
-
--   The cat sat on the **mat**.
--   She went to the **store**.
--   I like to eat **pizza**.
-
-In each case, the words before the blank are the **input**, and the correct missing word is the **label**. The model makes a guess, checks if it matches the label, and adjusts its internal weights to improve next time.
-
-After seeing millions of examples, the model learns patterns in how words are used so it can predict the missing word—even in sentences it has never seen before.
-
-In short: **supervised learning is learning patterns from labeled examples so you can make accurate predictions on new, unseen data.**
-
-The simplest form of supervised learning is **regression**, where the goal is to predict a number based on input data. For example, given a set of sentences and their average reading times, a regression model could learn to predict how long it might take someone to read a new sentence. The model trains on many input–output pairs, gradually learning the relationship between the features in the input and the numeric value in the output.
-
-While regression can be done with simple formulas, modern AI—including Large Language Models—relies on **neural networks** to handle far more complex patterns. Neural networks are essentially many layers of interconnected regression-like steps, stacked and tuned to capture relationships in huge datasets.
-
-Understanding these building blocks will help you see how LLMs work under the hood, even if the scale and complexity are much greater than in basic regression.
-
-### Gradient Descent
-
-Gradient descent is the learning process that tunes a model to make better predictions over time. Imagine you’re standing on a foggy hillside and want to get to the lowest point in the valley. You can’t see far, so you take small steps downhill in the steepest direction you can feel under your feet.
-
-In a neural network, the “hill” is the **error**, how wrong the model’s predictions are. The “steps” are **weight adjustments** which change the models predictions. After each guess, the network measures the error, figures out which direction will reduce it the most, and then tweaks the weights slightly to move in that direction.
-
-By repeating this process many times, the network eventually settles in a low spot where the error is as small as possible.
-
-In short: **gradient descent is the process of taking small steps to reduce errors until the model’s predictions are as accurate as it can make them.**

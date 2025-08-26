@@ -297,7 +297,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link active" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a>
+  <li><a href="#ai-and-machine-learning" id="toc-ai-and-machine-learning" class="nav-link active" data-scroll-target="#ai-and-machine-learning">AI and Machine Learning</a>
+  <ul class="collapse">
+  <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning">Supervised Learning</a></li>
+  <li><a href="#gradient-descent" id="toc-gradient-descent" class="nav-link" data-scroll-target="#gradient-descent">Gradient Descent</a></li>
+  </ul></li>
+  <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a>
   <ul class="collapse">
   <li><a href="#gathering-and-processing-text-data" id="toc-gathering-and-processing-text-data" class="nav-link" data-scroll-target="#gathering-and-processing-text-data">1. Gathering and Processing Text Data</a></li>
   <li><a href="#pretraining-the-model" id="toc-pretraining-the-model" class="nav-link" data-scroll-target="#pretraining-the-model">2. Pretraining the Model</a></li>
@@ -336,6 +341,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<section id="ai-and-machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-machine-learning">AI and Machine Learning</h2>
+<p>You first need to understand something about how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.</p>
+<p>Machine Learning (ML) is a subset of AI that focuses on teaching computers to learn from data instead of following hard-coded instructions. In ML, we give the computer many examples (data) and let it find the patterns on its own. The more and better-quality data it sees, the better it gets at making predictions or generating useful outputs.</p>
+<p>Within machine learning, deep learning uses layers of artificial “neurons” to handle extremely complex patterns—this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.</p>
+<p>Even if you won’t be building models yourself, understanding these basic concepts will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ai-ml-map.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<section id="supervised-learning" class="level3">
+<h3 class="anchored" data-anchor-id="supervised-learning">Supervised Learning</h3>
+<p>The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. A conceptual example of supervised learning is teaching someone to guess the next word in a sentence by giving them lots of examples with the right answers.</p>
+<p>For instance, imagine we train a model on sentences like:</p>
+<ul>
+<li>The cat sat on the <strong>mat</strong>.</li>
+<li>She went to the <strong>store</strong>.</li>
+<li>I like to eat <strong>pizza</strong>.</li>
+</ul>
+<p>In each case, the words before the blank are the <strong>input</strong>, and the correct missing word is the <strong>label</strong>. The model makes a guess, checks if it matches the label, and adjusts its internal weights to improve next time.</p>
+<p>After seeing millions of examples, the model learns patterns in how words are used so it can predict the missing word—even in sentences it has never seen before.</p>
+<p>In short: <strong>supervised learning is learning patterns from labeled examples so you can make accurate predictions on new, unseen data.</strong></p>
+<p>The simplest form of supervised learning is <strong>regression</strong>, where the goal is to predict a number based on input data. For example, given a set of sentences and their average reading times, a regression model could learn to predict how long it might take someone to read a new sentence. The model trains on many input–output pairs, gradually learning the relationship between the features in the input and the numeric value in the output.</p>
+<p>While regression can be done with simple formulas, modern AI—including Large Language Models—relies on <strong>neural networks</strong> to handle far more complex patterns. Neural networks are essentially many layers of interconnected regression-like steps, stacked and tuned to capture relationships in huge datasets.</p>
+<p>Understanding these building blocks will help you see how LLMs work under the hood, even if the scale and complexity are much greater than in basic regression.</p>
+</section>
+<section id="gradient-descent" class="level3">
+<h3 class="anchored" data-anchor-id="gradient-descent">Gradient Descent</h3>
+<p>Gradient descent is the learning process that tunes a model to make better predictions over time. Imagine you’re standing on a foggy hillside and want to get to the lowest point in the valley. You can’t see far, so you take small steps downhill in the steepest direction you can feel under your feet.</p>
+<p>In a neural network, the “hill” is the <strong>error</strong>, how wrong the model’s predictions are. The “steps” are <strong>weight adjustments</strong> which change the models predictions. After each guess, the network measures the error, figures out which direction will reduce it the most, and then tweaks the weights slightly to move in that direction.</p>
+<p>By repeating this process many times, the network eventually settles in a low spot where the error is as small as possible.</p>
+<p>In short: <strong>gradient descent is the process of taking small steps to reduce errors until the model’s predictions are as accurate as it can make them.</strong></p>
+</section>
+</section>
 <section id="large-language-models-and-generative-ai" class="level2">
 <h2 class="anchored" data-anchor-id="large-language-models-and-generative-ai">Large Language Models and Generative AI</h2>
 <p>Large Language Models (LLMs) are the core technology behind much of today’s Generative AI. They are built in two main stages: <strong>pretraining</strong> and <strong>fine-tuning</strong></p>
@@ -491,7 +532,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</h3>
 <p>AI’s impact grows dramatically when you automate prompts and dynamically inject fresh data into them.</p>
 <p>The python code chunk below illustrates how to do this.</p>
-<div id="01db720c" class="cell" data-execution_count="1">
+<div id="3f3c49a6" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
