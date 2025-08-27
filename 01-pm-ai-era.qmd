@@ -239,18 +239,18 @@ Claude Code is a command-line tool that enables developers to delegate coding ta
 Open VS Code, open the folder where you want to save your application files and start up Claude Code via the terminal within VS Code.
 
 ```{python eval=false}
-# star-up claude code
+# start-up claude code
 claude
 ```
 
 Turn on Explanatory mode:
 
 ```{python eval=false}
-# star-up claude code
+# change the mode of Claude Code so that it explains more about what it's doing
 /output-style explanatory
 ```
 
-Noticed that this created a .claude file. 
+Notice that this created a .claude file. 
 
 A .claude file is a configuration file used by Claude Code. These files help define project-specific settings and instructions for how Claude should approach coding tasks in your project.
 

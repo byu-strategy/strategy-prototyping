@@ -18,7 +18,7 @@ book:
     - part: Topics
       chapters:
     # Core Course Chapters
-        - 01-pm-ai-era-llms.qmd
+        - 01-pm-ai-era.qmd
         - 02-llms-prompt-engineering.qmd
         - 03-product-innovation.qmd
         - 04-value-prop-design.qmd

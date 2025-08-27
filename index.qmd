@@ -27,13 +27,15 @@ format:
 
 ## Required Materials
 
-A modern Laptop or desktop (Mac or Windows).
+A modern Laptop or desktop (Mac or Windows):
+- Operating Systems: macOS 10.15+ or Windows 10+
+- Hardware: 4GB+ RAM (more is better)
 
-Operating Systems: macOS 10.15+ or Windows 10+
+AI Tools:
+- We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax
+- Gemini is [free for students](https://gemini.google/students/) this year: 
 
-Hardware: 4GB+ RAM (more is better)
-
-We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax, comparable to the cost of a textbook.
+Innovators DNAs Resources and Assessment (special reduced price of $20)
 
 All other materials are available online at no cost.
 
@@ -58,7 +60,7 @@ This course develops students’ ability to integrate strategic thinking and tec
 | 1\. Understand the basics of how LLMs generate natural language. | Intellectually Enlarging |
 | 2\. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
 | 3\. Analyze the physical, mental, and spiritual impact your product is likely to have on its users. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
-| 4\. Create a digital product that delivers value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
+| 4\. Create a digital product that delivers enduring value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
 
 ## Instructor Bio
 
@@ -80,7 +82,7 @@ Below is the grading breakdown for each assessment in the course. Each point is 
 |-----------|-----------|-----------|-----------|-----------|
 | Exam | [Pre-Course Knowledge Check](00-assessments.qmd#pre-course-knowledge-check)<sup>2</sup> | 0% | 0 | 1,2,3,4 |
 | Exam | [Final Exam](00-assessments.qmd#final-exam) | 10% | 50 | 1,2,3,4 |
-| Quiz | [Quiz 1 - LLMs 1](01-pm-ai-era-llms.qmd) | 2% | 10 | 1 |
+| Quiz | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
 | Quiz | [Quiz 2 - LLMs 2](02-llms-prompt-engineering.qmd) | 2% | 10 | 1 |
 | Quiz | [Quiz 3 - Product Strategy and Innovation](03-product-innovation.qmd) | 2% | 10 | 2 |
 | Quiz | [Quiz 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
