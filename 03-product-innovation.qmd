@@ -19,8 +19,6 @@ title: "Product Innovation"
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
 ## The Lean Product Process
 
 The Lean Product Process is a repeatable framework for systematically developing products that customers love developed by Dan Olsen.
@@ -46,7 +44,6 @@ Not “everyone who might use it” — your *primary* audience you will optimiz
   - Goals and motivations
   - Pain points and frustrations
 - Use direct quotes from customer interviews when possible.
-
 
 ## Underserved Needs
 
@@ -102,6 +99,10 @@ It’s a tool for designing a smoother, more valuable customer experience.
 
 ![Image source: Heart of the Customer](images/journey-map.png)
 
+### Moral Foundations Analysis
+
+
+
 # Solution Space
 
 ## Feature Set
@@ -133,6 +134,7 @@ Dan Olsen’s iceberg reminds us that **great UX starts deep below the surface**
 A polished UI alone can’t deliver on these principles, they must be built into every layer of the iceberg.
 
 ![Image source: The Lean Product Playbook by Dan Olsen](images/ux-iceberg.png)
+
 ## Pitch Deck
 
 What do you have to believe for this to be a good idea?

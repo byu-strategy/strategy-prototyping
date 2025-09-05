@@ -121,6 +121,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   gtag('config', 'G-5TPMPSE4HZ');
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 
@@ -300,7 +329,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#ai-and-machine-learning" id="toc-ai-and-machine-learning" class="nav-link active" data-scroll-target="#ai-and-machine-learning">AI and Machine Learning</a>
   <ul class="collapse">
   <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning">Supervised Learning</a></li>
-  <li><a href="#gradient-descent" id="toc-gradient-descent" class="nav-link" data-scroll-target="#gradient-descent">Gradient Descent</a></li>
+  <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural Networks</a></li>
   </ul></li>
   <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a>
   <ul class="collapse">
@@ -308,8 +337,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#pretraining-the-model" id="toc-pretraining-the-model" class="nav-link" data-scroll-target="#pretraining-the-model">2. Pretraining the Model</a></li>
   <li><a href="#fine-tuning-for-specific-tasks" id="toc-fine-tuning-for-specific-tasks" class="nav-link" data-scroll-target="#fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</a></li>
   <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link" data-scroll-target="#the-big-picture">4. The Big Picture</a></li>
-  <li><a href="#embeddings" id="toc-embeddings" class="nav-link" data-scroll-target="#embeddings">Embeddings</a></li>
-  <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural Networks</a></li>
   <li><a href="#gpt-architecture" id="toc-gpt-architecture" class="nav-link" data-scroll-target="#gpt-architecture">GPT Architecture</a></li>
   <li><a href="#anatomy-of-various-prompt-structures" id="toc-anatomy-of-various-prompt-structures" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures">Anatomy of Various Prompt Structures</a></li>
   <li><a href="#anatomy-of-various-prompt-structures-1" id="toc-anatomy-of-various-prompt-structures-1" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures-1">Anatomy of Various Prompt Structures</a></li>
@@ -343,10 +370,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="ai-and-machine-learning" class="level2">
 <h2 class="anchored" data-anchor-id="ai-and-machine-learning">AI and Machine Learning</h2>
-<p>You first need to understand something about how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.</p>
+<p>To get the most out of AI and in particular if you plan to build AI powered products (which is different than simply building a product with the help of AI), you need to understand how this technology works, at least at a high level. Artificial Intelligence (AI) is the broad idea of creating computer systems that can perform tasks we normally associate with human intelligence, like understanding language, recognizing patterns, making decisions, and generating creative content.</p>
 <p>Machine Learning (ML) is a subset of AI that focuses on teaching computers to learn from data instead of following hard-coded instructions. In ML, we give the computer many examples (data) and let it find the patterns on its own. The more and better-quality data it sees, the better it gets at making predictions or generating useful outputs.</p>
-<p>Within machine learning, deep learning uses layers of artificial “neurons” to handle extremely complex patterns—this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.</p>
-<p>Even if you won’t be building models yourself, understanding these basic concepts will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.</p>
+<p>Within machine learning, deep learning uses layers of artificial “neurons”, called a neural network, to handle extremely complex patterns this is the technology behind most modern breakthroughs, including Large Language Models (LLMs) like ChatGPT.</p>
+<p>Even if you won’t be building AI models, understanding the basics concepts of how they are developed will help you ask the right questions, spot opportunities for AI in products, and work effectively with technical teams.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ai-ml-map.png" class="img-fluid figure-img"></p>
@@ -355,31 +382,170 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="supervised-learning" class="level3">
 <h3 class="anchored" data-anchor-id="supervised-learning">Supervised Learning</h3>
-<p>The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. A conceptual example of supervised learning is teaching someone to guess the next word in a sentence by giving them lots of examples with the right answers.</p>
+<p>The branch of machine learning that powers today’s Generative AI breakthroughs is supervised learning. The term “supervised” refers to the fact that the mathematical model is guided by correct answers from a <em>ground-truth</em> dataset (actual data from the real world), allowing it to learn the mapping from inputs to outputs. These correct answers are often referred to as the <em>labels</em> in a labeled data set. An example is training a model to guess the next word in a sentence by giving it lots of past examples of actual sentences.</p>
 <p>For instance, imagine we train a model on sentences like:</p>
 <ul>
 <li>The cat sat on the <strong>mat</strong>.</li>
 <li>She went to the <strong>store</strong>.</li>
 <li>I like to eat <strong>pizza</strong>.</li>
 </ul>
-<p>In each case, the words before the blank are the <strong>input</strong>, and the correct missing word is the <strong>label</strong>. The model makes a guess, checks if it matches the label, and adjusts its internal weights to improve next time.</p>
-<p>After seeing millions of examples, the model learns patterns in how words are used so it can predict the missing word—even in sentences it has never seen before.</p>
+<p>In each case, the words before the bolded one can be considered the <strong>input</strong>, and the bolded final word is the <strong>label</strong> (correct answer or ground-truth). After using many examples to train a model, we can apply the model to new sentences to infer the best next word given any text input.</p>
 <p>In short: <strong>supervised learning is learning patterns from labeled examples so you can make accurate predictions on new, unseen data.</strong></p>
-<p>The simplest form of supervised learning is <strong>regression</strong>, where the goal is to predict a number based on input data. For example, given a set of sentences and their average reading times, a regression model could learn to predict how long it might take someone to read a new sentence. The model trains on many input–output pairs, gradually learning the relationship between the features in the input and the numeric value in the output.</p>
-<p>While regression can be done with simple formulas, modern AI—including Large Language Models—relies on <strong>neural networks</strong> to handle far more complex patterns. Neural networks are essentially many layers of interconnected regression-like steps, stacked and tuned to capture relationships in huge datasets.</p>
-<p>Understanding these building blocks will help you see how LLMs work under the hood, even if the scale and complexity are much greater than in basic regression.</p>
+<p>The simplest form of supervised learning is <strong>simple linear regression</strong>, where the goal is to predict a straight line (linear) relationship between an output variable one or more input variables.</p>
+<p>A simple linear regression model takes a single <strong>input variable</strong> <span class="math inline">\(x\)</span> and predicts the value of a corresponding <strong>output variable</strong> <span class="math inline">\(y\)</span>. For example, the input variable might represent a house’s <em>square footage</em>, and the output variable could represent the <em>value</em> of the home.</p>
+<p>We can write down the relationship between <em>square footage</em> and <em>value</em> in the form of a mathematical equation (also called a mathematical <em>function</em> or a <em>model</em>):</p>
+<p><span class="math display">\[
+\hat{y} = w_0 + w_1 x
+\]</span></p>
+<p>Where <span class="math inline">\(\hat{y}\)</span> (pronounced <em>y-hat</em>)represents the predicted home <em>value</em> and <span class="math inline">\(x\)</span> represents the <em>square footage</em>.</p>
+<p>In machine learning jargon <span class="math inline">\(w_0\)</span> and <span class="math inline">\(w_1\)</span> are called the <strong>parameters</strong> or <strong>weights</strong> of the model (hence the use of <span class="math inline">\(w\)</span> in the notation) and describe the nature of the relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(\hat{y}\)</span>. <span class="math inline">\(w_0\)</span> and <span class="math inline">\(w_1\)</span> are the numbers that the computer will <em>learn</em> (i.e.&nbsp;derive) based on what is observed in real life which will be represented in a <em>training dataset</em> that consists of many input–output pairs.</p>
+<p>The straight line in the image below helps you visualize the estimated linear relationship that can be learned between an output and an input such as square-footage. The dotted lines connecting the individual data points to the fitted red line show how far off the model predictions are from ground truth. The process of training a model tries out different values for the paramaters as it searches for the ones that will minimize the prediction errors. The way you compute the prediction error is called the “<strong>loss function</strong>” (in this case, the loss function could be defined as: <span class="math inline">\(|predicted - actual|\)</span>). The name for this iterative algorithm that looks for the best possible weights is called <strong>gradient descent.</strong></p>
+<div class="callout callout-style-default callout-tip callout-titled" title="What is gradient descent?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is gradient descent?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Gradient descent is a family of machine learning algorithms that update a model’s parameters (weights) so that they can make better predictions over time. The word “gradient” refers to multivariate version of a derivative (rate of change) from calculus. The rate of change in this context is how quickly the prediction error changes when you change model parameters.</p>
+<p>An analogy will help with the intuition. Imagine the height of a hillside represents the sum of all the prediction errors. The point where you are standing on the hillside represents the current model parameters (weights). The goal is to get down the hill onto the valley floor (which implies reducing the prediction error) as fast as possible by taking the steepest path down. Each step down corresponds to a testing out a different set of model parameters to see how accurate the model predictions become. The gradient (i.e.&nbsp;the rate of change in the prediction error as the model parameters are adjusted) is computed and tells you which direction is steepest. You take another step (i.e.&nbsp;smartly choose new values for the parameters) and keep repeating this process until you are confident you’ve found the model paramaters that minimize the prediction error.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/slr-loss.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>While linear regression is useful for modeling straight-line relationships between inputs and outputs, we need something much more flexible to capture the complexity of human language. <strong>Neural networks</strong> provide such a tool. First inspired in the 1940s as mathematical models of the brain, they languished for decades but are now realizing their full potential, with large datasets and powerful hardware enabling complex networks to excel in vision and language applications.</p>
 </section>
-<section id="gradient-descent" class="level3">
-<h3 class="anchored" data-anchor-id="gradient-descent">Gradient Descent</h3>
-<p>Gradient descent is the learning process that tunes a model to make better predictions over time. Imagine you’re standing on a foggy hillside and want to get to the lowest point in the valley. You can’t see far, so you take small steps downhill in the steepest direction you can feel under your feet.</p>
-<p>In a neural network, the “hill” is the <strong>error</strong>, how wrong the model’s predictions are. The “steps” are <strong>weight adjustments</strong> which change the models predictions. After each guess, the network measures the error, figures out which direction will reduce it the most, and then tweaks the weights slightly to move in that direction.</p>
-<p>By repeating this process many times, the network eventually settles in a low spot where the error is as small as possible.</p>
-<p>In short: <strong>gradient descent is the process of taking small steps to reduce errors until the model’s predictions are as accurate as it can make them.</strong></p>
+<section id="neural-networks" class="level3">
+<h3 class="anchored" data-anchor-id="neural-networks">Neural Networks</h3>
+<p>Like linear regression, a neural network is fundamentally a mathematical function that defines a relationship between inputs and outputs. A deep understanding of neural networks is beyond the scope of this course, but we will at least introduce a visual and show the mathematical function to give you some sense for what’s going on under the hood.</p>
+<p>A simple neural network can be written as:</p>
+<p><span class="math display">\[
+\hat{y} = f\!\big(W^{(2)}\, g(W^{(1)} x + b^{(1)}) + b^{(2)}\big)
+\]</span> Where:</p>
+<ul>
+<li><span class="math inline">\(W\)</span>s are matrices containing the model weights (parameters)</li>
+<li><span class="math inline">\(x\)</span> is now a vector of inputs (1 or many inputs),</li>
+<li><span class="math inline">\(b\)</span>s are analogous to intercept terms (called “bias”)</li>
+<li><span class="math inline">\(f(\cdot)\)</span> and <span class="math inline">\(g(\cdot)\)</span> are referred to as activation functions</li>
+</ul>
+<p>As you can see in the above equation, a neural network is a composite a several functions. For larger neuron networks many functions are nested.</p>
+<p>Neural networks are often described in visual terms like in the image below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/single-layer-nn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>A neural network is organized into layers that gradually transform inputs into a prediction. The first layer, called the input layer, represents the features we provide to the model. In the home value example, the inputs might be the square footage of the home and the number of bedrooms. A bias input fixed at 1 is also included, giving the network more flexibility to shift its predictions up or down regardless of the raw feature values. Each circle in the diagram is called a neuron or unit, and the lines connecting them are referred to as edges. Each edge represents a weight or bias parameter that the model learns during training. These inputs are passed into the hidden layer, where each neuron acts like a mini regression equation of its own. Each neuron computes a weighted sum of the inputs, adds its bias, and then applies a function we call <span class="math inline">\(g\)</span>. This is known as an activation function, and its role is to bend straight-line relationships into curves so the network can capture more complex patterns. For instance, in our housing example, <span class="math inline">\(g\)</span> might allow the model to learn that the first 500 square feet add a lot of value, while additional square footage adds less. Without this step, the network would behave just like plain linear regression.</p>
+<p>Finally, the hidden layer feeds into the output layer. Here, the activations are combined again using new weights and a bias, and then passed through another function, usually called <span class="math inline">\(f\)</span>. You can think of <span class="math inline">\(f\)</span> as the final shaping step that ensures the prediction is in the right form for the task. For predicting home prices, <span class="math inline">\(f\)</span> might simply output a dollar amount. For classification problems, <span class="math inline">\(f\)</span> might produce a probability between 0 and 1.</p>
+<p>Whereas simple linear regression has just two parameters to estimate (a slope and an intercept), the small neural network in the diagram already has 13 parameters. The number of parameters grows quickly as networks get larger, which is what gives them the ability to represent more complex relationships. Modern neural networks that power chatbots such as ChatGPT are astonishingly large by comparison, containing hundreds of billions of parameters. GPT-3, for example, was trained with 175 billion parameters, and the newest generations are even larger. This massive scale enables them to capture subtle patterns in language, context, and reasoning, allowing them to generate coherent, human-like responses.</p>
+<p>Of course, this complexity comes with trade-offs: training such large models requires enormous amounts of data, specialized hardware such as GPUs and TPUs, and advanced optimization techniques. But the underlying principle is the same as in the small housing example above where each parameter represents a weight or bias that adjusts how inputs are transformed into outputs. The difference is simply one of scale.</p>
+<p>You won’t need to fully understand or know the math behind neural networks for this course, but you should at least see it once which many people never do. The neural network shown in the visualization above is written mathematically in the steps that follow:</p>
+<p>All of the weights associated with the edges are combined into a weight matrix and bias vector. The weight associated with the transition from the input layer the hidden layer is shown first followed by the weights and bias that transform the hidden layer into the final output.</p>
+<p><span class="math display">\[
+W^{(1)} \in \mathbb{R}^{3 \times 2} =
+\begin{bmatrix}
+w^{(1)}_{11} &amp; w^{(1)}_{12} \\
+w^{(1)}_{21} &amp; w^{(1)}_{22} \\
+w^{(1)}_{31} &amp; w^{(1)}_{32}
+\end{bmatrix},
+\quad
+b^{(1)} \in \mathbb{R}^{3} \;=\;
+\begin{bmatrix}
+b^{(1)}_{1} \\
+b^{(1)}_{2} \\
+b^{(1)}_{3}
+\end{bmatrix}
+\]</span></p>
+<p><span class="math display">\[
+W^{(2)} \in \mathbb{R}^{1 \times 3} =
+\begin{bmatrix}
+w^{(2)}_{11} &amp; w^{(2)}_{12} &amp; w^{(2)}_{13}
+\end{bmatrix},
+\quad
+b^{(2)} \in \mathbb{R} \;=\;
+\begin{bmatrix}
+b^{(2)}_{1}
+\end{bmatrix}
+\]</span> These can be plugged into the matrix equation that we first showed.</p>
+<p><span class="math display">\[
+\hat{y} \;=\; f\!\Big(W^{(2)}\, g\!\big(W^{(1)} x + b^{(1)}\big) + b^{(2)}\Big)
+\]</span> After doing the matrix computations, the formula would expand into this long set of additions and multiplications.</p>
+<p><span class="math display">\[
+\hat{y}
+=
+f\!\Big(
+w^{(2)}_{11}\, g\!\big(w^{(1)}_{11} x_1 + w^{(1)}_{12} x_2 + b^{(1)}_1\big)
++
+w^{(2)}_{12}\, g\!\big(w^{(1)}_{21} x_1 + w^{(1)}_{22} x_2 + b^{(1)}_2\big)
++
+w^{(2)}_{13}\, g\!\big(w^{(1)}_{31} x_1 + w^{(1)}_{32} x_2 + b^{(1)}_3\big)
++
+b^{(2)}_{1}
+\Big)
+\]</span> Common choices of function for <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> are shown below:</p>
+<p><span class="math display">\[
+f(z) = \sigma(z) = \frac{1}{1 + e^{-z}}
+\]</span></p>
+<p><span class="math display">\[
+\quad
+g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
+\]</span> Modern AI models take text and break it into smaller pieces called <strong>tokens.</strong> A token might be a whole word, part of a word, or even a single character. Each token is then converted into numbers through a process called <strong>embedding</strong>, which represents it as a vector of numbers that captures aspects of its meaning and how it relates to other tokens.</p>
+<p>Embeddings are a way to turn different kinds of information like text, audio, or video—into numbers so a computer can work with them.</p>
+<p>An embedding model is itself a deep neural network that takes raw input (words, sounds, images, etc.) and converts it into a list of numbers that captures the meaning or important features of the input (i.e.&nbsp;a vector). Two inputs with similar meanings will have vectors that are close to each other, even if the exact words, sounds, or images are different.</p>
+<p>Embeddings are like coordinates on a map of word meanings. They let computers compare, search, and work with language in a numerical and mathematical way.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/embedding.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/embedding-plot.png" class="img-fluid figure-img"></p>
+<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<p>The model typically takes a sequence of token embeddings, for example, a batch representing 10 or so words, as input and is trained to predict the next word in the sequence. During training, it learns from vast collections of text such as books, articles, blogs, and other digital sources, which serve as the ground truth.</p>
+<p>Once the text has been converted into numbers, the neural network processes these vectors layer by layer, using weights, biases, and activation functions to detect patterns and relationships. With each layer, the model refines its understanding of the context, and at the end of the process, it produces a probability distribution over possible next words and selects the most likely one.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/next-word.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Image by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/next-word-numbers.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Image by Sebastian Raschka</figcaption>
+</figure>
+</div>
+<p>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ai-data.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>To summarize our discussion, modern AI models are ultimately created from 4 foundational ingredients:</p>
+<ol type="1">
+<li><strong>A mathematical model:</strong> This defines the form of the mathematical relationship used to relate inputs to outputs, for example, a straight line (linear) or a more flexible structure like a neural network (non-linear).</li>
+<li><strong>Training data:</strong> A collection of real-world examples that pair inputs with their corresponding outputs. The quality and relevance of this data are crucial to how well the model can learn and make accurate predictions. In the case of LLMs, the training data is a gigantic corpus of text (i.e.&nbsp;books, blogs, etc.)</li>
+<li><strong>A “loss” function:</strong> A mathematical expression that measures how far off the model’s predictions are from the correct answers found in the train data. The loss function provides feedback on prediction accuracy and helps the model improve over time.</li>
+<li><strong>A training algorithm:</strong> A step-by-step procedure that combines the first three ingredients in a way that minimizes the prediction errors produced by the model. This is where the so-called <em>learning</em> takes place. Modern AI models are trained using algorithms based on <em>gradient descent.</em></li>
+</ol>
 </section>
 </section>
 <section id="large-language-models-and-generative-ai" class="level2">
 <h2 class="anchored" data-anchor-id="large-language-models-and-generative-ai">Large Language Models and Generative AI</h2>
-<p>Large Language Models (LLMs) are the core technology behind much of today’s Generative AI. They are built in two main stages: <strong>pretraining</strong> and <strong>fine-tuning</strong></p>
+<p>Large Language Models (LLMs) are built using massive neural networks and are the core technology behind much of today’s Generative AI. They are built in two main stages: <strong>pretraining</strong> and <strong>fine-tuning</strong></p>
 <section id="gathering-and-processing-text-data" class="level3">
 <h3 class="anchored" data-anchor-id="gathering-and-processing-text-data">1. Gathering and Processing Text Data</h3>
 <p>The process begins by collecting an enormous body of text from a variety of sources, including internet articles, books, Wikipedia, and research papers. This raw text can contain trillions of words. Before a model can use it, the text is converted into numbers through a process called <em>tokenization</em>. Each word or piece of a word is represented as a vector (a list of numbers) so the computer can process it mathematically.</p>
@@ -424,25 +590,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/llm-process.png" class="img-fluid figure-img"></p>
-<figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
-</figure>
-</div>
-</section>
-<section id="embeddings" class="level3">
-<h3 class="anchored" data-anchor-id="embeddings">Embeddings</h3>
-<p>Embeddings are a way to turn different kinds of information—like text, audio, or video—into numbers so a computer can work with them.</p>
-<p>An embedding model is a deep neural network that takes raw input (words, sounds, images, etc.) and converts it into a list of numbers that captures the meaning or important features of the input (i.e.&nbsp;a vector). Two inputs with similar meanings will have vectors that are close to each other, even if the exact words, sounds, or images are different.</p>
-<p>Embeddings are like coordinates on a map of word meanings. They let computers compare, search, and work with language in a numerical and mathematical way.</p>
-<p><img src="images/embedding.png" class="img-fluid" alt="Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka"> <img src="images/embedding-plot.png" class="img-fluid" alt="Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka"></p>
-</section>
-<section id="neural-networks" class="level3">
-<h3 class="anchored" data-anchor-id="neural-networks">Neural Networks</h3>
-<p>A neural network is a way for a computer to learn patterns and make predictions, inspired loosely by how our brains work. It’s built from layers of tiny “decision-makers” called neurons. Each connection between neurons has a <em>weight</em>, which is just a number that tells the network how important that connection is.</p>
-<p>Numerical representations of words (vectors) flow layer by layer through the network. At each layer, a neuron takes the numbers it receives, multiplies them by its connection weights, adds them together, and applies a simple rule (called an activation function) before passing the result to the next layer. This step-by-step movement of information is called feed-forward. In the context of LLMs, once all layers have done their work, the final output numbers indicate which word is most likely to come next based on the input provided.</p>
-<p>At first, the weights are random, so the network’s guesses for the next word are usually terrible. During training, it compares its guesses to the correct answers in the training corpus, measures how far off it was, and then adjusts the weights, analogous to turning millions (or even billions) of tiny knobs to make a slightly better guess next time. This process repeats again and again until the weights are tuned so well that the model predicts the next word correctly as often as possible.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/nn.png" class="img-fluid figure-img"></p>
 <figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
 </figure>
 </div>
@@ -532,7 +679,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</h3>
 <p>AI’s impact grows dramatically when you automate prompts and dynamically inject fresh data into them.</p>
 <p>The python code chunk below illustrates how to do this.</p>
-<div id="95075ed7" class="cell" data-execution_count="1">
+<div id="c9dbbd94" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>

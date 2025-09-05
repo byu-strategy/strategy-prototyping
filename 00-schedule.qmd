@@ -9,8 +9,7 @@ Below is the planned daily schedule. Dates, topics, and assignments may adjust a
 |------------|------------|------------|------------|------------|------------|
 | 1 | **Fri, Sept 5** | Course overview, Product Management and AI, Thought Leaders, Computer Setup,  | – | – | – |
 | 2 | **Fri, Sept 12** | LLMs continued, Prompt engineering | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | [HW 1 - Understanding Large Language Models](00-assessments.qmd#homework-1-understanding-large-language-models) | Fri, Sept 26 |
-| 3 | **Fri, Sept 19** | Guest Speaker: Carlos Kemeny
-Product Innovation Process, Target Market, Customer Discovery | [Quiz 2 - LLMs 2](02-llms-prompt-engineering.qmd) | – | – |
+| 3 | **Fri, Sept 19** | Guest Speaker: Carlos Kemeny. Product Innovation Process, Target Market, Customer Discovery | [Quiz 2 - LLMs 2](02-llms-prompt-engineering.qmd) | – | – |
 | 4 | **Fri, Sept 26** | Value prop design, hypothesize customer needs/unfulfilled jobs, customer pain/gain. Principles for choosing problems to work on. Validate customer needs | [Quiz 3 - Product Strategy and Innovation](03-product-innovation.qmd) | [HW 2 - Creating a Product Requirements Document (PRD)](00-assessments.qmd#homework-2-creating-a-product-requirements-document-prd) | Fri, Oct 10 |
 | 5 | **Fri, Oct 3** | Project Management with Jira, Backlog, user stories | [Quiz 4 - Customer Validation](04-value-prop-design.qmd) | – | – |
 | 6 | **Fri, Oct 10** | Git/GitHub - Collaboration across PM, Eng, Design, Psychological safety, The triad and how it's changing (ratios of PMs to engineers) | [Quiz 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-feedback-survey) | [HW 3 - Understanding the internet and APIs](00-assessments.qmd#homework-3-understanding-the-internet-and-apis) | Fri, Oct 24 |

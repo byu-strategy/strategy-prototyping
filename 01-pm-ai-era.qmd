@@ -232,25 +232,82 @@ winget install Microsoft.VisualStudioCode
 
 Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.
 
+Of course this won't build you a perfect, complicated application all by itself but it figuratively gives you a rocket pack, crane, and power tools while building a house.
+
 {{< video https://www.youtube.com/embed/GqjvaBUk3Tc >}}
 
 ### Code your first app
 
-Open VS Code, open the folder where you want to save your application files and start up Claude Code via the terminal within VS Code.
+Open VS Code and create a new directory where you will save your application files. 
+
+::: {.callout-tip collapse="true" title="File and folder naming principles"}
+AI will often help create file names for you, but when manually creating files or folders, the following guidelines are highly recommended:
+
+**General Naming Principles**
+
+- **Use lowercase** → avoids cross-platform issues.
+- **Hyphens (`-`) instead of spaces or underscores**.  
+  Example: `data-cleaning` instead of `Data_Cleaning` or `data cleaning`.
+- **Be descriptive but concise**.  
+  Example: `customer-surveys-2025.csv` is better than `cs25.csv`.
+- **Avoid special characters** → stick to letters, numbers, and hyphens.
+- **Stay consistent with tense and plurality** → e.g., always plural for folders (`scripts/`, `images/`).
+
+**Folders**
+
+Think of folders as **categories of content**. Common conventions:
+- `src/` → source code
+- `data/` → raw and/or processed datasets
+- `docs/` → documentation
+- `tests/` → unit/integration tests
+- `notebooks/` → Jupyter or research notebooks
+- `scripts/` → automation scripts
+- `configs/` → configuration files (YAML, JSON, etc.)
+- `assets/` → images, icons, other media
+
+**Files**
+
+Files should indicate **what they contain or do**, not just generic names.
+
+- **Code files:**  
+  `train-model.py`, `evaluate-model.py`, `preprocess-data.py`
+
+- **Configuration files:**  
+  `model-config.yaml`, `db-settings.json`
+
+- **Notebooks (keep order with numbers or dates):**  
+  `01-data-exploration.ipynb`, `02-feature-engineering.ipynb`
+
+- **Documentation:**  
+  `README.md` (always in the root folder), `CONTRIBUTING.md`, `CHANGELOG.md`
+:::
+
+Using the command line, make a new folder to contain your project files
 
 ```{python eval=false}
-# start-up claude code
+# Make use lower
+mkdir my-project
+# Confirm the new directory exists
+ls
+# Navigate to the new directory
+cd my-project
+```
+
+Start up Claude Code via the terminal within VS Code. You must first sign up for a [Pro account](https://www.anthropic.com/pricing) before starting Claude Code. 
+
+```{python eval=false}
+# Start-up Claude Code
 claude
 ```
 
-Turn on Explanatory mode:
+After starting Claude, turn on [Explanatory Mode](https://docs.anthropic.com/en/docs/claude-code/output-styles) within Claude which will provide "educational 'insights' in between helping you complete software engineering tasks and will help you understand implementation choices and codebase patterns."
 
 ```{python eval=false}
 # change the mode of Claude Code so that it explains more about what it's doing
 /output-style explanatory
 ```
 
-Notice that this created a .claude file. 
+Notice that changing the output style created a .claude file. 
 
 A .claude file is a configuration file used by Claude Code. These files help define project-specific settings and instructions for how Claude should approach coding tasks in your project.
 
@@ -262,9 +319,20 @@ A .claude file is a configuration file used by Claude Code. These files help def
 
 These files allow you to give Claude persistent context about your project so you don't have to re-explain your codebase structure, conventions, or preferences every time you use Claude Code. They essentially act as a "memory" for Claude about how to work effectively within your specific project.
 
-Now copy paste in the following prompt into the active Claude Code terminal session:
+Now, copy paste the following prompt into the active Claude Code terminal session in order to build our first app with Claude Code.
 
-> Build me a simple todo list app using streamlit
+> Build me a simple todo list app using streamlit. Use a json file as the database.
+
+::: {.callout-tip collapse="true" title="What is streamlit?"}
+Streamlit is an open-source Python framework for quickly building interactive, data-driven web apps without needing to know front-end development (like HTML, CSS, or JavaScript).
+
+Key Features Include:
+
+- Simplicity: You can turn a Python script into a shareable web app with just a few lines of code.
+- Widgets: Built-in components (sliders, dropdowns, checkboxes, file uploaders, etc.) make it easy to collect user input.
+- Data Visualization Integration: Works seamlessly with libraries like Pandas, NumPy, Matplotlib, Plotly, and Altair.
+- Deployment: Apps can be hosted on Streamlit Community Cloud or deployed on your own servers.
+:::
 
 ::: {.callout-tip collapse="true" title="How many lines of code does a production grade business application typically require?"}
 A production-grade business application for internal use typically ranges from 10,000 to 500,000+ lines of code, depending on several key factors: Small to Medium Internal Apps (10K-50K lines)

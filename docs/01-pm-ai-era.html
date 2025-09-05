@@ -425,7 +425,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less.</strong> The command line is where you unlock the real power of automation, enabling you to run scripts and streamline repetitive tasks. Many advanced system administration tasks, programming tools, and server management operations are primarily designed for command-line use, making terminal proficiency essential for developers and savvy product managers.</p>
 <p>Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an obscure developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.</p>
 <p>Now, let’s learn the command line by doing. Spend the next 10 minutes testing the following commands.</p>
-<div id="17553372" class="cell" data-execution_count="1">
+<div id="fdf2e3f9" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># What folder am I in?: "print working directory"</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pwd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -483,7 +483,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>On Mac, <em>Homebrew</em> is the standard package manager and must be installed.</p>
 <p>For Windows, <em>Winget</em> comes pre-installed.</p>
 <p>Run the following commands to install and/or check the version of your package manager.</p>
-<div id="4a3bbbcf" class="cell" data-execution_count="2">
+<div id="2368f83d" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mac</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Install Homebrew</span></span>
@@ -492,7 +492,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Confirm installation by checking which version</span></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>brew <span class="op">--</span>version</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="bf1e206a" class="cell" data-execution_count="3">
+<div id="f916c761" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Windows</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># winget should be preinstalled on windows</span></span>
@@ -505,12 +505,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="vs-code">VS Code</h3>
 <p>Next we’ll get set up with Visual Studio Code (VS Code), a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects. We will build applications within VS code throughout the semester.</p>
 <p>Let’s install it via the package manager.</p>
-<div id="4e0095e8" class="cell" data-execution_count="4">
+<div id="d341f870" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install VS Code using Homebrew</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>brew install <span class="op">--</span>cask visual<span class="op">-</span>studio<span class="op">-</span>code</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Note: The –cask flag tells Homebrew to install a GUI application rather than a command-line tool.</p>
-<div id="bfb4f25b" class="cell" data-execution_count="5">
+<div id="2ff4bab6" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install VS Code using Windows Package Manager</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>winget install Microsoft.VisualStudioCode</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -518,21 +518,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="claude-code" class="level3">
 <h3 class="anchored" data-anchor-id="claude-code">Claude Code</h3>
 <p>Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.</p>
+<p>Of course this won’t build you a perfect, complicated application all by itself but it figuratively gives you a rocket pack, crane, and power tools while building a house.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GqjvaBUk3Tc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="code-your-first-app" class="level3">
 <h3 class="anchored" data-anchor-id="code-your-first-app">Code your first app</h3>
-<p>Open VS Code, open the folder where you want to save your application files and start up Claude Code via the terminal within VS Code.</p>
-<div id="a65fdef4" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># start-up claude code</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>claude</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Open VS Code and create a new directory where you will save your application files.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="File and folder naming principles">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>Turn on Explanatory mode:</p>
-<div id="d8e7f013" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># change the mode of Claude Code so that it explains more about what it's doing</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="op">/</span>output<span class="op">-</span>style explanatory</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout-title-container flex-fill">
+File and folder naming principles
 </div>
-<p>Notice that this created a .claude file.</p>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>AI will often help create file names for you, but when manually creating files or folders, the following guidelines are highly recommended:</p>
+<p><strong>General Naming Principles</strong></p>
+<ul>
+<li><strong>Use lowercase</strong> → avoids cross-platform issues.</li>
+<li><strong>Hyphens (<code>-</code>) instead of spaces or underscores</strong>.<br>
+Example: <code>data-cleaning</code> instead of <code>Data_Cleaning</code> or <code>data cleaning</code>.</li>
+<li><strong>Be descriptive but concise</strong>.<br>
+Example: <code>customer-surveys-2025.csv</code> is better than <code>cs25.csv</code>.</li>
+<li><strong>Avoid special characters</strong> → stick to letters, numbers, and hyphens.</li>
+<li><strong>Stay consistent with tense and plurality</strong> → e.g., always plural for folders (<code>scripts/</code>, <code>images/</code>).</li>
+</ul>
+<p><strong>Folders</strong></p>
+<p>Think of folders as <strong>categories of content</strong>. Common conventions: - <code>src/</code> → source code - <code>data/</code> → raw and/or processed datasets - <code>docs/</code> → documentation - <code>tests/</code> → unit/integration tests - <code>notebooks/</code> → Jupyter or research notebooks - <code>scripts/</code> → automation scripts - <code>configs/</code> → configuration files (YAML, JSON, etc.) - <code>assets/</code> → images, icons, other media</p>
+<p><strong>Files</strong></p>
+<p>Files should indicate <strong>what they contain or do</strong>, not just generic names.</p>
+<ul>
+<li><p><strong>Code files:</strong><br>
+<code>train-model.py</code>, <code>evaluate-model.py</code>, <code>preprocess-data.py</code></p></li>
+<li><p><strong>Configuration files:</strong><br>
+<code>model-config.yaml</code>, <code>db-settings.json</code></p></li>
+<li><p><strong>Notebooks (keep order with numbers or dates):</strong><br>
+<code>01-data-exploration.ipynb</code>, <code>02-feature-engineering.ipynb</code></p></li>
+<li><p><strong>Documentation:</strong><br>
+<code>README.md</code> (always in the root folder), <code>CONTRIBUTING.md</code>, <code>CHANGELOG.md</code></p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Using the command line, make a new folder to contain your project files</p>
+<div id="367e0fa5" class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make use lower</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>mkdir my<span class="op">-</span>project</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Confirm the new directory exists</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>ls</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Navigate to the new directory</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>cd my<span class="op">-</span>project</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Start up Claude Code via the terminal within VS Code. You must first sign up for a <a href="https://www.anthropic.com/pricing">Pro account</a> before starting Claude Code.</p>
+<div id="3743fbb0" class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Start-up Claude Code</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>claude</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>After starting Claude, turn on <a href="https://docs.anthropic.com/en/docs/claude-code/output-styles">Explanatory Mode</a> within Claude which will provide “educational ‘insights’ in between helping you complete software engineering tasks and will help you understand implementation choices and codebase patterns.”</p>
+<div id="463202ab" class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># change the mode of Claude Code so that it explains more about what it's doing</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="op">/</span>output<span class="op">-</span>style explanatory</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Notice that changing the output style created a .claude file.</p>
 <p>A .claude file is a configuration file used by Claude Code. These files help define project-specific settings and instructions for how Claude should approach coding tasks in your project.</p>
 <p>.claude files typically contain:</p>
 <ul>
@@ -541,12 +592,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Custom prompts and guidelines - Specific instructions for how you want Claude to approach coding tasks in this particular project</li>
 </ul>
 <p>These files allow you to give Claude persistent context about your project so you don’t have to re-explain your codebase structure, conventions, or preferences every time you use Claude Code. They essentially act as a “memory” for Claude about how to work effectively within your specific project.</p>
-<p>Now copy paste in the following prompt into the active Claude Code terminal session:</p>
+<p>Now, copy paste the following prompt into the active Claude Code terminal session in order to build our first app with Claude Code.</p>
 <blockquote class="blockquote">
-<p>Build me a simple todo list app using streamlit</p>
+<p>Build me a simple todo list app using streamlit. Use a json file as the database.</p>
 </blockquote>
+<div class="callout callout-style-default callout-tip callout-titled" title="What is streamlit?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is streamlit?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Streamlit is an open-source Python framework for quickly building interactive, data-driven web apps without needing to know front-end development (like HTML, CSS, or JavaScript).</p>
+<p>Key Features Include:</p>
+<ul>
+<li>Simplicity: You can turn a Python script into a shareable web app with just a few lines of code.</li>
+<li>Widgets: Built-in components (sliders, dropdowns, checkboxes, file uploaders, etc.) make it easy to collect user input.</li>
+<li>Data Visualization Integration: Works seamlessly with libraries like Pandas, NumPy, Matplotlib, Plotly, and Altair.</li>
+<li>Deployment: Apps can be hosted on Streamlit Community Cloud or deployed on your own servers.</li>
+</ul>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled" title="How many lines of code does a production grade business application typically require?">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -555,7 +629,7 @@ How many lines of code does a production grade business application typically re
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>A production-grade business application for internal use typically ranges from 10,000 to 500,000+ lines of code, depending on several key factors: Small to Medium Internal Apps (10K-50K lines)</p>
 <p>Simple CRUD applications with basic workflows Departmental tools with limited integrations Small team usage (10-100 users)</p>
