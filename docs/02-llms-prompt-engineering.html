@@ -330,18 +330,12 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning">Supervised Learning</a></li>
   <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural Networks</a></li>
-  </ul></li>
-  <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a>
-  <ul class="collapse">
-  <li><a href="#gathering-and-processing-text-data" id="toc-gathering-and-processing-text-data" class="nav-link" data-scroll-target="#gathering-and-processing-text-data">1. Gathering and Processing Text Data</a></li>
-  <li><a href="#pretraining-the-model" id="toc-pretraining-the-model" class="nav-link" data-scroll-target="#pretraining-the-model">2. Pretraining the Model</a></li>
-  <li><a href="#fine-tuning-for-specific-tasks" id="toc-fine-tuning-for-specific-tasks" class="nav-link" data-scroll-target="#fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</a></li>
-  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link" data-scroll-target="#the-big-picture">4. The Big Picture</a></li>
+  <li><a href="#large-language-models-and-generative-ai" id="toc-large-language-models-and-generative-ai" class="nav-link" data-scroll-target="#large-language-models-and-generative-ai">Large Language Models and Generative AI</a></li>
   <li><a href="#gpt-architecture" id="toc-gpt-architecture" class="nav-link" data-scroll-target="#gpt-architecture">GPT Architecture</a></li>
-  <li><a href="#anatomy-of-various-prompt-structures" id="toc-anatomy-of-various-prompt-structures" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures">Anatomy of Various Prompt Structures</a></li>
-  <li><a href="#anatomy-of-various-prompt-structures-1" id="toc-anatomy-of-various-prompt-structures-1" class="nav-link" data-scroll-target="#anatomy-of-various-prompt-structures-1">Anatomy of Various Prompt Structures</a></li>
-  <li><a href="#programmatic-and-dynamic-prompting" id="toc-programmatic-and-dynamic-prompting" class="nav-link" data-scroll-target="#programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</a></li>
-  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps">Steps</a></li>
+  </ul></li>
+  <li><a href="#prompting" id="toc-prompting" class="nav-link" data-scroll-target="#prompting">Prompting</a>
+  <ul class="collapse">
+  <li><a href="#programmatic-prompting" id="toc-programmatic-prompting" class="nav-link" data-scroll-target="#programmatic-prompting">Programmatic Prompting</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -542,12 +536,11 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 <li><strong>A training algorithm:</strong> A step-by-step procedure that combines the first three ingredients in a way that minimizes the prediction errors produced by the model. This is where the so-called <em>learning</em> takes place. Modern AI models are trained using algorithms based on <em>gradient descent.</em></li>
 </ol>
 </section>
-</section>
-<section id="large-language-models-and-generative-ai" class="level2">
-<h2 class="anchored" data-anchor-id="large-language-models-and-generative-ai">Large Language Models and Generative AI</h2>
+<section id="large-language-models-and-generative-ai" class="level3">
+<h3 class="anchored" data-anchor-id="large-language-models-and-generative-ai">Large Language Models and Generative AI</h3>
 <p>Large Language Models (LLMs) are built using massive neural networks and are the core technology behind much of today’s Generative AI. They are built in two main stages: <strong>pretraining</strong> and <strong>fine-tuning</strong></p>
-<section id="gathering-and-processing-text-data" class="level3">
-<h3 class="anchored" data-anchor-id="gathering-and-processing-text-data">1. Gathering and Processing Text Data</h3>
+<section id="gathering-and-processing-text-data" class="level4">
+<h4 class="anchored" data-anchor-id="gathering-and-processing-text-data">1. Gathering and Processing Text Data</h4>
 <p>The process begins by collecting an enormous body of text from a variety of sources, including internet articles, books, Wikipedia, and research papers. This raw text can contain trillions of words. Before a model can use it, the text is converted into numbers through a process called <em>tokenization</em>. Each word or piece of a word is represented as a vector (a list of numbers) so the computer can process it mathematically.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -556,16 +549,16 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 </figure>
 </div>
 </section>
-<section id="pretraining-the-model" class="level3">
-<h3 class="anchored" data-anchor-id="pretraining-the-model">2. Pretraining the Model</h3>
+<section id="pretraining-the-model" class="level4">
+<h4 class="anchored" data-anchor-id="pretraining-the-model">2. Pretraining the Model</h4>
 <p>Using this massive numerical dataset, the model is trained to perform one fundamental task: predicting the next word in a sequence. By doing this billions of times, it learns grammar, facts about the world, reasoning patterns, and relationships between concepts. After pretraining, the LLM becomes a <strong>foundation model</strong> with basic capabilities such as:</p>
 <ul>
 <li><strong>Text completion</strong> – finishing a sentence or paragraph.</li>
 <li><strong>Few-shot learning</strong> – adapting to new tasks with just a few examples in the prompt.</li>
 </ul>
 </section>
-<section id="fine-tuning-for-specific-tasks" class="level3">
-<h3 class="anchored" data-anchor-id="fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</h3>
+<section id="fine-tuning-for-specific-tasks" class="level4">
+<h4 class="anchored" data-anchor-id="fine-tuning-for-specific-tasks">3. Fine-Tuning for Specific Tasks</h4>
 <p>Pretraining gives the model broad language skills, but it’s still general-purpose. Fine-tuning makes it specialized. In this stage, the pretrained model is trained again on a <em>labeled dataset</em>—data where each input has a known, correct output. This allows the LLM to excel at targeted applications such as:</p>
 <ul>
 <li><strong>Classification</strong> – sorting emails as spam or not spam.</li>
@@ -574,8 +567,8 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 <li><strong>Conversational assistance</strong> – answering questions and performing tasks as a chatbot or virtual assistant.</li>
 </ul>
 </section>
-<section id="the-big-picture" class="level3">
-<h3 class="anchored" data-anchor-id="the-big-picture">4. The Big Picture</h3>
+<section id="the-big-picture" class="level4">
+<h4 class="anchored" data-anchor-id="the-big-picture">4. The Big Picture</h4>
 <ul>
 <li><strong>Pretraining</strong> = learning the <em>general rules of language and knowledge</em>.</li>
 <li><strong>Fine-tuning</strong> = specializing for <em>specific, high-performance applications</em>.</li>
@@ -593,6 +586,7 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 <figcaption>Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka</figcaption>
 </figure>
 </div>
+</section>
 </section>
 <section id="gpt-architecture" class="level3">
 <h3 class="anchored" data-anchor-id="gpt-architecture">GPT Architecture</h3>
@@ -612,12 +606,10 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 </figure>
 </div>
 </section>
-<section id="anatomy-of-various-prompt-structures" class="level3">
-<h3 class="anchored" data-anchor-id="anatomy-of-various-prompt-structures">Anatomy of Various Prompt Structures</h3>
-<p>Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.</p>
 </section>
-<section id="anatomy-of-various-prompt-structures-1" class="level3">
-<h3 class="anchored" data-anchor-id="anatomy-of-various-prompt-structures-1">Anatomy of Various Prompt Structures</h3>
+<section id="prompting" class="level2">
+<h2 class="anchored" data-anchor-id="prompting">Prompting</h2>
+<p>Now that we understand a bit about what powers modern AI, let’s get practical and discuss prompting techinques to get the most out of it.</p>
 <p>Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.</p>
 <table class="caption-top table">
 <colgroup>
@@ -674,12 +666,11 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 </tbody>
 </table>
 <p>By mixing and matching these structures, you can create prompts that are concise, rich in context, and tailored for automation and enabling far more consistent and useful AI outputs.</p>
-</section>
-<section id="programmatic-and-dynamic-prompting" class="level3">
-<h3 class="anchored" data-anchor-id="programmatic-and-dynamic-prompting">Programmatic and Dynamic Prompting</h3>
+<section id="programmatic-prompting" class="level3">
+<h3 class="anchored" data-anchor-id="programmatic-prompting">Programmatic Prompting</h3>
 <p>AI’s impact grows dramatically when you automate prompts and dynamically inject fresh data into them.</p>
 <p>The python code chunk below illustrates how to do this.</p>
-<div id="c9dbbd94" class="cell" data-execution_count="1">
+<div id="949a0fa6" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -733,9 +724,7 @@ g(z) = \text{ReLU (Rectified Linear Unit)} = \max(0, z)
 <p>This script reads a CSV, sends each row’s data to the OpenAI API, and saves the responses to a new CSV.</p>
 <p><strong>Flow:</strong><br>
 <code>input.csv → Pandas DataFrame → AI prompt → OpenAI API → response → output.csv</code></p>
-</section>
-<section id="steps" class="level3">
-<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<p>A more detailed summary of what the code does is below:</p>
 <ol type="1">
 <li><strong>Import libraries</strong> – <code>pandas</code> for CSV handling, <code>openai</code> for API calls, <code>time</code> for retries.</li>
 <li><strong>Config settings</strong> – file paths, model name, system prompt, API key.</li>

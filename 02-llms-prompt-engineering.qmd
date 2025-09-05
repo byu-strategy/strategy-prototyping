@@ -182,24 +182,24 @@ To summarize our discussion, modern AI models are ultimately created from 4 foun
 3.  **A "loss" function:** A mathematical expression that measures how far off the model’s predictions are from the correct answers found in the train data. The loss function provides feedback on prediction accuracy and helps the model improve over time.
 4.  **A training algorithm:** A step-by-step procedure that combines the first three ingredients in a way that minimizes the prediction errors produced by the model. This is where the so-called *learning* takes place. Modern AI models are trained using algorithms based on *gradient descent.*
 
-## Large Language Models and Generative AI
+### Large Language Models and Generative AI
 
 Large Language Models (LLMs) are built using massive neural networks and are the core technology behind much of today’s Generative AI. They are built in two main stages: **pretraining** and **fine-tuning** 
 
-### 1. Gathering and Processing Text Data
+#### 1. Gathering and Processing Text Data
 
 The process begins by collecting an enormous body of text from a variety of sources, including internet articles, books, Wikipedia, and research papers. This raw text can contain trillions of words. Before a model can use it, the text is converted into numbers through a process called *tokenization*. Each word or piece of a word is represented as a vector (a list of numbers) so the computer can process it mathematically.
 
 ![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/tokenization.png)
 
-### 2. Pretraining the Model
+#### 2. Pretraining the Model
 
 Using this massive numerical dataset, the model is trained to perform one fundamental task: predicting the next word in a sequence. By doing this billions of times, it learns grammar, facts about the world, reasoning patterns, and relationships between concepts. After pretraining, the LLM becomes a **foundation model** with basic capabilities such as:
 
 - **Text completion** – finishing a sentence or paragraph.
 - **Few-shot learning** – adapting to new tasks with just a few examples in the prompt.
 
-### 3. Fine-Tuning for Specific Tasks
+#### 3. Fine-Tuning for Specific Tasks
 
 Pretraining gives the model broad language skills, but it’s still general-purpose. Fine-tuning makes it specialized. In this stage, the pretrained model is trained again on a *labeled dataset*—data where each input has a known, correct output. This allows the LLM to excel at targeted applications such as:
 
@@ -208,7 +208,7 @@ Pretraining gives the model broad language skills, but it’s still general-purp
 - **Translation** – converting text between languages.
 - **Conversational assistance** – answering questions and performing tasks as a chatbot or virtual assistant.
 
-### 4. The Big Picture
+#### 4. The Big Picture
 - **Pretraining** = learning the *general rules of language and knowledge*.
 - **Fine-tuning** = specializing for *specific, high-performance applications*.
 
@@ -217,10 +217,6 @@ Together, these steps create powerful AI systems capable of generating text, ans
 ![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/llm-overview.png)
 
 ![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/llm-process.png)
-
-
-
-
 
 ### GPT Architecture
 
@@ -239,11 +235,9 @@ After going through all the layers, the model tidies up its final internal calcu
 
 ![Image source: Build a Large Language Model (From Scratch) by Sebastian Raschka](images/gpt.png)
 
-### Anatomy of Various Prompt Structures
+## Prompting
 
-Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.
-
-### Anatomy of Various Prompt Structures
+Now that we understand a bit about what powers modern AI, let's get practical and discuss prompting techinques to get the most out of it. 
 
 Prompts come in many shapes, depending on your goals, the complexity of the task, and how much control you need over the AI’s output. Understanding the anatomy of different prompt structures helps you choose the right one for the job.
 
@@ -256,10 +250,9 @@ Prompts come in many shapes, depending on your goals, the complexity of the task
 | **Multi-Turn Conversation** | A back-and-forth exchange where previous messages build context. | User: Give me a list of U.S. national parks in the West.<br>AI: [List]<br>User: Now sort them by size. | Complex tasks where you refine or expand the request over time. |
 | **Dynamic, Variable-Injected Prompt** | A template where parts of the prompt are filled in with live or changing data. | Write a {tone} introduction to {topic} for someone named {name}. | Automation, personalization, and programmatic API workflows. |
 
-
 By mixing and matching these structures, you can create prompts that are concise, rich in context, and tailored for automation and enabling far more consistent and useful AI outputs.
 
-### Programmatic and Dynamic Prompting
+### Programmatic Prompting
 
 AI’s impact grows dramatically when you automate prompts and dynamically inject fresh data into them.
 
@@ -323,7 +316,8 @@ This script reads a CSV, sends each row’s data to the OpenAI API, and saves th
 **Flow:**  
 `input.csv → Pandas DataFrame → AI prompt → OpenAI API → response → output.csv`
 
-### Steps
+A more detailed summary of what the code does is below:
+
 1. **Import libraries** – `pandas` for CSV handling, `openai` for API calls, `time` for retries.
 2. **Config settings** – file paths, model name, system prompt, API key.
 3. **Create client** – `client = OpenAI(api_key=API_KEY)` to connect to OpenAI.
