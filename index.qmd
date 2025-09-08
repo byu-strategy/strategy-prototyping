@@ -1,7 +1,7 @@
 ---
 title: "Syllabus"
 author: "Scott Murff"
-date: "7/31/2025"
+date: "9/1/2025"
 format:
   html: default
   pdf: default
@@ -23,10 +23,8 @@ There are two sections of this course being taught under two different. Please n
 |   | MSB 341 - Product Management - 003 | STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping - 001 |
 |------------------|-----------------------------|---------------------------------|
 | **TAs** | Nate McCauley, David Fillmore, John Gilbert | Carter Adams, Eli Nelson, Taylor Wall |
-| **TA Office Hours** | TBD | TBD |
-| **TA Office Hours Location** |  |  |
-| **Class Time** | Fridays Only, 9:30 AM – 12:15 PM |  |
-| **Class Location** | 230 TNRB |  |
+| **Class Time** | Fridays Only, 9:30 AM – 12:15 PM | Mondays Only, 3:30 AM – 4:45 PM |
+| **Class Location** | 230 TNRB | W242 TNRB |
 
 ## Prerequisites
 

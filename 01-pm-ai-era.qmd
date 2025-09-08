@@ -144,6 +144,9 @@ cd ~             # home folder
 # Make things: “make directory”
 mkdir my-project
 
+# Open your new folder (directory) in Windows Explorer or Mac Finder
+open my-project
+
 # Create or overwrite a file with text (cross-platform): “repeat back”
 # > is like hitting “Save As” and overwriting the file.
 echo "Hello AI PMs" > hello.txt
@@ -208,7 +211,77 @@ brew --version
 winget --version
 ```
 
-Winget comes pre-installed on Windows 10 (version 1709+) and Windows 11 so there is generally no need to install it.
+Winget comes pre-installed on Windows 10 and 11 so there is generally no need to install it.
+
+Let's now use the package manager to install a couple of software packages we will need. You can first check if you already have these installed.
+
+```{python eval=false}
+# Mac
+
+# list all python installations. Run these lines one at a time
+which -a python
+which -a python3
+whereis python
+
+# Print out where the contents of the PATH variable
+echo $PATH | tr ':' '\n'
+
+# if you don't have python install install it using the command below.
+brew install python
+
+python --version
+```
+
+```{python eval=false}
+# Windows
+
+# list all python installations. Run these lines one at a time
+where python
+where python3
+Get-Command python* -All | Select-Object Name, Source
+# Print out where the contents of the PATH variable
+$env:Path -split ';'
+
+# if you don't have python install install it using the command below.
+winget install Python.Python.3
+
+python --version
+```
+
+Terminal refresh: You might need to close and reopen PowerShell/Terminal for the new PATH entries to be picked up.
+
+Multiple versions: If you already have another Python, whichever comes first in your PATH will be the one that runs when you type python.
+
+We also need to install something called Node.js which is a tool that lets us run JavaScript programs, and we need it (along with `npm`, its package installer) before we can set up Claude Code.
+
+```{python eval=false}
+# Mac
+
+# Install Node.js
+brew install node
+
+# Check installation:
+node --version
+```
+
+```{python eval=false}
+# Windows
+
+# Install Node.js
+winget install OpenJS.NodeJS.LTS
+
+# Check installation:
+node --version
+```
+
+Now we can install Claude Code which we will use soon. You must first [sign up for a Pro account](https://www.anthropic.com/pricing) before being able to use Claude Code. After signing up for Pro account run the following command to install Claude Code.
+
+```{python eval=false}
+# Install Claude Code
+npm install -g @anthropic-ai/claude-code
+```
+
+If it successfully installed, keep reading. We will start up Claud Code soon from within VS Code.
 
 ### VS Code
 
@@ -293,7 +366,7 @@ ls
 cd my-project
 ```
 
-Start up Claude Code via the terminal within VS Code. You must first sign up for a [Pro account](https://www.anthropic.com/pricing) before starting Claude Code. 
+Start up Claude Code via the terminal within VS Code. 
 
 ```{python eval=false}
 # Start-up Claude Code
