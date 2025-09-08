@@ -407,6 +407,24 @@ Key Features Include:
 - Deployment: Apps can be hosted on Streamlit Community Cloud or deployed on your own servers.
 :::
 
+::: {.callout-tip collapse="true" title="What is JSON?"}
+JSON (JavaScript Object Notation) is a lightweight way of storing and sharing data. You can think of it like a digital "box" that holds information in a very organized way, using pairs of keys and values. For example:
+
+`{`\
+  `"name": "Alice",`\
+ `"age": 20,`\
+  `"isStudent": true`\
+`}`\
+
+In this example:
+
+- "name" is the key, and "Alice" is the value.
+- "age" is the key, and 20 is the value.
+- "isStudent" is the key, and true is the value.
+
+JSON is popular because it’s easy for humans to read and easy for computers to understand. It’s often used when apps, websites, or programs need to send information to each other.
+:::
+
 ::: {.callout-tip collapse="true" title="How many lines of code does a production grade business application typically require?"}
 A production-grade business application for internal use typically ranges from 10,000 to 500,000+ lines of code, depending on several key factors: Small to Medium Internal Apps (10K-50K lines)
 
@@ -432,6 +450,7 @@ Factors that significantly impact size:
 
 Modern considerations: Many internal applications today leverage low-code platforms, cloud services, and existing frameworks, which can reduce custom code requirements significantly. A modern internal app might accomplish what previously took 100K lines with just 20-30K lines by using pre-built components and services.
 :::
+
 
 ### Code your second app
 
