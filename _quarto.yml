@@ -5,7 +5,7 @@ project:
     - images
     
 book:
-  title: "STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
+  title: "MSB 341 - Product Management / STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
   favicon: images/prototyping-favicon.png
   author: "Scott Murff"
   date: "5/10/2025"
