@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GitHub &amp; Collaboration – MSB 341 - Product Management / STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
+<title>GitHub &amp; Deployment – MSB 341 - Product Management / STRAT 490R - Creating Digital Products with AI: Strategy &amp; Prototyping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +65,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./07-internet-fundamentals.html" rel="next">
-<link href="./05-project-management-jira.html" rel="prev">
+<link href="./03-product-innovation.html" rel="next">
+<link href="./01-pm-ai-era.html" rel="prev">
 <link href="./images/prototyping-favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -99,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era.html">Topics</a></li><li class="breadcrumb-item"><a href="./06-collaboration-git-triad.html"><span class="chapter-title">GitHub &amp; Collaboration</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era.html">Topics</a></li><li class="breadcrumb-item"><a href="./02-git-deployment.html"><span class="chapter-title">GitHub &amp; Deployment</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -166,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-llms-prompt-engineering.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">LLMs &amp; Prompting</span></a>
+  <a href="./02-git-deployment.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">GitHub &amp; Deployment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -182,11 +217,6 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./05-project-management-jira.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./06-collaboration-git-triad.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">GitHub &amp; Collaboration</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -263,20 +293,18 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#git-github" id="toc-git-github" class="nav-link active" data-scroll-target="#git-github">Git &amp; GitHub</a></li>
-  <li><a href="#the-four-sections-of-the-gitgithub-workflow" id="toc-the-four-sections-of-the-gitgithub-workflow" class="nav-link" data-scroll-target="#the-four-sections-of-the-gitgithub-workflow">The Four Sections of the Git/GitHub Workflow</a></li>
-  <li><a href="#illustrating-the-workflow" id="toc-illustrating-the-workflow" class="nav-link" data-scroll-target="#illustrating-the-workflow">Illustrating the Workflow</a>
-  <ul class="collapse">
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
-  </ul></li>
+  <li><a href="#the-gitgithub-workflow" id="toc-the-gitgithub-workflow" class="nav-link" data-scroll-target="#the-gitgithub-workflow">The Git&lt;–&gt;GitHub Workflow</a></li>
+  <li><a href="#illustrating-the-workflow" id="toc-illustrating-the-workflow" class="nav-link" data-scroll-target="#illustrating-the-workflow">Illustrating the Workflow</a></li>
+  <li><a href="#common-git-commands" id="toc-common-git-commands" class="nav-link" data-scroll-target="#common-git-commands">Common git commands</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era.html">Topics</a></li><li class="breadcrumb-item"><a href="./06-collaboration-git-triad.html"><span class="chapter-title">GitHub &amp; Collaboration</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-pm-ai-era.html">Topics</a></li><li class="breadcrumb-item"><a href="./02-git-deployment.html"><span class="chapter-title">GitHub &amp; Deployment</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">GitHub &amp; Collaboration</span></h1>
+<h1 class="title"><span class="chapter-title">GitHub &amp; Deployment</span></h1>
 </div>
 
 
@@ -297,11 +325,33 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="git-github">Git &amp; GitHub</h2>
 <p>Although the terms Git and GitHub are often used interchangeably, they are two distinct tools that work together.</p>
 <p><strong>Git</strong> is an open-source version control system that individual users install on their local computer. It tracks every change you make to the files in a specified folder (called a repository) and acts like a time machine allowing you to go back to any previous version, see what changed, when it changed, and who made the change. Git is the most widely used version control system in the world, with an estimated 90–95% of professional software development teams using it today.</p>
+<p>We will be using git to version control your projects throughout this course. Take a moment to to make sure you have Git installed on your computer by running the following from the command line:</p>
+<div id="2faaf3ca" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if you have Git installed on your computer</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>git <span class="op">--</span>version</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Install git on Windows if needed</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>winget install <span class="op">--</span><span class="bu">id</span> Git.Git <span class="op">-</span>e <span class="op">--</span>source winget</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Install git on Mac if needed</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>brew install git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p><strong>GitHub</strong> is a cloud-based platform, owned by Microsoft, that allows you to store your Git repositories online, making it easy to collaborate with others over the internet. You can think of GitHub as the Google Drive or Dropbox of your code files, but with additional tools for teamwork and project management that extend the use of Git from individuals to entire teams. Developers use Git on their local machines and push their files and subsequent changes to GitHub when they’re ready to share or back them up online. Product Managers and other collaborators can then review, comment on, and track progress through the GitHub web interface.</p>
+<p>We will be using GitHub to deploy applications to the internet and create a public facing project portfolio you can share with employers and others.</p>
+<p>If you don’t have one already, sign-up for a GitHub account using the following steps:</p>
+<ol type="1">
+<li>Navigate to https://github.com/.</li>
+<li>Click Sign up.</li>
+<li>Alternatively, click on Continue with Google to sign up using social login.</li>
+<li>Follow the prompts to create your personal account.</li>
+<li>In the upper-right corner of any page, select , then click New repository.</li>
+<li>Name the repository whatever you want.</li>
+</ol>
+<p><img src="images/new-repo.jpg" class="img-fluid"></p>
 </section>
-<section id="the-four-sections-of-the-gitgithub-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="the-four-sections-of-the-gitgithub-workflow">The Four Sections of the Git/GitHub Workflow</h2>
-<p>A typical workflow in get consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder for others to use.</p>
+<section id="the-gitgithub-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="the-gitgithub-workflow">The Git&lt;–&gt;GitHub Workflow</h2>
+<p>A typical workflow in git consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder (called a <strong>respository</strong>) for others to use.</p>
 <p><strong>1. Working Directory</strong></p>
 <p>The Working Directory is the folder on your computer where you’re actively making changes to files such as writing code, editing documents, or creating new files.</p>
 <p>A Working Directory is just a regular folder you’re already familiar with, the kind you see in Windows Explorer or Mac Finder.</p>
@@ -327,31 +377,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="illustrating-the-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="illustrating-the-workflow">Illustrating the Workflow</h2>
 <p>The illustration below helps you visualize the four parts of a Git workflow.</p>
-<p><img src="images/git-visual.jpg" class="img-fluid"></p>
-<p>The most fundamental unit in Git is a repository, often called a repo for short. A repository is a special folder that contains all the files related to your project, along with the metadata Git uses to track the full history of changes.</p>
-<p>The best way to</p>
-<p>Git and GitHub Operate on a Four-Level Hierarchy</p>
-<p>Git and GitHub organize your project using a four-level hierarchy, each building on the one below:</p>
-<p>Level 1 – Files</p>
-<p>These are the individual files in your project, most commonly plain text files containing code (like <code>.py</code>, <code>.html</code>, or <code>.js</code>), but other file types such as images (<code>.png</code>, <code>.jpg</code>) and data files (<code>.csv</code>, <code>.json</code>) are also supported and commonly used.</p>
-<p>Level 2 – Commits</p>
-<p>A <strong>commit</strong> is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a <strong>hash</strong> (e.g., <code>f04e112</code>) that lets you reference or return to that version.<br>
-The word <em>commit</em> can be both a <strong>noun</strong> (“This commit broke the build”) and a <strong>verb</strong> (“I’m committing my changes”), meaning to save a snapshot of the current state of your project.</p>
-<p>Level 3 – Branches</p>
-<p>A branch is a named reference (a pointer) to the latest commit in a line of development.</p>
-<p>HEAD is a special pointer that tracks where you are in the Git repo.</p>
-<p>Most of the time, it points to a branch name (like main or feature-x). In special cases, HEAD can point directly to a commit, putting you in a detached HEAD state.</p>
-<p>A <strong>branch</strong> is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits — the branch’s history.</p>
-<p>A is a label (or pointer) to a single commit — specifically, the tip (latest commit) of a line of development. Git doesn’t store branches as separate sequences of commits. Instead:</p>
-<p>The branch points to the most recent commit. That commit points to the previous commit. And so on, forming a linked list of history. Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called <strong><code>main</code></strong> (previously called <code>master</code>), which typically represents the production-ready version of the code.</p>
-<p>When you check out a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself — instead, you’re preparing to build on top of it. Any changes you make and commit will be saved as a new commit, extending the history of the branch.</p>
-<p>Level 4 – Repositories</p>
-<p>A <strong>repository</strong> (or <strong>repo</strong>) is the top-level container that holds all your project’s files, commit history, branches, and metadata. It’s essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) or be hosted online (e.g., on GitHub) for sharing and collaboration.</p>
-<p>🔍 What Exactly Is in a Git Repository?</p>
-<p>A repository (or repo) in Git is the full structure that stores:</p>
-<p>Commits: Snapshots of the project’s file state over time Branches: Named pointers to specific commits Tags: Named, static pointers to commits (usually used for releases) Refs: Internally, all pointers (branches, tags, HEAD) are stored as refs Blobs: File contents (each version of each file) Trees: Directory structures (which files go in which folders) HEAD: A special ref pointing to your current working location Configuration: Repo settings like remotes, ignore rules, hooks, etc. So yes: a Git repo is the container for all of this — your entire project, including its full history and structure.</p>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p><img src="images/git-visual.jpg" class="img-fluid"> ## The Hierarchy of a Git Project</p>
+<p>Git and GitHub organize your project using a four-level hierarchy as follows:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 8%">
@@ -388,51 +415,47 @@ The word <em>commit</em> can be both a <strong>noun</strong> (“This commit bro
 </tr>
 </tbody>
 </table>
-<p>This structure can be visualized as follows:</p>
-<p>Although they’re often mentioned together, Git and GitHub are not the same thing.</p>
-<p><strong>Repositories: The Project Container</strong></p>
-<p>A repository (or repo) is your entire project — like a folder that holds all your code, history, and collaboration tools. If you’re writing a novel, the repository is the whole book project, including every chapter, draft, and note you’ve ever made.</p>
-<p>On your computer, a Git repo is just a regular folder with special tracking enabled. On GitHub, it’s a shared version of that folder hosted in the cloud where others can see, clone, or contribute.</p>
-<p>Branches: Versions You Can Work On Separately</p>
-<p>The Four Main Conceptual Areas in Git</p>
-<p>Here’s a complete, beginner-friendly framework:</p>
-<ol type="1">
-<li><p>Working Directory The actual files and folders on your computer that you’re editing. What you see in your file explorer or code editor. Untracked or modified files live here. 👉 You can change files freely here, but Git doesn’t track them until you stage or commit them.</p></li>
-<li><p>Staging Area (a.k.a. Index) A preview of what will go into your next commit. You use git add to move changes from the working directory to the staging area. Think of it like a “shopping cart” of changes you’re getting ready to commit. 👉 This gives you fine-grained control over what goes into each commit.</p></li>
-<li><p>Local Repository Where your commits live on your own computer. When you run git commit, you move changes from the staging area into your local repo. This is the full version history that Git manages in the .git directory. 👉 You can make lots of commits locally without pushing anything to the cloud.</p></li>
-<li><p>Remote Repository A shared copy of your repository hosted online (e.g., on GitHub). You use git push to send commits from your local repository to the remote. You use git pull or git fetch to bring changes from the remote down to your local repo. 👉 Enables collaboration, backups, and deployment.</p></li>
-</ol>
-<p>The primary purpose of a branch in Git is to give a human-readable name to a commit, so you don’t have to use the full hash.</p>
-<p>Why Branches Exist in Git</p>
-<ol type="1">
-<li>Commits Are Identified by Hashes Every commit is named by a SHA-1 hash like:</li>
-</ol>
-<p>Branches Are Named Pointers A branch (like main, feature-x, or fix-bug-7) is a named reference to a commit. As you commit, the branch name moves forward to the new commit.</p>
-<p>main → commit A → commit B → commit C refs/heads/main → abc123 → def456 → 9a3e6c2</p>
-<p>🧭 What a Branch Really Is</p>
-<p>A branch is just a label (a file inside .git/refs/heads/) that contains a commit hash. Example:</p>
-<p>cat .git/refs/heads/main Might output:</p>
-<p>9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60 That’s it. A branch is literally a text file with a hash in it.</p>
-<p>As you commit, the branch “moves forward” automatically</p>
-<p>Detached HEAD mode means that HEAD is pointing directly to a specific commit hash, not to a branch.</p>
-<p>What Is Detached HEAD Mode?</p>
-<p>In normal Git use:</p>
-<p>HEAD → main → commit abc123 In detached HEAD mode:</p>
-<p>HEAD → commit abc123 ← no branch involved This happens when you check out a commit directly:</p>
-<p>git checkout abc123 Now you’re no longer “on a branch.” You’re just sitting on a specific commit.</p>
-<p>🎯 Why Is This Useful?</p>
-<p>You might enter detached HEAD mode when:</p>
-<p>You want to test or explore an old version without changing any branches You want to build something temporary, like a patch or debug run You’re checking out a tag (tags also point to commits) ⚠️ Gotcha: What Happens If You Commit in Detached Mode?</p>
-<p>You can still make commits, and Git will let you — but:</p>
-<p>They’ll be “floating” — not attached to any branch If you switch branches afterward, you could lose them unless you create a new branch from that point</p>
-<p>A commit is the fundamental unit in Git. Branches, tags, and HEAD are just labels or pointers to commits. Let’s unpack it a bit more clearly:</p>
-<p>🧱 Commits: The Core Building Blocks</p>
-<p>Every commit: Has a unique SHA-1 hash Stores a snapshot of the project Links to its parent(s), forming the project history All real data lives in the commit graph Without any branches, Git would still work — you’d just need to use hashes to refer to everything. 🏷️ Branches: Named Pointers to Commits</p>
-<p>A branch is a label that moves as you add commits Think of it as a bookmark: main → commit ABC123 📌 HEAD: The “Current Position” Pointer</p>
-<p>HEAD is just a pointer to: A branch (e.g., main) → which points to a commit Or directly to a commit (in detached mode) 📷 Tags: Static Pointers to Commits</p>
-<p>A tag is like a permanent label (e.g., v1.0) Unlike branches, tags don’t move 🧠 Mental Model</p>
-<p>[Commit A] ← [Commit B] ← [Commit C] ↑ main, HEAD Commits = data Branches/tags = labels HEAD = where you currently are</p>
-<p>9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60</p>
+<p><strong>Level 1: Files </strong></p>
+<p>These are the individual files in your project, most commonly plain text files containing code (like <code>.py</code>, <code>.html</code>, or <code>.js</code>), but other file types such as images (<code>.png</code>, <code>.jpg</code>) and data files (<code>.csv</code>, <code>.json</code>) are also supported and commonly used.</p>
+<p><strong>Level 2: Commits</strong></p>
+<p>A <strong>commit</strong> is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a <strong>hash</strong> that looks like this: <code>9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60</code> (usually shortened to 7 characters for ease of viewing <code>3fccc60</code>) that lets you reference or return to a specific version or your project.</p>
+<p>The word <em>commit</em> can be both a <strong>noun</strong> (“This commit broke the build”) and a <strong>verb</strong> (“I’m committing my changes”), meaning to save a snapshot of the current state of your project.</p>
+<p><strong>Level 3: Branches</strong></p>
+<p>A branch in Git is a movable pointer that marks the latest commit in a line of development, automatically advancing as new commits are added, which makes it easy to manage and organize different streams of work. For example, the main branch might look like this:</p>
+<p><code>main → commit A → commit B → commit C</code></p>
+<p>If you create a new branch based on commit B called <code>feature-login</code>, it will start as:</p>
+<p><code>feature-login → commit B</code></p>
+<p>Then, as you add new commits to the feature branch, the pointer moves forward to always reference the tip (i.e., latest commit) of the branch:</p>
+<p><code>feature-login → commit B → commit D → commit E</code></p>
+<p>Meanwhile, main can continue independently with its own commits. At some point you might merge the <code>feature-login</code> branch back to <code>main.</code></p>
+<p>HEAD is a special pointer that tracks where you are in the Git repo.</p>
+<p>Most of the time, it points to a branch name (like <code>main</code> or <code>feature-x</code>).</p>
+<p>A <strong>branch</strong> is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits, the branch’s history.</p>
+<p>Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called <strong><code>main</code></strong> (previously called <code>master</code>), which typically represents the production-ready version of the code.</p>
+<p>When you checkout a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself, instead, you’re preparing to build on top of it.</p>
+<p>Any changes you make and commit will be saved as a new commit, extending the history of the branch.</p>
+<p><strong>Level 4: Repositories</strong></p>
+<p>A <strong>repository</strong> (or <strong>repo</strong>) is the container that holds all your project’s files, commit history, branches, and metadata. It’s essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) and be hosted online (e.g., on GitHub) for sharing and collaboration.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="What all is contained in a repo?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What all is contained in a repo?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A repository (or repo) in Git stores:</p>
+<p>Commits: Snapshots of the project’s file state over time Branches: Named pointers to specific commits Tags: Named, static pointers to commits (usually used for releases) Refs: Internally, all pointers (branches, tags, HEAD) are stored as refs Blobs: File contents (each version of each file) Trees: Directory structures (which files go in which folders) HEAD: A special ref pointing to your current working location Configuration: Repo settings like remotes, ignore rules, hooks, etc.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="common-git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="common-git-commands">Common git commands</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 24%">
@@ -611,7 +634,6 @@ The word <em>commit</em> can be both a <strong>noun</strong> (“This commit bro
 </table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1033,13 +1055,13 @@ The word <em>commit</em> can be both a <strong>noun</strong> (“This commit bro
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./05-project-management-jira.html" class="pagination-link" aria-label="Project Management">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Project Management</span></span>
+      <a href="./01-pm-ai-era.html" class="pagination-link" aria-label="AI Product Management">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">AI Product Management</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./07-internet-fundamentals.html" class="pagination-link" aria-label="APIs &amp; Internet Fundamentals">
-        <span class="nav-page-text"><span class="chapter-title">APIs &amp; Internet Fundamentals</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./03-product-innovation.html" class="pagination-link" aria-label="Product Innovation">
+        <span class="nav-page-text"><span class="chapter-title">Product Innovation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

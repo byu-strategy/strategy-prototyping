@@ -1,5 +1,5 @@
 ---
-title: "GitHub & Collaboration"
+title: "GitHub & Deployment"
 ---
 
 ## Git & GitHub
@@ -8,11 +8,39 @@ Although the terms Git and GitHub are often used interchangeably, they are two d
 
 **Git** is an open-source version control system that individual users install on their local computer. It tracks every change you make to the files in a specified folder (called a repository) and acts like a time machine allowing you to go back to any previous version, see what changed, when it changed, and who made the change. Git is the most widely used version control system in the world, with an estimated 90–95% of professional software development teams using it today.
 
+We will be using git to version control your projects throughout this course. Take a moment to to make sure you have Git installed on your computer by running the following from the command line:
+
+```{python eval=false}
+
+# Check if you have Git installed on your computer
+git --version
+
+# Install git on Windows if needed
+winget install --id Git.Git -e --source winget
+
+# Install git on Mac if needed
+brew install git
+
+```
+
 **GitHub** is a cloud-based platform, owned by Microsoft, that allows you to store your Git repositories online, making it easy to collaborate with others over the internet. You can think of GitHub as the Google Drive or Dropbox of your code files, but with additional tools for teamwork and project management that extend the use of Git from individuals to entire teams. Developers use Git on their local machines and push their files and subsequent changes to GitHub when they’re ready to share or back them up online. Product Managers and other collaborators can then review, comment on, and track progress through the GitHub web interface.
 
-## The Four Sections of the Git/GitHub Workflow
+We will be using GitHub to deploy applications to the internet and create a public facing project portfolio you can share with employers and others.
 
-A typical workflow in get consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder for others to use.
+If you don't have one already, sign-up for a GitHub account using the following steps:
+
+1. Navigate to https://github.com/.
+2. Click Sign up.
+3. Alternatively, click on Continue with Google to sign up using social login.
+4. Follow the prompts to create your personal account.
+5. In the upper-right corner of any page, select , then click New repository.
+6. Name the repository whatever you want.
+
+![](images/new-repo.jpg)
+
+## The Git<-->GitHub Workflow
+
+A typical workflow in git consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder (called a **respository**) for others to use.
 
 **1. Working Directory**
 
@@ -61,53 +89,62 @@ The Remote Repository is the shared copy in the cloud that you and your team kee
 The illustration below helps you visualize the four parts of a Git workflow. 
 
 ![](images/git-visual.jpg)
+## The Hierarchy of a Git Project
 
-The most fundamental unit in Git is a repository, often called a repo for short. A repository is a special folder that contains all the files related to your project, along with the metadata Git uses to track the full history of changes.
+Git and GitHub organize your project using a four-level hierarchy as follows:
 
-The best way to 
+| Level | Concept     | Description                                              |
+|-------|-------------|----------------------------------------------------------|
+| 1     | Files       | The individual contents of your project                  |
+| 2     | Commits     | Snapshots of the project at specific points in time      |
+| 3     | Branches    | Timelines of commits used for parallel development       |
+| 4     | Repositories| The full project container with history and structure    |
 
-
- Git and GitHub Operate on a Four-Level Hierarchy
-
-Git and GitHub organize your project using a four-level hierarchy, each building on the one below:
-
-Level 1 – Files  
+**Level 1: Files ** 
 
 These are the individual files in your project,  most commonly plain text files containing code (like `.py`, `.html`, or `.js`), but other file types such as images (`.png`, `.jpg`) and data files (`.csv`, `.json`) are also supported and commonly used.
 
-Level 2 – Commits  
+**Level 2: Commits** 
 
-A **commit** is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a **hash** (e.g., `f04e112`) that lets you reference or return to that version.  
+A **commit** is a snapshot of your entire project at a specific point in time. Git stores the exact state of all tracked files when you make a commit. Each commit has a unique identifier called a **hash** that looks like this: `9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60` (usually shortened to 7 characters for ease of viewing `3fccc60`) that lets you reference or return to a specific version or your project.
+
 The word *commit* can be both a **noun** (“This commit broke the build”) and a **verb** (“I’m committing my changes”), meaning to save a snapshot of the current state of your project.
 
+**Level 3: Branches**  
 
+A branch in Git is a movable pointer that marks the latest commit in a line of development, automatically advancing as new commits are added, which makes it easy to manage and organize different streams of work. For example, the main branch might look like this:
 
-Level 3 – Branches  
+`main → commit A → commit B → commit C`
 
-A branch is a named reference (a pointer) to the latest commit in a line of development.
+If you create a new branch based on commit B called `feature-login`, it will start as:
+
+`feature-login → commit B`
+
+Then, as you add new commits to the feature branch, the pointer moves forward to always reference the tip (i.e., latest commit) of the branch:
+
+`feature-login → commit B → commit D → commit E`
+
+Meanwhile, main can continue independently with its own commits. At some point you might merge the `feature-login` branch back to `main.`
 
 HEAD is a special pointer that tracks where you are in the Git repo.
 
-Most of the time, it points to a branch name (like main or feature-x). In special cases, HEAD can point directly to a commit, putting you in a detached HEAD state.
+Most of the time, it points to a branch name (like `main` or `feature-x`).
 
-A **branch** is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits — the branch’s history.
+A **branch** is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits, the branch’s history.
 
-A  is a label (or pointer) to a single commit — specifically, the tip (latest commit) of a line of development. Git doesn’t store branches as separate sequences of commits. Instead:
-
-The branch points to the most recent commit.
-That commit points to the previous commit.
-And so on, forming a linked list of history.
- Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called **`main`** (previously called `master`), which typically represents the production-ready version of the code.
+Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called **`main`** (previously called `master`), which typically represents the production-ready version of the code.
  
- When you check out a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself — instead, you're preparing to build on top of it. Any changes you make and commit will be saved as a new commit, extending the history of the branch.
+When you checkout a branch, Git updates your working directory to reflect the latest commit on that branch. You’re not editing that commit itself, instead, you're preparing to build on top of it.
+ 
+Any changes you make and commit will be saved as a new commit, extending the history of the branch.
 
-Level 4 – Repositories 
+**Level 4: Repositories**
 
-A **repository** (or **repo**) is the top-level container that holds all your project’s files, commit history, branches, and metadata. It's essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) or be hosted online (e.g., on GitHub) for sharing and collaboration.
+A **repository** (or **repo**) is the container that holds all your project’s files, commit history, branches, and metadata. It's essentially your entire project, tracked and version-controlled. Repositories can live on your local computer (with Git) and be hosted online (e.g., on GitHub) for sharing and collaboration.
 
-🔍 What Exactly Is in a Git Repository?
+::: {.callout-tip collapse="true" title="What all is contained in a repo?"}
 
-A repository (or repo) in Git is the full structure that stores:
+A repository (or repo) in Git stores:
 
 Commits: Snapshots of the project’s file state over time
 Branches: Named pointers to specific commits
@@ -117,159 +154,9 @@ Blobs: File contents (each version of each file)
 Trees: Directory structures (which files go in which folders)
 HEAD: A special ref pointing to your current working location
 Configuration: Repo settings like remotes, ignore rules, hooks, etc.
-So yes: a Git repo is the container for all of this — your entire project, including its full history and structure.
+:::
 
-### Summary
-
-| Level | Concept     | Description                                              |
-|-------|-------------|----------------------------------------------------------|
-| 1     | Files       | The individual contents of your project                  |
-| 2     | Commits     | Snapshots of the project at specific points in time      |
-| 3     | Branches    | Timelines of commits used for parallel development       |
-| 4     | Repositories| The full project container with history and structure    |
-
-
-This structure can be visualized as follows:
-
-
-
-
-
-Although they’re often mentioned together, Git and GitHub are not the same thing.
-
-**Repositories: The Project Container**
-
-
-A repository (or repo) is your entire project — like a folder that holds all your code, history, and collaboration tools. If you're writing a novel, the repository is the whole book project, including every chapter, draft, and note you’ve ever made.
-
-On your computer, a Git repo is just a regular folder with special tracking enabled. On GitHub, it's a shared version of that folder hosted in the cloud where others can see, clone, or contribute.
-
-Branches: Versions You Can Work On Separately
-
-The Four Main Conceptual Areas in Git
-
-Here’s a complete, beginner-friendly framework:
-
-1. Working Directory
-The actual files and folders on your computer that you’re editing.
-What you see in your file explorer or code editor.
-Untracked or modified files live here.
-👉 You can change files freely here, but Git doesn't track them until you stage or commit them.
-
-2. Staging Area (a.k.a. Index)
-A preview of what will go into your next commit.
-You use git add to move changes from the working directory to the staging area.
-Think of it like a “shopping cart” of changes you’re getting ready to commit.
-👉 This gives you fine-grained control over what goes into each commit.
-
-3. Local Repository
-Where your commits live on your own computer.
-When you run git commit, you move changes from the staging area into your local repo.
-This is the full version history that Git manages in the .git directory.
-👉 You can make lots of commits locally without pushing anything to the cloud.
-
-4. Remote Repository
-A shared copy of your repository hosted online (e.g., on GitHub).
-You use git push to send commits from your local repository to the remote.
-You use git pull or git fetch to bring changes from the remote down to your local repo.
-👉 Enables collaboration, backups, and deployment.
-
-
-The primary purpose of a branch in Git is to give a human-readable name to a commit, so you don’t have to use the full hash.
-
- Why Branches Exist in Git
-
-1. Commits Are Identified by Hashes
-Every commit is named by a SHA-1 hash like:
-
- Branches Are Named Pointers
-A branch (like main, feature-x, or fix-bug-7) is a named reference to a commit.
-As you commit, the branch name moves forward to the new commit.
-
-main → commit A → commit B → commit C
-refs/heads/main → abc123 → def456 → 9a3e6c2
-
-
-🧭 What a Branch Really Is
-
-A branch is just a label (a file inside .git/refs/heads/) that contains a commit hash.
-Example:
-
-cat .git/refs/heads/main
-Might output:
-
-9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60
-That’s it. A branch is literally a text file with a hash in it.
-
-As you commit, the branch "moves forward" automatically
-
-Detached HEAD mode means that HEAD is pointing directly to a specific commit hash, not to a branch.
-
-
- What Is Detached HEAD Mode?
-
-In normal Git use:
-
-HEAD → main → commit abc123
-In detached HEAD mode:
-
-HEAD → commit abc123   ← no branch involved
-This happens when you check out a commit directly:
-
-git checkout abc123
-Now you’re no longer “on a branch.” You’re just sitting on a specific commit.
-
-🎯 Why Is This Useful?
-
-You might enter detached HEAD mode when:
-
-You want to test or explore an old version without changing any branches
-You want to build something temporary, like a patch or debug run
-You're checking out a tag (tags also point to commits)
-⚠️ Gotcha: What Happens If You Commit in Detached Mode?
-
-You can still make commits, and Git will let you — but:
-
-They’ll be “floating” — not attached to any branch
-If you switch branches afterward, you could lose them unless you create a new branch from that point
-
-
-A commit is the fundamental unit in Git.
-Branches, tags, and HEAD are just labels or pointers to commits.
-Let’s unpack it a bit more clearly:
-
-🧱 Commits: The Core Building Blocks
-
-Every commit:
-Has a unique SHA-1 hash
-Stores a snapshot of the project
-Links to its parent(s), forming the project history
-All real data lives in the commit graph
-Without any branches, Git would still work — you’d just need to use hashes to refer to everything.
-🏷️ Branches: Named Pointers to Commits
-
-A branch is a label that moves as you add commits
-Think of it as a bookmark:
-main → commit ABC123
-📌 HEAD: The “Current Position” Pointer
-
-HEAD is just a pointer to:
-A branch (e.g., main) → which points to a commit
-Or directly to a commit (in detached mode)
-📷 Tags: Static Pointers to Commits
-
-A tag is like a permanent label (e.g., v1.0)
-Unlike branches, tags don’t move
-🧠 Mental Model
-
-[Commit A] ← [Commit B] ← [Commit C]
-                           ↑
-                    main, HEAD
-Commits = data
-Branches/tags = labels
-HEAD = where you currently are
-
-9a3e6c2bd8c2fb4f09f7bbfe42f27f3853fccc60
+## Common git commands
 
 | Command            | Syntax                                          | Description |
 |--------------------|--------------------------------------------------|-------------|
