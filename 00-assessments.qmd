@@ -130,7 +130,8 @@ You should make at least the following changes to the source files of your portf
 2) Update and personalize the Home page (index.qmd)
 3) Update and personalize the About page (about.qmd)
 4) Update and personalize the project-1.qmd file to accurately reflect the application you built. Make sure to update the two buttons that contain links to your GitHub source code and your Vercel deployed app.
-5) Choose one other person to show your portfolio to and describe to them what you built. Take a couple minutes to explain to them the tools and skills you are learning.
+5) Use AI or another tool of your choice to create a [favicon](https://en.wikipedia.org/wiki/Favicon) and update the image reference in the `.yml`. You could use an icon or just your initial(s).
+6) Choose one other person to show your portfolio to and describe to them what you built. Take a couple minutes to explain to them the tools and skills you are learning.
 
 Although not required for this assignment, you should feel free to make further enhancements and personalizations to your portfolio. You will continue to build on this portfolio throughout the course so it should be something you invest significant effort in as it can be a valuable tool for you in the future to showcase your skills.
 
