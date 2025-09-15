@@ -293,9 +293,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#git-github" id="toc-git-github" class="nav-link active" data-scroll-target="#git-github">Git &amp; GitHub</a></li>
-  <li><a href="#the-gitgithub-workflow" id="toc-the-gitgithub-workflow" class="nav-link" data-scroll-target="#the-gitgithub-workflow">The Git&lt;–&gt;GitHub Workflow</a></li>
   <li><a href="#illustrating-the-workflow" id="toc-illustrating-the-workflow" class="nav-link" data-scroll-target="#illustrating-the-workflow">Illustrating the Workflow</a></li>
   <li><a href="#common-git-commands" id="toc-common-git-commands" class="nav-link" data-scroll-target="#common-git-commands">Common git commands</a></li>
+  <li><a href="#deploying-from-github" id="toc-deploying-from-github" class="nav-link" data-scroll-target="#deploying-from-github">Deploying from GitHub</a></li>
   </ul>
 </nav>
     </div>
@@ -326,7 +326,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Although the terms Git and GitHub are often used interchangeably, they are two distinct tools that work together.</p>
 <p><strong>Git</strong> is an open-source version control system that individual users install on their local computer. It tracks every change you make to the files in a specified folder (called a repository) and acts like a time machine allowing you to go back to any previous version, see what changed, when it changed, and who made the change. Git is the most widely used version control system in the world, with an estimated 90–95% of professional software development teams using it today.</p>
 <p>We will be using git to version control your projects throughout this course. Take a moment to to make sure you have Git installed on your computer by running the following from the command line:</p>
-<div id="2faaf3ca" class="cell" data-execution_count="1">
+<div id="3be888f5" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if you have Git installed on your computer</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>git <span class="op">--</span>version</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -347,10 +347,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>In the upper-right corner of any page, select , then click New repository.</li>
 <li>Name the repository whatever you want.</li>
 </ol>
-<p><img src="images/new-repo.jpg" class="img-fluid"></p>
-</section>
-<section id="the-gitgithub-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="the-gitgithub-workflow">The Git&lt;–&gt;GitHub Workflow</h2>
+<p><img src="images/new-repo.jpg" class="img-fluid"> ## The Git&lt;–&gt;GitHub Workflow</p>
 <p>A typical workflow in git consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder (called a <strong>respository</strong>) for others to use.</p>
 <p><strong>1. Working Directory</strong></p>
 <p>The Working Directory is the folder on your computer where you’re actively making changes to files such as writing code, editing documents, or creating new files.</p>
@@ -632,6 +629,13 @@ What all is contained in a repo?
 </tr>
 </tbody>
 </table>
+</section>
+<section id="deploying-from-github" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-from-github">Deploying from GitHub</h2>
+<p>There are many ways to deploy an application, but for now we’ll use one of the simplest approaches: deploying with Vercel. Vercel is a cloud platform that integrates directly with GitHub, making it easy to deploy your code straight from your repository. Once you connect your GitHub repo, Vercel automatically builds and hosts your application whenever you push changes.</p>
+<p>Go to <a href="https://vercel.com/">vercel.com</a> and sign up for an account using your email, or your Google or GitHub account.</p>
+<p>Once signed in, click on “Add New” and select “Project”? Connect your GitHub account and import the repo containing your the code for your app.</p>
+<p>Deploy the app and visit the URL to view your published app.</p>
 
 
 </section>

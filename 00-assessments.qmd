@@ -12,7 +12,7 @@ The following assessments will be used to measure progress towards learning outc
 | Exam | [Pre-Course Knowledge Check](#pre-course-knowledge-check) | 0% | 0 | 1,2,3,4 |
 | Exam | [Final Exam](#final-exam) | 10% | 50 | 1,2,3,4 |
 | Quiz | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
-| Quiz | [Quiz 2 - LLMs 2](02-git-deployment.qmd) | 2% | 10 | 1 |
+| Quiz | [Quiz 2 - Git and Deployment](02-git-deployment.qmd) | 2% | 10 | 1 |
 | Quiz | [Quiz 3 - Product Strategy and Innovation](03-product-innovation.qmd) | 2% | 10 | 2 |
 | Quiz | [Quiz 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
 | Quiz | [Quiz 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
@@ -21,7 +21,7 @@ The following assessments will be used to measure progress towards learning outc
 | Quiz | [Quiz 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
 | Quiz | [Quiz 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
 | Quiz | [Quiz 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
-| Homework | [Homework 1 – Understanding Large Language Models](#homework-1-understanding-large-language-models) | 8% | 40 | 1 |
+| Homework | [Homework 1 – Deploy your first app](#deploy-your-first-app) | 8% | 40 | 1 |
 | Homework | [Homework 2 – Creating a Product Requirements Document (PRD)](#homework-2-creating-a-product-requirements-document-prd) | 8% | 40 | 2, 3 |
 | Homework | [Homework 3 – Understanding the internet and APIs](#homework-3-understanding-the-internet-and-apis) | 8% | 40 | 4 |
 | Homework | [Homework 4 – Using Git for collaboration and version control](#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
@@ -59,13 +59,88 @@ Hence, comparing your final exam score to your score on the pre-course knowledge
 
 ### Final Exam
 
+The Final exam will be in the testing center. 
+
 ## Homework
 
 ### Homework 1 – Deploy your fist app
 
-#### GitHub Deployment
+**Overview**
 
-#### Portfolio
+The purpose of this homework assignment is to help you create a public facing portfolio containing your work that you can use to share with potential employers and others. 
+
+The deliverable for this homework is a single URL pointing to your personal portfolio published on the internet via GitHub Pages which will look like the following [**template**](https://sdmurff.github.io/student-test/)
+
+To actually submit the assignment, you need to complete two steps.
+
+1) Publish your portfolio to the internet
+2) Once published, submit your URL on LearningSuite. The URL should have this format. https://[your github username].github.io/portfolio/
+
+**Set-up**
+
+1) Create a new repo from the following template on GitHub: [https://github.com/byu-strategy/product-management-portfolio](https://github.com/byu-strategy/product-management-portfolio). Call the repo "portfolio".
+
+![](images/new-repo-template.jpg)
+
+2) After creating the repo, go to 'Settings -> Pages -> Deploy from a branch`, and select `GitHub Actions`
+
+![](images/github-actions-deploy.jpg)
+3) Start VS Code and then `Open -> Open Folder` to the folder you want to save your portfolio files in. Then open a Terminal within VS Code. 
+4) Copy/paste the URL of your new repo and run the following command from the terminal. Your URL should have the following structure: https://github.com/[your github username]/portfolio
+
+```{python eval=false}
+git clone https://github.com/[your github username]/portfolio.git
+```
+
+Make sure to add `.git` to the end of the URL and update your user name before running the command.
+
+5) Then use the terminal to navigate to the newly cloned git repo (folder)
+
+```{python eval=false}
+cd portfolio
+```
+
+6) You should now see all of the files from the repo in your left hand window pane within VS Code. These are the source files behind the [**template**](https://sdmurff.github.io/student-test/). 
+
+7) To complete the homework, you will edit and personalize the template. Once you are done editing, save all of the files and run the following git commands to publish your portfolio:
+
+```{python eval=false}
+git add .
+git commit -m "write a short message describing your changes"
+git push
+```
+
+Once you have pushed your changes, within about one minute, your website portfolio will be live at this URL: https://[your github username].github.io/portfolio/
+
+**Remember to update your user name in the URL.**
+
+You can preview what your portfolio looks like at any point by running this command from the terminal:
+
+```{python eval=false}
+quarto preview
+```
+
+For this to work, you will need to install `quarto`. Get Claude code to help you install it.
+
+**Requirements**
+
+You should make at least the following changes to the source files of your portfolio.
+
+1) Add a personal photo (I recommend using your LinkedIn photo for a consistent online presence)
+2) Update and personalize the Home page (index.qmd)
+3) Update and personalize the About page (about.qmd)
+4) Update and personalize the project-1.qmd file to accurately reflect the application you built. Make sure to update the two buttons that contain links to your GitHub source code and your Vercel deployed app.
+5) Choose one other person to show your portfolio to and describe to them what you built. Take a couple minutes to explain to them the tools and skills you are learning.
+
+Although not required for this assignment, you should feel free to make further enhancements and personalizations to your portfolio. You will continue to build on this portfolio throughout the course so it should be something you invest significant effort in as it can be a valuable tool for you in the future to showcase your skills.
+
+**Grading**
+
+This assignment is worth 40 points which equates to 8% of your grade. 
+
+A full score of 40 will be awarded if all requirements above are met and the portfolio is "client ready." Client ready means you could show this to a real prospective employer with confidence, meaning there are no errors, all of the hyperlink's work, etc.
+
+One point will be docked for each aspect that is not "client ready." For example, if a hyperlink doesn't work, that's -1 from the 40 possible.
 
 ### Homework 2 – Build a business case
 

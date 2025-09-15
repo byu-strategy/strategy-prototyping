@@ -37,7 +37,6 @@ If you don't have one already, sign-up for a GitHub account using the following 
 6. Name the repository whatever you want.
 
 ![](images/new-repo.jpg)
-
 ## The Git<-->GitHub Workflow
 
 A typical workflow in git consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder (called a **respository**) for others to use.
@@ -192,4 +191,16 @@ Configuration: Repo settings like remotes, ignore rules, hooks, etc.
 | **Stash changes**   | `git stash`                                      | Temporarily saves uncommitted changes |
 |                     | `git stash apply`                                | Reapplies stashed changes |
 | **View staged files** | `git ls-files --stage`                         | Shows what's in the staging area |
+
+## Deploying from GitHub
+
+There are many ways to deploy an application, but for now we’ll use one of the simplest approaches: deploying with Vercel. Vercel is a cloud platform that integrates directly with GitHub, making it easy to deploy your code straight from your repository. Once you connect your GitHub repo, Vercel automatically builds and hosts your application whenever you push changes.
+
+Go to [vercel.com](https://vercel.com/) and sign up for an account using your email, or your Google or GitHub account.
+
+Once signed in, click on "Add New" and select "Project"? Connect your GitHub account and import the repo containing your the code for your app. 
+
+Deploy the app and visit the URL to view your published app.
+
+
 
