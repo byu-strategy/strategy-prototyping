@@ -86,7 +86,7 @@ To actually submit the assignment, you need to complete the following steps:
 
 ![](images/new-repo-template.jpg)
 
-2) After creating the repo, go to 'Settings -> Pages -> Deploy from a branch`, and select `GitHub Actions`
+2) After creating the repo, go to `Settings -> Pages -> Deploy from a branch`, and select `GitHub Actions`
 
 ![](images/github-actions-deploy.jpg)
 3) Start VS Code and then `Open -> Open Folder` to the folder you want to save your portfolio files in. Then open a Terminal within VS Code. 
