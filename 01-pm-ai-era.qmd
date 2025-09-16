@@ -67,23 +67,7 @@ Builder’s high is back...
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
-::: tweet-center
-<blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
-We are adding a coding section to all of our Product Managers interviews at <a href="https://twitter.com/Shopify?ref_src=twsrc%5Etfw">@Shopify</a>.<br><br> We'll start with APM interviews. We expect candidates to build a prototype of the product they suggested in the case interview.<br><br> There is no excuse for PMs not building prototypes.
-
-</p>
-
-— Kaz Nejatian (@CanadaKaz) <a href="https://twitter.com/CanadaKaz/status/1955629733460562404?ref_src=twsrc%5Etfw"> August 13, 2025 </a>
-
-</blockquote>
-:::
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
 
 ::: tweet-center
 <blockquote class="twitter-tweet">
@@ -109,13 +93,44 @@ Vibe coding is here to stay. I'd been worried it might be a fad, but I talked to
 </iframe>
 :::
 
-![AI Product Management Learning Roadmap from Paweł Huryn](images/ai-pm-roadmap.jpeg)
+### AI-Powered PM
 
+An AI-Powered PM utilizes AI tools as a core part of their own workflow to enhance productivity and efficiency in tasks like prototyping and coding. 
+
+It's likely that eventually all PMs will eventually become AI-powered PMs. Individual companies will make this transition at varying speeds. It's happening at companies like Shopify and Coinbase.
+
+::: tweet-center
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+We are adding a coding section to all of our Product Managers interviews at <a href="https://twitter.com/Shopify?ref_src=twsrc%5Etfw">@Shopify</a>.<br><br> We'll start with APM interviews. We expect candidates to build a prototype of the product they suggested in the case interview.<br><br> There is no excuse for PMs not building prototypes.
+
+</p>
+
+— Kaz Nejatian (@CanadaKaz) <a href="https://twitter.com/CanadaKaz/status/1955629733460562404?ref_src=twsrc%5Etfw"> August 13, 2025 </a>
+
+</blockquote>
+:::
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
+## AI Product PM
+
+An AI Product PM builds products where AI is a core feature. This means they need a good understanding of what AI can and can’t do, how to measure its performance, and how to design around its limitations. They balance accuracy, speed, cost, and safety. They work closely with engineers and designers to shape the product, test ideas, and ship features.
+
+Becoming an AI Product PM is challenging because you must do everything a traditional PM does—defining problems, leading teams, and shipping products—while also deeply understanding how AI works. This means grasping its strengths, limits, risks, and how to design around them. Because the bar is so high, AI Product PMs have quickly become the best-compensated roles in product management.
+
+Pawel Huryn has put together a comprehensive roadmap for becoming an AI Product PM shown below:
+
+![AI Product Management Learning Roadmap from Paweł Huryn](images/ai-pm-roadmap.jpeg)
 ## Let's Build!
 
 ### The Command Line
 
-In order to be a serious AI Product Manager, you need to get comfortable interacting with your computer via the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
+In order to be a serious AI-Powered PM or AI Product PM, you need to get comfortable interacting with your computer via the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
 
 The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. You access the command line through a program called a terminal which is a simple black (or white) window with just text, no buttons or icons. On Mac, this program is literally called "Terminal." On Windows, it's called "Command Prompt" or "PowerShell."
 

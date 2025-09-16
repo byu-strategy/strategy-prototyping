@@ -2,6 +2,8 @@
 title: "GitHub & Deployment"
 ---
 
+The next set of tools we’ll explore are Git and GitHub. These have become the standard platforms developers use to manage versions of code and collaborate on the software that powers digital products. As AI creates new possibilities in product development, mastering these tools is no longer optional, they are now essential to be a high performing AI-Powered PM or AI Product PM.
+
 ## Git & GitHub
 
 Although the terms Git and GitHub are often used interchangeably, they are two distinct tools that work together.

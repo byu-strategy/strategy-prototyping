@@ -71,10 +71,14 @@ The purpose of this homework assignment is to help you create a public facing po
 
 The deliverable for this homework is a single URL pointing to your personal portfolio published on the internet via GitHub Pages which will look like the following [**template**](https://sdmurff.github.io/student-test/)
 
-To actually submit the assignment, you need to complete two steps.
+To actually submit the assignment, you need to complete the following steps:
 
 1) Publish your portfolio to the internet
-2) Once published, submit your URL on LearningSuite. The URL should have this format. https://[your github username].github.io/portfolio/
+2) Once published, submit a single page PDF or Word Doc containing three things:
+
+  - A URL to your live product portfolio
+  - The name and relation of the person you showed your portfolio to (e.g. your roommate, parent, employer, etc)
+  - A few comments on how they reacted to what you showed them? i.e. what questions did they ask, what did they think overall?
 
 **Set-up**
 
