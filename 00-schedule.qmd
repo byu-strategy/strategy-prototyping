@@ -5,8 +5,6 @@ editor: visual
 
 Below is the planned daily schedule. Dates, topics, and assignments may adjust as needed. All readings, slides, and homework are linked here.
 
-Make sure to
-
 | Week | Dates for MSB 341 | Dates for STRAT 490R | Topics | In-class Quiz | Homework Assigned | MSB 341 Homework Due Date | STRAT 490R Homework Due Date |
 |----------|----------|----------|----------|----------|--------------|-----------|----------|
 | 1 | Mon, Sept 8 | Fri, Sept 5 | Course overview, Product Management and AI, Thought Leaders, Computer Setup, | – | – |  | – |
