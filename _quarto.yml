@@ -1,8 +1,7 @@
 project:
   type: book
-  output-dir: docs
-  resources:
-    - images
+  output-dir: _book
+r
     
 book:
   title: "MSB 341 - Product Management / STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
