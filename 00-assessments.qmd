@@ -90,6 +90,7 @@ To actually submit the assignment, you need to complete the following steps:
 
 ![](images/github-actions-deploy.jpg)
 3) Start VS Code and then `Open -> Open Folder` to the folder you want to save your portfolio files in. Then open a Terminal within VS Code. 
+
 4) Copy/paste the URL of your new repo and run the following command from the terminal. Your URL should have the following structure: https://github.com/[your github username]/portfolio
 
 ```{python eval=false}
@@ -98,7 +99,7 @@ git clone https://github.com/[your github username]/portfolio.git
 
 Make sure to add `.git` to the end of the URL and update your user name before running the command.
 
-5) Then use the terminal to navigate to the newly cloned git repo (folder)
+5) Then use the terminal to navigate into the newly cloned git repo (folder)
 
 ```{python eval=false}
 cd portfolio
