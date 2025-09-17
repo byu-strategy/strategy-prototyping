@@ -126,6 +126,7 @@ Becoming an AI Product PM is challenging because you must do everything a tradit
 Pawel Huryn has put together a comprehensive roadmap for becoming an AI Product PM shown below:
 
 ![AI Product Management Learning Roadmap from Paweł Huryn](images/ai-pm-roadmap.jpeg)
+
 ## Let's Build!
 
 ### The Command Line
