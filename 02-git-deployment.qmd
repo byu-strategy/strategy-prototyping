@@ -198,6 +198,21 @@ Configuration: Repo settings like remotes, ignore rules, hooks, etc.
 
 There are many ways to deploy an application, but for now we’ll use one of the simplest approaches: deploying with Vercel. Vercel is a cloud platform that integrates directly with GitHub, making it easy to deploy your code straight from your repository. Once you connect your GitHub repo, Vercel automatically builds and hosts your application whenever you push changes.
 
+::: {.callout-tip collapse="true" title="What does deployment mean?"}
+
+Deployment is the process of taking code that runs locally on your computer and making it available to the world over the internet.  
+
+When you deploy, a few important steps typically happen:  
+
+1. **Build step** – Your source code is transformed into optimized files that can run efficiently on a server. For example, JavaScript is bundled, images are compressed, and dependencies are installed.  
+2. **Hosting** – Those built files are placed on a server (a computer that’s always online) so they can be accessed any time.  
+3. **Serving** – The server makes your application available at a public web address (URL), so anyone can open it in a browser.  
+4. **Updates** – Each time you push new code to GitHub, the deployment system (like Vercel) rebuilds and redeploys the application automatically, so your site stays up to date.  
+
+In short: **deployment is how you go from “it works on my laptop” to “anyone in the world can visit my app at a URL.”**
+
+:::
+
 Go to [vercel.com](https://vercel.com/) and sign up for an account using your email, or your Google or GitHub account.
 
 Once signed in, click on "Add New" and select "Project"? Connect your GitHub account and import the repo containing your the code for your app. 
