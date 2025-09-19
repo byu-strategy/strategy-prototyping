@@ -13,7 +13,7 @@ The following assessments will be used to measure progress towards learning outc
 | Exam | [Final Exam](#final-exam) | 10% | 50 | 1,2,3,4 |
 | Quiz | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
 | Quiz | [Quiz 2 - Git and Deployment](02-git-deployment.qmd) | 2% | 10 | 1 |
-| Quiz | [Quiz 3 - Product Strategy and Innovation](03-product-innovation.qmd) | 2% | 10 | 2 |
+| Quiz | [Quiz 3 - Product Strategy and Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
 | Quiz | [Quiz 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
 | Quiz | [Quiz 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
 | Quiz | [Quiz 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |

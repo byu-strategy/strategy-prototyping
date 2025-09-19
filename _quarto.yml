@@ -18,9 +18,9 @@ book:
     # Core Course Chapters
         - 01-pm-ai-era.qmd
         - 02-git-deployment.qmd
-        - 03-product-innovation.qmd
+        - 03-project-management.qmd
+        - 04-product-innovation.qmd
         - 04-value-prop-design.qmd
-        - 05-project-management-jira.qmd
         - 07-internet-fundamentals.qmd
         - 08-software-engineering.qmd
         #- 06-llms-prompt-engineering.qmd

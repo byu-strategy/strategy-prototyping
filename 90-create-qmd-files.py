@@ -5,7 +5,7 @@ files = {
     "02-git-deployment.qmd": "LLMs & Prompting",
     "03-product-innovation-process.qmd": "Product Innovation",
     "04-value-prop-validation.qmd": "Value Prop & Prototyping",
-    "05-project-management-jira.qmd": "Jira & Project Mgmt",
+    "03-project-management.qmd": "Jira & Project Mgmt",
     "02-git-deployment.qmd": "Git & Team Dynamics",
     "07-internet-fundamentals.qmd": "Internet Basics & APIs",
     "08-software-design-principles.qmd": "Software Design Principles",
