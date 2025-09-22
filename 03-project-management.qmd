@@ -79,7 +79,7 @@ A PRD explains what a product should do, why it’s needed, and how success will
 
 PRDs help ensure everyone including design, engineering, and marketing share the same understanding of what’s being built and why.
 
-You can view examples of PRDs [**here**](https://www.lennysnewsletter.com/i/683946/pagersprds)
+You can view examples of PRDs [**here.**](https://www.lennysnewsletter.com/i/683946/pagersprds)
 
 ### AI Impact on PRDs
 

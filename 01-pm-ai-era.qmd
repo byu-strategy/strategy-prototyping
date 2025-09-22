@@ -2,6 +2,24 @@
 title: "AI Product Management"
 ---
 
+::: tweet-center
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+Builder’s high is back...
+
+</p>
+
+— Madhu Guru (@realmadhuguru) <a href="https://twitter.com/realmadhuguru/status/1955451011323314641">August 13, 2025</a>
+
+</blockquote>
+:::
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
 ## History of Product Management
 
 At its simplest, product management is about identifying customer needs, aligning them with business goals, and working with cross-functional teams to build products that succeed in the market. The person responsible is the Product Manager (PM), often called the "CEO of the product."
@@ -48,26 +66,6 @@ With AI, a PM can quickly generate wireframes, mockups, or even working product 
 It remains to be seen how this will fully play out, but early indications suggest that shifts in how PMs, designers, and engineers work together are real and lasting. With the right AI tools some ambitious individuals may be able to wear all three hats to varying degrees.
 
 Below are a selection of anecdotes from leaders in the field that provides some insight into how things are shifting.
-
-::: tweet-center
-<blockquote class="twitter-tweet">
-
-<p lang="en" dir="ltr">
-
-Builder’s high is back...
-
-</p>
-
-— Madhu Guru (@realmadhuguru) <a href="https://twitter.com/realmadhuguru/status/1955451011323314641">August 13, 2025</a>
-
-</blockquote>
-:::
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
-
-
 
 ::: tweet-center
 <blockquote class="twitter-tweet">

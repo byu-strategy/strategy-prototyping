@@ -39,6 +39,7 @@ If you don't have one already, sign-up for a GitHub account using the following 
 6. Name the repository whatever you want.
 
 ![](images/new-repo.jpg)
+
 ## The Git<-->GitHub Workflow
 
 A typical workflow in git consists of editing files in your working directory, staging them, which just means listing which ones you want to save, saving or committing them and lastly, pushing them to a remote cloud hosted folder (called a **respository**) for others to use.
@@ -90,6 +91,7 @@ The Remote Repository is the shared copy in the cloud that you and your team kee
 The illustration below helps you visualize the four parts of a Git workflow. 
 
 ![](images/git-visual.jpg)
+
 ## The Hierarchy of a Git Project
 
 Git and GitHub organize your project using a four-level hierarchy as follows:
@@ -125,13 +127,11 @@ Then, as you add new commits to the feature branch, the pointer moves forward to
 
 `feature-login → commit B → commit D → commit E`
 
-Meanwhile, main can continue independently with its own commits. At some point you might merge the `feature-login` branch back to `main.`
+Meanwhile, `main` can continue independently with its own commits. At some point you might merge the `feature-login` branch back to `main.`
 
-HEAD is a special pointer that tracks where you are in the Git repo.
+`HEAD` is a special pointer that tracks which branch is currently active on your computer.
 
-Most of the time, it points to a branch name (like `main` or `feature-x`).
-
-A **branch** is a pointer to the most recent commit in a line of development. Because each commit remembers its parent, this pointer implicitly defines a sequence of commits, the branch’s history.
+Most of the time `HEAD` points to a branch name (like `main` or `feature-x`) although it can point directly to a commit hash ID like `3fccc60`. HEAD answers the question of "where am I?." You can run the command `git status` to see which branch/commit is currently active.
 
 Developers use branches to work on features or bug fixes in isolation. Most repositories have a default branch called **`main`** (previously called `master`), which typically represents the production-ready version of the code.
  
@@ -187,7 +187,6 @@ Configuration: Repo settings like remotes, ignore rules, hooks, etc.
 | **Pull changes**    | `git pull`                                       | Fetches + merges changes from remote into current branch |
 | **Fetch only**      | `git fetch`                                      | Downloads changes from remote but doesn’t merge |
 | **Check remotes**   | `git remote -v`                                  | Lists configured remotes and URLs |
-| **Tag a commit**    | `git tag <name>`                                 | Tags the current commit |
 |                     | `git tag -a <name> -m "<msg>"`                   | Annotated tag with message |
 | **Checkout commit** | `git checkout <commit>`                          | Switches to a specific commit (detached HEAD) |
 | **Stash changes**   | `git stash`                                      | Temporarily saves uncommitted changes |
