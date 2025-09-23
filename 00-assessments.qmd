@@ -11,22 +11,22 @@ The following assessments will be used to measure progress towards learning outc
 |-----------|-----------|-----------|-----------|-----------|
 | Exam | [Pre-Course Knowledge Check](#pre-course-knowledge-check) | 0% | 0 | 1,2,3,4 |
 | Exam | [Final Exam](#final-exam) | 10% | 50 | 1,2,3,4 |
-| Quiz | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
-| Quiz | [Quiz 2 - Git and Deployment](02-git-deployment.qmd) | 2% | 10 | 1 |
-| Quiz | [Quiz 3 - Product Strategy and Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
-| Quiz | [Quiz 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
-| Quiz | [Quiz 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
-| Quiz | [Quiz 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |
-| Quiz | [Quiz 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
-| Quiz | [Quiz 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
-| Quiz | [Quiz 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
-| Quiz | [Quiz 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
-| Homework | [Homework 1 – Deploy your first app](#deploy-your-first-app) | 8% | 40 | 1 |
-| Homework | [Homework 2 – Creating a Product Requirements Document (PRD)](#homework-2-creating-a-product-requirements-document-prd) | 8% | 40 | 2, 3 |
-| Homework | [Homework 3 – Understanding the internet and APIs](#homework-3-understanding-the-internet-and-apis) | 8% | 40 | 4 |
-| Homework | [Homework 4 – Using Git for collaboration and version control](#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
-| Homework | [Homework 5 – Choosing the right AI tools](#homework-5-choosing-the-right-ai-tools) | 8% | 40 | 4 |
-| Project | [Final Project](#final-project) | 30% | 150 | 4 |
+| Engagement Check | [EC 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
+| Engagement Check | [EC 2 - Git and Deployment](02-git-deployment.qmd) | 2% | 10 | 1 |
+| Engagement Check | [EC 3 - Product Strategy and Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
+| Engagement Check | [EC 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
+| Engagement Check | [EC 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
+| Engagement Check | [EC 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
+| Sprint Demo | [Sprint 1 – Deploy your first app](#deploy-your-first-app) | 8% | 40 | 1 |
+| Sprint Demo | [Sprint 2 – Creating a Product Requirements Document (PRD)](#homework-2-creating-a-product-requirements-document-prd) | 8% | 40 | 2, 3 |
+| Sprint Demo | [Sprint 3 – Understanding the internet and APIs](#homework-3-understanding-the-internet-and-apis) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 4 – Using Git for collaboration and version control](#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 5 – Choosing the right AI tools](#homework-5-choosing-the-right-ai-tools) | 8% | 40 | 4 |
+| Product Demo | [Final Product Demo](#final-project) | 30% | 150 | 4 |
 |  | **TOTAL** | **100%** | **500** |  |
 
 ::: {style="font-size:0.65em;"}
@@ -43,7 +43,7 @@ The following assessments will be used to measure progress towards learning outc
 
 :::
 
-## Exams
+## Knowledge Checks
 
 ### Pre-Course Knowledge Check
 
@@ -57,13 +57,13 @@ The final exam will be very similar in content and structure and will be complet
 
 Hence, comparing your final exam score to your score on the pre-course knowledge check will give you a good sense for what you have learned in the course. 
 
-### Final Exam
+### Final Knowledge Check
 
-The Final exam will be in the testing center. 
+The Final Knowledge Check will consist of a 50 question multiple choice test in the testing center. 
 
-## Homework
+## Product Sprints
 
-### Homework 1 – Deploy your fist app
+### Sprint 1 – Deploy your fist app
 
 **Overview**
 
@@ -148,33 +148,36 @@ A full score of 40 will be awarded if all requirements above are met and the por
 
 One point will be docked for each aspect that is not "client ready." For example, if a hyperlink doesn't work, that's -1 from the 40 possible.
 
-### Homework 2 – Build a business case
+### Sprint 2 – Build a business case
 
-### Homework 3 – Understanding the internet and APIs
+### Sprint 3 – Understanding the internet and APIs
 
-### Homework 4 – Using Git for collaboration and version control
+### Sprint 4 – Using Git for collaboration and version control
 
-### Homework 5 – Choosing the right AI tools
+### Sprint 5 – Choosing the right AI tools
 
-The purpose of this homework is to deepen your understanding of how LLMs work under the hood. As a product manager, this understanding will help you make smarter tradeoffs when evaluating LLM-powered features, communicate effectively with technical teams, and anticipate the strengths and limitations of the technology. It will also allow you to spot opportunities where LLMs can create real customer value, avoid common pitfalls in over-promising capabilities, and design product experiences that balance feasibility, performance, and user needs. The homework will deepen your understanding of the following topics:
+## Engagement Checks
 
-Linear Regression
-Neural Networks
-Tokenization
-Embeddings
-Attention
-Prompt Engineering
- 
-## Quizzes
+Engagement Checks provide a brief opportunity at the end of class for you to demonstrate your understanding of key concepts discussed that day and to reinforce active participation in the learning process.
 
-All quizzes are given during class and will consist of five questions drawn from the associated readings and displayed on the projector. Responses will be written on a note card and turned in during class. Smartphones and laptops or any other aids are not allowed during the quizzes. The purpose of these quizzes is to assess your unaided understanding of the course material.
+Engagement Checks occur during the final ten minutes of class. They consist of writing your answers to five questions, the topics of which were discussed during class that day.
 
-A list of the quiz dates and associated readings are shown on the [course schedule](00-schedule.qmd). 
+The questions are presented on a slide and students are provided a note card to write their answers. Each student should bring their own pen or pencil. Students should include their name and the day their section (i.e. Monday) meets in order to get credit. 
 
-## Final Project
+A list of the Engagement Check dates and associated readings are shown on the [course schedule](00-schedule.qmd). 
+
+::: {.callout-note title="Why We Do Engagement Checks"}
+Research shows that writing down what you’ve just learned helps your brain remember it better. Psychologists call this the "testing effect" or "retrieval practice": when you pull ideas out of your head and put them into words, you strengthen your memory far more than by just rereading or listening. Writing answers to a few questions at the end of class also helps you notice what you do and don’t understand, making your study time more effective later. These quick Engagement Checks aren’t busywork, they’re a proven way to lock in the key ideas from class so you actually remember them.
+:::
+
+## Final Product Demo
 
 ## Feedback Surveys
 
 ### Mid-Semester Feedback Survey
 
-### Course Student Ratings
+If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
+
+### Student Ratings
+
+If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.

@@ -11,16 +11,16 @@ The following assessments will be used to measure progress towards learning outc
 |-----------|-----------|-----------|-----------|-----------|
 | Knowledge Check | [Pre-Course Knowledge Check](#pre-course-knowledge-check) | 0% | 0 | 1,2,3,4 |
 | Knowledge Check | [Final Knowledge Check](#final-exam) | 10% | 50 | 1,2,3,4 |
-| Engagement Check | [Engagement Check 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
-| Engagement Check | [Engagement Check 2 - Product Management Activities](02-git-deployment.qmd) | 2% | 10 | 1 |
-| Engagement Check | [Engagement Check 3 - Product Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
-| Engagement Check | [Engagement Check 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
-| Engagement Check | [Engagement Check 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
-| Engagement Check | [Engagement Check 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |
-| Engagement Check | [Engagement Check 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
-| Engagement Check | [Engagement Check 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
-| Engagement Check | [Engagement Check 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
-| Engagement Check | [Engagement Check 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
+| Engagement Check | [EC 2 - Product Management Activities](03-project-management.qmd) | 2% | 10 | 1 |
+| Engagement Check | [EC 3 - Product Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
+| Engagement Check | [EC 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
+| Engagement Check | [EC 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
+| Engagement Check | [EC 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
+| Engagement Check | [EC 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
 | Sprint Demo | [Sprint 1](#deploy-your-first-app) | 8% | 40 | 1 |
 | Sprint Demo | [Sprint 2](#sprint-demo-instructions)  | 8% | 40 | 2, 3 |
 | Sprint Demo | [Sprint 3](#sprint-demo-instructions)  | 8% | 40 | 4 |
@@ -71,17 +71,10 @@ The questions are presented on a slide and students are provided a note card to 
 
 A list of the Engagement Check dates and associated readings are shown on the [course schedule](00-schedule-sandbox.qmd). 
 
-## Final Project
 
-## Feedback Surveys
-
-### Mid-Semester Feedback Survey
-
-If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
-
-### Student Ratings
-
-If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
+::: {.callout-note title="Why We Do Engagement Checks"}
+Research shows that writing down what you’ve just learned helps your brain remember it better. Psychologists call this the "testing effect" or "retrieval practice": when you pull ideas out of your head and put them into words, you strengthen your memory far more than by just rereading or listening. Writing answers to a few questions at the end of class also helps you notice what you do and don’t understand, making your study time more effective later. These quick Engagement Checks aren’t busywork, they’re a proven way to lock in the key ideas from class so you actually remember them.
+:::
 
 ## Homework
 
@@ -213,3 +206,13 @@ We will evaluate Sprint demos on the following criteria:
 - If your progress is learning (not building), that still counts, just show the insights you generated.
 
 ## Final Product Demo
+
+## Feedback Surveys
+
+### Mid-Semester Feedback Survey
+
+If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
+
+### Student Ratings
+
+If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
