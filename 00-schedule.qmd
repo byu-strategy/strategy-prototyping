@@ -6,11 +6,11 @@ editor: visual
 Below is the planned daily schedule. Dates, topics, and assignments may adjust as needed. All readings, slides, and homework are linked here.
 
 | Week | Dates for STRAT 490R | Topics | Engagement Check | Homework Assigned | STRAT 490R Homework Due Date |
-|-----------|-----------|-------------------|-----------|------------|-----------|
+|------------|------------|------------|------------|------------|------------|
 | 1 | Fri, Sept 5 | Course overview, Product Management and AI, Thought Leaders, Computer Setup | – | – | – |
 | 2 | Fri, Sept 12 | Git and Deployment | [Engagement Check 1 - AI Product Management](01-pm-ai-era.qmd) | [Sprint 1 - Deploy your first app](00-assessments.qmd#deploy-your-fist-app) | Fri, Sept 26 |
 | 3 | Fri, Sept 19 | Product Management Activities, Agile, User Stories | [Engagement Check 2 - Git and Deployment](02-git-deployment.qmd) | – | – |
-| 4 | Fri, Sept 26 | Guest: Jeff Dyer - Innovation Skills, Jobs-to-be Done, Identify Customer Needs/Pain | [Engagement Check 3 - Product Strategy and Innovation](04-product-innovation.qmd) | [Sprint 2 - Creating a Product Requirements Document (PRD)](00-assessments.qmd#homework-2-creating-a-product-requirements-document-prd) | Fri, Oct 10 |
+| 4 | Fri, Sept 26 | Guest: Jeff Dyer - Innovation Skills, Jobs-to-be Done, Identify Customer Needs/Pain | [Engagement Check 3 - Product Innovation](04-product-innovation.qmd) | [Sprint 2 – Identify a problem worth solving](00-assessments.qmd#sprint-2-identify-a-problem-worth-solving) | Fri, Oct 10 |
 | 5 | Fri, Oct 3 | Product Innovation Process, Target Market, Customer Discovery | [Engagement Check 4 - Customer Validation](04-value-prop-design.qmd) | – | – |
 | 6 | Fri, Oct 10 | Git/GitHub - Collaboration across PM, Eng, Design, Psychological safety, The triad and how it's changing (ratios of PMs to engineers) | [Engagement Check 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-feedback-survey) | [Sprint 3 - Understanding the internet and APIs](00-assessments.qmd#homework-3-understanding-the-internet-and-apis) | Fri, Oct 24 |
 | 7 | Fri, Oct 17 | Internet fundamentals · APIs · JSON & HTTP requests | [Engagement Check 6 - GitHub and Collaboration](02-git-deployment.qmd) | – | – |

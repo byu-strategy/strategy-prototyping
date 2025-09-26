@@ -6,7 +6,7 @@ editor: visual
 Below is the planned daily schedule. Dates, topics, and assessments may adjust as needed.
 
 | Week | Dates for MSB 341 | Topics | Engagement Check (EC) | Sprint Demo | MSB 341 Sprint Demo Due Date |
-|-----------|-----------|-----------|-------------|----------------|-----------|
+|----|----|----|----|----|----|
 | 1 | Mon, Sept 8 | Course overview, Product Management and AI, Thought Leaders, Computer Setup | – | – | – |
 | 2 | Mon, Sept 15 | Git and Deployment | [EC 1 - AI Product Management](01-pm-ai-era.qmd) | [Sprint 1](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Sept 29 |
 | 3 | Mon, Sept 22 | Product Management Activities, Agile, User Stories | [EC 2 - Product Management Activities](03-project-management.qmd) | – | – |
