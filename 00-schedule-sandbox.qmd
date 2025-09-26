@@ -6,11 +6,11 @@ editor: visual
 Below is the planned daily schedule. Dates, topics, and assessments may adjust as needed.
 
 | Week | Dates for MSB 341 | Topics | Engagement Check (EC) | Sprint Demo | MSB 341 Sprint Demo Due Date |
-|----|----|----|----|----|----|
+|-----------|-----------|-----------|-------------|----------------|-----------|
 | 1 | Mon, Sept 8 | Course overview, Product Management and AI, Thought Leaders, Computer Setup | – | – | – |
 | 2 | Mon, Sept 15 | Git and Deployment | [EC 1 - AI Product Management](01-pm-ai-era.qmd) | [Sprint 1](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Sept 29 |
 | 3 | Mon, Sept 22 | Product Management Activities, Agile, User Stories | [EC 2 - Product Management Activities](03-project-management.qmd) | – | – |
-| 4 | Mon, Sept 29 | Guest: Jeff Dyer - Innovation Skills, Jobs-to-be Done, Identify Customer Needs/Pain | [EC 3 - Innovation Skills](04-product-innovation.qmd) | [Sprint 2](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Oct 13 |
+| 4 | Mon, Sept 29 | Guest: Jeff Dyer - The Innovator's Method, Jobs-to-be Done, Identify Customer Needs/Pain | [EC 3 - Innovation Skills](04-product-innovation.qmd) | [Sprint 2](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Oct 13 |
 | 5 | Mon, Oct 6 | Validate and Prioritize, Importance vs Satisfaction, Moral Foundations and Gospel Principles Applied to Business | [EC 4 - Validate and Priortize](04-value-prop-design.qmd) | – | – |
 | 6 | Mon, Oct 13 | MVP tests, Customer Discovery, and Product Metrics, A/B Testing | [Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-feedback-survey) | [Sprint 3](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Oct 27 |
 | 7 | Mon, Oct 20 | Storytelling, Pitch Decks, Influence without Authority | [EC 5 - GitHub and Collaboration](02-git-deployment.qmd) | – | – |
