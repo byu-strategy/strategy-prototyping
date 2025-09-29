@@ -1,7 +1,49 @@
 ---
-title: "AI Tools Overview"
+title: "Tech Stack Components"
 editor: visual
 ---
+
+## Programming Languages
+
+| Language     | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| **Python**   | High-level, versatile, beginner-friendly; popular for AI, data science, and web apps. |
+| **JavaScript** | Core language of the web; runs in browsers and servers (with Node.js).       |
+| **TypeScript** | Superset of JavaScript with static typing; improves scalability and tooling. |
+| **Java**     | Object-oriented, cross-platform; widely used in enterprise apps and Android. |
+| **C**        | Low-level, fast, portable; forms the basis of many other languages.          |
+| **C++**      | Extension of C with OOP features; used in systems, games, and high-performance apps. |
+| **C#**       | Microsoft’s language for .NET; popular in enterprise software and Unity games. |
+| **Go (Golang)** | Designed by Google; simple, fast, great for concurrency and cloud apps.     |
+| **Rust**     | Systems language focused on safety and performance; gaining popularity in infrastructure. |
+| **PHP**      | Server-side scripting language; powers many websites, including WordPress.   |
+| **Ruby**     | Simple and elegant syntax; best known for Ruby on Rails web framework.       |
+| **Swift**    | Apple’s language for iOS/macOS development; safe and fast.                   |
+| **Kotlin**   | Modern, concise JVM language; official language for Android development.     |
+| **R**        | Specialized in statistics and data analysis; widely used in academia.        |
+| **SQL**      | Domain-specific language for managing and querying relational databases.     |
+
+## Claude Code
+
+`shift + tab` to turn on plan mode. Recommended before changing the code base
+
+`/clear` to clear the context window
+
+`#` to add something to "memory" which is equivalent to adding to your claude.md file.
+
+## MCP Servers
+
+### Playwright
+
+```bash
+claude mcp add playwright npx @playwright/mcp@latest
+```
+
+{{< video https://www.youtube.com/embed/xOO8Wt_i72s >}}
+
+
+
+
 
 ![](images/ai-tools.jpeg)
 
@@ -45,3 +87,6 @@ editor: visual
 -   Perplexity
 -   DeepSeek
 -   Grok
+-   Le Chat
+
+### Open Source

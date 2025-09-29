@@ -5,43 +5,43 @@ editor: visual
 
 ## Thought Leaders
 
-Aakash Gupta
+### Aakash Gupta
 
-[LinkedIn](https://www.linkedin.com/in/aagupta/), [X](https://x.com/aakashg0), [YouTube](https://www.youtube.com/@growproduct/videos)
+- [LinkedIn](https://www.linkedin.com/in/aagupta/)
+- [X](https://x.com/aakashg0)
+- [YouTube](https://www.youtube.com/@growproduct/videos)
 
-Colin Matthews 
+### Colin Matthews 
 
-[LinkedIn](https://www.linkedin.com/in/colinmatthews-pm/)
+- [LinkedIn](https://www.linkedin.com/in/colinmatthews-pm/)
 
-Lenny Rachitsky
+### Lenny Rachitsky
 
-[Substack](https://www.lennysnewsletter.com/)
+- [Substack](https://www.lennysnewsletter.com/)
 
-Paweł Huryn
+### Paweł Huryn
 
-Dan Olsen
+### Dan Olsen
 
-Marty Cagan
+### Marty Cagan
 
-Melissa Perri
+### Melissa Perri
 
-[X](https://x.com/lissijean)
+- [X](https://x.com/lissijean)
 
-Shreyas Doshi
+### Shreyas Doshi
 
-[Teresa Torres](https://www.linkedin.com/in/teresatorres/)
+- [Teresa Torres](https://www.linkedin.com/in/teresatorres/)
 
-Gibson Biddle
+### Gibson Biddle
 
-[X](https://x.com/gibsonbiddle)
+- [X](https://x.com/gibsonbiddle)
 
 ## Interview Preparation
 
 - [Product Manager interview simulator](https://www.linkedin.com/posts/arijanover_i-built-a-product-manager-interview-simulator-activity-7333522481271525378-feKo/)
 
 - [How top tech companies interview product managers](https://corpwaters.substack.com/p/how-top-tech-companies-interview)
-
-
 
 ## Bookmarks
 
