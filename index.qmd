@@ -21,7 +21,7 @@ format:
 There are two sections of this course being taught under two different. Please note the details for your section.
 
 |   | MSB 341 - Product Management - 003 | STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping - 001 |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **TAs** | Nate McCauley, David Fillmore, John Gilbert | Carter Adams, Eli Nelson, Taylor Wall |
 | **Class Time** | Fridays Only, 9:30 AM – 12:15 PM | Mondays Only, 3:30 AM – 4:45 PM |
 | **Class Location** | 230 TNRB | W242 TNRB |
@@ -57,7 +57,7 @@ This course develops students’ ability to integrate strategic thinking and tec
 ## Learning Outcomes
 
 | Learning Outcome | Supported BYU Aims |
-|------------------------------------|------------------------------------|
+|----|----|
 | 1\. Understand the basics of how LLMs generate natural language. | Intellectually Enlarging |
 | 2\. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
 | 3\. Analyze the physical, mental, and spiritual impact your product is likely to have on its users. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
@@ -80,7 +80,7 @@ See the [Schedule section](00-schedule.qmd) for a weekly schedule of class topic
 Below is the grading breakdown for each assessment in the course. Each point is weighted equally.
 
 | Type | Description<sup>1</sup> | \% of Grade | Points | Learning Outcome(s) Assessed |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | Exam | [Pre-Course Knowledge Check](00-assessments.qmd#pre-course-knowledge-check)<sup>2</sup> | 0% | 0 | 1,2,3,4 |
 | Exam | [Final Exam](00-assessments.qmd#final-exam) | 10% | 50 | 1,2,3,4 |
 | Quiz | [Quiz 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
