@@ -23,7 +23,7 @@ The following assessments will be used to measure progress towards learning outc
 | Engagement Check | [EC 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
 | Sprint Demo | [Sprint 1 – Deploy your first app](#sprint-1-deploy-your-first-app) | 8% | 40 | 1 |
 | Sprint Demo | [Sprint 2 – Identify a problem worth solving](#sprint-2-identify-a-problem-worth-solving) | 8% | 40 | 2, 3 |
-| Sprint Demo | [Sprint 3 – First MVP with Database and Payments](#sprint-3-first-MVP-with-database-and-payments) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 3 – First MVP with Database and Payments](#sprint-3-first-mvp-with-database-and-payments) | 8% | 40 | 4 |
 | Sprint Demo | [Sprint 4 – Using Git for collaboration and version control](#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
 | Sprint Demo | [Sprint 5 – Choosing the right AI tools](#homework-5-choosing-the-right-ai-tools) | 8% | 40 | 4 |
 | Product Demo | [Final Product Demo](#final-project) | 30% | 150 | 4 |
