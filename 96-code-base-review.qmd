@@ -3,7 +3,7 @@ title: "Code Base Review"
 editor: visual
 ---
 
-What follows is a conversation with Claude code regarding my code base for the following app?
+What follows is a conversation with Claude Code regarding my code base for the following app:
 
 [https://learn-french-sigma.vercel.app/](https://learn-french-sigma.vercel.app/)
 
