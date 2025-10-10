@@ -1,5 +1,15 @@
 ---
-title: "Build Session 1"
+title: "Full-Stack Build"
 ---
 
-Time to focus entirely on advancing your product, apply concepts from previous lectures, make design decisions, and work on your prototype to move it closer to a usable solution.
+## PRD and Specs
+
+### UX and UI Design
+
+UX Design (User Experience) — How it works
+
+UI Design (User Interface) — How it looks
+
+
+
+### 

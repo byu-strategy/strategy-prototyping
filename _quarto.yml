@@ -34,6 +34,8 @@ book:
     - part: Resources
       chapters:
     # Resources and Appendices
+      - 95-eng-checklist.qmd
+      - 96-code-base-review.qmd
       - 97-resources.qmd
       - 98-tools.qmd
       - 99-prompts.qmd
