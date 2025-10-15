@@ -129,68 +129,174 @@ Pawel Huryn has put together a comprehensive roadmap for becoming an AI Product 
 
 ### The Command Line
 
-In order to be a serious AI-Powered PM or AI Product PM, you need to get comfortable interacting with your computer via the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
+In order to be a serious AI-Powered PM or AI Product PM, you need to get comfortable interacting with your computer via the [Terminal or command line](https://en.wikipedia.org/wiki/Command-line_interface).
 
-The command line is a text-based interface, often called a CLI (Command Line Interface), that lets you control your computer by typing instructions rather than clicking with a mouse, touchpad, or touch screen. You access the command line through a program called a terminal which is a simple black (or white) window with just text, no buttons or icons. On Mac, this program is literally called "Terminal." On Windows, it's called "Command Prompt" or "PowerShell."
+The command line, sometimes referred to as the CLI (Command Line Interface), is a text-based way to control your computer by typing instructions instead of using a mouse or touch interface. You access the command line through a program called a terminal, which displays a simple text-only window (typically black or white) with no buttons or icons.
 
-Instead of navigating through a graphical user interface (GUI) with windows and icons, you type commands directly into this terminal window and press Enter to execute them. The command line acts as your gateway to the underlying operating system, giving you direct access to files, programs, and system functions that might be buried deep within GUI menus or not available graphically at all.
+On macOS, this program is literally called Terminal. On Windows, you can use Command Prompt, PowerShell, or Git Bash to access a similar environment.
+
+When using Visual Studio Code, you can open a terminal within it, making it easy to run commands without switching between windows.
+
+When using the command line, instead of navigating through a graphical user interface (GUI) with windows and icons, you type commands directly into this terminal window and press Enter to execute them. The command line acts as your gateway to the underlying operating system, giving you direct access to files, programs, and system functions that might be buried deep within GUI menus or not available graphically at all.
 
 This approach offers several advantages: greater precision in file operations, faster execution of repetitive tasks, access to powerful automation tools, and the ability to combine simple commands into complex workflows. Developers and data scientists rely on the command line because it's faster and more powerful for tasks like creating projects, installing software, running code, and automating workflows.
 
 **ChatGPT and other LLM-powered generative AI tools have made learning the command line more important, not less.** The command line is where you unlock the real power of automation, enabling you to run scripts and streamline repetitive tasks. Many advanced system administration tasks, programming tools, and server management operations are primarily designed for command-line use, making terminal proficiency essential for developers and savvy product managers.
 
-Furthermore, the command line is the native environment for the industry-leading approach to AI-assisted coding, Claude Code, which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an obscure developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.
+Furthermore, the command line is the native environment for the industry-leading approaches to AI-assisted coding such as Claude Code, Codex, and Gemini CLI which we’ll be using throughout this class. By getting comfortable in the command line, you won’t just be learning an obscure developer skill; you’ll be stepping into the same environment where cutting-edge AI coding tools operate, giving you the ability to build, experiment, and ship AI products with confidence.
 
-Now, let's learn the command line by doing. Spend the next 10 minutes testing the following commands.
+Now, let's learn the command line by doing. Spend some time testing the following commands.
 
-```{python eval=false}
-# What folder am I in?: "print working directory"
+These commands work seamlessly across **macOS** or **Windows** but there is a little bit of extra set up on Windows.
+
+**If You Are Using Windows — Do This First**
+
+**Step 1: Install Git Bash using `winget`**
+
+Within VS Code, open a Terminal and run:
+
+```bash
+winget install --id Git.Git -e --source winget
+```
+
+This installs **Git for Windows**, which includes **Git Bash**.
+
+After installation, verify that it worked:
+
+```bash
+git --version
+```
+
+If you see a version number (like `git version 2.46.0`), you’re ready to go.
+
+**Step 2: Set Git Bash as the Default Terminal in VS Code**
+
+1. Open **VS Code**.
+2. Press `Ctrl + Shift + P` to open the Command Palette.
+3. Type `Terminal: Select Default Profile` and press **Enter**.
+4. Choose **Git Bash** from the list.
+5. Open a new terminal tab (`Ctrl + ~`) — it should now start with `bash$` or `MINGW64` instead of `PS`.
+
+Now your VS Code terminal behaves almost identical to macOS (with a few exceptions noted below), and you can copy-paste the commands below directly.
+
+**Print working directory you are currently in**
+
+```bash
 pwd
+```
 
-# What files are in this folder?: "list"
+**List files in the current directory**
+
+```bash
 ls
+```
 
-# Move around: "change directory"
+**Change directory**
+
+```bash
 cd foldername
-cd ..            # up one level
-cd ~             # home folder
+```
 
-# Make things: “make directory”
+**Go up one level**
+
+```bash
+cd ..
+```
+
+**Go to your home directory**
+
+```bash
+cd ~
+```
+
+**Make a new directory**
+
+```bash
 mkdir my-project
+```
 
-# Open your new folder (directory) in Windows Explorer or Mac Finder
+**Open your new folder in Finder (Mac) or File Explorer (Windows)**
+On macOS, this uses the built-in `open` command. On Windows (Git Bash), `explorer.exe` opens File Explorer.
+
+```bash
+# macOS
 open my-project
 
-# Create or overwrite a file with text (cross-platform): “repeat back”
-# > is like hitting “Save As” and overwriting the file.
+# Windows (Git Bash)
+explorer.exe my-project
+```
+
+**Create or overwrite a file with text**
+`>` acts like “Save As” — it overwrites the file.
+
+```bash
 echo "Hello AI PMs" > hello.txt
+```
 
-# Append text (cross-platform)
-# >> is like hitting “Add to end” (append) — you’re just tacking on more notes.
+**Append text to a file**
+`>>` acts like “Add to end” — it appends text instead of overwriting.
+
+```bash
 echo "Second line" >> hello.txt
+```
 
-# Show file contents
+**Show file contents**
+
+```bash
 cat notes.txt
+```
 
-# Combine files into a new file
+**Combine files into a new file**
+
+```bash
 cat part1.txt part2.txt > full.txt
+```
 
-# use cat to peek inside a file without leaving the terminal. If you give it more than one file, it glues them together into a single text stream.
+**Copy a file**
 
-# Copy a file: "copy"
+```bash
 cp notes.txt backup.txt
+```
 
-# Remove things: “remove”
-rm hello.txt "
-rm -r my-project   # remove a folder (careful!)
+**Remove a file**
 
-# Open applications
+```bash
+rm hello.txt
+```
+
+**Remove a folder (recursively — be careful!)**
+
+```bash
+rm -r my-project
+```
+
+**Open a website in Google Chrome**
+macOS uses `open -a`, while Windows (Git Bash) can call Chrome directly if it’s on the PATH.
+
+```bash
+# macOS
 open -a "Google Chrome" https://claude.ai
 
-# you can leave file name off if you just wanna open a blank instance.
+# Windows (Git Bash)
+"/c/Program Files/Google/Chrome/Application/chrome.exe" https://claude.ai
+```
+
+**Open a Word document**
+On Windows (Git Bash), use the `start` command to launch Word if installed.
+
+```bash
+# macOS
 open -a "Microsoft Word" mydoc.docx
 
+# Windows (Git Bash)
+start winword mydoc.docx
 ```
+
+**Summary Notes**
+
+* These commands work identically on macOS, Linux, and Windows when using **Git Bash** or **WSL**.
+* `>` overwrites a file (like “Save As”).
+* `>>` appends to a file (like “Add to end”).
 
 #### Gotchas
 
@@ -266,7 +372,7 @@ Terminal refresh: You might need to close and reopen PowerShell/Terminal for the
 
 Multiple versions: If you already have another Python, whichever comes first in your PATH will be the one that runs when you type python.
 
-We also need to install something called Node.js which is a tool that lets us run JavaScript programs, and we need it (along with `npm`, its package installer) before we can set up Claude Code.
+We also need to install something called Node.js which is a tool that lets us run JavaScript programs, and we need it (along with `npm`, its package installer) before we can set up Claude Code or the [Gemini CLI](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/).
 
 ```{python eval=false}
 # Mac
@@ -288,11 +394,26 @@ winget install OpenJS.NodeJS.LTS
 node --version
 ```
 
-Now we can install Claude Code which we will use soon. You must first [sign up for a Pro account](https://www.anthropic.com/pricing) before being able to use Claude Code. After signing up for Pro account run the following command to install Claude Code.
+Now we can install Claude Code, Codex, and/or Gemini CLI which we will use soon. 
 
-```{python eval=false}
-# Install Claude Code
+First you need to sign up for a paid account from one of these providers:
+
+- [Gemini CLI (free for students!) from Google](https://gemini.google/tw/students/)
+- [Claude Code from Anthropic](https://www.anthropic.com/pricing)
+- [Codex from OpenAI](https://chatgpt.com/pricing/)
+
+After signing up for a paid account run the following commands to install the relevant CLI agents.
+
+```bash
+npm install -g @google/gemini-cli
+```
+
+```bash
 npm install -g @anthropic-ai/claude-code
+```
+
+```bash
+npm install -g @openai/codex
 ```
 
 If it successfully installed, keep reading. We will start up Claud Code soon from within VS Code.
@@ -464,7 +585,6 @@ Factors that significantly impact size:
 
 Modern considerations: Many internal applications today leverage low-code platforms, cloud services, and existing frameworks, which can reduce custom code requirements significantly. A modern internal app might accomplish what previously took 100K lines with just 20-30K lines by using pre-built components and services.
 :::
-
 
 ### Code your second app
 
