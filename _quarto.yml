@@ -22,6 +22,7 @@ book:
         - 02-git-deployment.qmd
         - 03-project-management.qmd
         - 04-product-innovation.qmd
+        - 05-go-to-market.qmd
         - 04-value-prop-design.qmd
         - 07-internet-fundamentals.qmd
         - 08-software-engineering.qmd
@@ -29,7 +30,7 @@ book:
         - 09-ai-dev-platforms.qmd
         - 10-build-feedback-1.qmd
         - 11-product-metrics.qmd
-        - 12-build-feedback-2.qmd
+        # - 12-build-feedback-2.qmd
         - 14-final-presentations.qmd
     - part: Resources
       chapters:
