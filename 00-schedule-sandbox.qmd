@@ -14,7 +14,7 @@ Below is the planned daily schedule. Dates, topics, and assessments may adjust a
 | 5 | Mon, Oct 6 | Product Architecture, Front-end, back-end, database | [Engagement Check 4 - Product Architecture](04-value-prop-design.qmd) | – | – |
 | 6 | Mon, Oct 13 | Full-stack Product MVP with Supabase and Stripe | [Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-feedback-survey) | [Sprint 3](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Oct 27 |
 | 7 | Mon, Oct 20 | Storytelling, Pitch Decks, Influence without Authority | [EC 5 - GitHub and Collaboration](02-git-deployment.qmd) | – | – |
-| 8 | Mon, Oct 27 | LLMs, Emmbeddings, and Programmatic Prompting | [EC 6 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | [Sprint 4](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Nov 17 |
+| 8 | Mon, Oct 27 | LLMs, Emmbeddings, and Programmatic Prompting | [EC 6 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | [Sprint 4](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Nov 10 |
 | 9 | Mon, Nov 3 | Model fine-tuning | [EC 7 - Principles of Software Engineering and Design](08-software-engineering.qmd) | – | – |
 | 10 | Mon, Nov 10 | Retrieval Augmented Generation (RAG) | [EC 8 - AI Tools](09-ai-dev-platforms.qmd) | [Sprint 5](00-assessments-sandbox.qmd#sprint-demo-instructions) | Mon, Nov 24 |
 | 11 | Mon, Nov 17 | AI Agents | [EC 9 - Product Metrics and Data Analysis](11-product-metrics.qmd) | – | – |
