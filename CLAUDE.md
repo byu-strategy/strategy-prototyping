@@ -16,8 +16,10 @@ This is a Quarto book project for **STRAT 490R - Creating Digital Products with 
 
 ### Build System
 - **Primary tool**: Quarto (installed at `/usr/local/bin/quarto`)
-- **Output**: Static HTML website generated to `docs/` directory
-- **Assets**: Images stored in `images/` directory, copied to `docs/images/` during build
+- **Output**: Static HTML website generated to `_book/` directory (configured in `_quarto.yml`)
+- **Assets**: Images stored in `images/` directory, copied to output during build
+- **Python Engine**: Project uses Jupyter for python code execution (Python 3.12+)
+- **Deployment**: Automated via GitHub Actions to GitHub Pages on push to main branch
 
 ## Common Commands
 
@@ -34,9 +36,24 @@ quarto serve
 ```
 
 ### Chapter Management
-- All chapters are defined in `_quarto.yml` under the `book.chapters` section
+- All chapters are defined in `_quarto.yml` under the `book.chapters` section with three parts: "Course Information", "Topics", and "Resources"
 - Chapter files follow naming convention: `##-topic-name.qmd`
 - When adding new chapters, update both the file and the YAML configuration
+- Two versions exist for some files since two different course sections are taught (e.g., `00-schedule-sandbox.qmd`). APM stands for Associate Product Manager and Sandbox refers to students building their own companies. 
+
+### Creating Presentation Slides
+- The project supports RevealJS slide decks from chapter content
+- Slide files use naming convention: `##-topic-name-slides.qmd`
+- Slide format configuration includes:
+  ```yaml
+  format:
+    revealjs:
+      theme: [default, custom.scss]
+      slide-number: true
+      chalkboard: true
+  ```
+- Custom slide styling defined in `custom.scss` with BYU branding (navy #002E5D, royal blue #0057B8)
+- Render slides with: `quarto render ##-topic-name-slides.qmd`
 
 ### File References
 - Internal links between chapters use relative paths: `[Link Text](file.qmd)`
@@ -47,6 +64,9 @@ quarto serve
 
 - The project uses Quarto's book format with HTML output
 - Bibliography references use `references.bib` with `informs.csl` style
-- Custom CSS styling in `styles.css`
+- Custom CSS styling in `styles.css` for book pages
+- Custom SCSS styling in `custom.scss` for RevealJS slides (BYU color scheme)
 - Header/footer includes via `_header.html` and `_footer.html`
+- Python code execution disabled by default (`execute: eval: false` in config)
 - When renaming chapter files, update all references in `_quarto.yml`, schedule, assessments, and cross-links
+- GitHub Actions workflow (`.github/workflows/publish.yml`) automatically builds and deploys to GitHub Pages on push to main

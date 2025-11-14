@@ -1,24 +1,25 @@
 ---
 title: "AI Product Management"
+subtitle: "STRAT 490R: Creating Digital Products with AI"
+author: "Scott Murff"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    logo: images/logo.png
+    footer: "{{< meta course >}}"
+    smaller: true
+    scrollable: true
+execute:
+  enabled: false
 ---
 
-::: tweet-center
-<blockquote class="twitter-tweet">
+# AI Product Management
 
-<p lang="en" dir="ltr">
-
-Builder’s high is back...
-
-</p>
-
-— Madhu Guru (@realmadhuguru) <a href="https://twitter.com/realmadhuguru/status/1955451011323314641">August 13, 2025</a>
-
-</blockquote>
-:::
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
+### STRAT 490R
+Scott Murff
 
 ## History of Product Management
 
@@ -55,65 +56,31 @@ Marc now predicts that [*AI Will Save the World*](https://a16z.com/ai-will-save-
 
 **You have the incredibly exciting and challenging opportunity to harness AI to improve the world. This class will help prepare you to seize that opportunity.**
 
-Over the past two decades, many companies adopted a *product trio* team structure for building software products. This structure brings together three complementary roles: the product manager, who defines the vision, strategy, and priorities; the designer, who ensures usability, aesthetics, and a seamless user experience; and one or more engineers, who turn ideas into functional, scalable solutions. By balancing business objectives, user needs, and technical feasibility, the trio has emerged as a proven way to foster cross-functional collaboration and accelerate product development.
+- Over the past two decades, many companies adopted a *product trio* team structure for building software products.
+- This structure brings together three complementary roles: the product manager, who defines the vision, strategy, and priorities; the designer, who ensures usability, aesthetics, and a seamless user experience; and one or more engineers, who turn ideas into functional, scalable solutions.
+- By balancing business objectives, user needs, and technical feasibility, the trio has emerged as a proven way to foster cross-functional collaboration and accelerate product development..
 
 AI and the tools we will use in this course are having a major impact and disrupting what had become a stable organizational model. This is true because AI changes both the division of labor within the trio and the speed and scale at which individuals and teams can operate.
 
+
 ## AI Product Management
 
-With AI, a PM can quickly generate wireframes, mockups, or even working product demos without waiting on design or engineering support. Instead of handing off abstract requirements, they can test tangible ideas with users in days, not weeks. This doesn’t eliminate the need for designers and engineers, but it shifts when and how they are engaged. Designers can focus on higher-fidelity experience and brand expression, while engineers concentrate on scalability, integration, and technical soundness.
+- With AI, a PM can quickly generate wireframes, mockups, or even working product demos without waiting on design or engineering support.
+- Instead of handing off abstract requirements, they can test tangible ideas with users in days, not weeks.
+- This doesn’t eliminate the need for designers and engineers, but it shifts when and how they are engaged.
+- Designers can focus on higher-fidelity experience and brand expression, while engineers concentrate on scalability, integration, and technical soundness..
 
 It remains to be seen how this will fully play out, but early indications suggest that shifts in how PMs, designers, and engineers work together are real and lasting. With the right AI tools some ambitious individuals may be able to wear all three hats to varying degrees.
 
 Below are a selection of anecdotes from leaders in the field that provides some insight into how things are shifting.
 
-::: tweet-center
-<blockquote class="twitter-tweet">
 
-<p lang="en" dir="ltr">
-
-Vibe coding is here to stay. I'd been worried it might be a fad, but I talked to the founder of an infrastructure company who's in a position to see how well vibe-coded apps are doing, and he said a lot of them are making money.
-
-</p>
-
-— Paul Graham (@paulg) <a href="https://twitter.com/paulg/status/1956458026652799173?ref_src=twsrc%5Etfw"> August 15, 2025 </a>
-
-</blockquote>
-:::
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
-
-::: embed-center
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362122859722256384?collapsed=1" height="567" width="504" frameborder="0" allowfullscreen title="Embedded post">
-
-</iframe>
-:::
-
-### AI-Powered PM
+## AI-Powered PM
 
 An AI-Powered PM utilizes AI tools as a core part of their own workflow to enhance productivity and efficiency in tasks like prototyping and coding. 
 
 It's likely that eventually all PMs will eventually become AI-powered PMs. Individual companies will make this transition at varying speeds. It's happening at companies like Shopify and Coinbase.
 
-::: tweet-center
-<blockquote class="twitter-tweet">
-
-<p lang="en" dir="ltr">
-
-We are adding a coding section to all of our Product Managers interviews at <a href="https://twitter.com/Shopify?ref_src=twsrc%5Etfw">@Shopify</a>.<br><br> We'll start with APM interviews. We expect candidates to build a prototype of the product they suggested in the case interview.<br><br> There is no excuse for PMs not building prototypes.
-
-</p>
-
-— Kaz Nejatian (@CanadaKaz) <a href="https://twitter.com/CanadaKaz/status/1955629733460562404?ref_src=twsrc%5Etfw"> August 13, 2025 </a>
-
-</blockquote>
-:::
-
-```{=html}
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
 
 ## AI Product PM
 
@@ -125,9 +92,8 @@ Pawel Huryn has put together a comprehensive roadmap for becoming an AI Product 
 
 ![AI Product Management Learning Roadmap from Paweł Huryn](images/ai-pm-roadmap.jpeg)
 
-## Let's Build!
 
-### The Command Line
+## The Command Line
 
 In order to be a serious AI-Powered PM or AI Product PM, you need to get comfortable interacting with your computer via the [Terminal or command line](https://en.wikipedia.org/wiki/Command-line_interface).
 
@@ -306,7 +272,10 @@ start winword mydoc.docx
 
 #### Package management
 
-The next concept to tackle on the journey to becoming an AI powered Product Manager is **package management.** This is a tool your computer uses to install, update, and remove software through the command line. Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need. This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries. Learning to use a package manager puts you in control of your setup, reduces errors, and helps you work like a professional.
+- The next concept to tackle on the journey to becoming an AI powered Product Manager is **package management.** This is a tool your computer uses to install, update, and remove software through the command line.
+- Instead of hunting down installers on websites and clicking through “Next, Next, Finish,” a package manager lets you type a single command to get the tool you need.
+- This matters because it saves time, keeps your environment consistent, and makes it easy to update everything at once which is a helpful when building digital products that depend on multiple tools and libraries.
+- Learning to use a package manager puts you in control of your setup, reduces errors, and helps you work like a professional..
 
 On Mac, *Homebrew* is the standard package manager and must be installed. 
 
@@ -315,7 +284,9 @@ For Windows, *Winget* comes pre-installed.
 Run the following commands to install and/or check the version of your package manager.
 
 ```{python eval=false}
+# Mac
 
+# Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Confirm installation by checking which version
@@ -416,9 +387,13 @@ npm install -g @openai/codex
 
 If it successfully installed, keep reading. We will start up Claud Code soon from within VS Code.
 
-### VS Code
 
-Next we'll get set up with Visual Studio Code (VS Code), a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide. Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow. Its cross-platform availability (Windows, macOS), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects. We will build applications within VS code throughout the semester.
+## VS Code
+
+- Next we'll get set up with Visual Studio Code (VS Code), a free, open-source code editor developed by Microsoft that has become one of the most popular development environments among programmers worldwide.
+- Launched in 2015, VS Code combines the simplicity of a lightweight text editor with powerful IDE-like features including intelligent code completion, debugging capabilities, built-in version control integration, and an extensive marketplace of extensions that can add support for virtually any programming language or development workflow.
+- Its cross-platform availability (Windows, macOS), fast performance, and highly customizable interface have made it a favorite among developers working on everything from web applications to machine learning projects.
+- We will build applications within VS code throughout the semester..
 
 Let's install it via the package manager. 
 
@@ -434,15 +409,19 @@ Note: The --cask flag tells Homebrew to install a GUI application rather than a 
 winget install Microsoft.VisualStudioCode
 ```
 
-### Claude Code
 
-Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows. Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories. The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step.
+## Claude Code
+
+- Claude Code is a command-line tool that enables developers to delegate coding tasks directly to Claude AI from their terminal, creating an agentic coding experience where Claude can autonomously handle complex development workflows.
+- Unlike traditional AI coding assistants that provide suggestions, Claude Code allows Claude to take full ownership of coding tasks, from analyzing requirements and planning implementation to writing, testing, and iterating on code across multiple files and directories.
+- The tool is designed to integrate seamlessly into existing development workflows, allowing developers to describe what they want to build in natural language and have Claude execute the entire development process, including debugging, refactoring, and implementing best practices, while maintaining transparency through detailed logging and the ability for developers to review and approve changes at each step..
 
 Of course this won't build you a perfect, complicated application all by itself but it figuratively gives you a rocket pack, crane, and power tools while building a house.
 
 {{< video https://www.youtube.com/embed/GqjvaBUk3Tc >}}
 
-### Code your first app
+
+## Code your first app
 
 Open VS Code and create a new directory where you will save your application files. 
 
@@ -468,8 +447,6 @@ Think of folders as **categories of content**. Common conventions:
 - `tests/` → unit/integration tests
 - `notebooks/` → Jupyter or research notebooks
 - `scripts/` → automation scripts
-- `configs/` → configuration files (YAML, JSON, etc.)
-- `assets/` → images, icons, other media
 
 **Files**
 
@@ -584,11 +561,19 @@ Factors that significantly impact size:
 Modern considerations: Many internal applications today leverage low-code platforms, cloud services, and existing frameworks, which can reduce custom code requirements significantly. A modern internal app might accomplish what previously took 100K lines with just 20-30K lines by using pre-built components and services.
 :::
 
-### Code your second app
+
+## Code your second app
 
 Spend the next 15 minutes coming up with another application. For simplicity for now, continue using streamlit (i.e. include in your prompt that the application should be built using streamlit).
+
 
 ## Student Demos
 
 Let's see some of the apps that you built.
 
+
+## Questions?
+
+### Thank you!
+
+_STRAT 490R: Creating Digital Products with AI_

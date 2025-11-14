@@ -24,8 +24,8 @@ The following assessments will be used to measure progress towards learning outc
 | Sprint Demo | [Sprint 1 – Deploy your first app](#sprint-1-deploy-your-first-app) | 8% | 40 | 1 |
 | Sprint Demo | [Sprint 2 – Identify a problem worth solving](#sprint-2-identify-a-problem-worth-solving) | 8% | 40 | 2, 3 |
 | Sprint Demo | [Sprint 3 – First MVP with Database and Payments](#sprint-3-first-mvp-with-database-and-payments) | 8% | 40 | 4 |
-| Sprint Demo | [Sprint 4 – Using Git for collaboration and version control](#homework-4-using-git-for-collaboration-and-version-control) | 8% | 40 | 4 |
-| Sprint Demo | [Sprint 5 – Choosing the right AI tools](#homework-5-choosing-the-right-ai-tools) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 4 – Code Base Teardown & Architecture Analysis](#sprint-4-code-base-teardown-architecture-analysis) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 5 – Customer Interviews](#sprint-5-customer-interviews) | 8% | 40 | 4 |
 | Product Demo | [Final Product Demo](#final-project) | 30% | 150 | 4 |
 |  | **TOTAL** | **100%** | **500** |  |
 
@@ -302,10 +302,53 @@ On LearningSuite, submit a single .md file containing Claude Code's reponse to t
 This assignment is worth 40 points which equates to 8% of your grade. 
 
 
+### Sprint 4 – Code Base Teardown & Architecture Analysis
 
+**Overview**
 
+Now that you've built a working MVP, it's time to deeply understand what you've created. This assignment asks you to reverse-engineer your own application, document its architecture visually, and explain how all the pieces work together.
 
-### Sprint 4 – Improved MVP and Code Base Assessment
+**Requirements**
+
+1. **Code Base Analysis** - Use AI to systematically analyze your application:
+   - Project structure and file organization
+   - Complete data flow tracing
+   - Architecture patterns and design decisions
+   - External dependencies and integrations
+
+2. **Architecture Diagram** - Create an annotated visual diagram showing:
+   - Frontend components and user interface
+   - Backend API endpoints and logic
+   - Database schema and relationships
+   - External services (Vercel, Supabase, Stripe, etc.)
+   - Data flow arrows for key user actions
+   - Authentication and payment flows
+
+3. **Video Walkthrough** - Record a 2-3 minute screen recording where you:
+   - Introduce your app and its purpose
+   - Walk through your architecture diagram
+   - Trace one complete user journey through the system (e.g., signup → purchase → dashboard)
+   - Explain what you learned from this analysis
+
+**Deliverables**
+
+Submit via LearningSuite:
+1. Your annotated architecture diagram (PDF or PNG)
+2. Link to your video walkthrough (or video file if LearningSuite accepts uploads)
+
+**Grading Rubric**
+
+| **Category** | **Description** | **Points** |
+|---------------|-----------------|-------------|
+| **1. Architecture Diagram Quality** | Comprehensive, clear diagram with all required components and annotations | **0-20** |
+| **2. Technical Understanding** | Accurate explanation of architecture and data flows in video | **0-12** |
+| **3. Communication & Clarity** | Well-organized, clear verbal explanation within time limit | **0-5** |
+| **4. Professionalism** | Proper submission format, working links, polished deliverables | **0-3** |
+|  |  | **Total: 40 Points** |
+
+This assignment is worth 40 points which equates to 8% of your grade.
+
+**Why This Matters**: As a product manager working with engineering teams, you need to understand system architecture to make informed decisions about features, technical debt, scalability, and resource allocation. This assignment bridges the gap between "I built something with AI" and "I understand how systems work."
 
 ### Sprint 5 – Production Worthy Product
 
