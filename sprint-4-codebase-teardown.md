@@ -178,63 +178,24 @@ Pick ONE main user action and trace it through the entire system:
 
 **Submission**
 
-Submit **TWO items** via LearningSuite:
+Submit via LearningSuite:
 
-1. Video Link (in a .txt or .md file)
+1. **Video Link** - A .txt or .md file containing your video link (Loom, YouTube, Google Drive, etc.)
+2. **Analysis Files** - All 4 markdown files: `code-base-analysis.md`, `data-flow-analysis.md`, `architecture-pattern.md`, `dependency-mapping.md`
 
-- Upload your video to any platform and get a shareable link
-- Upload your 4 md files you created containing your analysis.
-
-**Alternative**: If LearningSuite accepts video uploads directly, you may upload the video file instead of a link.
+**Note**: Your architecture diagram should be shown in your video, so no separate diagram file is needed.
 
 ---
 
 ## 🎯 Grading Rubric (40 Points Total)
 
-### 1. Architecture Diagram Quality (20 points)
-
-| Score | Criteria |
-|-------|----------|
-| **18-20** | Diagram is comprehensive, clear, and professional. All required components are present (frontend, backend, database, external services, data flows). Annotations explain what, why, and how. Visually organized and easy to follow. Could be shown to a technical interviewer. |
-| **15-17** | Diagram includes most required components with reasonable clarity. Some annotations present. Generally understandable but missing some details or slightly disorganized. |
-| **12-14** | Diagram is present but incomplete or unclear. Missing key components (e.g., no payment flow, no database schema). Limited annotations. Requires additional explanation to understand. |
-| **8-11** | Diagram is minimal, very unclear, or missing major components. Little to no annotations. Difficult to understand the architecture. |
-| **0-7** | Diagram is missing, incomprehensible, or shows minimal effort. |
-
----
-
-### 2. Video Explanation - Technical Understanding (12 points)
-
-| Score | Criteria |
-|-------|----------|
-| **11-12** | Demonstrates deep understanding of the application architecture. Accurately traces data flow through the system. Explains components and their interactions clearly. Uses correct technical terminology. Shows genuine comprehension beyond surface-level description. |
-| **9-10** | Shows solid understanding with minor gaps. Data flow explanation is mostly accurate. Some technical terms used correctly. Demonstrates reasonable comprehension of how the system works. |
-| **6-8** | Surface-level understanding evident. Data flow explanation has gaps or inaccuracies. Limited use of technical terminology. Some confusion about how components interact. |
-| **3-5** | Minimal understanding demonstrated. Cannot accurately explain data flow. Incorrect or missing technical explanations. Seems to be reading without comprehending. |
-| **0-2** | No understanding demonstrated or video is missing/incomprehensible. |
-
----
-
-### 3. Video Explanation - Communication & Clarity (5 points)
-
-| Score | Criteria |
-|-------|----------|
-| **5** | Exceptionally clear and well-organized explanation. Flows logically from component to component. Appropriate pacing. Engages viewer. Could teach a classmate effectively. Within 2-3 minute timeframe. |
-| **4** | Clear and organized explanation. Easy to follow. Good pacing. Within time limit. Minor issues with flow or clarity. |
-| **3** | Understandable but somewhat disorganized or unclear. Pacing issues (too fast/slow). May be slightly outside time limit. Adequate but not engaging. |
-| **2** | Difficult to follow. Poor organization. Significantly outside time limit (too short or too long). Hard to understand what's being explained. |
-| **1** | Very unclear, disorganized, or missing key explanations. |
-
----
-
-### 4. Professionalism & Completeness (3 points)
-
-| Score | Criteria |
-|-------|----------|
-| **3** | Both deliverables submitted correctly. Files properly named. Video link works. Diagram is polished and professional. No technical issues accessing materials. |
-| **2** | Deliverables submitted with minor issues (e.g., file naming, small formatting problems). Everything accessible. |
-| **1** | Significant issues with submission (wrong format, broken links, missing files). Requires instructor follow-up to access. |
-| **0** | Deliverables missing or completely inaccessible. |
+| **Category** | **Description** | **Points** |
+|--------------|-----------------|------------|
+| **Analysis Files** | All 4 markdown files submitted with comprehensive analysis showing deep investigation of codebase | **0-15** |
+| **Technical Understanding in Video** | Demonstrates clear understanding of architecture and accurately traces data flow through system | **0-15** |
+| **Diagram Quality (shown in video)** | Diagram is visible, comprehensive, and clearly shows frontend, backend, database, services, and data flows | **0-7** |
+| **Communication & Professionalism** | Clear explanation, good pacing, within 2-3 minutes, video accessible | **0-3** |
+| | | **Total: 40** |
 
 ---
 
