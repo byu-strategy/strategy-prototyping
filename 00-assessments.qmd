@@ -430,11 +430,7 @@ If you prefer to create the diagram manually, use any of the following tools or 
 - [draw.io](https://app.diagrams.net/) - professional diagrams
 - PowerPoint/Google Slides - if you prefer manual creation
 
-M
-
-
-
-**Visual Style:**
+**Tips for Visual Style:**
 - Use arrows to show direction of data flow
 - Include labels and short descriptions where needed for clarity
 - Make it visually clear and uncluttered
