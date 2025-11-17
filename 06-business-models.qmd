@@ -326,7 +326,78 @@ Keep it actionable and specific. Skip theoretical analysis.
 
 ---
 
-### 12. Create Business Model Canvas Presentation
+### 12. Create Financial Model for Break-Even Analysis
+
+Once you've completed your business model canvas, use this prompt to create a financial model in Excel:
+
+```markdown
+# Create Financial Model for Break-Even & Sensitivity Analysis
+
+I need you to create an Excel financial model based on my business model canvas using the xlsx skill.
+
+**Instructions:** First, read my complete `business-model-canvas.md` file to understand my revenue streams, cost structure, and business model.
+
+**Your Task:**
+
+Create an Excel file named `financial-model.xlsx` with the following sheets:
+
+**Sheet 1: Assumptions**
+- Revenue assumptions from the canvas:
+  - Price per unit/customer by segment
+  - Expected conversion rates
+  - Growth assumptions (monthly/quarterly)
+  - Customer acquisition cost by segment
+  - Customer lifetime value estimates
+
+- Cost assumptions from the canvas:
+  - Fixed costs (monthly): salaries, rent, software, etc.
+  - Variable costs (per unit/customer): COGS, transaction fees, etc.
+  - Semi-variable costs: marketing, support scaling
+
+- Make all assumptions clearly labeled and in BLUE cells so they're easy to identify and modify
+
+**Sheet 2: Monthly Projections (12-24 months)**
+- Columns: Month, New Customers by Segment, Total Customers, Revenue by Stream, Total Revenue
+- Fixed Costs, Variable Costs, Total Costs
+- Gross Margin, Operating Margin, Net Profit/Loss
+- Cumulative Cash Flow
+- Break-Even Analysis (highlight when crossed)
+
+**Sheet 3: Break-Even Analysis**
+- Calculate break-even in units/customers
+- Calculate break-even in revenue
+- Calculate time to break-even (months)
+- Show contribution margin by segment
+- Create a break-even chart (Revenue vs. Costs over time)
+
+**Sheet 4: Sensitivity Analysis**
+- Create a data table showing how break-even changes with:
+  - Price variations (+/- 20% in 5% increments)
+  - Cost variations (+/- 20% in 5% increments)
+  - Customer acquisition cost variations
+  - Conversion rate variations
+
+- Use conditional formatting to highlight break-even points
+- Create a tornado chart or sensitivity chart showing which variables have the biggest impact
+
+**Formatting Requirements:**
+- Use clear headers and formatting
+- Color-code: Assumptions (BLUE), Revenue (GREEN), Costs (RED), Profit (GREEN/RED)
+- Include formulas (not hard-coded values)
+- Add data validation where appropriate
+- Include clear instructions/notes for updating assumptions
+- Make it easy to scenario-plan by changing blue assumption cells
+
+**Output:** Create `financial-model.xlsx` with all four sheets, formulas, and charts.
+
+Please read my `business-model-canvas.md` file now and create the financial model.
+```
+
+**After receiving the Excel file, save it to your project directory for break-even and sensitivity analysis.**
+
+---
+
+### 13. Create Business Model Canvas Presentation
 
 Once you've completed all prompts above and your `business-model-canvas.md` file is complete, use this final prompt to create a professional Business Model Canvas presentation slide:
 
