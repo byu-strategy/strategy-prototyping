@@ -180,120 +180,27 @@ Pick ONE main user action and trace it through the entire system:
 
 Submit via LearningSuite:
 
-1. **Video Link** - A .txt or .md file containing your video link (Loom, YouTube, Google Drive, etc.)
+1. **Video Link** - A file containing your video or a link to it
 2. **Analysis Files** - All 4 markdown files: `code-base-analysis.md`, `data-flow-analysis.md`, `architecture-pattern.md`, `dependency-mapping.md`
 
 **Note**: Your architecture diagram should be shown in your video, so no separate diagram file is needed.
 
----
-
-## 🎯 Grading Rubric (40 Points Total)
+**Grading Rubric (40 Points Total)**
 
 | **Category** | **Description** | **Points** |
 |--------------|-----------------|------------|
-| **Analysis Files** | All 4 markdown files submitted with comprehensive analysis showing deep investigation of codebase | **0-15** |
-| **Technical Understanding in Video** | Demonstrates clear understanding of architecture and accurately traces data flow through system | **0-15** |
-| **Diagram Quality (shown in video)** | Diagram is visible, comprehensive, and clearly shows frontend, backend, database, services, and data flows | **0-7** |
-| **Communication & Professionalism** | Clear explanation, good pacing, within 2-3 minutes, video accessible | **0-3** |
+| **Analysis Files** | All 4 markdown files submitted with comprehensive analysis showing deep investigation of codebase | **0-20** |
+| **Technical Understanding in Video** | Demonstrates clear understanding of architecture and accurately traces data flow through system | **0-10** |
+| **Diagram Quality (shown in video)** | Diagram is visible, comprehensive, and clearly shows frontend, backend, database, services, and data flows | **0-10** |
 | | | **Total: 40** |
 
----
-
-## 💡 Tips for Success
-
-### For Creating Your Diagram:
-- **Start simple** - Map out the major pieces first, then add details
-- **Use color coding** - Different colors for frontend, backend, database, external services
-- **Think in flows** - Trace one user journey from start to finish
-- **Ask AI for help** - Use the prompts above to generate a starting point
-- **Iterate** - Your first diagram probably won't be perfect - revise it
-
-### For Recording Your Video:
-- **Write bullet points** - Not a script, just key points to cover
-- **Practice once** - Do a dry run to get comfortable
-- **Zoom in** - Make sure your diagram is readable in the recording
-- **Use a pointer** - Your mouse cursor should guide viewers' eyes
-- **Time yourself** - Aim for 2:30 to have buffer
-
-### For Understanding Your Architecture:
-- **Ask "why" questions** - Why did I use Supabase? Why is this in the backend not frontend?
-- **Trace actual code** - Don't just describe theoretically - look at your actual files
-- **Run your app** - Open DevTools and watch the network requests
-- **Break something** - Turn off your backend and see what fails (then fix it!)
-
----
-
-## 🤔 Reflection Questions (Not Graded - For Your Learning)
-
-After completing this assignment, consider:
-
-1. **What surprised you most about your own architecture?**
-2. **What would you do differently if you built this app again from scratch?**
-3. **Where is your app most vulnerable? What could break?**
-4. **If you needed to add a new feature, what parts of the system would you need to modify?**
-5. **How well does your architecture match the engineering landscape diagram we studied?**
-
----
-
-## ❓ Frequently Asked Questions
-
-**Q: Can I use AI to create the entire diagram?**
-A: Yes! Use AI to generate the Mermaid code or create a starting point. But you must understand it enough to explain it in your video. AI is a tool, not a substitute for understanding.
-
-**Q: What if my app doesn't have all the components (e.g., no payments)?**
-A: Document what you DO have. If you don't have Stripe integration, explain your authentication flow in more detail. The goal is to show you understand YOUR specific architecture.
-
-**Q: Can I edit my video or does it need to be one take?**
-A: You can edit! Use Loom's editing features, or any video editor. Just keep the final video to 2-3 minutes.
-
-**Q: What if I realize my app is poorly architected?**
-A: That's a valuable insight! Mention it in your video. Showing you understand architectural trade-offs demonstrates learning.
-
-**Q: How technical should my explanation be?**
-A: Target your explanation at a **classmate** who understands basic web development concepts (frontend, backend, database) but hasn't seen your specific app. Use technical terms but explain them briefly.
-
-**Q: My architecture diagram tool doesn't match the engineering landscape style exactly. Is that OK?**
-A: Yes! The engineering landscape image is inspiration, not a template. Your diagram should clearly show YOUR app's architecture in a format that makes sense.
-
----
-
-## 📚 Resources
-
-### Diagram Creation Tools
-- [Mermaid Live Editor](https://mermaid.live/) - Code-based diagrams
-- [Excalidraw](https://excalidraw.com/) - Hand-drawn style
-- [draw.io](https://app.diagrams.net/) - Professional diagrams
-- [Lucidchart](https://www.lucidchart.com/) - Professional (free tier available)
-
-### Video Recording Tools
-- [Loom](https://www.loom.com/) - Easiest for beginners
-- [Zoom](https://zoom.us/) - Record meeting with screen share
-- [OBS Studio](https://obsproject.com/) - Advanced, free, open-source
-
-### Architecture Learning Resources
-- [Web Application Architecture Guide](https://www.educative.io/blog/web-application-architecture)
-- [Client-Server Model Explained](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
-- [Understanding REST APIs](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
-
-### Example Architecture Diagrams
-- Search Google Images for: "web application architecture diagram"
-- Look at: "full stack architecture diagram"
-- Reference: The engineering landscape image from class
-
----
-
-## 🎯 Learning Outcomes Assessed
-
 This assignment assesses:
+
 - **Learning Outcome 4**: Create a digital product that delivers value to a target customer group
   - By demonstrating deep understanding of your own product's technical architecture
   - By documenting system design decisions
   - By communicating technical concepts clearly
 
----
-
 **Remember**: The goal of this assignment is not to prove your app is perfectly architected. The goal is to demonstrate that you **understand how software systems work** by analyzing, documenting, and explaining the system you've built.
 
 This is a critical skill for product managers who need to have technical conversations with engineering teams, make informed decisions about features and timelines, and understand the implications of architectural choices.
-
-Good luck! 🚀

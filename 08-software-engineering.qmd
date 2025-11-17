@@ -1,5 +1,5 @@
 ---
-title: "SWE Principles"
+title: "Principles of SWE"
 ---
 
 ## Types of Digital Applications

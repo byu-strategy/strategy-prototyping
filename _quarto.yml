@@ -24,6 +24,7 @@ book:
         - 04-product-innovation.qmd
         - 05-go-to-market.qmd
         - 04-value-prop-design.qmd
+        - 06-business-models.qmd
         - 07-internet-fundamentals.qmd
         - 08-software-engineering.qmd
         #- 06-llms-prompt-engineering.qmd
