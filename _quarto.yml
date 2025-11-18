@@ -32,6 +32,7 @@ book:
         - 10-build-feedback-1.qmd
         - 11-product-metrics.qmd
         # - 12-build-feedback-2.qmd
+        - 12-ai-leverage.qmd
         - 14-final-presentations.qmd
     - part: Resources
       chapters:
