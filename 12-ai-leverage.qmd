@@ -297,14 +297,98 @@ The Google Gemini API (https://aistudio.google.com/api-keys) allows you to progr
 - Scheduled analysis runs
 
 **Getting Started with Gemini API:**
+
 1. Get a free API key from [Google AI Studio](https://aistudio.google.com/api-keys)
 2. Install the SDK:
    - Python: `pip install google-genai` (requires Python 3.9+)
-   - Node.js: `npm install @google/genai` (requires Node.js 18+)
-3. Set your API key as an environment variable: `export GEMINI_API_KEY=your_key_here`
-4. Use **Gemini 2.5 Flash** model for fast, cost-effective analysis
 
 The SDK automatically reads the `GEMINI_API_KEY` environment variable, making authentication seamless.
+
+### Python Example: Dynamic Prompts with Gemini API
+
+Here's a practical example showing how to loop over dynamic prompts using the Gemini API:
+
+```python
+import os
+from google import genai
+import pandas as pd
+
+# Initialize the client
+client = genai.Client(api_key='your_key_here')
+
+# Define the analysis questions
+questions = [
+    "What is their primary value proposition?",
+    "What is their pricing strategy?",
+    "What are their top 3 competitive advantages?",
+    "What market segment do they target?"
+]
+
+# Analyze competitors
+competitors = ['Slack', 'Microsoft Teams', 'Discord', 'Zoom']
+
+results = []
+for competitor in competitors:
+    competitor_data = {'Competitor': competitor}
+    
+    # Ask each question separately and store in its own column
+    for question in questions:
+        prompt = f"Analyze {competitor} as a business collaboration tool. {question} Provide a concise answer in 1-2 sentences."
+        
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt
+        )
+        
+        # Use the question as the column name (cleaned up)
+        column_name = question.replace('?', '').strip()
+        competitor_data[column_name] = response.text.strip()
+    
+    results.append(competitor_data)
+    print(f"Completed analysis for {competitor}")
+
+# Create DataFrame and save to CSV
+df = pd.DataFrame(results)
+df.to_csv('competitor_analysis.csv', index=False)
+
+print(f"\nAnalyzed {len(competitors)} competitors and saved to CSV")
+print(f"\nDataFrame preview:")
+print(df.head()
+```
+
+### When Dynamic Prompts Are Helpful for PMs
+
+**1. Competitive Intelligence at Scale**
+- Analyze 10-20 competitors with consistent questions
+- Track competitor feature releases over time
+- Compare pricing strategies across your competitive set
+- Identify common patterns in competitor positioning
+
+**2. User Research Analysis**
+- Categorize hundreds of support tickets automatically
+- Analyze customer interview transcripts with consistent themes
+- Process NPS feedback comments to identify trends
+- Segment user feedback by customer type or feature area
+
+**3. Market Research**
+- Size markets across different geographic regions
+- Analyze industry trends across multiple verticals
+- Evaluate product-market fit for different customer segments
+- Research regulatory requirements across countries
+
+**4. Feature Prioritization**
+- Score multiple feature ideas using the same framework (RICE, ICE)
+- Analyze technical feasibility for each roadmap item
+- Estimate effort and impact for backlog grooming
+- Generate user stories for each planned feature
+
+**5. Content Generation**
+- Create product documentation for multiple features
+- Generate release notes from feature lists
+- Write personalized customer emails based on use cases
+- Produce marketing copy variants for A/B testing
+
+The key advantage: you write the prompt template once, then let the code apply it to dozens or hundreds of items, ensuring consistency while saving hours of manual work.
 
 ### Sample Prompt: Competitive Analysis Automation
 
