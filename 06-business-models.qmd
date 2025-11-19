@@ -21,7 +21,87 @@ The prompts are organized into four phases that follow the natural logic of busi
 - **Phase 3: Financial Viability** - Understanding your cost structure
 - **Phase 4: Synthesis** - Validating and visualizing your complete business model
 
+## Quick Start: Single-Prompt Business Model Canvas
 
+**Alternative Approach:** If you prefer to generate a complete business model canvas in one interaction rather than working through each component individually, use this comprehensive prompt:
+
+```markdown
+# Generate Complete Business Model Canvas
+
+Help me create a complete Business Model Canvas for my business in one comprehensive analysis.
+
+**Instructions:** Review my Claude.md file and codebase to understand my product/business.
+
+**Output Requirements:** Maximum 1200 words total. Create a complete, concise business model canvas covering all 10 components.
+
+Please analyze and provide:
+
+**1. Customer Segments** (100 words max):
+   - 2-4 primary segments with brief descriptions
+   - Priority recommendation for initial focus
+
+**2. Jobs-To-Be-Done** (150 words max):
+   - Primary functional job per segment
+   - Social/emotional dimensions
+   - Key opportunities where current solutions fall short
+
+**3. Customer Value Proposition** (150 words max):
+   - Core solution addressing the primary job
+   - Key differentiators from alternatives
+   - Main benefits/gains for customers
+
+**4. Channels** (100 words max):
+   - 3-5 most important acquisition, delivery, and support channels
+   - Why each channel fits our segments
+
+**5. Customer Relationships** (80 words max):
+   - Relationship type per segment
+   - Primary acquisition and retention tactics
+
+**6. Revenue Streams** (120 words max):
+   - Primary revenue model
+   - Pricing approach and rationale
+   - Revenue per segment with approximate price points
+
+**7. Key Resources** (100 words max):
+   - 3-6 most critical resources (physical/tech, intellectual, human, financial)
+   - Why each is critical
+
+**8. Key Activities** (80 words max):
+   - 3-5 most critical activities to deliver value
+   - Execution approach (internal/outsourced/automated)
+
+**9. Key Partnerships** (80 words max):
+   - 2-4 most important partnerships
+   - Value exchange for each
+
+**10. Cost Structure** (120 words max):
+   - Top 3-5 cost categories
+   - Fixed vs. variable split
+   - Cost strategy (lean vs. premium)
+   - Break-even estimate
+
+**11. Coherence & Validation** (120 words max):
+   - Overall assessment of model coherence
+   - Biggest risk and key strength
+   - Top 3 validation priorities
+
+Format each section with clear headers. Use bullet points for scannability. Focus on specifics over generics.
+
+**After receiving the response, save it to `business-model-canvas-short.md` in your project directory.**
+```
+
+**When to use this approach:**
+- You want a quick first draft to iterate on
+- You're familiar with Business Model Canvas concepts
+- You prefer a holistic view before diving into details
+
+**When to use the detailed step-by-step approach below:**
+- You're new to Business Model Canvas thinking
+- You want deeper analysis and guided thinking for each component
+- You prefer building incrementally with focused attention on each element
+
+---
 
 ## Phase 1: Customer Focus
 

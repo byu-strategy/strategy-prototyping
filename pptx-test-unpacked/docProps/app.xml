@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ascii"?>
+<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+  <Template>Slideworks</Template>
+  <TotalTime>11294</TotalTime>
+  <Words>1912</Words>
+  <Application>Microsoft Macintosh PowerPoint</Application>
+  <PresentationFormat>Widescreen</PresentationFormat>
+  <Paragraphs>450</Paragraphs>
+  <Slides>19</Slides>
+  <Notes>16</Notes>
+  <HiddenSlides>0</HiddenSlides>
+  <MMClips>0</MMClips>
+  <ScaleCrop>false</ScaleCrop>
+  <HeadingPairs>
+    <vt:vector size="6" baseType="variant">
+      <vt:variant>
+        <vt:lpstr>Fonts Used</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>7</vt:i4>
+      </vt:variant>
+      <vt:variant>
+        <vt:lpstr>Theme</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>1</vt:i4>
+      </vt:variant>
+      <vt:variant>
+        <vt:lpstr>Slide Titles</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>19</vt:i4>
+      </vt:variant>
+    </vt:vector>
+  </HeadingPairs>
+  <TitlesOfParts>
+    <vt:vector size="27" baseType="lpstr">
+      <vt:lpstr>&#65325;&#65331; &#65328;&#12468;&#12471;&#12483;&#12463;</vt:lpstr>
+      <vt:lpstr>Arial</vt:lpstr>
+      <vt:lpstr>Calibri</vt:lpstr>
+      <vt:lpstr>Georgia</vt:lpstr>
+      <vt:lpstr>Segoe UI</vt:lpstr>
+      <vt:lpstr>Ubuntu</vt:lpstr>
+      <vt:lpstr>Wingdings</vt:lpstr>
+      <vt:lpstr>Slideworks</vt:lpstr>
+      <vt:lpstr>202x strategy: [insert title/name of strategy, if applicable]</vt:lpstr>
+      <vt:lpstr>202x strategy: [insert title/name of strategy, if applicable]</vt:lpstr>
+      <vt:lpstr>202x strategy: [insert title/name of strategy, if applicable]</vt:lpstr>
+      <vt:lpstr>202x strategy: [insert title/name of strategy, if applicable]</vt:lpstr>
+      <vt:lpstr>Delivering on our 202x targets</vt:lpstr>
+      <vt:lpstr>Current status: We are on track in [regions/dimensions] but lagging in [regions/dimensions]</vt:lpstr>
+      <vt:lpstr>[Region]: Main focus for [region] is to [insert focus areas]</vt:lpstr>
+      <vt:lpstr>Our mission and vision</vt:lpstr>
+      <vt:lpstr>Our 202x goals</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>A [insert own description]&#160;approach is required for [insert goal/to achieve our goals]</vt:lpstr>
+      <vt:lpstr>Based on current performance and required implementation efforts we have identified XX initiatives</vt:lpstr>
+      <vt:lpstr>[Initiative] implementation plan</vt:lpstr>
+      <vt:lpstr>Together, these [xx] strategic initiatives have the potential  to add [xx]&#160;of annual EBITDA </vt:lpstr>
+      <vt:lpstr>We expect a total of xx [currency] from these strategic initiatives</vt:lpstr>
+      <vt:lpstr>Profitability framework</vt:lpstr>
+      <vt:lpstr>Issue tree</vt:lpstr>
+      <vt:lpstr>McKinsey 7S Model</vt:lpstr>
+      <vt:lpstr>SWOT analysis (version 1)</vt:lpstr>
+    </vt:vector>
+  </TitlesOfParts>
+  <Manager>Slideworks</Manager>
+  <Company>Slideworks ApS</Company>
+  <LinksUpToDate>false</LinksUpToDate>
+  <SharedDoc>false</SharedDoc>
+  <HyperlinkBase/>
+  <HyperlinksChanged>false</HyperlinksChanged>
+  <AppVersion>16.0000</AppVersion>
+</Properties>

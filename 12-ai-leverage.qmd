@@ -28,70 +28,157 @@ You can use AI to:
 4. **Add data validation** and error checking
 5. **Create dashboards** with charts and visualizations
 
-### Sample Prompt: SaaS Financial Model
+### Sample Prompt: Investor-Ready SaaS Financial Model
+
+**Prerequisites:** Complete your Business Model Canvas (see Chapter 06) and save it as `business-model-canvas.md` or `business-model-canvas-short.md`
 
 ```markdown
-Create a comprehensive financial model for a SaaS product in Excel. The model should include:
+Please create a comprehensive Python script that generates an Excel-based financial model for a SaaS business suitable for investor presentations.
 
-**Assumptions Section:**
-- Monthly subscription price: $50
-- Annual subscription price: $500 (discounted)
-- Customer acquisition cost (CAC): $200
-- Monthly churn rate: 5%
-- Sales & marketing spend as % of revenue: 40%
-- Cost of goods sold (COGS) per customer per month: $10
-- Operating expenses (fixed monthly): $50,000
-- Starting customers: 100
-- Monthly new customer acquisition: 50 customers/month
+**Business Model Context:**
 
-**Model Requirements:**
-1. Monthly projection for 36 months
-2. Revenue calculations:
-   - MRR (Monthly Recurring Revenue)
-   - ARR (Annual Recurring Revenue)
-   - Total revenue with mix of monthly/annual plans (assume 70% monthly, 30% annual)
-3. Customer metrics:
-   - Beginning customers
-   - New customers
-   - Churned customers
-   - Ending customers
-   - Customer lifetime value (LTV)
-   - LTV:CAC ratio
-4. Expense calculations:
-   - CAC costs
-   - COGS
-   - Sales & marketing expenses
-   - Operating expenses
-   - Total expenses
-5. Profitability metrics:
-   - Gross profit and gross margin %
-   - Operating profit and operating margin %
-   - Cash flow
-   - Cumulative cash flow
-6. A summary dashboard showing:
-   - Month 12, 24, and 36 metrics
-   - Key ratios (LTV:CAC, gross margin, months to profitability)
-   - Charts for revenue growth, customer growth, and profitability
+Read and incorporate business details from my completed Business Model Canvas file: `business-model-canvas.md` (or `business-model-canvas-short.md`)
 
-Format the model with clear sections, use named ranges where appropriate, and include data validation for input cells. Add conditional formatting to highlight negative cash flow months.
+This file contains the following sections - extract and translate these into financial assumptions:
+
+1. **Customer Segments** → Use for customer segmentation and pricing tiers
+2. **Jobs-To-Be-Done** → Inform value-based pricing strategy
+3. **Customer Value Proposition** → Inform pricing strategy and positioning
+4. **Channels** → Inform CAC assumptions and sales expenses by channel
+5. **Customer Relationships** → Inform churn rates, retention tactics, and LTV
+6. **Revenue Streams** → Inform revenue model structure and pricing tiers
+7. **Key Resources** → Inform cost structure, headcount planning, and infrastructure costs
+8. **Key Activities** → Inform operational expenses and R&D costs
+9. **Key Partnerships** → Inform partnership costs and vendor expenses
+10. **Cost Structure** → Inform major expense categories
+
+**Core Financial Statements (5-year projection):**
+
+- **Income Statement**: Monthly for Year 1, quarterly for Years 2-3, annually for Years 4-5
+- **Cash Flow Statement**: Full period coverage with clear cash position tracking
+- **Balance Sheet**: Key assets, liabilities, and equity
+- **Key Metrics Dashboard**: Executive summary with critical KPIs
+
+**SaaS-Specific Metrics & Calculations:**
+
+- Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR)
+- Customer Acquisition Cost (CAC) by channel
+- Lifetime Value (LTV) by customer segment
+- LTV:CAC ratio with target of 3:1+
+- Churn rate (monthly and annual) by segment
+- Net Revenue Retention (NRR) with expansion revenue
+- Gross margin and contribution margin by tier
+- Magic Number (sales efficiency metric)
+- Rule of 40 score (growth rate + profit margin)
+- Burn rate and runway (months of cash remaining)
+- Months to payback CAC
+
+**Break-Even Analysis (Critical for Investors):**
+
+1. **Cash Flow Break-Even Date**: When monthly revenue equals monthly operating expenses
+2. **EBITDA Break-Even**: When operational profitability is achieved
+3. **Break-Even Customers**: Number of customers needed by pricing tier
+4. **Contribution Margin Break-Even**: When gross profit covers fixed costs
+5. **Unit Economics Break-Even**: When LTV exceeds CAC by 3x
+6. **Visualization**: Clear chart showing path to profitability with milestone markers
+
+**Revenue Model Assumptions:**
+
+- Multiple pricing tiers (extract from Revenue Streams and Value Propositions)
+- Customer growth projections by segment (extract from Customer Segments and Channels)
+- Conversion rates from trial/freemium to paid (extract from Customer Relationships)
+- Expansion revenue assumptions (upsell/cross-sell rates from Revenue Streams)
+- Churn assumptions by customer segment (extract from Customer Relationships)
+- Seasonal variations if applicable
+
+**Cost Structure:**
+
+- **Cost of Revenue**: Hosting, infrastructure, support (from Key Resources and Cost Structure)
+- **Sales & Marketing**: CAC-based calculation by channel (from Channels and Cost Structure)
+- **R&D Expenses**: Engineering, product development (from Key Activities and Key Resources)
+- **G&A Expenses**: Admin, legal, finance (from Key Resources and Cost Structure)
+- **Headcount Planning**: By department with salary assumptions (from Key Resources)
+
+**Technical Requirements:**
+
+- Use `openpyxl` or `xlsxwriter` for Excel generation
+- Professional formatting with:
+  - Distinct sheets: Assumptions, Revenue Model, Expenses, Financial Statements, Metrics Dashboard, Break-Even Analysis
+  - Color-coded sections (BLUE inputs, BLACK calculations, GREEN revenue, RED costs)
+  - Professional charts and visualizations for key metrics
+  - Proper Excel formulas (not hard-coded values) with clear cell references
+  - Data validation for input cells
+  - Conditional formatting to highlight key thresholds
+- Clear code documentation and comments
+- Error handling for missing data in Business Model Canvas
+
+**Investor-Ready Features:**
+
+1. **Executive Summary Sheet**: Key highlights, headline metrics, investment ask
+2. **Sensitivity Analysis**: Test impact of varying pricing, churn, CAC, and conversion rates
+3. **Scenario Modeling**: Base Case, Conservative Case, Aggressive Case
+4. **Cap Table Basics**: Equity allocation and dilution tracking across funding rounds
+5. **Use of Funds**: Allocation of raised capital across categories
+6. **Benchmarking Section**: Compare key metrics to industry standards
+
+**Output Requirements:**
+
+- Save Python script as `financial-model.py`
+- Script should generate `saas_financial_model.xlsx` when run
+- Include a README section in the script with:
+  - Setup instructions (dependencies to install)
+  - How to update assumptions
+  - Explanation of key formulas
+  - Tips for customizing to your business
+
+**Customization Instructions:**
+
+Make all assumptions easily adjustable in a clearly marked Assumptions sheet. Where the Business Model Canvas provides specific details, use those values. Otherwise, include reasonable placeholder values that demonstrate realistic SaaS economics (e.g., 5% monthly churn, 3:1 LTV:CAC, 40% gross margin for early-stage SaaS).
+
+Generate complete, production-ready code with all features implemented.
 ```
 
 ### What You Get
 
-The AI will generate:
-- A structured Excel workbook with all formulas
-- Proper cell references and calculations
-- Data validation for inputs
-- Formatted tables and charts
-- Instructions for customizing the model
+The AI will generate a complete Python script that produces an investor-ready Excel financial model including:
+
+**Python Script (`financial-model.py`):**
+- Clean, well-documented code with setup instructions
+- Reads your Business Model Canvas to extract assumptions
+- Generates professional Excel workbook with proper formulas
+- Error handling and data validation
+- Easy customization through clearly marked assumptions
+
+**Excel Workbook (`saas_financial_model.xlsx`):**
+- **Executive Summary**: One-page overview with key metrics and charts
+- **Assumptions Sheet**: All inputs in blue, easy to modify for scenarios
+- **Revenue Model**: Customer growth, MRR/ARR, expansion revenue by tier
+- **Expense Model**: Headcount planning, departmental costs, variable expenses
+- **Financial Statements**: Income Statement, Cash Flow, Balance Sheet (5 years)
+- **Metrics Dashboard**: All key SaaS metrics (LTV, CAC, NRR, Rule of 40, etc.)
+- **Break-Even Analysis**: Multiple break-even calculations with timeline visualization
+- **Sensitivity Analysis**: Data tables showing impact of key variable changes
+- **Scenario Comparison**: Base, Conservative, Aggressive cases side-by-side
+- **Cap Table**: Basic equity tracking and dilution modeling
+
+**Key Features:**
+- Professional formatting with color-coded sections
+- Dynamic charts that update when assumptions change
+- Conditional formatting highlighting key thresholds
+- Proper Excel formulas (not hard-coded values)
+- Ready for investor presentations and board meetings
 
 ### Tips for Financial Modeling with AI
 
-1. **Start with a template prompt** then customize with your specific metrics
-2. **Request explanations** of complex formulas so you understand the logic
-3. **Ask for sensitivity analysis** to see how changing assumptions affects outcomes
-4. **Iterate**: refine the model by asking for specific additions or changes
-5. **Validate**: always spot-check the calculations to ensure they make sense
+1. **Complete your Business Model Canvas first**: The financial model will be much more accurate and tailored when it can extract assumptions from your completed canvas
+2. **Start with the comprehensive prompt** then customize outputs based on your specific business model
+3. **Validate AI-extracted assumptions**: Review how the AI translated your Business Model Canvas into financial assumptions and adjust as needed
+4. **Request explanations** of complex formulas so you understand the logic behind key calculations
+5. **Use sensitivity analysis** to identify which assumptions have the biggest impact on your business outcomes
+6. **Create multiple scenarios**: Run Base, Conservative, and Aggressive cases to show investors the range of possible outcomes
+7. **Iterate on assumptions**: Refine the model by testing different pricing strategies, growth rates, and cost structures
+8. **Spot-check calculations**: Always validate key metrics (LTV, CAC, break-even) to ensure they make sense for your business
+9. **Keep it updated**: Re-run the script periodically as your Business Model Canvas evolves
 
 ## 2. Data Analysis with Python Notebooks
 
@@ -445,13 +532,26 @@ Financial models, data analysis, API automation, and research are just the begin
 
 ## Exercises
 
-1. **Financial Model Exercise**: Use the SaaS financial model prompt to create a model for your product. Customize the assumptions and analyze break-even scenarios.
+1. **Business Model to Financial Model Exercise**:
+   - Complete your Business Model Canvas using the prompts from Chapter 06
+   - Use the investor-ready SaaS financial model prompt to generate a Python script that reads your canvas
+   - Run the script and review the generated Excel model
+   - Customize assumptions based on your specific business
+   - Perform sensitivity analysis on your top 3 riskiest assumptions
+   - Create Base, Conservative, and Aggressive scenario projections
 
 2. **Data Analysis Exercise**: Export data from your product (or use sample data) and use AI to analyze user behavior patterns. Generate at least 3 actionable insights.
 
 3. **Competitive Research Exercise**: Set up the Gemini API and run competitive analysis on 5 competitors in your space. Create a comparison table in Excel.
 
 4. **Custom Automation**: Identify a repetitive task in your PM workflow and create a Python script using AI to automate it.
+
+5. **Integrated Strategy Exercise**:
+   - Start with your Business Model Canvas
+   - Generate the investor-ready financial model
+   - Use the financial model to validate your revenue streams and cost structure assumptions
+   - If the unit economics don't work, iterate on your Business Model Canvas
+   - Repeat until you have both a viable business model AND financial model that demonstrate profitability
 
 ## Additional Resources
 

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" showMasterSp="0" preserve="1">
+  <p:cSld name="End">
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="5. Source" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{330AE89A-7771-4A6E-A02D-893DCB66C876}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId1"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="554735" y="6501669"/>
+            <a:ext cx="7277861" cy="123111"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr indent="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Segoe UI" panose="020B0502040204020203" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8203;"/>
+              <a:defRPr lang="en-US" sz="900" dirty="0">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+            <a:lvl2pPr marL="228600" indent="-225425">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Wingdings" panose="05000000000000000000" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#159;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl2pPr>
+            <a:lvl3pPr marL="515938" indent="-287338">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8212;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl3pPr>
+            <a:lvl4pPr marL="742950" indent="-182563">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#187;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl4pPr>
+            <a:lvl5pPr marL="914400" indent="-136525">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8250;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl5pPr>
+            <a:lvl6pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl6pPr>
+            <a:lvl7pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl7pPr>
+            <a:lvl8pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl8pPr>
+            <a:lvl9pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl9pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="800" dirty="0"/>
+              <a:t>Source: &#8230;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="ClientLogo">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{360045FA-4F2B-7CCC-BC88-DBB2BC856EF6}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="pic" sz="quarter" idx="14" hasCustomPrompt="1"/>
+            <p:custDataLst>
+              <p:tags r:id="rId2"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5096891" y="2906491"/>
+            <a:ext cx="1998218" cy="1045018"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr>
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr algn="ctr">
+              <a:defRPr sz="1200">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>logo goes here.</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="5. Source" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{9E557DC3-5BF2-4D79-84F4-12A1DDBC6D3C}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1">
+            <p:custDataLst>
+              <p:tags r:id="rId3"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="554735" y="6501669"/>
+            <a:ext cx="7277861" cy="123111"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle>
+            <a:lvl1pPr indent="0">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="300"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Segoe UI" panose="020B0502040204020203" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8203;"/>
+              <a:defRPr lang="en-US" sz="900" dirty="0">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+            <a:lvl2pPr marL="228600" indent="-225425">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Wingdings" panose="05000000000000000000" pitchFamily="2" charset="2"/>
+              <a:buChar char="&#159;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl2pPr>
+            <a:lvl3pPr marL="515938" indent="-287338">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8212;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl3pPr>
+            <a:lvl4pPr marL="742950" indent="-182563">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#187;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl4pPr>
+            <a:lvl5pPr marL="914400" indent="-136525">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#8250;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl5pPr>
+            <a:lvl6pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl6pPr>
+            <a:lvl7pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl7pPr>
+            <a:lvl8pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl8pPr>
+            <a:lvl9pPr marL="1085850" indent="-171450">
+              <a:lnSpc>
+                <a:spcPct val="100000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="300"/>
+              </a:spcAft>
+              <a:buSzPct val="100000"/>
+              <a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              <a:buChar char="&#9643;"/>
+              <a:defRPr sz="1600">
+                <a:cs typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+              </a:defRPr>
+            </a:lvl9pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="800"/>
+              <a:t>Source: &#8230;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3006364885"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sldLayout>
