@@ -207,23 +207,24 @@ We will evaluate Sprint demos on the following criteria:
 
 ## Final Product Demo
 
-Complete one final [sprint demo] [Sprint 5](00-assessments-sandbox.qmd#sprint-demo-instructions), plus extend your video and record your answers to the following additional questions:
+Complete one final [sprint demo] [Sprint 5](00-assessments-sandbox.qmd#sprint-demo-instructions) following the regular instructions, plus extend your video by showing an end to end demo of your product. Lastly, on the same video, record your answers to the following additional questions:
 
 - How did this course compare to your other Sandbox courses? Was this course more or less valuable than other courses? Why? How could this course be improved for future Sandbox cohorts?
 - How has your overall Sandbox experience been so far? What's been good, what's been not so good?
 - What are the three most valuable things you have learning this semester while building your business (regardless of whether in this class or elsewhere)?
 
-This final demo/video is worth 150 points which equates to 30% of your grade.
+This final demo/video is worth 150 points which equates to 30% of your grade. The video should be between 5 and 10 minutes long.
 
 We will evaluate this final demo on the following criteria:
 
 - **Clarity and conciseness:** Can I quickly understand what you’re working on? (20 points)
 - **Evidence of progress:** Do you *show* something tangible, not just tell?  (20 points)
 - **Reflection:** Do you identify what’s next or where you need help? (20 points)
+- **End-to-end Demo**: Can I see the main functionality of your product? (30 points)
 - **Questions:**
-  - How did this course compare to your other Sandbox courses? Was this course more or less valuable than other courses? Why? How could this course be improved for future Sandbox cohorts? (30 points)
-  - How has your overall Sandbox experience been so far? What's been good, what's been not so good? (30 points)
-  - What are the three most valuable things you have learning this semester while building your business (regardless of whether in this class or elsewhere)? (30 points)
+  - How did this course compare to your other Sandbox courses? Was this course more or less valuable than other courses? Why? How could this course be improved for future Sandbox cohorts? (20 points)
+  - How has your overall Sandbox experience been so far? What's been good, what's been not so good? (20 points)
+  - What are the three most valuable things you have learning this semester while building your business (regardless of whether in this class or elsewhere)? (20 points)
 
 ## Feedback Surveys
 
