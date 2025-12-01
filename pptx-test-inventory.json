@@ -1,0 +1,5250 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "202x strategy: [insert title/name of strategy, if applicable]"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.54,
+      "top": 0.0,
+      "width": 1.79,
+      "height": 0.44,
+      "paragraphs": [
+        {
+          "text": "Version 1",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.08,
+      "top": 1.52,
+      "width": 11.09,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "[Insert purpose and/or vision]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.08,
+      "top": 2.55,
+      "width": 3.62,
+      "height": 0.81,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic objective #1]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.81,
+      "top": 2.55,
+      "width": 3.62,
+      "height": 0.81,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic objective #2]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 8.54,
+      "top": 2.55,
+      "width": 3.62,
+      "height": 0.81,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic objective #3]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.08,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.34,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 3.6,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 4.82,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.08,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 7.34,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 8.54,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 9.8,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 11.07,
+      "top": 3.49,
+      "width": 1.1,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 1.08,
+      "top": 5.01,
+      "width": 11.09,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Insert key enabler(s)]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 1.08,
+      "top": 5.51,
+      "width": 11.09,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Insert key enabler(s)]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 1.08,
+      "top": 6.08,
+      "width": 11.09,
+      "height": 0.81,
+      "paragraphs": [
+        {
+          "text": "[Insert description of other foundational elements, e.g., culture or people]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "202x strategy: [insert title/name of strategy, if applicable]"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.54,
+      "top": 0.0,
+      "width": 1.79,
+      "height": 0.44,
+      "paragraphs": [
+        {
+          "text": "Version 2",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.68,
+      "top": 1.75,
+      "width": 1.22,
+      "height": 1.08,
+      "paragraphs": [
+        {
+          "text": "Why",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.9,
+      "top": 1.75,
+      "width": 10.76,
+      "height": 1.08,
+      "paragraphs": [
+        {
+          "text": "[Insert purpose or mission statement]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.68,
+      "top": 2.99,
+      "width": 1.22,
+      "height": 1.08,
+      "paragraphs": [
+        {
+          "text": "What",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.9,
+      "top": 2.99,
+      "width": 10.76,
+      "height": 1.08,
+      "paragraphs": [
+        {
+          "text": "[Insert vision statement]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.68,
+      "top": 4.65,
+      "width": 1.22,
+      "height": 2.34,
+      "paragraphs": [
+        {
+          "text": "How",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.1,
+      "top": 4.65,
+      "width": 3.42,
+      "height": 2.34,
+      "paragraphs": [
+        {
+          "text": "[Insert must-win battle #1]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Add description and/or key strategic initiatives]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 5.67,
+      "top": 4.65,
+      "width": 3.42,
+      "height": 2.34,
+      "paragraphs": [
+        {
+          "text": "[Insert must-win battle #2]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "[Add description and/or key strategic initiatives]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 9.24,
+      "top": 4.65,
+      "width": 3.42,
+      "height": 2.34,
+      "paragraphs": [
+        {
+          "text": "[Insert must-win battle #3]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "[Add description and/or key strategic initiatives]",
+          "alignment": "CENTER",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "202x strategy: [insert title/name of strategy, if applicable]"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.54,
+      "top": 0.0,
+      "width": 1.79,
+      "height": 0.44,
+      "paragraphs": [
+        {
+          "text": "Version 3",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "color": "000000"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 1.47,
+      "width": 12.22,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Insert vision statement]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.87,
+      "top": 1.94,
+      "width": 1.97,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Geo/region 1]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.09,
+      "top": 1.94,
+      "width": 1.97,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Geo/region 2]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.32,
+      "top": 1.94,
+      "width": 1.97,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Geo/region 3]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 8.54,
+      "top": 1.94,
+      "width": 1.97,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Geo/region 4]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 10.76,
+      "top": 1.94,
+      "width": 1.97,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "[Geo/region 5]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.51,
+      "top": 2.41,
+      "width": 1.13,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "[BU 1]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.87,
+      "top": 2.41,
+      "width": 4.19,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.87,
+      "top": 2.8,
+      "width": 4.19,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 10.76,
+      "top": 2.41,
+      "width": 1.97,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 10.76,
+      "top": 2.8,
+      "width": 1.97,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.51,
+      "top": 3.58,
+      "width": 1.13,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "[BU 2]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 1.87,
+      "top": 3.19,
+      "width": 1.97,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 1.87,
+      "top": 3.58,
+      "width": 10.86,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 1.87,
+      "top": 3.97,
+      "width": 8.64,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 1.87,
+      "top": 4.37,
+      "width": 4.19,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 8.54,
+      "top": 4.37,
+      "width": 4.19,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 0.51,
+      "top": 4.75,
+      "width": 1.13,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "[BU 3]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 1.87,
+      "top": 4.75,
+      "width": 8.64,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 1.87,
+      "top": 5.14,
+      "width": 8.64,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-22": {
+      "left": 0.51,
+      "top": 5.92,
+      "width": 1.13,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "Enablers to succeed",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-23": {
+      "left": 1.87,
+      "top": 5.92,
+      "width": 10.86,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert initiative(s) around enabler]",
+          "alignment": "CENTER",
+          "font_name": "+mn-lt",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-24": {
+      "left": 1.87,
+      "top": 6.31,
+      "width": 10.86,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert initiative(s) around enabler]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-25": {
+      "left": 1.87,
+      "top": 6.71,
+      "width": 10.86,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "[Insert initiative(s) around enabler]",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "202x strategy: [insert title/name of strategy, if applicable]"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.54,
+      "top": 0.0,
+      "width": 1.79,
+      "height": 0.44,
+      "paragraphs": [
+        {
+          "text": "Version 4",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 1.51,
+      "width": 2.53,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Dimension/BU]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.51,
+      "top": 1.97,
+      "width": 2.53,
+      "height": 1.15,
+      "paragraphs": [
+        {
+          "text": "[Insert dimension \u000be.g., internal processes, or business unit]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.2,
+      "top": 1.51,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "Strategic Initiatives",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.2,
+      "top": 1.97,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 6.91,
+      "top": 1.51,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "Key Performance Indicators",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 6.91,
+      "top": 1.97,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 10.63,
+      "top": 1.51,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "Targets",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 10.63,
+      "top": 1.97,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 3.2,
+      "top": 2.37,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 3.2,
+      "top": 2.78,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 6.91,
+      "top": 2.37,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.91,
+      "top": 2.78,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 10.63,
+      "top": 2.37,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 10.63,
+      "top": 2.78,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.51,
+      "top": 3.23,
+      "width": 2.53,
+      "height": 1.15,
+      "paragraphs": [
+        {
+          "text": "[Dimension/BU]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 3.2,
+      "top": 3.23,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 3.2,
+      "top": 3.64,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 6.91,
+      "top": 3.23,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 6.91,
+      "top": 3.64,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 10.63,
+      "top": 3.23,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-22": {
+      "left": 10.63,
+      "top": 3.64,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-23": {
+      "left": 0.51,
+      "top": 4.5,
+      "width": 2.53,
+      "height": 1.15,
+      "paragraphs": [
+        {
+          "text": "[Dimension/BU]",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-24": {
+      "left": 3.2,
+      "top": 4.04,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-25": {
+      "left": 3.2,
+      "top": 4.5,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-26": {
+      "left": 6.91,
+      "top": 4.04,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-27": {
+      "left": 6.91,
+      "top": 4.5,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-28": {
+      "left": 10.63,
+      "top": 4.04,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-29": {
+      "left": 10.63,
+      "top": 4.5,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-30": {
+      "left": 3.2,
+      "top": 4.9,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-31": {
+      "left": 3.2,
+      "top": 5.31,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-32": {
+      "left": 6.91,
+      "top": 4.9,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-33": {
+      "left": 6.91,
+      "top": 5.31,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-34": {
+      "left": 10.63,
+      "top": 4.9,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-35": {
+      "left": 10.63,
+      "top": 5.31,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-36": {
+      "left": 0.51,
+      "top": 5.76,
+      "width": 2.53,
+      "height": 1.15,
+      "paragraphs": [
+        {
+          "text": "[Dimension/BU]",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-37": {
+      "left": 3.2,
+      "top": 5.76,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-38": {
+      "left": 3.2,
+      "top": 6.17,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-39": {
+      "left": 6.91,
+      "top": 5.76,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-40": {
+      "left": 6.91,
+      "top": 6.17,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-41": {
+      "left": 10.63,
+      "top": 5.76,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-42": {
+      "left": 10.63,
+      "top": 6.17,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-43": {
+      "left": 3.2,
+      "top": 6.57,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert strategic initiative]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-44": {
+      "left": 6.91,
+      "top": 6.57,
+      "width": 3.56,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert associated KPI(s)]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-45": {
+      "left": 10.63,
+      "top": 6.57,
+      "width": 2.04,
+      "height": 0.34,
+      "paragraphs": [
+        {
+          "text": "[Insert target/goal]",
+          "space_before": 2.0,
+          "space_after": 2.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Delivering on our 202x targets"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.51,
+      "top": 6.7,
+      "width": 10.27,
+      "height": 0.4,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.88
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Footnote: 1. xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.88
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Current status: We are on track in [regions/dimensions] but lagging in [regions/dimensions]",
+          "theme_color": "ACCENT_2"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.56,
+      "top": 1.92,
+      "width": 0.98,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "On track",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 9.87,
+      "top": 1.92,
+      "width": 1.32,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slightly behind",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 11.54,
+      "top": 1.92,
+      "width": 1.32,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "Very behind",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.2,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 1]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.96,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 2]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 5.72,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 3]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.48,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 4]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.24,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 5]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 11.0,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Region 6]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.68,
+      "top": 3.63,
+      "width": 2.22,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "People",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 0.68,
+      "top": 4.84,
+      "width": 2.22,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "Planet",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.68,
+      "top": 6.05,
+      "width": 2.22,
+      "height": 0.56,
+      "paragraphs": [
+        {
+          "text": "Profit",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "[Region]: Main focus for [region] is to [insert focus areas]",
+          "theme_color": "ACCENT_2"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.56,
+      "top": 1.92,
+      "width": 0.98,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "On track",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 9.87,
+      "top": 1.92,
+      "width": 1.32,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slightly behind",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 11.54,
+      "top": 1.92,
+      "width": 1.32,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "Very behind",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.2,
+      "top": 2.5,
+      "width": 1.65,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "Status",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.98,
+      "top": 2.5,
+      "width": 8.69,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "Goals",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.68,
+      "top": 3.63,
+      "width": 2.22,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "People",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 3.96,
+      "top": 3.63,
+      "width": 8.69,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Specific goal for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Specific goal/initiative for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.68,
+      "top": 4.84,
+      "width": 2.22,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "Planet",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 3.96,
+      "top": 4.84,
+      "width": 8.69,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Specific goal for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Specific goal/initiative for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.68,
+      "top": 6.05,
+      "width": 2.22,
+      "height": 0.56,
+      "paragraphs": [
+        {
+          "text": "Profit",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Goal]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 3.96,
+      "top": 6.05,
+      "width": 8.69,
+      "height": 0.55,
+      "paragraphs": [
+        {
+          "text": "[Specific goal for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Specific goal/initiative for country x]",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.0
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Our mission and vision"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.67,
+      "top": 2.31,
+      "width": 5.68,
+      "height": 0.52,
+      "paragraphs": [
+        {
+          "text": "Mission Statement",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 6.98,
+      "top": 2.31,
+      "width": 5.68,
+      "height": 0.52,
+      "paragraphs": [
+        {
+          "text": "Vision Statement",
+          "alignment": "CENTER",
+          "font_size": 16.0,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.67,
+      "top": 2.83,
+      "width": 5.68,
+      "height": 3.62,
+      "paragraphs": [
+        {
+          "text": "[Insert a description of your company mission statement]",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "font_size": 16.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 6.98,
+      "top": 2.83,
+      "width": 5.68,
+      "height": 3.62,
+      "paragraphs": [
+        {
+          "text": "[Insert a description of your company vision statement]",
+          "space_before": 4.0,
+          "space_after": 4.0,
+          "font_size": 16.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 0.92,
+      "top": 0.5,
+      "width": 4.3,
+      "height": 1.75,
+      "placeholder_type": "TITLE",
+      "default_font_size": 32.0,
+      "paragraphs": [
+        {
+          "text": "Our 202x goals"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.92,
+      "top": 2.25,
+      "width": 4.3,
+      "height": 4.17,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "[Goal 1, headline]",
+          "bold": true
+        },
+        {
+          "text": "[Numerical goal]",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "[Description of goal]",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "[Goal 2, headline]",
+          "bold": true
+        },
+        {
+          "text": "[Numerical goal]",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "[Description of goal]",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "[Goal 3, headline]",
+          "bold": true
+        },
+        {
+          "text": "[Numerical goal]",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "[Description of goal]",
+          "bullet": true,
+          "level": 0
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.26,
+      "top": 1.3,
+      "width": 3.96,
+      "height": 0.67,
+      "paragraphs": [
+        {
+          "text": "PEOPLE",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 24.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 4.74,
+      "top": 1.3,
+      "width": 3.86,
+      "height": 0.67,
+      "paragraphs": [
+        {
+          "text": "PLANET",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 24.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 9.02,
+      "top": 1.3,
+      "width": 4.18,
+      "height": 0.67,
+      "paragraphs": [
+        {
+          "text": "PROFIT",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 24.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.71,
+      "top": 2.1,
+      "width": 3.05,
+      "height": 1.39,
+      "paragraphs": [
+        {
+          "text": "[goal]",
+          "alignment": "CENTER",
+          "space_after": 5.0,
+          "font_name": "Arial",
+          "font_size": 72.0,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 82.08
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.14,
+      "top": 2.1,
+      "width": 3.05,
+      "height": 1.39,
+      "paragraphs": [
+        {
+          "text": "[goal]",
+          "alignment": "CENTER",
+          "space_after": 5.0,
+          "font_name": "Arial",
+          "font_size": 72.0,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 82.08
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.59,
+      "top": 2.1,
+      "width": 3.05,
+      "height": 1.39,
+      "paragraphs": [
+        {
+          "text": "[goal]",
+          "alignment": "CENTER",
+          "space_after": 5.0,
+          "font_name": "Arial",
+          "font_size": 72.0,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 82.08
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.79,
+      "top": 3.57,
+      "width": 2.88,
+      "height": 3.83,
+      "paragraphs": [
+        {
+          "text": "[Insert description or follow-on text to goal]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 5.22,
+      "top": 3.57,
+      "width": 2.88,
+      "height": 3.83,
+      "paragraphs": [
+        {
+          "text": "[Insert description or follow-on text to goal",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.67,
+      "top": 3.57,
+      "width": 2.88,
+      "height": 3.83,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-9": 0.94
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Insert description or follow-on text to goal]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 8.49,
+      "top": 7.03,
+      "width": 3.72,
+      "height": 0.4,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-8": 0.94
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Company Name",
+          "alignment": "RIGHT",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "A [insert own description] approach is required for [insert goal/to achieve our goals]"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.61,
+      "top": 1.75,
+      "width": 2.27,
+      "height": 1.02,
+      "paragraphs": [
+        {
+          "text": "Strategic objectives",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.72,
+      "top": 1.87,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Objective]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.65,
+      "top": 1.87,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Objective]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 9.58,
+      "top": 1.87,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Objective]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.61,
+      "top": 2.9,
+      "width": 2.27,
+      "height": 2.82,
+      "paragraphs": [
+        {
+          "text": "Strategic initiatives/\u000bexecution levers",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "(not exhaustive)",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 3.64,
+      "top": 3.2,
+      "width": 2.98,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 6.57,
+      "top": 3.2,
+      "width": 2.98,
+      "height": 0.47,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-8": 0.02
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.5,
+      "top": 3.2,
+      "width": 2.98,
+      "height": 0.47,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-7": 0.02
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Initiative]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 3.64,
+      "top": 3.67,
+      "width": 2.62,
+      "height": 1.89,
+      "paragraphs": [
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.57,
+      "top": 3.67,
+      "width": 2.62,
+      "height": 2.06,
+      "paragraphs": [
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 9.5,
+      "top": 3.67,
+      "width": 2.62,
+      "height": 1.33,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.12
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        },
+        {
+          "text": "[Sub-initiative/description/ execution lever]",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.61,
+      "top": 5.84,
+      "width": 2.27,
+      "height": 1.02,
+      "paragraphs": [
+        {
+          "text": "Enablers",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 3.72,
+      "top": 6.32,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Enabler]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.65,
+      "top": 6.32,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Enabler]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 9.58,
+      "top": 6.32,
+      "width": 2.83,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Enabler]",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-11": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Based on current performance and required implementation efforts we have identified XX initiatives"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.08,
+      "top": 2.43,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "1",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 2.08,
+      "top": 2.83,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "2",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 2.08,
+      "top": 3.22,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "3",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.08,
+      "top": 3.62,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "4",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 2.08,
+      "top": 4.02,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "5",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.08,
+      "top": 4.42,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "6",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.08,
+      "top": 4.82,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "7",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 2.08,
+      "top": 5.22,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "8",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 2.08,
+      "top": 5.62,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "9",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 2.08,
+      "top": 6.02,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "10",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 2.08,
+      "top": 6.42,
+      "width": 0.28,
+      "height": 0.28,
+      "paragraphs": [
+        {
+          "text": "11",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-12": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.42
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Initiative] implementation plan"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.33,
+      "top": 0.0,
+      "width": 2.01,
+      "height": 0.69,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.42
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Roadmap and plan for specific initiative",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "color": "000000"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 1.47,
+      "width": 2.76,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "About",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.51,
+      "top": 1.88,
+      "width": 2.76,
+      "height": 0.98,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.61
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Program owner: [insert name]",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "Senior liaison: [insert name]",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "Responsible manager: [insert name]",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "Expected duration: [insert timeframe]",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.59,
+      "top": 1.47,
+      "width": 2.76,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "Objective",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.59,
+      "top": 1.88,
+      "width": 2.76,
+      "height": 0.98,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.6
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "[Insert description]",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 7.08,
+      "top": 1.97,
+      "width": 1.86,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "202x",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.09,
+      "top": 1.47,
+      "width": 5.63,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "Timing of highlighted milestones",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 8.97,
+      "top": 1.97,
+      "width": 1.86,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "202x",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 10.85,
+      "top": 1.97,
+      "width": 1.86,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "Beyond 202x",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.51,
+      "top": 2.64,
+      "width": 5.83,
+      "height": 0.37,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-3": 0.61,
+          "shape-5": 0.6,
+          "shape-11": 0.29
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Initiative overview",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 0.51,
+      "top": 2.96,
+      "width": 5.83,
+      "height": 1.81,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.29,
+          "shape-13": 0.35
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Context for the initiative",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "[Insert description of context]",
+          "bullet": true,
+          "level": 1,
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "Initiative value creation",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        },
+        {
+          "text": "[Insert description of how the initiative will create value]",
+          "bullet": true,
+          "level": 1,
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 7.09,
+      "top": 3.01,
+      "width": 5.63,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "Success KPIs",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.51,
+      "top": 4.71,
+      "width": 5.83,
+      "height": 0.37,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.35
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Sub-initiatives",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "061F32",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 7.09,
+      "top": 5.11,
+      "width": 0.76,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "Risk",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 7.85,
+      "top": 5.11,
+      "width": 4.87,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "[Insert description of potential risks/where and why initiative might fail or create adverse effects]",
+          "bullet": true,
+          "level": 1,
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 7.08,
+      "top": 5.75,
+      "width": 0.76,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "Require-ments",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 7.85,
+      "top": 5.75,
+      "width": 4.87,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "[Insert description/list of requirements to succeed with initiative]",
+          "bullet": true,
+          "level": 1,
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 7.08,
+      "top": 6.39,
+      "width": 0.76,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "Next \u000bsteps",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.85,
+      "top": 6.39,
+      "width": 4.87,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "[Insert description of key next steps]",
+          "bullet": true,
+          "level": 1,
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-13": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Together, these [xx] strategic initiatives have the potential \u000bto add [xx] of annual EBITDA"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.51,
+      "top": 1.5,
+      "width": 3.33,
+      "height": 0.57,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Incremental EBITDA contribution",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "E7E6E6",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[Currency]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.9,
+      "top": 2.24,
+      "width": 1.03,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 3",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.9,
+      "top": 2.49,
+      "width": 1.07,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 2",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.74,
+      "top": 2.72,
+      "width": 0.23,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.72,
+      "top": 2.7,
+      "width": 0.47,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.9,
+      "top": 2.75,
+      "width": 0.74,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 1",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 5.67,
+      "top": 3.24,
+      "width": 0.23,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.72,
+      "top": 3.51,
+      "width": 0.47,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 10.75,
+      "top": 3.42,
+      "width": 1.74,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "+ xx-xx%",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_3",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.52,
+      "top": 4.08,
+      "width": 0.23,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 3.6,
+      "top": 4.0,
+      "width": 0.23,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 9.72,
+      "top": 4.96,
+      "width": 0.47,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 10.77,
+      "top": 4.88,
+      "width": 1.74,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "+ xx-xx%",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 9.81,
+      "top": 5.88,
+      "width": 0.29,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "xx-xx",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 10.77,
+      "top": 5.76,
+      "width": 1.74,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "+ xx-xx%",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.97,
+      "top": 6.34,
+      "width": 1.35,
+      "height": 0.4,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Total base case EBITDA 202x",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 3.34,
+      "top": 6.34,
+      "width": 0.75,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 1",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 5.24,
+      "top": 6.34,
+      "width": 1.08,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 2",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.37,
+      "top": 6.34,
+      "width": 0.99,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "BU 3",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 9.25,
+      "top": 6.34,
+      "width": 1.42,
+      "height": 0.4,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Total opportunity EBITDA 202x",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-14": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "We expect a total of xx [currency] from these strategic initiatives"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.51,
+      "top": 1.5,
+      "width": 6.35,
+      "height": 0.57,
+      "paragraphs": [
+        {
+          "text": "Total expected financial impact of strategic initiatives",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "171616",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "[currency]",
+          "font_name": "Arial",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "7F7F7F",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 6.99,
+      "width": 7.98,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Source: xx",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "062032",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-15": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Profitability framework"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.34,
+      "top": 0.11,
+      "width": 4.38,
+      "height": 0.13,
+      "placeholder_type": "BODY",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Appendix A: Frameworks"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.34,
+      "top": 1.6,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Volume",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.95,
+      "top": 1.6,
+      "width": 2.74,
+      "height": 1.74,
+      "paragraphs": [
+        {
+          "text": "Useful revenue segmentation:",
+          "space_after": 6.0,
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "By product type",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "By distribution channel",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "By geography",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "By customer type",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.04,
+      "top": 2.29,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Revenues",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 5.34,
+      "top": 2.98,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Price per unit",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.73,
+      "top": 3.67,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Profits",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.64,
+      "top": 3.69,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Volume",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.95,
+      "top": 3.71,
+      "width": 2.74,
+      "height": 2.92,
+      "paragraphs": [
+        {
+          "text": "Variable cost examples:",
+          "space_after": 6.0,
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Raw materials",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Delivery",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Commission",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Direct labor",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Marketing",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Fixed cost examples:",
+          "space_after": 6.0,
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Rent",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Staff overhead",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "Loan interests",
+          "bullet": true,
+          "level": 0,
+          "font_size": 14.0,
+          "theme_color": "TEXT_2"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 5.34,
+      "top": 4.36,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Variable costs",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 3.04,
+      "top": 5.05,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Costs",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 7.64,
+      "top": 5.02,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Cost per unit",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.34,
+      "top": 5.75,
+      "width": 1.68,
+      "height": 0.89,
+      "paragraphs": [
+        {
+          "text": "Fixed costs",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    }
+  },
+  "slide-16": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Issue tree"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.34,
+      "top": 0.11,
+      "width": 4.38,
+      "height": 0.13,
+      "placeholder_type": "BODY",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Appendix A: Frameworks"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.04,
+      "top": 1.98,
+      "width": 1.25,
+      "height": 1.7,
+      "paragraphs": [
+        {
+          "text": "[Main drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.82,
+      "top": 1.98,
+      "width": 2.95,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Secondary drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 8.25,
+      "top": 1.75,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 8.25,
+      "top": 2.25,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.75,
+      "top": 3.25,
+      "width": 1.47,
+      "height": 1.79,
+      "paragraphs": [
+        {
+          "text": "[Main issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.82,
+      "top": 3.19,
+      "width": 2.95,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Secondary drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 8.25,
+      "top": 2.96,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 8.25,
+      "top": 3.46,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 3.04,
+      "top": 4.61,
+      "width": 1.25,
+      "height": 1.7,
+      "paragraphs": [
+        {
+          "text": "[Main drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 4.82,
+      "top": 4.61,
+      "width": 2.95,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Secondary drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 8.25,
+      "top": 4.37,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 8.25,
+      "top": 4.88,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 4.82,
+      "top": 5.82,
+      "width": 2.95,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "[Secondary drivers of issue]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 8.25,
+      "top": 5.58,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 8.25,
+      "top": 6.09,
+      "width": 4.42,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "[Underlying drivers]",
+          "alignment": "CENTER",
+          "font_size": 12.0
+        }
+      ]
+    }
+  },
+  "slide-17": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "McKinsey 7S Model"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.34,
+      "top": 0.11,
+      "width": 4.38,
+      "height": 0.13,
+      "placeholder_type": "BODY",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Appendix A: Frameworks"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 2.1,
+      "width": 2.82,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "HARD ELEMENTS",
+          "font_size": 16.0,
+          "bold": true,
+          "theme_color": "ACCENT_2"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.83,
+      "top": 2.1,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Structure",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.59,
+      "top": 3.43,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Strategy",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 5.69,
+      "top": 3.85,
+      "width": 1.96,
+      "height": 0.78,
+      "paragraphs": [
+        {
+          "text": "Shared values",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 9.06,
+      "top": 3.43,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Systems",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.59,
+      "top": 4.43,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Skills",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.06,
+      "top": 4.43,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Style",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 0.51,
+      "top": 6.02,
+      "width": 2.82,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "SOFT ELEMENTS",
+          "font_size": 16.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 5.83,
+      "top": 5.77,
+      "width": 1.68,
+      "height": 0.62,
+      "paragraphs": [
+        {
+          "text": "Staff",
+          "alignment": "CENTER",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    }
+  },
+  "slide-18": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.39,
+      "width": 12.12,
+      "height": 0.8,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "SWOT analysis (version 1)"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 8.34,
+      "top": 0.11,
+      "width": 4.38,
+      "height": 0.13,
+      "placeholder_type": "BODY",
+      "default_font_size": 8.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Appendix A: Frameworks"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.51,
+      "top": 1.47,
+      "width": 6.0,
+      "height": 0.38,
+      "paragraphs": [
+        {
+          "text": "Strengths",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.51,
+      "top": 1.9,
+      "width": 6.0,
+      "height": 2.15,
+      "paragraphs": [
+        {
+          "text": "[Description of strength]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Description of strength]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "[Description of strength]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "…",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 6.74,
+      "top": 1.47,
+      "width": 6.0,
+      "height": 0.38,
+      "paragraphs": [
+        {
+          "text": "Weaknesses",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.74,
+      "top": 1.9,
+      "width": 6.0,
+      "height": 2.15,
+      "paragraphs": [
+        {
+          "text": "[Description of weakness]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Description of weakness]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "[Description of weakness]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "…",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.51,
+      "top": 4.23,
+      "width": 6.0,
+      "height": 0.38,
+      "paragraphs": [
+        {
+          "text": "Opportunities",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.51,
+      "top": 4.65,
+      "width": 6.0,
+      "height": 2.15,
+      "paragraphs": [
+        {
+          "text": "[Description of opportunity]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Description of opportunity]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "[Description of opportunity]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "…",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.74,
+      "top": 4.23,
+      "width": 6.0,
+      "height": 0.38,
+      "paragraphs": [
+        {
+          "text": "Threats",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 6.74,
+      "top": 4.65,
+      "width": 6.0,
+      "height": 2.15,
+      "paragraphs": [
+        {
+          "text": "[Description of threat]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "[Description of threat]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "[Description of threat]",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_size": 12.0,
+          "theme_color": "TEXT_2"
+        },
+        {
+          "text": "…",
+          "bullet": true,
+          "level": 0,
+          "space_before": 3.0,
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_2",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  }
+}

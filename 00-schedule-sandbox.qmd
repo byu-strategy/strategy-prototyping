@@ -20,5 +20,4 @@ Below is the planned daily schedule. Dates, topics, and assessments may adjust a
 | 11 | Mon, Nov 17 | AI Agents | [EC 9 - Product Metrics and Data Analysis](11-product-metrics.qmd) | – | – |
 | 12 | Mon, Nov 24 | No class – Thanksgiving | – | – | – |
 | 13 | Mon, Dec 1 | AI Evals | [EC 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | – | – |
-| 14 | Mon, Dec 8 | Last Day of Class - Final Presentations · Reflections | – | [Extra Credit - Student Ratings](00-assessments-sandbox.qmd#student-ratings) | [Final Product Demo](00-assessments-sandbox.qmd#final-product-demo) |
-| 15 | Mon, Dec 15 | Final Exam (50 questions, multiple choice, testing center) | – | – | – |
+| 14 | Mon, Dec 8 | Last Day of Class - Final Exam (50 questions, multiple choice) | – | [Extra Credit - Student Ratings](00-assessments-sandbox.qmd#student-ratings) | [Final Sprint Demo](00-assessments-sandbox.qmd#sprint-demo-instructions) |

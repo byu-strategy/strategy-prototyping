@@ -1,0 +1,125 @@
+/*-- scss:defaults --*/
+
+// BYU-inspired color scheme
+$body-bg: #ffffff;
+$body-color: #002E5D; // BYU Navy
+$link-color: #0057B8; // BYU Royal Blue
+$selection-bg: #0057B8;
+
+// Headings
+$presentation-heading-color: #002E5D;
+$presentation-heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Code blocks
+$code-block-bg: #f5f5f5;
+$code-color: #c7254e;
+
+// Accent colors
+$byu-navy: #002E5D;
+$byu-royal: #0057B8;
+$byu-light: #6495ED;
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-size: 32px;
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  color: $byu-navy;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.reveal h2 {
+  font-size: 1.8em;
+  color: $byu-navy;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.reveal h3 {
+  font-size: 1.3em;
+  color: $byu-royal;
+  font-weight: 600;
+}
+
+// Slide title slide styling
+.reveal .slide-background:first-child {
+  background: linear-gradient(135deg, $byu-navy 0%, $byu-royal 100%);
+}
+
+.reveal section:first-of-type h1,
+.reveal section:first-of-type h3,
+.reveal section:first-of-type p {
+  color: white;
+}
+
+// Lists styling
+.reveal ul, .reveal ol {
+  margin-left: 1em;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+// Code blocks
+.reveal pre {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 0.7em;
+}
+
+.reveal code {
+  background-color: $code-block-bg;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: "Monaco", "Courier New", monospace;
+}
+
+// Blockquotes
+.reveal blockquote {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px 20px;
+  border-left: 5px solid $byu-royal;
+  background: #f9f9f9;
+  font-style: italic;
+  color: #555;
+}
+
+// Images
+.reveal img {
+  max-height: 500px;
+  border: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+// Footer
+.reveal .footer {
+  color: #666;
+  font-size: 0.6em;
+}
+
+// Slide number
+.reveal .slide-number {
+  color: $byu-navy;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+// Questions slide
+.reveal section:last-of-type {
+  text-align: center;
+}
+
+.reveal section:last-of-type h2 {
+  font-size: 3em;
+  color: $byu-royal;
+}

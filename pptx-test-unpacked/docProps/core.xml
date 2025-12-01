@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ascii"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dc:title>Slideworks Business Strategy Template</dc:title>
+  <dc:subject>Business strategy</dc:subject>
+  <dc:creator>Slideworks</dc:creator>
+  <cp:keywords>business strategy, corporate strategy</cp:keywords>
+  <dc:description>Copyright of Slideworks.io. Any unauthorized distribution prohibited. See our full terms and conditions at https://slideworks.io/terms </dc:description>
+  <cp:lastModifiedBy>Scott Murff</cp:lastModifiedBy>
+  <cp:revision>142</cp:revision>
+  <dcterms:created xsi:type="dcterms:W3CDTF">2025-08-15T12:07:42Z</dcterms:created>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-11-18T23:42:14Z</dcterms:modified>
+  <cp:category>Management consulting, presentation design, business</cp:category>
+</cp:coreProperties>
