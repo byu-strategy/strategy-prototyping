@@ -207,7 +207,7 @@ We will evaluate Sprint demos on the following criteria:
 
 ## Final Product Demo
 
-Complete one final [sprint demo] [Sprint 5](00-assessments-sandbox.qmd#sprint-demo-instructions) following the regular instructions, plus extend your video by showing an end to end demo of your product. Lastly, on the same video, record your answers to the following additional questions:
+Complete one final [sprint demo](00-assessments-sandbox.qmd#sprint-demo-instructions) following the regular instructions, plus extend your video by showing an end to end demo of your product. Lastly, on the same video, record your answers to the following additional questions:
 
 - How did this course compare to your other Sandbox courses? Was this course more or less valuable than other courses? Why? How could this course be improved for future Sandbox cohorts?
 - How has your overall Sandbox experience been so far? What's been good, what's been not so good?
