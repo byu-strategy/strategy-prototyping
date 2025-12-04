@@ -21,4 +21,4 @@ Below is the planned daily schedule. Dates, topics, and assignments may adjust a
 | 12 | Fri, Nov 21 | APIs, HTTP | – | – | – |
 | 13 | Fri, Nov 28 | No class – Thanksgiving | – | – | – |
 | 14 | Fri, Dec 5 | Final Presentations, Reflections | – | [Extra Credit - Student Ratings](00-assessments.qmd#student-ratings) | [Final Product Demo Due](00-assessments.qmd#final-product-demo) |
-| 15 | Fri, Dec 12 | Final Exam (50 questions, multiple choice, testing center) | – | – | – |
+| 15 | Fri, Dec 12 | Final Exam (50 questions, multiple choice, in-class via LearningSuite) | – | – | – |

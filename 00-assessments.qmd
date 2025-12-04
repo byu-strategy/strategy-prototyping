@@ -25,7 +25,7 @@ The following assessments will be used to measure progress towards learning outc
 | Sprint Demo | [Sprint 2 – Identify a problem worth solving](#sprint-2-identify-a-problem-worth-solving) | 8% | 40 | 2, 3 |
 | Sprint Demo | [Sprint 3 – First MVP with Database and Payments](#sprint-3-first-mvp-with-database-and-payments) | 8% | 40 | 4 |
 | Sprint Demo | [Sprint 4 – Code Base Teardown & Architecture Analysis](#sprint-4-code-base-teardown-architecture-analysis) | 8% | 40 | 4 |
-| Sprint Demo | [Sprint 5 – Customer Interviews](#sprint-5-customer-interviews) | 8% | 40 | 4 |
+| Sprint Demo | [Sprint 5 – Dropped](#sprint-5-customer-interviews) | 8% | 40 | 4 |
 | Product Demo | [Final Product Demo](#final-project) | 30% | 150 | 4 |
 |  | **TOTAL** | **100%** | **500** |  |
 
@@ -505,8 +505,6 @@ This assignment assesses:
 
 This is a critical skill for product managers who need to have technical conversations with engineering teams, make informed decisions about features and timelines, and understand the implications of architectural choices.
 
-### Sprint 5 – Production Worthy Product
-
 ## Engagement Checks
 
 Engagement Checks provide a brief opportunity at the end of class for you to demonstrate your understanding of key concepts discussed that day and to reinforce active participation in the learning process.
@@ -522,6 +520,36 @@ Research shows that writing down what you’ve just learned helps your brain rem
 :::
 
 ## Final Product Demo
+
+**Purpose:**  
+The purpose of this assessment is for you to demo the culmination of all of your work on your product this semester. 
+
+To complete the assessment, record a **5-10 minute video** (Zoom, Loom, phone camera, etc.) that includes the following **three parts**:
+
+1. Context (30-60 seconds)
+
+- Remind us what your venture/product is. 
+
+2. End-to-end Product Demo (2-4 minutes)
+
+- Via screenshare or other video
+  - Illustrate the end to end user journey(s) that a user of your product can go through. i.e. click through and explain your product features, showing how a user will use it. If there are any feature that don't work as intended, commment on these.
+  - Open up Supabase (or other database if not Supabase) and show and explain your database schema. Open up a specific table and show and comment on what data you see in the table. Where on the UI does that data originate from?
+
+3. Reflections (2-4 minutes)
+
+- How has your overall experience in this class? What's been good, what's been not so good?
+- On a scale of 1-10 how happy and satisfied are you with the product that you have built this semester?
+- What are the two or three most valuable things you have learned this semester while building your product?
+- How can I improve this course so that future students have an even better learning experience?
+
+This final demo/video is worth 150 points which equates to 30% of your grade.
+
+We will evaluate this final demo on the following criteria:
+
+- **Clarity of value prop:** Can I quickly understand what you’re product is and the customer value you are seeking to provide? (10 points)
+- **Evidence of production ready product during demo:** Does your product work and illustrate real thought and effort in delivering value to your intended target user?  (100 points)
+- **Reflections:** Do you address all 4 of the reflection questions? (40 points)
 
 ## Feedback Surveys
 
