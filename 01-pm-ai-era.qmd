@@ -1,8 +1,6 @@
 ---
-title: "Product Management in the AI Era"
+title: "AI Product Management"
 ---
-
-## Why This Matters
 
 We're living through the most significant shift in how software gets built since the invention of the web browser. Tools like Claude Code, Cursor, and others are making it possible for individuals to build in hours what used to take teams weeks.
 
@@ -72,6 +70,8 @@ AI and the tools we will use in this course are having a major impact and disrup
 With AI, a PM can quickly generate wireframes, mockups, or even working product demos without waiting on design or engineering support. Instead of handing off abstract requirements, they can test tangible ideas with users in days, not weeks. This doesn’t eliminate the need for designers and engineers, but it shifts when and how they are engaged. Designers can focus on higher-fidelity experience and brand expression, while engineers concentrate on scalability, integration, and technical soundness.
 
 It remains to be seen how this will fully play out, but early indications suggest that shifts in how PMs, designers, and engineers work together are real and lasting. With the right AI tools some ambitious individuals may be able to wear all three hats to varying degrees.
+
+![](images/full-stack-from-to.png)
 
 Below are a selection of anecdotes from leaders in the field that provides some insight into how things are shifting.
 

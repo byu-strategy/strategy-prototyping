@@ -29,9 +29,13 @@ format:
 
 A modern Laptop or desktop (Mac or Windows): - Operating Systems: macOS 10.15+ or Windows 10+ - Hardware: 4GB+ RAM (more is better)
 
-AI Tools: - We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (\~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax - Gemini is [free for students](https://gemini.google/students/) this year:
+AI Tools: - We will be using [Claude Code](https://www.anthropic.com/claude-code) throughout the course. Using Claude Code requires a paid Claude account (\~\$20 per month for the duration of the semester). Your total cost will be about \$85 after tax.
 
-[Innovators DNAs Resources and Assessment](https://apps.innovatorsdna.com/portal/byu-strat-2025) (special reduced price of \$20)
+You should also get Gemini for [free](https://gemini.google/students/) as this will be a useful supplement to Claude Code.
+
+If you have other paid accounts to ChatGPT, Cursor, or others these can be used as supplements as well. 
+
+Optional: [Innovators DNAs Resources and Assessment](https://apps.innovatorsdna.com/portal/byu-strat-2025) (special reduced price of \$20)
 
 All other materials are available online at no cost.
 
@@ -41,7 +45,7 @@ All other materials are available online at no cost.
 
 Students will explore foundational concepts in product strategy, customer-centric design, and rapid iteration while learning how AI is transforming each stage of the product lifecycle. Core topics include identifying unmet customer needs, defining and validating minimum viable products (MVPs), accelerating prototyping, and gathering actionable user feedback.
 
-In addition to standard product management tools such as GitHub, Jira, and Figma, students will work extensively with cutting-edge AI tools like Lovable, Replit, Cursor, and Claude Code. These tools enable them to ideate, design, and build at unprecedented speed, while gaining an understanding of how AI blurs traditional boundaries between product management, engineering, and design.
+In addition to standard product management tools such as GitHub, Jira, and Figma, students will work extensively with cutting-edge AI tools like Lovable, Cursor, and Claude Code. These tools enable them to ideate, design, and build at unprecedented speed, while gaining an understanding of how AI blurs traditional boundaries between product management, engineering, and design.
 
 By the end of the semester, students will have developed, tested, and refined an AI-enabled product.
 
