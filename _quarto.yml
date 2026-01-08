@@ -3,37 +3,30 @@ project:
   output-dir: _book
     
 book:
-  title: "MSB 341 - Product Management / STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping"
+  title: "STRAT 490R - Creating Digital Products with AI"
   favicon: images/prototyping-favicon.png
   author: "Scott Murff"
-  date: "5/10/2025"
+  date: "1/9/2026"
   chapters:
     - part: Course Information
       chapters:
         - index.qmd
         - 00-schedule.qmd
         - 00-assessments.qmd
-        - 00-schedule-sandbox.qmd
-        - 00-assessments-sandbox.qmd
     - part: Topics
       chapters:
-    # Core Course Chapters
         - 01-pm-ai-era.qmd
-        - 02-git-deployment.qmd
-        - 03-project-management.qmd
-        - 04-product-innovation.qmd
-        - 05-go-to-market.qmd
-        - 04-value-prop-design.qmd
-        - 06-business-models.qmd
-        - 07-internet-fundamentals.qmd
-        - 08-software-engineering.qmd
-        #- 06-llms-prompt-engineering.qmd
-        - 09-ai-dev-platforms.qmd
-        - 10-build-feedback-1.qmd
-        - 11-product-metrics.qmd
-        # - 12-build-feedback-2.qmd
-        - 12-ai-leverage.qmd
-        - 14-final-presentations.qmd
+        - 02-problems-worth-solving.qmd
+        - 03-problem-discovery.qmd
+        - 04-validating-opportunities.qmd
+        - 05-building-your-mvp.qmd
+        - 06-testing-with-users.qmd
+        - 07-platform-strategy.qmd
+        - 08-measuring-what-matters.qmd
+        - 09-go-to-market.qmd
+        - 10-business-models.qmd
+        - 11-sustainable-code.qmd
+        - 12-final-presentations.qmd
     - part: Resources
       chapters:
     # Resources and Appendices

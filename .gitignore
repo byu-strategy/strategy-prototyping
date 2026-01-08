@@ -3,6 +3,7 @@
 /_site/
 /_book/
 /.quarto_cache/
+*.quarto_ipynb
 
 # R
 .Rproj.user

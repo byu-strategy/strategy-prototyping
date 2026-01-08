@@ -1,33 +1,42 @@
 ---
-title: "Assessments (APM)"
+title: "Assessments"
 editor: visual
 ---
 
+## Grading Overview
+
+| Component | Points | % of Grade |
+|-----------|--------|------------|
+| Sprints (5 × 50) | 250 | 50% |
+| Peer Code Review | 50 | 10% |
+| Peer Product Testing | 50 | 10% |
+| Final Product | 100 | 20% |
+| Quizzes (10 × 5) | 50 | 10% |
+| **TOTAL** | **500** | **100%** |
+
 ## List of All Assessments
 
-The following assessments will be used to measure progress towards learning outcomes and to assign grades.
-
-| Type | Description | \% of Grade | Points | Learning Outcome(s) Assessed<sup>1</sup> |
-|-----------|-----------|-----------|-----------|-----------|
-| Exam | [Pre-Course Knowledge Check](#pre-course-knowledge-check) | 0% | 0 | 1,2,3,4 |
-| Exam | [Final Exam](#final-exam) | 10% | 50 | 1,2,3,4 |
-| Engagement Check | [EC 1 - AI Product Management](01-pm-ai-era.qmd) | 2% | 10 | 1 |
-| Engagement Check | [EC 2 - Git and Deployment](02-git-deployment.qmd) | 2% | 10 | 1 |
-| Engagement Check | [EC 3 - Product Strategy and Innovation](04-product-innovation.qmd) | 2% | 10 | 2 |
-| Engagement Check | [EC 4 - Customer Validation](04-value-prop-design.qmd) | 2% | 10 | 2 |
-| Engagement Check | [EC 5 - Mid-semester Feedback Survey](00-assessments.qmd#mid-semester-survey) | 2% | 10 |  |
-| Engagement Check | [EC 6 - GitHub and Collaboration](02-git-deployment.qmd) | 2% | 10 | 4 |
-| Engagement Check | [EC 7 - APIs and How the Internet Works](07-internet-fundamentals.qmd) | 2% | 10 | 4 |
-| Engagement Check | [EC 8 - Principles of Software Engineering and Design](08-software-engineering.qmd) | 2% | 10 | 4 |
-| Engagement Check | [EC 9 - AI Tools](09-ai-dev-platforms.qmd) | 2% | 10 | 4 |
-| Engagement Check | [EC 10 - Product Metrics and Data Analysis](11-product-metrics.qmd) | 2% | 10 | 4 |
-| Sprint Demo | [Sprint 1 – Deploy your first app](#sprint-1-deploy-your-first-app) | 8% | 40 | 1 |
-| Sprint Demo | [Sprint 2 – Identify a problem worth solving](#sprint-2-identify-a-problem-worth-solving) | 8% | 40 | 2, 3 |
-| Sprint Demo | [Sprint 3 – First MVP with Database and Payments](#sprint-3-first-mvp-with-database-and-payments) | 8% | 40 | 4 |
-| Sprint Demo | [Sprint 4 – Code Base Teardown & Architecture Analysis](#sprint-4-code-base-teardown-architecture-analysis) | 8% | 40 | 4 |
-| Sprint Demo | [Sprint 5 – Dropped](#sprint-5-customer-interviews) | 8% | 40 | 4 |
-| Product Demo | [Final Product Demo](#final-project) | 30% | 150 | 4 |
-|  | **TOTAL** | **100%** | **500** |  |
+| Type | Description | Points | Learning Outcome(s)<sup>1</sup> |
+|------|-------------|--------|--------------------------------|
+| Quiz | [Quiz 1 - PM in the AI Era](01-pm-ai-era.qmd) | 5 | 1 |
+| Quiz | [Quiz 2 - Problems Worth Solving](02-problems-worth-solving.qmd) | 5 | 2 |
+| Quiz | [Quiz 3 - Problem Discovery](03-problem-discovery.qmd) | 5 | 2 |
+| Quiz | [Quiz 4 - Validating Opportunities](04-validating-opportunities.qmd) | 5 | 2 |
+| Quiz | [Quiz 5 - Building Your MVP](05-building-your-mvp.qmd) | 5 | 4 |
+| Quiz | [Quiz 6 - Testing with Users](06-testing-with-users.qmd) | 5 | 4 |
+| Quiz | [Quiz 7 - Platform Strategy](07-platform-strategy.qmd) | 5 | 4 |
+| Quiz | [Quiz 8 - Measuring What Matters](08-measuring-what-matters.qmd) | 5 | 4 |
+| Quiz | [Quiz 9 - Go-to-Market](09-go-to-market.qmd) | 5 | 4 |
+| Quiz | [Quiz 10 - Business Models](10-business-models.qmd) | 5 | 4 |
+| Sprint | [Sprint 1 - Ship & Showcase](#sprint-1-ship-and-showcase) | 50 | 1 |
+| Sprint | [Sprint 2 - Validate & Commit](#sprint-2-validate-and-commit) | 50 | 2, 3 |
+| Sprint | [Sprint 3 - Core Product](#sprint-3-core-product) | 50 | 4 |
+| Sprint | [Sprint 4 - Measure & Position](#sprint-4-measure-and-position) | 50 | 4 |
+| Sprint | [Sprint 5 - Monetize & Scale](#sprint-5-monetize-and-scale) | 50 | 4 |
+| Peer | [Peer Code Review](#peer-code-review) | 50 | 4 |
+| Peer | [Peer Product Testing](#peer-product-testing) | 50 | 4 |
+| Project | [Final Product](#final-project) | 100 | 4 |
+|  | **TOTAL** | **500** |  |
 
 ::: {style="font-size:0.65em;"}
 **Notes**
@@ -36,531 +45,429 @@ The following assessments will be used to measure progress towards learning outc
 
 | Learning Outcome | Supported BYU Aims |
 |----------------------------------|--------------------------------------|
-| 1\. Understand the basics of how LLMs generate natural language. | Intellectually Enlarging |
-| 2\. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
-| 3\. Analyze the physical, mental, and spiritual impact your product is likely to have on its users. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
-| 4\. Create a digital product that delivers value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
+| 1. Understand the basics of how LLMs generate natural language. | Intellectually Enlarging |
+| 2. Develop and articulate a product strategy. | Intellectually Enlarging, Lifelong Learning and Service |
+| 3. Analyze the physical, mental, and spiritual impact your product is likely to have on its users. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
+| 4. Create a digital product that delivers value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
 
 :::
 
-## Knowledge Checks
+---
 
-### Pre-Course Knowledge Check
+## Quizzes
 
-The pre-course knowledge check is a 50 question multiple-choice exam. It does not count towards your grade but is required for you to complete. The purpose of the knowledge check is to understand your baseline level knowledge coming into the class.
+In-class quizzes assess your understanding of the assigned reading. Each quiz is worth 5 points (1% of your grade).
 
-Complete the exam on LearningSuite.
+Quizzes occur at the beginning of class on the dates shown in the [schedule](00-schedule.qmd). They cover the chapter assigned for that week.
 
-Do not use AI or any outside resources while completing the exam. Doing so would defeat its purpose and failed to give an accurate signal on base level knowledge.
-
-The final exam will be very similar in content and structure and will be completed in the testing center.
-
-Hence, comparing your final exam score to your score on the pre-course knowledge check will give you a good sense for what you have learned in the course. 
-
-### Final Knowledge Check
-
-The Final Knowledge Check will consist of a 50 question multiple choice test in the testing center. 
-
-## Product Sprints
-
-### Sprint 1 – Deploy your fist app
-
-**Overview**
-
-The purpose of this homework assignment is to help you create a public facing portfolio containing your work that you can use to share with potential employers and others. 
-
-The deliverable for this homework is a single URL pointing to your personal portfolio published on the internet via GitHub Pages which will look like the following [**template**](https://sdmurff.github.io/student-test/)
-
-To actually submit the assignment, you need to complete the following steps:
-
-1) Publish your portfolio to the internet
-2) Once published, submit a single page PDF or Word Doc containing three things:
-
-  - A URL to your live product portfolio
-  - The name and relation of the person you showed your portfolio to (e.g. your roommate, parent, employer, etc)
-  - A few comments on how they reacted to what you showed them? i.e. what questions did they ask, what did they think overall?
-
-**Set-up**
-
-1) Create a new repo from the following template on GitHub: [https://github.com/byu-strategy/product-management-portfolio](https://github.com/byu-strategy/product-management-portfolio). Call the repo "portfolio".
-
-![](images/new-repo-template.jpg)
-
-2) After creating the repo, go to `Settings -> Pages -> Deploy from a branch`, and select `GitHub Actions`
-
-![](images/github-actions-deploy.jpg)
-3) Start VS Code and then `Open -> Open Folder` to the folder you want to save your portfolio files in. Then open a Terminal within VS Code. 
-
-4) Copy/paste the URL of your new repo and run the following command from the terminal. Your URL should have the following structure: https://github.com/[your github username]/portfolio
-
-```{python eval=false}
-git clone https://github.com/[your github username]/portfolio.git
-```
-
-Make sure to add `.git` to the end of the URL and update your user name before running the command.
-
-5) Then use the terminal to navigate into the newly cloned git repo (folder)
-
-```{python eval=false}
-cd portfolio
-```
-
-6) You should now see all of the files from the repo in your left hand window pane within VS Code. These are the source files behind the [**template**](https://sdmurff.github.io/student-test/). 
-
-7) To complete the homework, you will edit and personalize the template. Once you are done editing, save all of the files and run the following git commands to publish your portfolio:
-
-```{python eval=false}
-git add .
-git commit -m "write a short message describing your changes"
-git push
-```
-
-Once you have pushed your changes, within about one minute, your website portfolio will be live at this URL: https://[your github username].github.io/portfolio/
-
-**Remember to update your user name in the URL.**
-
-You can preview what your portfolio looks like at any point by running this command from the terminal:
-
-```{python eval=false}
-quarto preview
-```
-
-For this to work, you will need to install `quarto`. Get Claude code to help you install it.
-
-**Requirements**
-
-You should make at least the following changes to the source files of your portfolio.
-
-1) Add a personal photo (I recommend using your LinkedIn photo for a consistent online presence)
-2) Update and personalize the Home page (index.qmd)
-3) Update and personalize the About page (about.qmd)
-4) Update and personalize the project-1.qmd file to accurately reflect the application you built. Make sure to update the two buttons that contain links to your GitHub source code and your Vercel deployed app.
-5) Use AI or another tool of your choice to create a [favicon](https://en.wikipedia.org/wiki/Favicon) and update the image reference in the `.yml`. You could use an icon or just your initial(s).
-6) Choose one other person to show your portfolio to and describe to them what you built. Take a couple minutes to explain to them the tools and skills you are learning.
-
-Although not required for this assignment, you should feel free to make further enhancements and personalizations to your portfolio. You will continue to build on this portfolio throughout the course so it should be something you invest significant effort in as it can be a valuable tool for you in the future to showcase your skills.
-
-**Grading**
-
-This assignment is worth 40 points which equates to 8% of your grade. 
-
-A full score of 40 will be awarded if all requirements above are met and the portfolio is "client ready." Client ready means you could show this to a real prospective employer with confidence, meaning there are no errors, all of the hyperlink's work, etc.
-
-One point will be docked for each aspect that is not "client ready." For example, if a hyperlink doesn't work, that's -1 from the 40 possible.
-
-### Sprint 2 – Identify a problem worth solving
-
-**Overview**
-
-The purpose of this assignment is to help you identify and begin to validate a problem that you can solve with a digital product you will build in this class. A problem worth solving is one that creates meaningful value for people, organizations, or society. Value can take many forms such as saving time, reducing costs, improving health, or unlocking new opportunities. 
-
-A practical litmus test is whether someone is willing to pay money to see the problem solved, since willingness to pay is a strong signal that the problem is real, painful, and worth addressing.
-
-At the conclusion of this assignment you will have a strong hypothesis on what problem you plan to work on solving for the remainder of the course.
-
-The assignment consists of doing research to support your articulation of a problem with solving.
-
-**Requirements**
-
-Turn in a Word doc or PDF that includes the following:
-
-1. In 1-3 sentences, write down **a problem you believe in worth solving** based on your research. 
-
-2. A **summary of the evidence** you have gathered that leads you to believe this is a problem worth solving? Sources of evidence could include the following:
-
-- Your personal experience, preferences, and frustrations
-- Exploratory interviews with other people
-- Interviewing others while observing them complete where pain points may exist (contextual interview)
-- Ethnographic observation of others (i.e. you're not speaking with others you're simply observing and taking notes)
-- Networking and discussing with others
-- Surveys
-- Synthesis of information and data found online
-- Running an experiment
-- Networking with others you don't normally talk with
-
-You should think of your audience as a VC investor and you should be working to convince them that you've uncovered a real pain point that is worth investing in solving. It's up to you to build that case for action by communicating whatever evidence you can bring to the table. 
-
-List each source of evidence and your synthesis of what it's telling you.
-
-Below are few frameworks you may find helpful to organize your thinking as you do your research. You are not required to use these frameworks. They are simply offered as optional resources that many people have found useful.
-
-[Importance vs Satisfaction Framework](https://chatgpt.com/share/e/68d707d5-8884-8007-a6dd-b788015d2677)(click link to learn more)
-
-![Image source: The Lean Product Playbook by Dan
-Olsen](images/importance-satisfaction.png)
-
-[Jobs-to-be-Done](https://strategyn.com/jobs-to-be-done/)(click link to learn more)
-
-![Jeff Dyer](images/jobs-to-be-done1.png)
-
-[The Value Proposition Canvas](https://www.strategyzer.com/library/the-value-proposition-canvas)(click link to learn more)
-
-![Image source: Strategyzer](images/value-prop.png)
-
-3. **Identify at least 1 persona** of a customer that has the problem/job-to-be-done that you've identified. Document the following about this customer persona:
-
-**Name & Role (fictional but realistic)**  
-- Give them a name and role to make the persona feel tangible (e.g., *“Emily, 34, Busy Working Mom”*).  
-
-**Demographics**  
-- Age, occupation, location, income level, education (only those relevant to the problem).  
-
-**Goals / Motivations**  
-- What do they want to achieve?  
-- Why does solving this problem matter to them?  
-
-**Challenges / Pains**  
-- What specific frustrations, risks, or obstacles do they face?  
-- How do these challenges affect their daily life or work?  
-
-**Job-to-be-Done (JTBD)**  
-- A statement capturing the core task or outcome they’re trying to achieve, usually framed like:  
-
-  > *“When [situation], I want to [motivation], so I can [desired outcome].”*  
-
-**Current Solutions / Workarounds**  
-- What are they doing now to solve or manage the problem?  
-- Why are these solutions insufficient?  
-
-**Willingness to Pay**  
-- How much would this persona realistically pay to make the problem go away?  
-
-*Example Persona (Noise Disrupting Sleep Near Railroads)*
-
-**Name & Role**: Sarah, 42, Homeowner near rail line  
-
-**Demographics**: Married, 2 kids, suburban area, middle-class household income  
-
-**Goals / Motivations**: Wants her family to get consistent, restful sleep to improve health and productivity  
-
-**Challenges / Pains**: Train horns wake her children multiple times per night; she feels exhausted and less productive at work  
-
-**Job-to-be-Done**:  
-> *“When loud train horns wake my family at night, I want a way to block or eliminate the noise so we can sleep peacefully and stay healthy.”*  
-
-**Current Solutions / Workarounds**: Uses white noise machines and heavy curtains; they help a little but don’t stop the interruptions  
-
-**Willingness to Pay**: Would pay several thousand dollars for soundproofing or regulatory solutions, since the problem impacts family health and home value  
-
-#### **Grading Rubric**
-
-1. Problem Statement (5 points)
-- **5 points**: Problem is clearly articulated in 1–3 concise sentences, specific, and compelling.  
-- **3 points**: Problem is stated but vague, overly broad, or not clearly framed.  
-- **1 point**: Problem is unclear, incomplete, or missing.  
-
-2. Evidence & Research (20 points)
-- **16–20 points**: Multiple sources of evidence are presented (e.g., interviews, surveys, observations, secondary data). Evidence is synthesized well and convincingly supports that the problem is real and meaningful.  
-- **11–15 points**: At least two credible sources of evidence are presented with some synthesis, but the argument for the problem’s importance is only somewhat convincing.  
-- **6–10 points**: Minimal evidence (one source) or evidence lacks depth; weak synthesis; limited support for the problem’s importance.  
-- **0–5 points**: Evidence missing, irrelevant, or not tied to the problem statement.  
-
-3. Customer Persona (10 points)
-- **9–10 points**: Persona is realistic, detailed, and includes all required elements (name/role, demographics, goals, challenges, JTBD, current solutions, willingness to pay). Clearly linked to the identified problem.  
-- **6–8 points**: Persona includes most elements but lacks depth or specificity in some areas. Somewhat connected to the problem.  
-- **3–5 points**: Persona is superficial, missing several required elements, or feels unrealistic. Weak connection to the problem.  
-- **0–2 points**: Persona missing or incomplete.  
-
-4. Clarity & Professionalism (5 points)
-- **5 points**: Submission is well-organized, professionally written, and free of errors. Audience (VC investor) is considered.  
-- **3 points**: Submission is understandable but has some organizational, formatting, or writing issues. Limited consideration of audience.  
-- **1 point**: Submission is unclear, poorly formatted, or contains frequent writing issues. Audience not considered.  
-
-This assignment is worth 40 points which equates to 8% of your grade. 
-
-### Sprint 3 – First MVP with Database and Payments
-
-**Overview**
-
-The purpose of this homework assignment is to guide you through developing a full-stack MVP application with a front-end, back-end, database, and payment system.
-
-**Requirements**
-
-1. One or more working features that deliver on your customer value proposition
-2. A functional back-end with Supabase, user authentication, and Stripe payments integrated
-3. Application deployed to Vercel
-4. I should be able to sign-up for an account on a free tier or trial and use your application.
-5. AI generated code review saved in a .md file using the following prompt to Claude Code:
-
-> "How many lines of code is my app? How well desinged is the app on a scale of 1-10? Would this stand up in a world class engineering shop? Save your response in a .md file"
-
-**Deliverables: **
-
-On LearningSuite, submit a single .md file containing Claude Code's reponse to the prompt above. Add a link to your vercel hosted application at the very top of the file.
-
-#### **Grading Rubric**
-
-| **Category** | **Description** | **Points** |
-|---------------|-----------------|-------------|
-| **1. Working Features** | App has one or more working features that deliver clear value. | **0–10** |
-| **2. Technical Setup** | Supabase backend, user authentication, and Stripe payments are functional. | **0–10** |
-| **3. Deployment** | App is deployed on Vercel and can be used by the instructor (signup works). | **0–8** |
-| **4. AI Code Review File** | `.md` file includes Claude Code review and link to the app. | **0–8** |
-| **5. Design & Usability** | App looks clean and is easy to navigate. | **0–4** |
-|  |  | **Total: 40 Points** |
-
-This assignment is worth 40 points which equates to 8% of your grade. 
-
-
-### Sprint 4: Code Base Teardown & Architecture Analysis
-
-**Learning Objectives**
-
-By completing this assignment, you will:
-
-1. **Reverse engineer** your own application to deeply understand its architecture
-2. **Document** how all components work together using visual diagrams
-3. **Teach back** your understanding through clear verbal explanation
-
-**Expected Time Required**: 3-4 hours (2-3 hours analysis/documentation, 1 diagramming and video explanation)
-
-**Points**: 40 points (8% of your grade)
-
-**Overview**
-
-You've built an MVP with a frontend, backend, database, and payment integration. Now it's time to **deepen your understanding of what you've created**.
-
-This assignment asks you to:
-
-1. **Dissect** your codebase using Claude Code. 
-2. **Create an annotated architecture diagram** showing how everything connects
-3. **Record a 2-3 minute video** walking through your diagram and explaining your app's architecture
-
-**Why This Matters**: As a product manager working with engineers, you need to understand system architecture to make informed decisions about features, technical debt, scalability, and resource allocation. This assignment bridges the gap between "I built something with AI" and "I understand how systems work."
-
-**Step 1: Code Base Analysis (AI-Assisted)**
-
-Use Claude Code to analyze your codebase. Run the following 4 prompts to save the responses as markdown files. **Then read the newly created markdown files carefully, take the time to ask your preferred AI follow-up questions about things you don't understand.**
-
-**Prompt 1: Project Structure Analysis**
-
-```markdown
-Analyze my project structure and provide:
-1. A complete list of all directories and their purposes
-2. The role of each major file in the codebase
-3. Which files are frontend, backend, configuration, or deployment-related
-4. A count of total lines of code (excluding dependencies/node_modules)
-
-Format this as a clear outline I can reference and save it as a new markdown file called code-base-analysis.md. Explain things simply to a brand new beginner who is on a fast track to becoming a world class engineer.
-```
-
-**Prompt 2: Data Flow Analysis**
-
-```markdown
-Trace the complete data flow in my application:
-1. What happens when a user first loads the app? (step-by-step)
-2. What happens when a user performs the main action in my app? (trace from UI click to database and back)
-3. Where does user authentication happen?
-4. Where does payment processing happen?
-5. What data is stored in the database and why?
-
-Show me the flow with specific file names and function names. Save this as a new markdown file called data-flow-analysis.md. Explain things simply to a brand new beginner who is on a fast track to becoming a world class engineer.
-```
-
-**Prompt 3: Architecture Pattern Identification**
-
-```markdown
-Analyze my application architecture and identify:
-1. What architectural pattern am I using? (e.g., MVC, client-server, serverless, monolith)
-2. How is my code organized? (e.g., by feature, by layer, mixed)
-3. What are the main components/modules and how do they interact?
-4. Which parts of my code handle which responsibilities? (UI, business logic, data access, authentication, payments)
-5. Are there any architectural anti-patterns or code smells I should be aware of?
-
-Explain in terms I can understand as a product manager learning technical concepts. Save this as a new markdown file called architecture-pattern.md
-```
-
-**Prompt 4: Dependency Mapping**
-
-```markdown
-Create a comprehensive list of:
-1. All external services my app depends on (Vercel, Supabase, Stripe, etc.)
-2. All major libraries/packages and what they do
-3. All API endpoints in my backend (list each route and its purpose)
-4. All database tables and their relationships
-5. Any third-party integrations
-
-For each dependency, explain WHY it's needed and what would break if it failed. Save this as a new markdown file called dependency-mapping.md
-```
-
-**Step 2: Create an Architecture Diagram of your App**
-
-Now use what you've learned from the AI responses to create a **visual architecture diagram**. You have two options:
-
-**Option A: AI-Generated Diagram**
-
-**Run the following prompt in Claude Code**
-
-```markdown
-Based on our analysis, create a visual architecture diagram for my application using Mermaid syntax.
-
-The diagram should show:
-1. Frontend components (user interface, forms, displays)
-2. Backend API routes and their purposes
-3. Database tables and what data they store
-4. External services (Vercel, Supabase, Stripe, etc.)
-5. Data flow arrows showing requests and responses
-6. Authentication flow
-7. Payment flow
-
-Use the engineering landscape diagram style with clear sections for:
-- Application Architecture (Frontend/Backend)
-- Languages & Frameworks used
-- External Services
-- Database Schema
-- Request/Response flows
-
-Make it detailed enough to explain to a technical interviewer.
-```
-
-The AI will generate Mermaid code. Then ask:
-
-```markdown
-Convert this Mermaid diagram to a visual format I can export as a PNG or PDF.
-OR
-Show me how to render this Mermaid code as an image using an online tool.
-```
-
-**Option B: Manual Diagram Creation**
-
-If you prefer to create the diagram manually, use any of the following tools or another one you prefer:
-
-- [Mermaid Live Editor](https://mermaid.live/) - paste Mermaid code, export as PNG
-- [Excalidraw](https://excalidraw.com/) - hand-drawn style diagrams
-- [draw.io](https://app.diagrams.net/) - professional diagrams
-- PowerPoint/Google Slides - if you prefer manual creation
-
-**Tips for Visual Style:**
-- Use arrows to show direction of data flow
-- Include labels and short descriptions where needed for clarity
-- Make it visually clear and uncluttered
-
-**Step 3: Video Walkthrough and Explanation**
-
-Create a **2-3 minute video recording with screen share** where you walk through your architecture diagram and explain your application's architecture.
-
-**Recording Tools (choose one):**
-
-- **Loom** (recommended) - Free, easy, browser-based recording
-- **Zoom** - Record yourself with screen share
-- **QuickTime** (Mac) - Built-in screen recording
-
-**What to Cover in Your Video**
-
-Your video should address the following (think of it as teaching this to a classmate who hasn't seen your app):
-
-**Introduction** (15-20 seconds)
-
-- Brief description of what your app does
-
-**Architecture Overview** (30-40 seconds)
-
-- Screen share your diagram and explain the main sections
-
-**Data Flow Walkthrough** (60-80 seconds)
-Pick ONE main user action and trace it through the entire system:
-
-**Example**: "Let me explain what happens when a user signs up and makes their first purchase..."
-
-1. **User Action**: "User clicks 'Sign Up' on the frontend"
-2. **Frontend → Backend**: "The form sends a POST request to my `/api/signup` endpoint"
-3. **Authentication**: "The backend uses Supabase Auth to create the user account"
-4. **Database**: "User data is stored in the `users` table with their email and password"
-5. **Payment Flow**: "When they click 'Subscribe', we redirect to Stripe Checkout"
-7. **Backend → Database**: "The backend updates the `subscriptions` table with their payment status"
-8. **Response → Frontend**: "The user is redirected back to the app and sees their dashboard"
-
-**Key Insights** (20-30 seconds)
-
-- Mention one thing you learned from doing this analysis
-- Mention one architectural decision you discovered about your app and why it matters
-- Optional: Mention one thing you'd improve if you rebuilt this
-
-**Submission**
-
-Submit via LearningSuite:
-
-1. **Video Link** - A file containing your video or a link to it
-2. **Analysis Files** - All 4 markdown files: `code-base-analysis.md`, `data-flow-analysis.md`, `architecture-pattern.md`, `dependency-mapping.md`
-
-**Note**: Your architecture diagram should be shown in your video, so no separate diagram file is needed.
-
-**Grading Rubric (40 Points Total)**
-
-| **Category** | **Description** | **Points** |
-|--------------|-----------------|------------|
-| **Analysis Files** | All 4 markdown files submitted with comprehensive analysis showing deep investigation of codebase | **0-20** |
-| **Technical Understanding in Video** | Demonstrates clear understanding of architecture and accurately traces data flow through system | **0-10** |
-| **Diagram Quality (shown in video)** | Diagram is visible, comprehensive, and clearly shows frontend, backend, database, services, and data flows | **0-10** |
-| | | **Total: 40** |
-
-This assignment assesses:
-
-- **Learning Outcome 4**: Create a digital product that delivers value to a target customer group
-  - By demonstrating deep understanding of your own product's technical architecture
-  - By documenting system design decisions
-  - By communicating technical concepts clearly
-
-**Remember**: The goal of this assignment is not to prove your app is perfectly architected. The goal is to demonstrate that you **understand how software systems work** by analyzing, documenting, and explaining the system you've built.
-
-This is a critical skill for product managers who need to have technical conversations with engineering teams, make informed decisions about features and timelines, and understand the implications of architectural choices.
-
-## Engagement Checks
-
-Engagement Checks provide a brief opportunity at the end of class for you to demonstrate your understanding of key concepts discussed that day and to reinforce active participation in the learning process.
-
-Engagement Checks occur during the final ten minutes of class. They consist of writing your answers to five questions, the topics of which were discussed during class that day.
-
-The questions are presented on a slide and students are provided a note card to write their answers. Each student should bring their own pen or pencil. Students should include their name and the day their section (i.e. Monday) meets in order to get credit. 
-
-A list of the Engagement Check dates and associated readings are shown on the [course schedule](00-schedule.qmd). 
-
-::: {.callout-note title="Why We Do Engagement Checks"}
-Research shows that writing down what you’ve just learned helps your brain remember it better. Psychologists call this the "testing effect" or "retrieval practice": when you pull ideas out of your head and put them into words, you strengthen your memory far more than by just rereading or listening. Writing answers to a few questions at the end of class also helps you notice what you do and don’t understand, making your study time more effective later. These quick Engagement Checks aren’t busywork, they’re a proven way to lock in the key ideas from class so you actually remember them.
+::: {.callout-note title="Why We Do Quizzes"}
+Research shows that writing down what you've just learned helps your brain remember it better. Psychologists call this the "testing effect" or "retrieval practice": when you pull ideas out of your head and put them into words, you strengthen your memory far more than by just rereading or listening.
 :::
 
-## Final Product Demo
+---
 
-**Purpose:**  
-The purpose of this assessment is for you to demo the culmination of all of your work on your product this semester. 
+## Sprints
 
-To complete the assessment, record a **5-10 minute video** (Zoom, Loom, phone camera, etc.) that includes the following **three parts**:
+Sprints are your primary way to demonstrate progress throughout the semester. Each sprint builds on the previous one, and your portfolio is the submission point for all sprint work.
 
-1. Context (30-60 seconds)
+**Portfolio:** You'll use the same portfolio URL all semester. TAs will check your portfolio at each sprint deadline.
 
-- Remind us what your venture/product is. 
+**Videos:** All sprint submissions require a 2-minute Loom video walking through your deliverables.
 
-2. End-to-end Product Demo (2-4 minutes)
+**Portfolio Template:** [github.com/byu-strategy/product-management-portfolio](https://github.com/byu-strategy/product-management-portfolio)
 
-- Via screenshare or other video
-  - Illustrate the end to end user journey(s) that a user of your product can go through. i.e. click through and explain your product features, showing how a user will use it. If there are any feature that don't work as intended, commment on these.
-  - Open up Supabase (or other database if not Supabase) and show and explain your database schema. Open up a specific table and show and comment on what data you see in the table. Where on the UI does that data originate from?
+---
 
-3. Reflections (2-4 minutes)
+### Sprint 1: Ship & Showcase
 
-- How has your overall experience in this class? What's been good, what's been not so good?
-- On a scale of 1-10 how happy and satisfied are you with the product that you have built this semester?
-- What are the two or three most valuable things you have learned this semester while building your product?
-- How can I improve this course so that future students have an even better learning experience?
+**Weeks 1-3 | 50 points | Due: Thu, Jan 22**
 
-This final demo/video is worth 150 points which equates to 30% of your grade.
+**Goal:** Get comfortable shipping and build your portfolio foundation.
 
-We will evaluate this final demo on the following criteria:
+**Deliverables:**
 
-- **Clarity of value prop:** Can I quickly understand what you’re product is and the customer value you are seeking to provide? (10 points)
-- **Evidence of production ready product during demo:** Does your product work and illustrate real thought and effort in delivering value to your intended target user?  (100 points)
-- **Reflections:** Do you address all 4 of the reflection questions? (40 points)
+- Portfolio site deployed (using Quarto template)
+- About section complete
+- 1 throwaway prototype deployed and added to portfolio
+- "Problems I'm Exploring" page on portfolio:
+  - 5 problems you personally experience
+  - Framed professionally (public-facing)
+  - Brief description of each + why it matters to you
+
+**Portfolio sections after Sprint 1:**
+
+- About Me
+- Projects (1 prototype)
+- Problems I'm Exploring
+
+**Turn in:**
+
+- 2-min Loom video (required)
+- Portfolio URL (this URL will be used all semester)
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| Portfolio deployed and accessible | 10 |
+| About section complete and professional | 10 |
+| Prototype deployed and functional | 10 |
+| Problems page with 5 well-articulated problems | 15 |
+| Loom video walkthrough | 5 |
+
+---
+
+### Sprint 2: Validate & Commit
+
+**Weeks 3-5 | 50 points | Due: Thu, Feb 5**
+
+**Goal:** Validate a problem worth solving and start building your real product.
+
+**Deliverables:**
+
+- 5 problem interviews completed
+- Interview synthesis on portfolio using this format:
+  - Problem statement
+  - Who you talked to (roles, not names)
+  - Key insights (3-5 bullets)
+  - Notable quotes
+  - What you learned
+- Problem statement locked
+- Target customer defined
+- First real prototype (v0.1) deployed
+- Basic Supabase auth working
+
+**Portfolio additions:**
+
+- Featured Project section started
+- Interview synthesis
+- Problem statement
+- Target customer description
+- v0.1 link
+
+**Turn in:**
+
+- 2-min Loom video (required)
+- Portfolio updated
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| 5 interviews completed with synthesis | 15 |
+| Clear problem statement | 10 |
+| Target customer defined | 5 |
+| v0.1 deployed with Supabase auth | 15 |
+| Loom video walkthrough | 5 |
+
+---
+
+### Sprint 3: Core Product
+
+**Weeks 5-7 | 50 points | Due: Thu, Feb 19**
+
+**Goal:** Build the core feature that delivers your value proposition.
+
+**Deliverables:**
+
+- PRD document (AI-assisted)
+- Core feature functional with data persistence
+- 3 user tests completed
+- User feedback synthesis
+- Platform strategy decision (web-only, PWA, or Capacitor)
+
+**Portfolio additions:**
+
+- PRD artifact (PDF or page)
+- User feedback summary (polished)
+- Updated product link
+- Screenshots of core feature
+
+**Turn in:**
+
+- 2-min Loom video (required)
+- Portfolio updated
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| PRD document complete | 10 |
+| Core feature functional with data persistence | 15 |
+| 3 user tests with synthesis | 15 |
+| Platform strategy documented | 5 |
+| Loom video walkthrough | 5 |
+
+---
+
+### Sprint 4: Measure & Position
+
+**Weeks 7-9 | 50 points | Due: Thu, Mar 5**
+
+**Goal:** Know your numbers and prepare for launch.
+
+**Deliverables:**
+
+- Analytics integrated and tracking key events
+- Metrics dashboard (screenshot or link)
+- Landing page live
+- Go-to-market plan
+- Product iteration based on data
+
+**Portfolio additions:**
+
+- GTM Plan artifact
+- Metrics/results section started
+- Landing page link
+- Analytics dashboard screenshot
+
+**Turn in:**
+
+- 2-min Loom video (required)
+- Portfolio updated
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| Analytics integrated with key events | 10 |
+| Metrics dashboard | 10 |
+| Landing page live | 10 |
+| GTM plan complete | 15 |
+| Loom video walkthrough | 5 |
+
+---
+
+### Sprint 5: Monetize & Scale
+
+**Weeks 9-11 | 50 points | Due: Thu, Mar 19**
+
+**Goal:** Business model live and growth foundations in place.
+
+**Deliverables:**
+
+- Business model canvas
+- Pricing page/strategy implemented
+- Payment flow working (Stripe integration required)
+- One growth experiment run
+- Onboarding flow improved
+
+**Portfolio additions:**
+
+- Business Model artifact
+- Results section updated
+- Growth experiment results
+
+**Turn in:**
+
+- 2-min Loom video (required)
+- Portfolio updated
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| Business model canvas | 10 |
+| Pricing strategy implemented | 10 |
+| Stripe payment flow working | 15 |
+| Growth experiment with results | 10 |
+| Loom video walkthrough | 5 |
+
+---
+
+## Peer Assignments
+
+Peer assignments teach you to give and receive constructive feedback—a critical professional skill. You'll be randomly paired with different classmates for each assignment.
+
+---
+
+### Peer Code Review
+
+**Week 8-9 | 50 points | Due: Thu, Feb 26**
+
+**Goal:** Apply code analysis skills to a peer's codebase and provide constructive feedback.
+
+**Process:**
+
+1. You'll be assigned a partner (different from your product testing partner)
+2. Your partner shares their GitHub repo with you
+3. You use Claude Code to analyze their codebase
+4. You write a professional code review
+5. You actually run and test their app
+
+**Deliverables:**
+
+**Part 1: AI-Assisted Analysis**
+
+Run the following prompts in Claude Code on your peer's repo and save the outputs:
+
+```markdown
+Prompt 1: "Analyze this project structure. List all directories and their purposes,
+identify frontend vs backend files, and count total lines of code.
+Save as peer-review-structure.md"
+
+Prompt 2: "Trace the main user flow from UI to database.
+What happens when a user performs the core action?
+Save as peer-review-dataflow.md"
+
+Prompt 3: "Identify the architecture pattern, code organization,
+and any potential security concerns or code smells.
+Save as peer-review-architecture.md"
+```
+
+**Part 2: Written Review**
+
+Write a 1-2 page review covering:
+
+- **Architecture observations:** What patterns did you notice? How is the code organized?
+- **Code quality:** What's done well? What could be cleaner?
+- **Security considerations:** Any obvious vulnerabilities?
+- **3 specific suggestions:** Actionable improvements with rationale
+
+**Part 3: Kick the Tires**
+
+- Sign up and use the app as a real user
+- Document: Did it work? What broke? What was confusing?
+
+**Turn in:**
+
+- The 3 AI-generated markdown files
+- Your written review (PDF or markdown)
+- Brief notes from your testing session
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| AI analysis files complete and thorough | 15 |
+| Written review professional and constructive | 20 |
+| Testing notes with specific observations | 10 |
+| Tone is helpful, not harsh | 5 |
+
+::: {.callout-tip title="Code Review Mindset"}
+Your goal is to help your peer improve, not to criticize. Frame feedback as "Have you considered..." or "One thing that might help..." Great code reviewers make others want to work with them.
+:::
+
+---
+
+### Peer Product Testing
+
+**Week 12-13 | 50 points | Due: Thu, Apr 2**
+
+**Goal:** Be a real test user for a peer's product and provide actionable UX feedback.
+
+**Process:**
+
+1. You'll be assigned a different partner than code review
+2. You become an actual user of their product
+3. You sign up, use core features, and try to break things
+4. You document your experience and provide feedback
+
+**Deliverables:**
+
+**Part 1: Test Session Documentation**
+
+Use the product for at least 20-30 minutes and document:
+
+- **First impressions (30 seconds):** What did you think when you first landed on the app?
+- **Signup/onboarding:** Was it smooth? Confusing? How long did it take?
+- **Core task completion:** Try to complete the main action(s). Did it work?
+- **Bugs found:** Screenshots + steps to reproduce
+- **Confusing moments:** Where did you get stuck or have to think?
+- **What worked well:** What was intuitive or delightful?
+
+**Part 2: Feedback Summary**
+
+Write up:
+
+- 3 things that worked well (be specific)
+- 3 prioritized improvement suggestions (most impactful first)
+- Overall impression: Would you use this? Would you pay for it? Why or why not?
+
+**Part 3: Video Walkthrough (Optional but encouraged)**
+
+- 2-3 min Loom showing your testing session
+- Narrate your thoughts as you use the app
+
+**Turn in:**
+
+- Test session documentation
+- Feedback summary
+- Video link (if recorded)
+
+**Grading Rubric (50 points)**
+
+| Category | Points |
+|----------|--------|
+| Thorough test documentation with specifics | 20 |
+| Constructive feedback summary | 20 |
+| Evidence of genuine engagement (not surface-level) | 10 |
+
+::: {.callout-tip title="Testing Mindset"}
+Your job is to help your peer see their product through fresh eyes. Be honest but kind. The best feedback is specific ("The button on the checkout page didn't respond when I clicked it") not vague ("The checkout was buggy").
+:::
+
+---
+
+## Final Project
+
+**Weeks 11-15 | 100 points | Due: Tue, Apr 14**
+
+**Goal:** Launch to real users and tell your story.
+
+**Deliverables:**
+
+- Product live with real users (target: 5+, friends/family/classmates count)
+- Final presentation deck
+- 10-minute live demo + presentation (Week 14)
+- Written reflection
+
+**Portfolio additions:**
+
+- Final results + metrics
+- Technical details + GitHub link
+- Complete case study
+- Everything polished
+
+**Turn in:**
+
+- 5-min Loom video (required)
+- Presentation deck
+- Portfolio complete
+
+**Grading Philosophy:** You are graded on effort and learning, not user acquisition outcomes. A thoughtful product with 3 engaged users beats a rushed product claiming 50 signups.
+
+**Grading Rubric (100 points)**
+
+| Category | Points |
+|----------|--------|
+| **Product Quality** | |
+| Core feature works and delivers value | 25 |
+| Technical implementation (auth, database, payments) | 15 |
+| Design and usability | 10 |
+| **Presentation** | |
+| Clear value proposition articulated | 15 |
+| Demo shows real functionality | 10 |
+| Reflection on learnings | 10 |
+| **Portfolio** | |
+| Complete case study | 10 |
+| Professional polish | 5 |
+
+**Presentation Format (Week 14):**
+
+- 10 minutes total: ~3 min context/problem, ~5 min live demo, ~2 min reflections
+- Be prepared for Q&A
+
+---
 
 ## Feedback Surveys
 
 ### Mid-Semester Feedback Survey
 
-If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
+Complete this survey to have your lowest quiz score converted to a perfect score.
 
 [Survey Link](https://docs.google.com/forms/d/e/1FAIpQLScxL8YJf0AW-4tuag9hBb9V1kWNZlAYpRvxUNJ3hb6Wv9hl6Q/viewform?usp=header)
 
 ### Student Ratings
 
-If you complete this survey, we will take your lowest Engagement Check score and convert it to a perfect score.
-
-
+Complete the end-of-semester student ratings to have your lowest quiz score converted to a perfect score.

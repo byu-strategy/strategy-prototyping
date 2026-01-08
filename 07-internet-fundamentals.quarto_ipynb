@@ -77,7 +77,7 @@
         "\n",
         "### Exercise 1"
       ],
-      "id": "0759ab7b"
+      "id": "4b2529f5"
     },
     {
       "cell_type": "code",
@@ -116,7 +116,7 @@
         "print(f\"\\nFull HTML response saved to {filename}.\")\n",
         "print(f\"\\nOpen the HTML file in your browser.\")"
       ],
-      "id": "b4662ef7",
+      "id": "7e76edb0",
       "execution_count": null,
       "outputs": []
     },
@@ -643,7 +643,7 @@
         "\n",
         "These are mission-critical skills for anyone building or launching a tech product.\n"
       ],
-      "id": "0d7c2e2a"
+      "id": "38929345"
     }
   ],
   "metadata": {

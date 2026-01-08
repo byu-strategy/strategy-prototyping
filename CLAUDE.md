@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Quarto book project for **STRAT 490R - Creating Digital Products with AI: Strategy & Prototyping**, a BYU course taught by Scott Murff. The project generates a static website containing course materials, schedules, assessments, and chapter content.
+This is a Quarto book project for **STRAT 490R - Creating Digital Products with AI**, a BYU course taught by Scott Murff. The project generates a static website containing course materials, schedules, assessments, and chapter content.
 
 ## Architecture
 

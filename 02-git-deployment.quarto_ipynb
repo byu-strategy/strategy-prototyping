@@ -18,7 +18,7 @@
         "\n",
         "We will be using git to version control your projects throughout this course. Take a moment to to make sure you have Git installed on your computer by running the following from the command line:"
       ],
-      "id": "2d6ca7f1"
+      "id": "761970f8"
     },
     {
       "cell_type": "code",
@@ -33,7 +33,7 @@
         "# Install git on Mac if needed\n",
         "brew install git"
       ],
-      "id": "63e81b24",
+      "id": "12a8b710",
       "execution_count": null,
       "outputs": []
     },
@@ -234,7 +234,7 @@
         "\n",
         "Deploy the app and visit the URL to view your published app.\n"
       ],
-      "id": "3e2f9c22"
+      "id": "86c5bc0c"
     }
   ],
   "metadata": {
