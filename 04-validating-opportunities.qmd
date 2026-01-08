@@ -6,7 +6,7 @@ title: "Validating Opportunities"
 
 You've conducted interviews and identified a problem that people genuinely experience. But not every real problem is worth building a product around. Some problems are rare. Some are mildly annoying. Some have perfectly good solutions that people are happy with.
 
-This chapter teaches you to evaluate whether a problem represents a *real business opportunity*—one worth committing your time and energy to solve. You'll learn frameworks for scoring opportunities, the discipline of commitment, and the technical foundations you need to start building your first real product.
+This chapter teaches you to evaluate whether a problem represents a *real business opportunity*, one worth committing your time and energy to solve. You'll learn frameworks for scoring opportunities, the discipline of commitment, and the technical foundations you need to start building your first real product.
 
 ## Part 1: The Strategy
 
@@ -75,14 +75,14 @@ Create a simple scorecard for each problem you're considering:
 | **Total** | **/25** | |
 
 **Scoring guide:**
-- **20-25**: Strong opportunity — pursue with confidence
-- **15-19**: Promising — worth exploring further
-- **10-14**: Questionable — dig deeper before committing
-- **Below 10**: Weak — consider other problems
+- **20-25**: Strong opportunity**: pursue with confidence
+- **15-19**: Promising**: worth exploring further
+- **10-14**: Questionable**: dig deeper before committing
+- **Below 10**: Weak**: consider other problems
 
 ### The Commitment Decision
 
-At some point, you need to stop exploring and start building. This is the commitment decision—choosing one problem to focus on.
+At some point, you need to stop exploring and start building. This is the commitment decision, choosing one problem to focus on.
 
 **Signs you're ready to commit:**
 - You've talked to 5+ people who experience the problem
@@ -104,13 +104,13 @@ The opposite trap is committing too early. Watch for these warning signs:
 
 **Confirmation bias:** You're only hearing what supports your hypothesis. Actively seek disconfirming evidence.
 
-**Sunken cost:** You've invested time, so you don't want to pivot. Cut your losses early—it's cheaper than building the wrong thing.
+**Sunken cost:** You've invested time, so you don't want to pivot. Cut your losses early. It's cheaper than building the wrong thing.
 
 **Founder fantasy:** You imagine the success, not the work. Fall in love with the problem, not the outcome.
 
 ### Your Value Proposition
 
-Once you commit to a problem, articulate your value proposition—a clear statement of what you offer and why it matters.
+Once you commit to a problem, articulate your value proposition, a clear statement of what you offer and why it matters.
 
 **Template:**
 
@@ -138,7 +138,7 @@ It's time to start building your real product. This section introduces the front
 
 ### Frontend Fundamentals
 
-Every web application has a frontend—the part users see and interact with. Modern frontends are built with HTML (structure), CSS (styling), and JavaScript (interactivity).
+Every web application has a frontend, the part users see and interact with. Modern frontends are built with HTML (structure), CSS (styling), and JavaScript (interactivity).
 
 #### HTML: The Structure
 
@@ -159,12 +159,12 @@ HTML (HyperText Markup Language) defines the structure of a web page using eleme
 ```
 
 Common HTML elements:
-- `<h1>` to `<h6>` — Headings
-- `<p>` — Paragraphs
-- `<a>` — Links
-- `<button>` — Buttons
-- `<input>` — Form inputs
-- `<div>` — Generic containers
+- `<h1>` to `<h6>`**: Headings
+- `<p>`**: Paragraphs
+- `<a>`**: Links
+- `<button>`**: Buttons
+- `<input>`**: Form inputs
+- `<div>`**: Generic containers
 
 #### CSS: The Styling
 
@@ -236,10 +236,10 @@ function Counter() {
 
 #### Why React?
 
-- **Reusable components** — Build once, use everywhere
-- **Declarative** — Describe what you want, not how to do it
-- **Ecosystem** — Huge community, lots of libraries
-- **Industry standard** — Used by Facebook, Netflix, Airbnb, etc.
+- **Reusable components**: Build once, use everywhere
+- **Declarative**: Describe what you want, not how to do it
+- **Ecosystem**: Huge community, lots of libraries
+- **Industry standard**: Used by Facebook, Netflix, Airbnb, etc.
 
 For this class, we'll use **Next.js**, a React framework that handles routing, server rendering, and deployment.
 
@@ -380,9 +380,9 @@ Claude will break this into subtasks and potentially work on multiple parts simu
 
 Agents share context with the main Claude session but can work independently. To keep things organized:
 
-1. **Use CLAUDE.md** — Define your project structure and conventions
-2. **Be specific** — "Create the auth flow following the pattern in /lib/auth"
-3. **Review incrementally** — Check agent work as it completes
+1. **Use CLAUDE.md**: Define your project structure and conventions
+2. **Be specific**: "Create the auth flow following the pattern in /lib/auth"
+3. **Review incrementally**: Check agent work as it completes
 
 #### Task Decomposition
 
@@ -406,11 +406,11 @@ This gives Claude a clear scope and lets you verify each piece works before movi
 
 By the end of this week, you should have:
 
-1. ✅ **5 problem interviews** — Completed and synthesized
-2. ✅ **Problem statement locked** — Using the value prop template
-3. ✅ **Target customer defined** — Clear persona
-4. ✅ **v0.1 prototype deployed** — With working authentication
-5. ✅ **Portfolio updated** — Featured project section started
+1. ✅ **5 problem interviews**: Completed and synthesized
+2. ✅ **Problem statement locked**: Using the value prop template
+3. ✅ **Target customer defined**: Clear persona
+4. ✅ **v0.1 prototype deployed**: With working authentication
+5. ✅ **Portfolio updated**: Featured project section started
 
 **Getting Started with v0.1:**
 

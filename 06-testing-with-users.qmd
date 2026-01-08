@@ -4,9 +4,9 @@ title: "Testing with Users"
 
 ## Why This Matters
 
-You've built something. It works—at least on your machine. But here's an uncomfortable truth: you have no idea if it actually solves your users' problem until you watch real people try to use it.
+You've built something. It works, at least on your machine. But here's an uncomfortable truth: you have no idea if it actually solves your users' problem until you watch real people try to use it.
 
-This chapter teaches you to run effective usability tests, synthesize feedback without overreacting, and iterate systematically. You'll also learn how to integrate external services through APIs—because most products need to connect to something outside themselves.
+This chapter teaches you to run effective usability tests, synthesize feedback without overreacting, and iterate systematically. You'll also learn how to integrate external services through APIs, because most products need to connect to something outside themselves.
 
 ## Part 1: The Strategy
 
@@ -14,7 +14,7 @@ This chapter teaches you to run effective usability tests, synthesize feedback w
 
 You built this thing. You know exactly where every button is, what every label means, why the workflow goes left to right. Your users don't. They're seeing it for the first time, bringing different mental models, and expecting it to work like other things they've used.
 
-This is the **curse of knowledge**—once you know something, it's nearly impossible to imagine not knowing it. The only cure is watching people who don't know.
+This is the **curse of knowledge**, once you know something, it's nearly impossible to imagine not knowing it. The only cure is watching people who don't know.
 
 ### What is Usability Testing?
 
@@ -36,11 +36,11 @@ Usability testing is observing real users attempt to accomplish real tasks with 
 
 #### Before the Session
 
-1. **Define your goals** — What questions are you trying to answer?
-2. **Prepare 3-5 tasks** — Specific things you want them to try
-3. **Recruit the right people** — They should match your target user
-4. **Set up recording** — Screen + audio (get permission)
-5. **Prepare your script** — Consistent intro and task instructions
+1. **Define your goals**: What questions are you trying to answer?
+2. **Prepare 3-5 tasks**: Specific things you want them to try
+3. **Recruit the right people**: They should match your target user
+4. **Set up recording**: Screen + audio (get permission)
+5. **Prepare your script**: Consistent intro and task instructions
 
 #### The Test Script Structure
 
@@ -48,7 +48,7 @@ Usability testing is observing real users attempt to accomplish real tasks with 
 INTRO (2 minutes)
 "Thanks for helping me test this. I'm trying to improve [product],
 and watching you use it helps me find problems. I'm testing the
-product, not you—there are no wrong answers. Please think out loud
+product, not you, there are no wrong answers. Please think out loud
 as you go. I'll mostly stay quiet and take notes."
 
 WARM-UP (2 minutes)
@@ -164,7 +164,7 @@ Not all feedback is equal. One user's opinion isn't a mandate.
 - Requests that conflict with your core value prop
 
 **Useful responses to feedback:**
-- "That's interesting—tell me more about when that would happen."
+- "That's interesting, tell me more about when that would happen."
 - "What are you trying to accomplish when you need that?"
 - "How do you handle that today?"
 
@@ -186,7 +186,7 @@ Once your product has users, you can test at scale:
 
 ### Supabase Storage
 
-Your product probably needs to handle files—profile pictures, documents, uploads. Supabase Storage provides an S3-compatible file system that integrates with your database and auth.
+Your product probably needs to handle files, profile pictures, documents, uploads. Supabase Storage provides an S3-compatible file system that integrates with your database and auth.
 
 #### Setting Up Storage
 
@@ -297,7 +297,7 @@ Instead of building everything yourself, you use APIs:
 
 #### HTTP: The Language of APIs
 
-APIs communicate using HTTP—the same protocol your browser uses. Key concepts:
+APIs communicate using HTTP, the same protocol your browser uses. Key concepts:
 
 **HTTP Methods:**
 
@@ -347,7 +347,7 @@ headers: {
 
 **OAuth:** For accessing user data from other services (Google, GitHub).
 
-**JWT (JSON Web Tokens):** For your own APIs—stateless authentication.
+**JWT (JSON Web Tokens):** For your own APIs, stateless authentication.
 
 #### Third-Party API Integration Example
 
@@ -424,7 +424,7 @@ Skills are Claude Code's most powerful feature for reusable workflows. A skill c
 
 #### What Are Skills?
 
-Skills let you teach Claude Code how to do specific tasks—once—then invoke them anytime with a slash command:
+Skills let you teach Claude Code how to do specific tasks, once, then invoke them anytime with a slash command:
 
 ```bash
 /summarize-feedback   # Run your custom skill
@@ -465,7 +465,7 @@ Notable verbatim quotes from users that illustrate key points.
 - Focus on behavior, not opinions
 - Prioritize by frequency (multiple users) and severity (blocks core task)
 - Be specific about what to change, not just what's wrong
-- Include positive findings too—what worked well
+- Include positive findings too, what worked well
 
 ## Input
 Paste your usability test notes below, then I'll synthesize them.
@@ -491,13 +491,13 @@ Now use it:
 
 #### Useful Skills to Create
 
-**`feedback-synthesis.md`** — Synthesize multiple user interviews or test sessions
+**`feedback-synthesis.md`**: Synthesize multiple user interviews or test sessions
 
-**`component-review.md`** — Review a React component for best practices
+**`component-review.md`**: Review a React component for best practices
 
-**`api-design.md`** — Design an API endpoint following REST conventions
+**`api-design.md`**: Design an API endpoint following REST conventions
 
-**`test-generator.md`** — Generate test cases for a component
+**`test-generator.md`**: Generate test cases for a component
 
 #### Sharing Skills
 
@@ -514,11 +514,11 @@ cp .claude/skills/my-skill.md ~/.claude/skills/
 
 **Sprint 3 requires:**
 
-1. **PRD document** — AI-assisted, covering your core feature
-2. **Core feature functional** — With data persistence
-3. **3 user tests** — Watch people use it
-4. **User feedback synthesis** — What worked? What didn't?
-5. **Platform strategy decision** — Web-only, PWA, or Capacitor?
+1. **PRD document**: AI-assisted, covering your core feature
+2. **Core feature functional**: With data persistence
+3. **3 user tests**: Watch people use it
+4. **User feedback synthesis**: What worked? What didn't?
+5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
 
 **Running Your User Tests:**
 
@@ -547,7 +547,7 @@ claude
 
 - **Curse of Knowledge**: You can't see your product like new users do
 - **Usability Testing**: Observing users attempt tasks, not asking opinions
-- **Task Completion**: The core metric—can they do the thing?
+- **Task Completion**: The core metric, can they do the thing?
 - **Severity Scoring**: Critical > Major > Minor > Cosmetic
 - **Build-Measure-Learn**: Fast iteration cycles
 - **Pivot vs. Persevere**: When to change direction vs. keep improving

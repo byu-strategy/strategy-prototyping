@@ -6,7 +6,7 @@ title: "Product Management in the AI Era"
 
 We're living through the most significant shift in how software gets built since the invention of the web browser. Tools like Claude Code, Cursor, and others are making it possible for individuals to build in hours what used to take teams weeks.
 
-This chapter grounds you in what product management is, where it came from, and how AI is transforming it. You'll set up your development environment and build your first application—experiencing firsthand the new reality of AI-assisted development.
+This chapter grounds you in what product management is, where it came from, and how AI is transforming it. You'll set up your development environment and build your first application, experiencing firsthand the new reality of AI-assisted development.
 
 ::: tweet-center
 <blockquote class="twitter-tweet">
@@ -127,7 +127,7 @@ We are adding a coding section to all of our Product Managers interviews at <a h
 
 An AI Product PM builds products where AI is a core feature. This means they need a good understanding of what AI can and can’t do, how to measure its performance, and how to design around its limitations. They balance accuracy, speed, cost, and safety. They work closely with engineers and designers to shape the product, test ideas, and ship features.
 
-Becoming an AI Product PM is challenging because you must do everything a traditional PM does—defining problems, leading teams, and shipping products—while also deeply understanding how AI works. This means grasping its strengths, limits, risks, and how to design around them. Because the bar is so high, AI Product PMs have quickly become the best-compensated roles in product management.
+Becoming an AI Product PM is challenging because you must do everything a traditional PM does (defining problems, leading teams, and shipping products) while also deeply understanding how AI works. This means grasping its strengths, limits, risks, and how to design around them. Because the bar is so high, AI Product PMs have quickly become the best-compensated roles in product management.
 
 Pawel Huryn has put together a comprehensive roadmap for becoming an AI Product PM shown below:
 
@@ -187,7 +187,7 @@ If you see a version number (like `git version 2.46.0`), you’re ready to go.
 2. Press `Ctrl + Shift + P` to open the Command Palette.
 3. Type `Terminal: Select Default Profile` and press **Enter**.
 4. Choose **Git Bash** from the list.
-5. Open a new terminal tab (`Ctrl + ~`) — it should now start with `bash$` or `MINGW64` instead of `PS`.
+5. Open a new terminal tab (`Ctrl + ~`). It should now start with `bash$` or `MINGW64` instead of `PS`.
 
 Now your VS Code terminal behaves almost identical to macOS (with a few exceptions noted below), and you can copy-paste the commands below directly.
 
@@ -239,14 +239,14 @@ explorer.exe my-project
 ```
 
 **Create or overwrite a file with text**
-`>` acts like “Save As” — it overwrites the file.
+`>` acts like "Save As" and overwrites the file.
 
 ```bash
 echo "Hello AI PMs" > hello.txt
 ```
 
 **Append text to a file**
-`>>` acts like “Add to end” — it appends text instead of overwriting.
+`>>` acts like "Add to end" and appends text instead of overwriting.
 
 ```bash
 echo "Second line" >> hello.txt
@@ -276,7 +276,7 @@ cp notes.txt backup.txt
 rm hello.txt
 ```
 
-**Remove a folder (recursively — be careful!)**
+**Remove a folder (recursively, be careful!)**
 
 ```bash
 rm -r my-project
@@ -312,7 +312,7 @@ start winword mydoc.docx
 
 #### Gotchas
 
--   Paths with spaces: quote them — cd "My Folder"
+-   Paths with spaces: quote them, e.g. cd "My Folder"
 -   Case sensitivity: macOS/Linux are usually case-sensitive; Windows is not.
 -   rm is more permanent than dragging something to the Trash/Recycle Bin. By default, it doesn’t send files to a “trash”, it permanently deletes them. Use with caution!
 
@@ -637,7 +637,7 @@ Claude Code is your primary tool for this course, but it's worth knowing about t
 
 | Tool | Type | Best For | Notes |
 |------|------|----------|-------|
-| **Claude Code** | CLI Agent | Full-stack development | Primary tool—agentic, can edit files directly |
+| **Claude Code** | CLI Agent | Full-stack development | Primary tool, agentic, can edit files directly |
 | **Cursor** | IDE | Integrated editing | VS Code fork with AI built in |
 | **Windsurf** | IDE | Context-aware editing | Good for larger codebases |
 | **Lovable** | No-code | Quick UI prototypes | Great for testing visual ideas fast |
@@ -650,10 +650,10 @@ Claude Code is your primary tool for this course, but it's worth knowing about t
 
 **Sprint 1 requires:**
 
-1. **Portfolio site deployed** — Use the Quarto template
-2. **About section complete** — Tell your story
-3. **1 prototype deployed** — Your first app counts!
-4. **"Problems I'm Exploring" page** — With 5 problems you personally experience
+1. **Portfolio site deployed**: Use the Quarto template
+2. **About section complete**: Tell your story
+3. **1 prototype deployed**: Your first app counts!
+4. **"Problems I'm Exploring" page**: With 5 problems you personally experience
 
 Your Streamlit app from today counts as a deployed prototype! Push it to GitHub and deploy on Streamlit Community Cloud.
 

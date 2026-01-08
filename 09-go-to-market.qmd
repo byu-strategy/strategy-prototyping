@@ -75,7 +75,7 @@ Here's a simple template:
 **Why this matters:** The more specific your ICP, the easier it is to find them, speak to them, and build for them.
 
 ::: {.callout-note collapse="true" title="Who is NOT your customer?"}
-A useful exercise is defining who your product is *not* for. This helps you avoid wasting time and money on the wrong audience. For example, if you're building a no-code tool for small businesses, enterprise CTOs are probably not your customer—even if they express interest.
+A useful exercise is defining who your product is *not* for. This helps you avoid wasting time and money on the wrong audience. For example, if you're building a no-code tool for small businesses, enterprise CTOs are probably not your customer, even if they express interest.
 :::
 
 ### Jobs-to-be-Done Recap in 5 Minutes
@@ -393,7 +393,7 @@ Find emails using tools like Hunter.io, Apollo, or LinkedIn Sales Navigator. Sen
 
 Connect with your ICP on LinkedIn. Send a brief, non-salesy message:
 
-> "Hi [Name], saw your post about [topic]. I'm building something for [customer type]—would love your feedback if you have 10 minutes."
+> "Hi [Name], saw your post about [topic]. I'm building something for [customer type] and would love your feedback if you have 10 minutes."
 
 **4. Join Where Your Customers Are**
 
@@ -436,11 +436,11 @@ You've got someone on a call. Now what?
 
 **The 15-minute demo structure:**
 
-1. **Set the stage (1 min):** "Thanks for joining. I want to show you [product], but first—tell me about how you currently handle [pain point]?"
+1. **Set the stage (1 min):** "Thanks for joining. I want to show you [product], but first, tell me about how you currently handle [pain point]?"
 
 2. **Listen and adapt (3 min):** Let them talk. Take notes. Adjust your demo to their specific pain.
 
-3. **Show, don't tell (7 min):** Walk through the product focused on *their* use case. Highlight the "aha moment"—the point where they see the value.
+3. **Show, don't tell (7 min):** Walk through the product focused on *their* use case. Highlight the "aha moment," the point where they see the value.
 
 4. **Handle objections (2 min):** They'll have questions or concerns. Address them directly.
 

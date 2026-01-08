@@ -34,7 +34,7 @@ A Minimum Viable Product isn't a stripped-down version of your final vision. It'
 2. **Tests your hypothesis** about the problem
 3. **Generates learning** you can act on
 
-The keyword is *viable*. An MVP must actually work and provide value. It's not a prototype or a demo—it's a real product, just minimal.
+The keyword is *viable*. An MVP must actually work and provide value. It's not a prototype or a demo. It's a real product, just minimal.
 
 ![Image source: The Lean Product Playbook by Dan Olsen](images/mvp.png)
 
@@ -96,7 +96,7 @@ A user story describes a feature from the user's perspective. They keep you focu
 
 #### Acceptance Criteria
 
-Every user story needs acceptance criteria—specific conditions that must be true for the story to be "done":
+Every user story needs acceptance criteria, specific conditions that must be true for the story to be "done":
 
 ```
 User Story: As a customer, I want to reset my password so I can access my account if I forget it.
@@ -149,7 +149,7 @@ As the tweet above suggests, AI is changing how we approach PRDs. When building 
 
 **AI-era approach:** Build quick prototype → Test with users → Document what works
 
-This doesn't mean PRDs are useless—they're still valuable for alignment and reference. But the emphasis moves from *planning what to build* to *documenting what we learned*.
+This doesn't mean PRDs are useless, they're still valuable for alignment and reference. But the emphasis moves from *planning what to build* to *documenting what we learned*.
 
 ### Feature Prioritization
 
@@ -402,11 +402,11 @@ Claude will generate the SQL, React components, and API calls. Review each piece
 
 **Sprint 3 requires:**
 
-1. **PRD document** — AI-assisted, covering your core feature
-2. **Core feature functional** — With data persistence
-3. **3 user tests** — Watch people use it
-4. **User feedback synthesis** — What worked? What didn't?
-5. **Platform strategy decision** — Web-only, PWA, or Capacitor?
+1. **PRD document**: AI-assisted, covering your core feature
+2. **Core feature functional**: With data persistence
+3. **3 user tests**: Watch people use it
+4. **User feedback synthesis**: What worked? What didn't?
+5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
 
 **Getting Your PRD:**
 

@@ -4,7 +4,7 @@ title: "Sustainable Code"
 
 ## Why This Matters
 
-Your product is live. Users are signing up. Features are shipping. Everything is working—for now.
+Your product is live. Users are signing up. Features are shipping. Everything is working, for now.
 
 But under the hood, you've been making tradeoffs. That function you copy-pasted because there wasn't time to refactor. The API route that handles five different things. The component that's 800 lines long. The tests you meant to write.
 
@@ -17,9 +17,9 @@ This is **technical debt**, and every product accumulates it. This chapter teach
 Technical debt is the implicit cost of additional rework caused by choosing an expedient solution now instead of using a better approach that would take longer.
 
 The metaphor comes from finance: just like financial debt, technical debt:
-- **Accumulates interest** — The longer you wait to pay it down, the more expensive it becomes
-- **Can be strategic** — Sometimes borrowing makes sense
-- **Can be crippling** — Too much debt slows everything down
+- **Accumulates interest**: The longer you wait to pay it down, the more expensive it becomes
+- **Can be strategic**: Sometimes borrowing makes sense
+- **Can be crippling**: Too much debt slows everything down
 
 **Examples of technical debt:**
 - Duplicated code across multiple files
@@ -64,13 +64,13 @@ Not all tech debt is bad. Some is intentional and strategic.
 | **Deliberate** | "We don't have time for tests" | "Ship now, refactor later" |
 | **Inadvertent** | "What's a design pattern?" | "Now we know how we should have built it" |
 
-**Prudent deliberate debt** is often justified—it's a conscious business decision.
+**Prudent deliberate debt** is often justified. It's a conscious business decision.
 
-**Reckless inadvertent debt** is the most dangerous—you don't even know you're accumulating it.
+**Reckless inadvertent debt** is the most dangerous, you don't even know you're accumulating it.
 
 ### When to Pay Down Tech Debt
 
-The answer isn't "always" or "never"—it depends on context.
+The answer isn't "always" or "never". It depends on context.
 
 **Pay it down when:**
 - The debt is blocking new feature development
@@ -606,7 +606,7 @@ function PresenceIndicator({ roomId, currentUser }) {
 
 ## This Week's Sprint Work
 
-This is build week—dedicated time to polish and improve.
+This is build week, dedicated time to polish and improve.
 
 **Focus areas:**
 

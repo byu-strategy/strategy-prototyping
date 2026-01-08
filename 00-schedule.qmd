@@ -5,7 +5,7 @@ editor: visual
 
 Below is the planned schedule. Dates, topics, and assignments may adjust as needed.
 
-**Class Format:** Each class is split — first half covers PM/Strategy, second half is hands-on building.
+**Class Format:** Each class is split: first half covers PM/Strategy, second half is hands-on building.
 
 **Note:** Class starts Jan 8. Feb 17 follows Monday instruction schedule (no T/Th class).
 

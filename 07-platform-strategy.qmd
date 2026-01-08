@@ -8,7 +8,7 @@ Your web app works. Users are testing it. Now someone asks: "Is there a mobile a
 
 This is one of the most consequential decisions you'll make as a product builder. Go mobile too early and you waste months. Wait too long and you miss a growth window. Choose the wrong approach and you're stuck maintaining multiple codebases forever.
 
-This chapter teaches you how to think about platform strategy, when mobile actually makes sense, and the technical options for getting there—from PWAs to native apps.
+This chapter teaches you how to think about platform strategy, when mobile actually makes sense, and the technical options for getting there, from PWAs to native apps.
 
 ## Part 1: The Strategy
 
@@ -44,7 +44,7 @@ Before jumping to solutions, ask these questions:
 - "There's an app for that" legitimacy
 - Better retention for installed apps
 
-**The hard truth:** App store discovery is brutal. Unless you're in a category people actively search (fitness, dating, games), organic app store traffic is minimal. You'll need to drive users there yourself—which means you need web anyway.
+**The hard truth:** App store discovery is brutal. Unless you're in a category people actively search (fitness, dating, games), organic app store traffic is minimal. You'll need to drive users there yourself, which means you need web anyway.
 
 #### Development & Maintenance
 
@@ -80,8 +80,8 @@ You don't have to choose between "web only" and "native app." There's a spectrum
 
 ```
 Web → Responsive Web → PWA → Capacitor/Ionic → React Native → Native
-←——————————————————— Easier ——————————————————→
-←——————————————————— More "native" —————————————→
+<---------------- Easier ----------------->
+<---------------- More "native" ---------->
 ```
 
 | Approach | Effort | Native Feel | Store Distribution |
@@ -521,11 +521,11 @@ fi
 
 **Sprint 3 completion:**
 
-1. **PRD document** — AI-assisted, covering your core feature
-2. **Core feature functional** — With data persistence
-3. **3 user tests** — Watch people use it
-4. **User feedback synthesis** — What worked? What didn't?
-5. **Platform strategy decision** — Web-only, PWA, or Capacitor?
+1. **PRD document**: AI-assisted, covering your core feature
+2. **Core feature functional**: With data persistence
+3. **3 user tests**: Watch people use it
+4. **User feedback synthesis**: What worked? What didn't?
+5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
 
 **Making Your Platform Decision:**
 
@@ -538,7 +538,7 @@ Based on what you learned from user tests, decide your platform approach:
 | "I want it as an app" | PWA first, Capacitor if needed |
 | "I need it offline" | PWA with offline support |
 
-**Document your decision** in your portfolio with reasoning. There's no wrong answer—only informed choices.
+**Document your decision** in your portfolio with reasoning. There's no wrong answer, only informed choices.
 
 ## Key Concepts
 

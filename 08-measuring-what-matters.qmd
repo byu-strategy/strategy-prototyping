@@ -6,7 +6,7 @@ title: "Measuring What Matters"
 
 ## Why This Matters
 
-You can't improve what you don't measure. But measuring the wrong things is worse than measuring nothing—it leads you to optimize for metrics that don't matter while ignoring what does.
+You can't improve what you don't measure. But measuring the wrong things is worse than measuring nothing. It leads you to optimize for metrics that don't matter while ignoring what does.
 
 This chapter teaches you to choose the right metrics, avoid vanity traps, and implement analytics that actually inform decisions. The goal isn't to track everything; it's to track what helps you build a better product.
 
@@ -479,19 +479,19 @@ export function identifyUser(userId, traits) {
 
 **Sprint 4 requires:**
 
-1. **Analytics implemented** — Tracking key events
-2. **Landing page live** — With conversion tracking
-3. **GTM plan drafted** — Distribution strategy
-4. **Key metrics defined** — North Star + inputs
-5. **2-min Loom video** — Demo your analytics setup
+1. **Analytics implemented**: Tracking key events
+2. **Landing page live**: With conversion tracking
+3. **GTM plan drafted**: Distribution strategy
+4. **Key metrics defined**: North Star + inputs
+5. **2-min Loom video**: Demo your analytics setup
 
 **Getting Your Analytics Live:**
 
-1. **Define your North Star metric** — What's the one number that matters most?
-2. **Identify 3-5 key events** — Sign-up, activation, core action
-3. **Implement tracking** — Use the code examples above
-4. **Create a simple dashboard** — Even a Notion page with manual numbers works
-5. **Review weekly** — Build the habit of checking your metrics
+1. **Define your North Star metric**: What's the one number that matters most?
+2. **Identify 3-5 key events**: Sign-up, activation, core action
+3. **Implement tracking**: Use the code examples above
+4. **Create a simple dashboard**: Even a Notion page with manual numbers works
+5. **Review weekly**: Build the habit of checking your metrics
 
 **Use Claude Code to help:**
 

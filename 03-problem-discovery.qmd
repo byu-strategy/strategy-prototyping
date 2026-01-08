@@ -14,11 +14,11 @@ This chapter teaches you the Jobs-to-be-Done framework for understanding custome
 
 ### Jobs-to-be-Done Framework
 
-The Jobs-to-be-Done (JTBD) framework, popularized by Clayton Christensen, shifts focus from *what customers buy* to *why they buy it*. The core insight: customers don't want products—they "hire" products to do a job.
+The Jobs-to-be-Done (JTBD) framework, popularized by Clayton Christensen, shifts focus from *what customers buy* to *why they buy it*. The core insight: customers don't want products, they "hire" products to do a job.
 
 The classic example is the milkshake. A fast-food chain wanted to sell more milkshakes, so they improved the recipe. Sales didn't budge. Then they asked a different question: *What job are people hiring the milkshake to do?*
 
-They discovered that most milkshakes were bought in the morning by commuters. The "job" wasn't *enjoy a delicious treat*—it was *make my boring commute more interesting while keeping me full until lunch*. Suddenly, the milkshake's competition wasn't other milkshakes; it was bananas, bagels, and donuts. The solution? Make it thicker (lasts longer), add fruit chunks (more interesting), and offer it at the drive-through (more convenient).
+They discovered that most milkshakes were bought in the morning by commuters. The "job" wasn't *enjoy a delicious treat*. It was *make my boring commute more interesting while keeping me full until lunch*. Suddenly, the milkshake's competition wasn't other milkshakes; it was bananas, bagels, and donuts. The solution? Make it thicker (lasts longer), add fruit chunks (more interesting), and offer it at the drive-through (more convenient).
 
 #### The JTBD Formula
 
@@ -47,11 +47,11 @@ Most products focus only on functional jobs. But emotional and social jobs often
 
 ### Problem Interviews (The Mom Test)
 
-Once you have a hypothesis about the job customers are trying to do, you need to validate it with real conversations. This is where most people fail—they ask bad questions that produce misleading answers.
+Once you have a hypothesis about the job customers are trying to do, you need to validate it with real conversations. This is where most people fail, they ask bad questions that produce misleading answers.
 
 Rob Fitzpatrick's book *The Mom Test* identifies the core problem: if you tell your mom about your business idea, she'll say it's great. She loves you. She doesn't want to hurt your feelings. And her feedback is useless.
 
-The solution is to ask questions that even your mom couldn't lie about—questions about their actual behavior, not hypothetical futures.
+The solution is to ask questions that even your mom couldn't lie about, questions about their actual behavior, not hypothetical futures.
 
 #### Rules of The Mom Test
 
@@ -63,7 +63,7 @@ The solution is to ask questions that even your mom couldn't lie about—questio
 
 | Bad Question | Why It's Bad | Good Question |
 |--------------|--------------|---------------|
-| "Would you use an app that does X?" | Hypothetical—everyone says yes | "Tell me about the last time you tried to do X" |
+| "Would you use an app that does X?" | Hypothetical, everyone says yes | "Tell me about the last time you tried to do X" |
 | "Do you think this is a good idea?" | Asking for opinions, not facts | "What solutions have you tried? What happened?" |
 | "How much would you pay for this?" | They'll guess to be nice | "What are you currently paying to solve this?" |
 | "Would you recommend this to friends?" | Future promise, not behavior | "Have you ever told anyone about this problem?" |
@@ -100,22 +100,22 @@ This forces specificity. You'll learn:
 
 #### Before the Interview
 
-1. **Define your hypotheses** — What do you believe about the problem?
-2. **Prepare 5-7 open-ended questions** — Focus on behavior and specifics
-3. **Target the right people** — Those who actually experience the problem
-4. **Set expectations** — "I'm trying to understand how people handle X. Can I ask you some questions?"
+1. **Define your hypotheses**: What do you believe about the problem?
+2. **Prepare 5-7 open-ended questions**: Focus on behavior and specifics
+3. **Target the right people**: Those who actually experience the problem
+4. **Set expectations**: "I'm trying to understand how people handle X. Can I ask you some questions?"
 
 #### During the Interview
 
-1. **Shut up** — You should talk less than 20% of the time
-2. **Dig deeper** — "Tell me more about that" / "Why was that frustrating?"
-3. **Get specific** — "Can you give me an example?" / "What happened next?"
-4. **Watch for emotion** — Strong feelings indicate strong needs
-5. **Take notes** — Or record with permission
+1. **Shut up**: You should talk less than 20% of the time
+2. **Dig deeper**: "Tell me more about that" / "Why was that frustrating?"
+3. **Get specific**: "Can you give me an example?" / "What happened next?"
+4. **Watch for emotion**: Strong feelings indicate strong needs
+5. **Take notes**: Or record with permission
 
 #### Sample Interview Script
 
-> "I'm researching how people [handle X situation]. I'm not selling anything—I just want to understand your experience. Can I ask you some questions?"
+> "I'm researching how people [handle X situation]. I'm not selling anything, I just want to understand your experience. Can I ask you some questions?"
 
 1. "Can you tell me about your role and what a typical day looks like?"
 2. "When was the last time you [experienced the problem]?"
@@ -356,10 +356,10 @@ claude
 
 Create these to speed up your workflow:
 
-**`persona.md`** — Generate a persona from interview data
-**`jtbd.md`** — Convert a problem description to JTBD format
-**`commit.md`** — Write a good commit message for staged changes
-**`review.md`** — Review code for best practices
+**`persona.md`**: Generate a persona from interview data
+**`jtbd.md`**: Convert a problem description to JTBD format
+**`commit.md`**: Write a good commit message for staged changes
+**`review.md`**: Review code for best practices
 
 #### Storing Reusable Prompts
 
@@ -375,11 +375,11 @@ Files here are available in any project. Great for commands like `/debug` or `/e
 
 **Sprint 2 requires:**
 
-1. **5 problem interviews completed** — Use The Mom Test approach
-2. **Interview synthesis on portfolio** — Use the template above
-3. **Problem statement locked** — One clear sentence
-4. **Target customer defined** — Include a persona
-5. **v0.1 prototype deployed** — With Supabase auth
+1. **5 problem interviews completed**: Use The Mom Test approach
+2. **Interview synthesis on portfolio**: Use the template above
+3. **Problem statement locked**: One clear sentence
+4. **Target customer defined**: Include a persona
+5. **v0.1 prototype deployed**: With Supabase auth
 
 Start interviewing this week. You can interview:
 - Friends who fit your target profile
