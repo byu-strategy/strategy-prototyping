@@ -9,35 +9,35 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 
 **Note:** Class starts Jan 8. Feb 17 follows Monday instruction schedule (no T/Th class).
 
-| Wk | # | Date | PM / Strategy | Build | Quiz | Sprint |
-|----|---|------|---------------|-------|------|--------|
-| 1 | 1 | Thu, Jan 8 | Course overview, What is PM | Terminal basics, Claude Code setup | – | [Sprint 1 Assigned](00-assessments.qmd#sprint-1-ship-and-showcase) |
-| 2 | 2 | Tue, Jan 13 | PM history, AI disruption | Git fundamentals | – | – |
-| 2 | 3 | Thu, Jan 15 | AI-powered PM, problem thinking | Deployment (Vercel / GH Pages) | [Q1: Ch 1](01-pm-ai-era.qmd) | – |
-| 3 | 4 | Tue, Jan 20 | Why products fail | CC: Markdown files (CLAUDE.md) | – | – |
-| 3 | 5 | Thu, Jan 22 | You as the customer | Frontend fundamentals (HTML/CSS) | [Q2: Ch 2](02-problems-worth-solving.qmd) | **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2-validate-and-commit) |
-| 4 | 6 | Tue, Jan 27 | Jobs-to-be-Done framework | React basics | – | – |
-| 4 | 7 | Thu, Jan 29 | Problem interviews (Mom Test) | CC: Slash commands | [Q3: Ch 3](03-problem-discovery.qmd) | – |
-| 5 | 8 | Tue, Feb 3 | Evaluating opportunities | Client-side state, forms | – | – |
-| 5 | 9 | Thu, Feb 5 | Committing to a problem | Supabase setup + auth, CC: Agents | [Q4: Ch 4](04-validating-opportunities.qmd) | **Sprint 2 Due**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
-| 6 | 10 | Tue, Feb 10 | MVP scoping, user stories | Supabase database, tables, RLS | – | – |
-| 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd) | – |
-| 7 | 12 | Thu, Feb 19 | Usability testing, iteration | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd) | **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
-| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy | Capacitor / PWA basics | – | – |
-| 8 | 14 | Thu, Feb 26 | Platform decision framework | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) | [Peer Code Review Due](00-assessments.qmd#peer-code-review) |
-| 9 | 15 | Tue, Mar 3 | Product metrics | Analytics setup | – | – |
-| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd) | **Sprint 4 Due**, [Sprint 5 Assigned](00-assessments.qmd#sprint-5-monetize-and-scale) |
-| 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | – | – |
-| 10 | 18 | Thu, Mar 12 | Distribution channels | Edge functions | [Q9: Ch 9](09-go-to-market.qmd) | – |
-| 11 | 19 | Tue, Mar 17 | Business models | Stripe setup | – | – |
-| 11 | 20 | Thu, Mar 19 | Pricing strategy | Webhooks, subscriptions, CC: Plugins | [Q10: Ch 10](10-business-models.qmd) | **Sprint 5 Due** |
-| 12 | 21 | Tue, Mar 24 | Tech debt concepts | Testing basics, linting | – | – |
-| 12 | 22 | Thu, Mar 26 | Growth & retention | Supabase realtime | – | – |
-| 13 | 23 | Tue, Mar 31 | Build & feedback | Build & feedback | – | – |
-| 13 | 24 | Thu, Apr 2 | Build & feedback | Build & feedback | – | [Peer Product Testing Due](00-assessments.qmd#peer-product-testing) |
-| 14 | 25 | Tue, Apr 7 | Storytelling & pitch | Demo prep, polish | – | – |
-| 14 | 26 | Thu, Apr 9 | Final presentations | Final presentations | – | – |
-| 15 | 27 | Tue, Apr 14 | Final presentations, retrospective | Course wrap-up | – | [Final Project Due](00-assessments.qmd#final-project) |
+| Wk | # | Date | PM / Strategy | Build | Assessments |
+|----|---|------|---------------|-------|-------------|
+| 1 | 1 | Thu, Jan 8 | Course overview, What is PM | Terminal basics, Claude Code setup | – |
+| 2 | 2 | Tue, Jan 13 | PM history, AI disruption | Git fundamentals | – |
+| 2 | 3 | Thu, Jan 15 | AI-powered PM, problem thinking | Deployment (Vercel / GH Pages) | [Q1: Ch 1](01-pm-ai-era.qmd), [Sprint 1 Assigned](00-assessments.qmd#sprint-1-ship-and-showcase) |
+| 3 | 4 | Tue, Jan 20 | Why products fail | CC: Markdown files (CLAUDE.md) | – |
+| 3 | 5 | Thu, Jan 22 | You as the customer | Frontend fundamentals (HTML/CSS) | [Q2: Ch 2](02-problems-worth-solving.qmd), **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2-validate-and-commit) |
+| 4 | 6 | Tue, Jan 27 | Jobs-to-be-Done framework | React basics | – |
+| 4 | 7 | Thu, Jan 29 | Problem interviews (Mom Test) | CC: Slash commands | [Q3: Ch 3](03-problem-discovery.qmd) |
+| 5 | 8 | Tue, Feb 3 | Evaluating opportunities | Client-side state, forms | – |
+| 5 | 9 | Thu, Feb 5 | Committing to a problem | Supabase setup + auth, CC: Agents | [Q4: Ch 4](04-validating-opportunities.qmd), **Sprint 2 Due**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
+| 6 | 10 | Tue, Feb 10 | MVP scoping, user stories | Supabase database, tables, RLS | – |
+| 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd) |
+| 7 | 12 | Thu, Feb 19 | Usability testing, iteration | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd), **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
+| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy | Capacitor / PWA basics | – |
+| 8 | 14 | Thu, Feb 26 | Platform decision framework | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
+| 9 | 15 | Tue, Mar 3 | Product metrics | Analytics setup | – |
+| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd), **Sprint 4 Due**, [Sprint 5 Assigned](00-assessments.qmd#sprint-5-monetize-and-scale) |
+| 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | – |
+| 10 | 18 | Thu, Mar 12 | Distribution channels | Edge functions | [Q9: Ch 9](09-go-to-market.qmd), [Peer Code Review Due](00-assessments.qmd#peer-code-review) |
+| 11 | 19 | Tue, Mar 17 | Business models | Stripe setup | – |
+| 11 | 20 | Thu, Mar 19 | Pricing strategy | Webhooks, subscriptions, CC: Plugins | [Q10: Ch 10](10-business-models.qmd), **Sprint 5 Due** |
+| 12 | 21 | Tue, Mar 24 | Tech debt concepts | Testing basics, linting | – |
+| 12 | 22 | Thu, Mar 26 | Growth & retention | Supabase realtime | – |
+| 13 | 23 | Tue, Mar 31 | Build & feedback | Build & feedback | – |
+| 13 | 24 | Thu, Apr 2 | Build & feedback | Build & feedback | [Peer Product Testing Due](00-assessments.qmd#peer-product-testing) |
+| 14 | 25 | Tue, Apr 7 | Storytelling & pitch | Demo prep, polish | – |
+| 14 | 26 | Thu, Apr 9 | Final presentations | Final presentations | – |
+| 15 | 27 | Tue, Apr 14 | Final presentations, retrospective | Course wrap-up | [Final Project Due](00-assessments.qmd#final-project) |
 
 ## Course Phases
 
@@ -66,7 +66,7 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 
 | Assignment | Due | Focus |
 |------------|-----|-------|
-| [Peer Code Review](00-assessments.qmd#peer-code-review) | Thu, Feb 26 | AI-assisted analysis of peer's codebase |
+| [Peer Code Review](00-assessments.qmd#peer-code-review) | Thu, Mar 12 | AI-assisted analysis of peer's codebase |
 | [Peer Product Testing](00-assessments.qmd#peer-product-testing) | Thu, Apr 2 | Be a real test user for peer's app |
 
 ## Readings

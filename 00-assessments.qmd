@@ -249,14 +249,14 @@ Sprints are your primary way to demonstrate progress throughout the semester. Ea
 - Business model canvas
 - Pricing page/strategy implemented
 - Payment flow working (Stripe integration required)
-- One growth experiment run
+- One growth experiment designed and launched
 - Onboarding flow improved
 
 **Portfolio additions:**
 
 - Business Model artifact
 - Results section updated
-- Growth experiment results
+- Growth experiment design and setup
 
 **Turn in:**
 
@@ -270,7 +270,7 @@ Sprints are your primary way to demonstrate progress throughout the semester. Ea
 | Business model canvas | 10 |
 | Pricing strategy implemented | 10 |
 | Stripe payment flow working | 15 |
-| Growth experiment with results | 10 |
+| Growth experiment designed and launched | 10 |
 | Loom video walkthrough | 5 |
 
 ---
@@ -283,7 +283,7 @@ Peer assignments teach you to give and receive constructive feedback, a critical
 
 ### Peer Code Review
 
-**Week 8-9 | 50 points | Due: Thu, Feb 26**
+**Week 9-10 | 50 points | Due: Thu, Mar 12**
 
 **Goal:** Apply code analysis skills to a peer's codebase and provide constructive feedback.
 
