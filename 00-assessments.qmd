@@ -80,6 +80,8 @@ Sprints are your primary way to demonstrate progress throughout the semester. Ea
 
 ### Sprint 1: Ship & Showcase {#sprint-1-ship-showcase}
 
+**50 points | Due: Thu, Jan 29**
+
 **Overview**
 
 The purpose of this homework assignment is to help you create a public facing portfolio containing your work that you can use to share with potential employers and others.
