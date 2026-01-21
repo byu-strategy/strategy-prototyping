@@ -86,16 +86,10 @@ Sprints are your primary way to demonstrate progress throughout the semester. Ea
 
 The purpose of this homework assignment is to help you create a public facing portfolio containing your work that you can use to share with potential employers and others.
 
-The deliverable for this homework is a single URL pointing to your personal portfolio published on the internet via GitHub Pages which will look like the following [**template**](https://sdmurff.github.io/student-test/)
+The deliverables for this homework are:
 
-To actually submit the assignment, you need to complete the following steps:
-
-1) Publish your portfolio to the internet
-2) Once published, submit a single page PDF or Word Doc containing three things:
-
-  - A URL to your live product portfolio
-  - The name and relation of the person you showed your portfolio to (e.g. your roommate, parent, employer, etc)
-  - A few comments on how they reacted to what you showed them? i.e. what questions did they ask, what did they think overall?
+1. A URL pointing to your personal portfolio published on the internet via GitHub Pages (see [**template**](https://sdmurff.github.io/student-test/))
+2. A 2-minute Loom video walking through your portfolio
 
 **Set-up**
 
@@ -152,7 +146,7 @@ You should make at least the following changes to the source files of your portf
 1) Add a personal photo (I recommend using your LinkedIn photo for a consistent online presence)
 2) Update and personalize the Home page (index.qmd)
 3) Update and personalize the About page (about.qmd)
-4) Update and personalize the project-1.qmd file to accurately reflect the application you built. Make sure to update the two buttons that contain links to your GitHub source code and your Vercel deployed app.
+4) Update and personalize the project-1.qmd file to accurately reflect the application you built. **The two buttons linking to your GitHub source code and deployed Vercel app are required and will be verified during grading.**
 5) Use AI or another tool of your choice to create a [favicon](https://en.wikipedia.org/wiki/Favicon) and update the image reference in the `.yml`. You could use an icon or just your initial(s).
 6) Create a "Problems I'm Exploring" page on your portfolio with 5 problems you personally experience. For each problem:
    - Write a professional, public-facing description
@@ -162,15 +156,34 @@ You should make at least the following changes to the source files of your portf
 
 Although not required for this assignment, you should feel free to make further enhancements and personalizations to your portfolio. You will continue to build on this portfolio throughout the course so it should be something you invest significant effort in as it can be a valuable tool for you in the future to showcase your skills.
 
+**Turn in:**
+
+Submit a PDF or Word Doc containing:
+
+- URL to your live portfolio
+- URL to your Loom video walkthrough
+
+**Video Requirements:**
+
+Your 2-minute Loom video should cover:
+
+1. **Portfolio walkthrough** - Walk through your portfolio showing your About page, prototype project, and Problems I'm Exploring page
+2. **What you learned** - Briefly explain one new tool or skill you learned while building this
+3. **Show & tell reflection** - Share who you showed your portfolio to (name and relationship), and describe their reaction:
+   - What questions did they ask?
+   - What was their overall impression?
+   - Did anything surprise you about their feedback?
+
 **Grading Rubric (50 points)**
 
 | Category | Points | Expectations |
 |----------|--------|--------------|
 | **Portfolio Deployed & Accessible** | 10 | Site is live at GitHub Pages URL, all pages load without errors, navigation works |
-| **About Section** | 10 | Personal photo included, compelling personal story, professional tone, no placeholder text |
-| **Prototype Project** | 10 | Project page complete with description, working links to deployed app and GitHub repo, screenshots if applicable |
-| **Problems I'm Exploring** | 15 | 5 distinct problems listed, each professionally framed with clear description of why it matters, demonstrates genuine reflection |
+| **About Section** | 5 | Personal photo included, compelling personal story, professional tone, no placeholder text |
+| **Prototype Project** | 15 | Project page complete with description, working links to both deployed Vercel app AND GitHub repo |
+| **Problems I'm Exploring** | 10 | 5 distinct problems listed, each professionally framed with clear description of why it matters |
 | **Client Ready Polish** | 5 | No broken links, no typos, consistent formatting, would confidently show to an employer |
+| **Loom Video Walkthrough** | 5 | 2-min video covering portfolio walkthrough, what you learned, and show & tell reflection |
 
 **What "Client Ready" Means:**
 
