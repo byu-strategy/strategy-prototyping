@@ -46,11 +46,13 @@ The problem? You're starting with a solution. You've already decided what to bui
 ### Problem vs. Solution Thinking
 
 **Solution thinking** starts with technology or features:
+
 - "Let's build an AI-powered calendar app"
 - "We should make a blockchain-based voting system"
 - "What if we created a social network for pet owners?"
 
 **Problem thinking** starts with pain:
+
 - "Professionals waste 5+ hours weekly scheduling meetings"
 - "Voters distrust election integrity and want verifiable results"
 - "Pet owners struggle to find trustworthy sitters when they travel"
@@ -59,16 +61,16 @@ The difference seems subtle, but it's profound. Solution thinking leads you to b
 
 ### You Are Your Best First Customer
 
-Here's the good news: you don't need to conduct elaborate market research to find a problem worth solving. You're surrounded by problems every day, and you just need to notice them.
+You don't necessarily need to conduct elaborate market research to find a problem worth solving. You're surrounded by problems every day, and you just need to find one you are passionate about fixing.
 
-The best products often come from founders who were frustrated by something in their own lives:
+Many of the best products come from founders who were frustrated by something in their own lives:
 
 - **Slack** came from a gaming company's internal communication frustrations
 - **Dropbox** came from Drew Houston constantly forgetting his USB drive
 - **Airbnb** came from founders who couldn't afford their San Francisco rent
-- **Spanx** came from Sara Blakely's frustration with visible panty lines
 
 When you're your own customer, you have unfair advantages:
+
 1. **Faster feedback loops**: You can test ideas immediately on yourself
 2. **Authentic insight**: You truly understand the problem's nuances
 3. **Built-in motivation**: You actually want the solution to exist
@@ -78,21 +80,23 @@ When you're your own customer, you have unfair advantages:
 Start keeping a **problem journal**. For the next week, write down every moment of friction, frustration, or inefficiency you experience. Don't filter, just capture.
 
 Ask yourself:
+
 - What did I just waste time on?
 - What task felt harder than it should be?
 - What made me say "there has to be a better way"?
 - What workaround did I create because existing tools failed me?
 
 Your journal entries might look like:
+
 - "Spent 20 minutes trying to split a dinner bill with friends because everyone uses different payment apps"
 - "Had to manually copy data from one spreadsheet to another AGAIN"
 - "Missed a package delivery because I didn't know it was coming"
 
-These small frustrations are seeds for products. Most people ignore them. You won't.
+These small frustrations are seeds for products.
 
 ### Evaluating Your Problems
 
-Not every problem is worth solving. A problem worth solving meets these criteria:
+Not every problem is worth solving. Whether a problem is worth solving can be evaluted from these four factors:
 
 | Criteria | Question to Ask |
 |----------|-----------------|
@@ -105,7 +109,7 @@ A problem that happens rarely but is extremely painful (like planning a wedding)
 
 ### The Importance-Satisfaction Framework
 
-One powerful way to evaluate problems comes from Dan Olsen's *Lean Product Playbook*. Plot potential problems on a 2x2 matrix:
+Another helpful way to evaluate problems comes from Dan Olsen's *Lean Product Playbook*. Plot potential problems on a 2x2 matrix:
 
 - **Y-axis: Importance**: How much does this matter to the customer?
 - **X-axis: Satisfaction**: How well do current solutions address it?
@@ -172,10 +176,6 @@ One of Claude Code's most powerful features is its ability to understand context
 A `CLAUDE.md` file (or `.claude/CLAUDE.md`) is a special file that Claude Code automatically reads when you start a session. It tells Claude about your project, including what you're building, your preferences, and any important context.
 
 Create one for your problem tracker:
-
-```bash
-claude
-```
 
 Then in Claude Code:
 
@@ -248,9 +248,9 @@ Claude Code is your primary tool, but it's worth knowing about the broader ecosy
 
 For this class, we'll primarily use Claude Code. But when you want to quickly visualize a UI idea before building it, Lovable can generate a working prototype in seconds.
 
-### Deploying Your First Prototype
+### Deploying a Prototype
 
-Let's deploy a simple problem tracker to make it real. In your problem-tracker directory:
+Let's deploy a simple problem tracker to make it real. In your problem-tracker directory start Claude from the terminal:
 
 ```bash
 claude
@@ -259,6 +259,8 @@ claude
 Then:
 
 > Build a simple Streamlit app for tracking problems. It should let me add a problem (title, description, frequency rating), see a list of all problems I've added, and save everything to a JSON file. Keep it minimal since this is just for me to capture ideas.
+
+Streamlit is an even lighter weight than Vercel to delpoy an app quickly. Claude Code will help you install any missing dependencies.
 
 After Claude creates the app, run it:
 
@@ -275,29 +277,3 @@ To share it (or access from your phone), you can deploy to Streamlit Community C
 3. Connect your repo and deploy
 
 Now you can capture problems wherever you are.
-
-## This Week's Sprint Work
-
-**Sprint 1 requires:**
-
-1. **Portfolio site deployed**: Use the Quarto template
-2. **About section complete**: Tell your story
-3. **1 prototype deployed**: Your problem tracker counts!
-4. **"Problems I'm Exploring" page** with 5 problems you personally experience
-
-Your problem journal from this week feeds directly into Sprint 1. Take your best 5 problems and frame them professionally for your portfolio:
-
-**Instead of:** "Splitting bills with friends is annoying"
-
-**Write:** "**Group payment coordination**: When friends split expenses, we waste time figuring out who owes what and chasing payments across different apps. This creates friction in social situations and often leads to uneven splits or forgotten debts."
-
-## Key Concepts
-
-- **The Idea Trap**: Starting with solutions instead of problems
-- **Problem vs. Solution Thinking**: Focus on pain before features
-- **You as the Customer**: Being your own user accelerates learning
-- **Problem Journaling**: Systematically capturing daily frustrations
-- **Importance-Satisfaction Framework**: Finding underserved needs
-- **Jobs-to-be-Done**: Framing problems as progress customers want
-- **CLAUDE.md**: Giving Claude Code persistent project context
-- **Conversational Coding**: Iterative prompting for better results
