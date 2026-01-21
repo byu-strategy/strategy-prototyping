@@ -13,11 +13,11 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 |----|---|------|---------------|-------|-------------|
 | 1 | 1 | Thu, Jan 8 | Course overview, What is PM | Terminal basics, Claude Code setup | – |
 | 2 | 2 | Tue, Jan 13 | PM history, AI disruption | Git fundamentals | – |
-| 2 | 3 | Thu, Jan 15 | AI-powered PM, problem thinking | Deployment (Vercel / GH Pages) | [Q1: Ch 1](01-pm-ai-era.qmd), [Sprint 1 Assigned](00-assessments.qmd#sprint-1-ship-and-showcase) |
+| 2 | 3 | Thu, Jan 15 | AI-powered PM, problem thinking | Deployment (Vercel / GH Pages) | [Q1: Ch 1](01-pm-ai-era.qmd) |
 | 3 | 4 | Tue, Jan 20 | Why products fail | CC: Markdown files (CLAUDE.md) | – |
-| 3 | 5 | Thu, Jan 22 | You as the customer | Frontend fundamentals (HTML/CSS) | [Q2: Ch 2](02-problems-worth-solving.qmd), **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2-validate-and-commit) |
+| 3 | 5 | Thu, Jan 22 | You as the customer | Frontend fundamentals (HTML/CSS) | [Q2: Ch 2](02-problems-worth-solving.qmd), [Sprint 1 Assigned](00-assessments.qmd#sprint-1-ship-showcase) |
 | 4 | 6 | Tue, Jan 27 | Jobs-to-be-Done framework | React basics | – |
-| 4 | 7 | Thu, Jan 29 | Problem interviews (Mom Test) | CC: Slash commands | [Q3: Ch 3](03-problem-discovery.qmd) |
+| 4 | 7 | Thu, Jan 29 | Problem interviews (Mom Test) | CC: Slash commands | [Q3: Ch 3](03-problem-discovery.qmd), **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2-validate-and-commit) |
 | 5 | 8 | Tue, Feb 3 | Evaluating opportunities | Client-side state, forms | – |
 | 5 | 9 | Thu, Feb 5 | Committing to a problem | Supabase setup + auth, CC: Agents | [Q4: Ch 4](04-validating-opportunities.qmd), **Sprint 2 Due**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
 | 6 | 10 | Tue, Feb 10 | MVP scoping, user stories | Supabase database, tables, RLS | – |
@@ -55,8 +55,8 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 
 | Sprint | Assigned | Due | Focus | Key Deliverables |
 |--------|----------|-----|-------|------------------|
-| 1 | Week 1 | Week 3 | Ship & Showcase | Portfolio live, 1 prototype, 5 problems |
-| 2 | Week 3 | Week 5 | Validate & Commit | Problem validated, v0.1 deployed |
+| 1 | Week 3 | Week 4 | Ship & Showcase | Portfolio live, 1 prototype, 5 problems |
+| 2 | Week 4 | Week 5 | Validate & Commit | Problem validated, v0.1 deployed |
 | 3 | Week 5 | Week 7 | Core Product | PRD, core feature, 3 user tests |
 | 4 | Week 7 | Week 9 | Measure & Position | Analytics, landing page, GTM plan |
 | 5 | Week 9 | Week 11 | Monetize & Scale | Business model, payments |
