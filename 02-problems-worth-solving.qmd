@@ -276,4 +276,4 @@ To share it (or access from your phone), you can deploy to Streamlit Community C
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your repo and deploy
 
-Now you can capture problems wherever you are.
+Now you can capture problems wherever you are. You don't really have to use this tool and this excercise was just to illustrate another way to ship simple apps quickly using streamlit.
