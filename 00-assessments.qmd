@@ -78,42 +78,110 @@ Sprints are your primary way to demonstrate progress throughout the semester. Ea
 
 ---
 
-### Sprint 1: Ship & Showcase
+### Sprint 1: Ship & Showcase {#sprint-1-ship-showcase}
 
-**Weeks 1-3 | 50 points | Due: Thu, Jan 22**
+**Overview**
 
-**Goal:** Get comfortable shipping and build your portfolio foundation.
+The purpose of this homework assignment is to help you create a public facing portfolio containing your work that you can use to share with potential employers and others.
 
-**Deliverables:**
+The deliverable for this homework is a single URL pointing to your personal portfolio published on the internet via GitHub Pages which will look like the following [**template**](https://sdmurff.github.io/student-test/)
 
-- Portfolio site deployed (using Quarto template)
-- About section complete
-- 1 throwaway prototype deployed and added to portfolio
-- "Problems I'm Exploring" page on portfolio:
-  - 5 problems you personally experience
-  - Framed professionally (public-facing)
-  - Brief description of each + why it matters to you
+To actually submit the assignment, you need to complete the following steps:
 
-**Portfolio sections after Sprint 1:**
+1) Publish your portfolio to the internet
+2) Once published, submit a single page PDF or Word Doc containing three things:
 
-- About Me
-- Projects (1 prototype)
-- Problems I'm Exploring
+  - A URL to your live product portfolio
+  - The name and relation of the person you showed your portfolio to (e.g. your roommate, parent, employer, etc)
+  - A few comments on how they reacted to what you showed them? i.e. what questions did they ask, what did they think overall?
 
-**Turn in:**
+**Set-up**
 
-- 2-min Loom video (required)
-- Portfolio URL (this URL will be used all semester)
+1) Create a new repo from the following template on GitHub: [https://github.com/byu-strategy/product-management-portfolio](https://github.com/byu-strategy/product-management-portfolio). Call the repo "portfolio".
+
+![](images/new-repo-template.jpg)
+
+2) After creating the repo, go to `Settings -> Pages -> Deploy from a branch`, and select `GitHub Actions`
+
+![](images/github-actions-deploy.jpg)
+
+3) Start VS Code and then `Open -> Open Folder` to the folder you want to save your portfolio files in. Then open a Terminal within VS Code.
+
+4) Copy/paste the URL of your new repo and run the following command from the terminal. Your URL should have the following structure: https://github.com/[your github username]/portfolio
+
+```{python eval=false}
+git clone https://github.com/[your github username]/portfolio.git
+```
+
+Make sure to add `.git` to the end of the URL and update your user name before running the command.
+
+5) Then use the terminal to navigate into the newly cloned git repo (folder)
+
+```{python eval=false}
+cd portfolio
+```
+
+6) You should now see all of the files from the repo in your left hand window pane within VS Code. These are the source files behind the [**template**](https://sdmurff.github.io/student-test/).
+
+7) To complete the homework, you will edit and personalize the template. Once you are done editing, save all of the files and run the following git commands to publish your portfolio:
+
+```{python eval=false}
+git add .
+git commit -m "write a short message describing your changes"
+git push
+```
+
+Once you have pushed your changes, within about one minute, your website portfolio will be live at this URL: https://[your github username].github.io/portfolio/
+
+**Remember to update your user name in the URL.**
+
+You can preview what your portfolio looks like at any point by running this command from the terminal:
+
+```{python eval=false}
+quarto preview
+```
+
+For this to work, you will need to install `quarto`. Get Claude code to help you install it.
+
+**Requirements**
+
+You should make at least the following changes to the source files of your portfolio.
+
+1) Add a personal photo (I recommend using your LinkedIn photo for a consistent online presence)
+2) Update and personalize the Home page (index.qmd)
+3) Update and personalize the About page (about.qmd)
+4) Update and personalize the project-1.qmd file to accurately reflect the application you built. Make sure to update the two buttons that contain links to your GitHub source code and your Vercel deployed app.
+5) Use AI or another tool of your choice to create a [favicon](https://en.wikipedia.org/wiki/Favicon) and update the image reference in the `.yml`. You could use an icon or just your initial(s).
+6) Create a "Problems I'm Exploring" page on your portfolio with 5 problems you personally experience. For each problem:
+   - Write a professional, public-facing description
+   - Explain why this problem matters to you
+   - Frame it as something worth solving (not just a complaint)
+7) Choose one other person to show your portfolio to and describe to them what you built. Take a couple minutes to explain to them the tools and skills you are learning.
+
+Although not required for this assignment, you should feel free to make further enhancements and personalizations to your portfolio. You will continue to build on this portfolio throughout the course so it should be something you invest significant effort in as it can be a valuable tool for you in the future to showcase your skills.
 
 **Grading Rubric (50 points)**
 
-| Category | Points |
-|----------|--------|
-| Portfolio deployed and accessible | 10 |
-| About section complete and professional | 10 |
-| Prototype deployed and functional | 10 |
-| Problems page with 5 well-articulated problems | 15 |
-| Loom video walkthrough | 5 |
+| Category | Points | Expectations |
+|----------|--------|--------------|
+| **Portfolio Deployed & Accessible** | 10 | Site is live at GitHub Pages URL, all pages load without errors, navigation works |
+| **About Section** | 10 | Personal photo included, compelling personal story, professional tone, no placeholder text |
+| **Prototype Project** | 10 | Project page complete with description, working links to deployed app and GitHub repo, screenshots if applicable |
+| **Problems I'm Exploring** | 15 | 5 distinct problems listed, each professionally framed with clear description of why it matters, demonstrates genuine reflection |
+| **Client Ready Polish** | 5 | No broken links, no typos, consistent formatting, would confidently show to an employer |
+
+**What "Client Ready" Means:**
+
+Your portfolio should be something you could show to a prospective employer with confidence. This means:
+
+- All hyperlinks work
+- No spelling or grammar errors
+- No placeholder or template text remaining
+- Images load properly
+- Consistent visual styling
+- Professional tone throughout
+
+Points will be deducted for issues that detract from a professional presentation.
 
 ---
 
