@@ -202,7 +202,7 @@ Points will be deducted for issues that detract from a professional presentation
 
 ### Sprint 2: Validate & Commit
 
-**Weeks 3-5 | 50 points | Due: Thu, Feb 5**
+**Weeks 3-5 | 50 points | Due: Thu, Feb 12**
 
 **Goal:** Validate a problem worth solving and start building your real product.
 
