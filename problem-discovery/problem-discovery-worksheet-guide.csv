@@ -1,0 +1,61 @@
+Column,Description
+Human Needs,Autonomy; Competence; Relatedness — which universal needs this domain touches
+Gospel Framing,Agency; Becoming; Connection — the same needs in gospel language
+Life Domain,The area of life where the problem occurs
+Activity,Specific actions within that domain (use as prompts for brainstorming)
+Who (real person),A real person's name who experiences this (not a persona)
+Frustration / Delight,Pain to relieve OR joy to amplify — both are valid signals
+Job to be Done,"I'm trying to [verb] so I can [outcome]"
+Value Proposition,We help [who] [do what] by [how]
+
+Life Domain Order,Category,Domains
+Inner → Outer,Self,Body; Mind; Spirit
+,Environment,Home
+,Resources,Money; Shopping
+,Movement,Mobility
+,Systems,Digital; Admin
+,Growth,Learning; Interests
+,Relationships,Friends; Dating; Family
+,Work,Career; Work sub-domains (Discovering; Designing; Producing; Acquiring; Delivering; Retaining)
+
+Column,Score 1,Score 2,Score 3,Score 4,Score 5
+Frequency,Rarely,Yearly,Monthly,Weekly,Daily
+Intensity (Frustration),Shrug,Minor annoyance,Annoying,Frustrating,I hate this
+Intensity (Delight),Meh,Mildly pleasant,Enjoyable,Love it,Can't live without
+Willingness to Pay,Wouldn't pay,Unlikely to pay,Might pay,Probably would pay,Already paying for solutions
+Market Size,Just me,Small niche,Moderate group,Large segment,Widespread problem
+
+Column,Checkbox (0/1),Meaning
+Personal Pain,1 = yes,You live this problem yourself
+Close Relationship,1 = yes,Someone you love (family; friend) experiences this
+Moral Calling,1 = yes,You believe it's wrong that this problem exists
+Unique Insight or Skills,1 = yes,You see something others don't; or your skills position you to solve this
+
+Conviction Score,Sum of 4 checkboxes,Interpretation
+0-1,Low,Weak foundation — reconsider this problem
+2,Moderate,Worth exploring further
+3-4,High,Strong foundation — good conviction to pursue
+
+Column,Checkbox (0/1),Meaning
+Data/API Access,1 = yes,I can get the data or API access I need
+Technology Readiness,1 = yes,Tech is good enough to deliver a great experience
+No Hardware or Regulatory Blockers,1 = yes,Does not require unavailable hardware or regulatory approval
+
+Feasibility Score,Sum of 3 checkboxes,Interpretation
+3,Clear,Clear path to build
+1-2,Caution,Some challenges — have a plan for each
+0,Blocked,Major feasibility concerns — reconsider or simplify
+
+Opportunity Type,Signal,Product Strategy
+Pain Reliever,Frustration,Reduce friction; remove obstacles; solve problems
+Gain Creator,Delight,Amplify joy; create more of what works; enhance experiences
+
+Column,Checkbox (0/1),Question
+Expands Agency,1 = yes,Does my value proposition expand what users can do and choose?
+Supports Becoming,1 = yes,Does my value proposition help users genuinely grow?
+Deepens Connection,1 = yes,Does my value proposition strengthen real relationships?
+
+Ethical Design Notes,,
+Not every product needs all three,—,Pure tools (Uber; Amazon) may only expand agency — that's fine
+The question is directional,—,For the needs you DO touch; are you on the right side?
+Design details matter,—,Same product category can be ethical (BeReal) or harmful (TikTok)

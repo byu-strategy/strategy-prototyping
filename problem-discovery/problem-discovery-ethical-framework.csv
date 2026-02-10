@@ -1,0 +1,23 @@
+Category,Dimension,Ethical Persuasion,Exploitation/Manipulation
+Tests,Alignment,Helps users do what they actually want,Creates wants they wouldn't otherwise have
+Tests,Transparency,User would approve if they understood the technique,User would feel tricked if they knew
+Tests,Best Self,Users in their wisest moment would endorse this,Users would regret engaging with this
+Tests,Exit,Easy to stop; disengage; leave,Hard to stop; guilt; FOMO; addiction loops
+Tests,Long-term,Benefits user over months and years,Benefits user in moment; harms over time
+Tests,Beneficiary,Primarily serves the user,Primarily extracts from the user
+Gospel Pattern (D&C 121),Persuasion,Clear value proposition; honest presentation,Deception; hidden motives; dark patterns
+Gospel Pattern (D&C 121),Long-suffering,Patient onboarding; not rushed conversions,Manufactured urgency; pressure tactics
+Gospel Pattern (D&C 121),Gentleness,Respectful notifications; easy unsubscribe,Guilt-based messaging; hard to leave
+Gospel Pattern (D&C 121),Love unfeigned,Genuinely caring about user outcomes,Treating users as targets to extract from
+Variable Rewards,Good Use,Attached to genuine progress (learning; fitness; real achievement),Substitute for progress (fake achievements; gambling mechanics)
+Variable Rewards,Example Good,Duolingo streaks reinforce practice user wants,Slot machines exploit psychology with no underlying value
+Variable Rewards,Example Bad,Fitness app PRs celebrate real improvement,Loot boxes are gambling aimed at vulnerable users
+Nudges,Good Use,Aligns with what person would want if fully informed,Works against user's informed preferences
+Nudges,Example Good,401k auto-enrollment helps people save,Unsubscribe requiring 5 clicks blocks user intent
+Nudges,Example Good,Organ donor opt-out matches most people's wishes,Pre-checked boxes trick users into purchases
+Soul Check Questions,Question 1,Does this genuinely help people flourish?,Does this exploit weakness for engagement?
+Soul Check Questions,Question 2,Would I be proud to explain this to my bishop?,Would I be embarrassed if the technique were exposed?
+Soul Check Questions,Question 3,Does this strengthen agency?,Does this create dependency or addiction?
+Soul Check Questions,Question 4,Does this build real capability?,Does this give false sense of progress?
+Soul Check Questions,Question 5,Does this deepen real relationships?,Does this substitute shallow signals for real connection?
+Soul Check Questions,Question 6,Am I serving users?,Am I extracting from users?

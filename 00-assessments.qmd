@@ -202,46 +202,244 @@ Points will be deducted for issues that detract from a professional presentation
 
 ### Sprint 2: Validate & Commit
 
-**Weeks 3-5 | 50 points | Due: Thu, Feb 12**
+**50 points | Due: Tue, Feb 17, 11:59pm**
 
-**Goal:** Validate a problem worth solving and start building your real product.
+**Goal:** Identify and validate a problem worth solving and then commit to building it out for the rest of the semester.
 
-**Deliverables:**
+| Deliverable | Points |
+|---|--:|
+| Problem Discovery Worksheet (2 problems scored) | 10 |
+| AI Interview (shared conversation URL) | 10 |
+| One recorded customer interview + AI transcript analysis | 10 |
+| JTBD + Value Proposition + ICP summary | 10 |
+| Loom reflection video (2 min) | 10 |
+| **Total** | **50** |
 
-- 5 problem interviews completed
-- Interview synthesis on portfolio using this format:
-  - Problem statement
-  - Who you talked to (roles, not names)
-  - Key insights (3-5 bullets)
-  - Notable quotes
-  - What you learned
-- Problem statement locked
-- Target customer defined
-- First real prototype (v0.1) deployed
-- Basic Supabase auth working
+**What you turn in:** A single Google Doc using the [Sprint 2 Submission Template](https://docs.google.com/document/d/1AnK5Jo8JtcRR6mllhXQmAHFrnufvclO8Qe3z7Wrf2M8/copy). Make a copy now and fill it in as you work through each part below.
 
-**Portfolio additions:**
+#### The Problem Discovery Worksheet
 
-- Featured Project section started
-- Interview synthesis
-- Problem statement
-- Target customer description
-- v0.1 link
+This sprint uses the **[Problem Discovery Worksheet](https://docs.google.com/spreadsheets/d/1_4JSjwVJuFU-D2lYZnL91c6GHApj7lYkCJ9jQ5In_GM/copy)** — a structured framework for exploring and evaluating problems worth solving. Click the link to make your own copy.
 
-**Turn in:**
+The worksheet is grounded in **Self-Determination Theory** (Deci & Ryan) which cleanly parallels the core tenets of the Gospel of Jesus Christ, and identifies three universal human needs:
 
-- 2-min Loom video (required)
-- Portfolio updated
+| Human Need | Gospel Framing | What It Means |
+|---|---|---|
+| **Autonomy** | Agency | Control over your life and choices |
+| **Competence** | Becoming | Growth, mastery, becoming more capable |
+| **Relatedness** | Connection | Meaningful relationships with others |
 
-**Grading Rubric (50 points)**
+The worksheet organizes life into **15 domains** (plus 6 work sub-domains) ordered from inner to outer: starting with Body, Mind, and Spirit, then moving through your environment, resources, growth, relationships, and work. Each row includes **granular activities** to prompt specific recall of where frustration or delight occurs.
+
+::: {.callout-tip title="Frustration AND Delight"}
+Problems aren't only about pain. Both **frustration** (pain to relieve) and **delight** (joy to amplify) are valid signals. A frustration points to a pain reliever product. A delight points to a gain creator product. The worksheet captures both.
+:::
+
+#### Problem Discovery Framework
+
+::: {.callout-note title="Problem Discovery Framework" collapse="true"}
+
+**Opportunity Signals**
+
+| Signal | Opportunity Type | Product Strategy |
+|---|---|---|
+| **Frustration** | Pain Reliever | Reduce friction; remove obstacles; solve problems |
+| **Delight** | Gain Creator | Amplify joy; create more of what works; enhance experiences |
+
+**Opportunity Score (1-5 scales)**
+
+| Score | Frequency | Intensity (Frustration) | Intensity (Delight) | Willingness to Pay | Market Size |
+|---|---|---|---|---|---|
+| 1 | Rarely | Shrug | Meh | Wouldn't pay | Just me |
+| 2 | Yearly | Minor annoyance | Mildly pleasant | Unlikely to pay | Small niche |
+| 3 | Monthly | Annoying | Enjoyable | Might pay | Moderate group |
+| 4 | Weekly | Frustrating | Love it | Probably would pay | Large segment |
+| 5 | Daily | I hate this | Can't live without | Already paying for solutions | Widespread |
+
+**Conviction Score (0/1 checkboxes, sum of 4)**
+
+| Column | Meaning |
+|---|---|
+| Personal Pain | You live this problem yourself |
+| Close Relationship | Someone you love experiences this |
+| Moral Calling | You believe it's wrong that this problem exists |
+| Unique Insight or Skills | You see something others don't, or your skills position you to solve this |
+
+| Sum | Level | Interpretation |
+|---|---|---|
+| 0-1 | Low | Weak foundation — reconsider |
+| 2 | Moderate | Worth exploring further |
+| 3-4 | High | Strong conviction to pursue |
+
+**Technical Feasibility (0/1 checkboxes, sum of 3)**
+
+| Column | Meaning |
+|---|---|
+| Data/API Access | I can get the data or API access I need |
+| Technology Readiness | Tech is good enough to deliver a great experience |
+| No Hardware or Regulatory Blockers | Does not require unavailable hardware or regulatory approval |
+
+| Sum | Level | Interpretation |
+|---|---|---|
+| 3 | Clear | Clear path to build |
+| 1-2 | Caution | Some challenges — have a plan |
+| 0 | Blocked | Major concerns — reconsider or simplify |
+
+**Gospel Framework (directional checks)**
+
+| Column | Gospel Root | Question |
+|---|---|---|
+| **Expands Agency** | Agency | Does my value proposition expand what users can do and choose? |
+| **Supports Becoming** | Becoming | Does my value proposition help users genuinely grow? |
+| **Deepens Connection** | Connection | Does my value proposition strengthen real relationships? |
+
+Not every product needs all three. Pure tools (Uber, Amazon) may only expand agency — that's fine. The question is directional: for the needs you DO touch, are you on the right side?
+
+:::
+
+#### Part 1: Describe 3 Problems
+
+**Start with your "unfair" advantages.** Before scanning every domain, pause and ask: *Where do I have unusual insight that most people don't?* Maybe you grew up on a cattle ranch, served a mission in rural Southeast Asia, worked night shifts at a fulfillment center, or spent years managing your family's small business. Those experiences give you a front-row seat to problems that people outside that world would never think to solve and that's exactly the kind of edge that can make for a great product discovery. List 2-3 domains where you have this kind of special access, and start there.
+
+If nothing jumps out at you, then broaden your thinking. Scan the worksheet's remaining life domains. For each domain, reflect on the example **activities** listed and ask yourself:
+
+- **Frustration:** What made me or someone close to me angry, stuck, or anxious recently?
+- **Delight:** What do I love doing that could be even better?
+
+Choose **3 problems** you'd want to explore further. These can be any mix of problems from Sprint 1 or new ideas. For each row, fill in the **narrative fields only**, no scores yet:
+
+- **Who** — A real person's name (not a persona, you'll create that at the end)
+- **Frustration / Delight** — What they experience
+- **Customer's Job to be Done** — "I'm trying to [verb] so I can [outcome]"
+- **Value Proposition, i.e. how you would do the customer's job** — "We help [who] [do what] by [how]"
+
+Do this on your own before moving to Part 2. The goal is to articulate each problem in your own words first. Complete your [Problem Discovery Worksheet](https://docs.google.com/spreadsheets/d/1_4JSjwVJuFU-D2lYZnL91c6GHApj7lYkCJ9jQ5In_GM/copy) with 3 problems described (narrative fields above filled in).
+
+#### Part 2: AI-Assisted Scoring & Evaluation
+
+Pick the most compelling **2 problems** from Part 1 and use AI as described below for a structured evaluation. You must use **Claude.ai, ChatGPT, or Gemini** so you can share a link to the conversation.
+
+**How to start:** Copy the Problem Discovery Framework above and paste it into your AI conversation along with your 2 problem descriptions. Here's a starter prompt you can copy-paste:
+
+```
+I'm exploring 2 problems for a product I want to build. Here is
+the Problem Discovery Framework my course uses:
+
+[Paste the Problem Discovery Framework from above]
+
+Here are my 2 problems:
+
+1. [Paste your Who, Frustration/Delight, JTBD, and Value Prop]
+2. [Paste your Who, Frustration/Delight, JTBD, and Value Prop]
+
+Take them one at a time. For each problem, walk me through the scoring
+dimensions in the framework: Opportunity (Frequency, Intensity,
+Willingness to Pay, Market Size), Conviction, Feasibility, and Mission
+Fit. This is an interview — ask me questions about my experience, then
+YOU assign scores based on my answers and your own knowledge. Don't ask
+me to pick scores. Push back where my thinking seems shallow. Always
+number your questions so I can respond easily, and never ask more than
+3 questions at a time.
+
+After we've scored both, give me a side-by-side scorecard table
+comparing every dimension across the 2 problems. Then ask me: "All
+things considered, which of these ideas would you be most excited to
+build for the rest of the semester?"
+```
+
+The AI will interview you about each problem and help you assign initial scores across every dimension in the framework. After this conversation, update your worksheet with the final scores for both problems.
+
+Reflect on your AI interview and make a decision on which product to build. The answer doesn't necessarily need to be the idea with the highest score. For our class, the primary concern is finding something you are excited to build, not necessarily something that will turn into a real profit-making product (although that's great if it happens).
+
+**Deliverable:** Your shared conversation URL (use the share/link feature in your chosen AI tool) + completed scores on the worksheet. Add both to your submission template.
+
+#### Part 3: One Customer Interview (Recorded)
+
+Conduct at least one 5-minute interview via Loom with a real person who experiences your problem.
+
+**Interview tips (The Mom Test):** Ask about **past behavior**, not hypotheticals. Don't pitch your idea. Listen for specifics, emotion, and workarounds.
+
+Good questions:
+
+- "Tell me about the last time you [activity from worksheet]..."
+- "What did you do about it?"
+- "What was the hardest part?"
+- "How are you dealing with it now?"
+- "How much time/money does this cost you?"
+
+Bad questions:
+
+- "Would you use an app that..."
+- "Do you think this is a good idea?"
+
+After recording, paste or upload the Loom transcript into an AI tool (Claude, Claude Code, ChatGPT, or Gemini) and have it help you extract **key quotes, patterns, and surprises** from the interview.
+
+Add a few sentences of your personal reflections on what you learned if it reinforces or causes you to pause about your idea.
+
+**Deliverable:** Add your Loom recording URL and AI-assisted transcript analysis (key quotes, patterns, surprises, and your reflections) to your submission template.
+
+#### Part 4: Summarize & Commit
+
+Based on everything you've learned from the worksheet, AI interview, and customer interview, write up your final:
+
+- **Job to be Done** — "I'm trying to [action] so I can [outcome]"
+- **Value Proposition** — "We help [who] [do what] by [how]"
+- **Ideal Customer Profile** — A detailed portrait of who you're building for. You can use the template below to have AI help you document the persona.
+
+**Ideal Customer Profile should include:**
+
+*Who they are:*
+
+- Name (make one up to humanize them)
+- Demographics (age, role, situation)
+- Context (when/where do they experience this problem?)
+
+*Their problem:*
+
+- Goals (what are they trying to accomplish?)
+- Frustrations or delights (what drives them?)
+- Current solutions (what do they do today?)
+
+*Why it matters (synthesis from your framework scores):*
+
+- Frequency — How often do they experience this?
+- Intensity — How strong is the frustration or delight?
+- Willingness to Pay — Evidence they'd pay to solve this
+
+*Market size:*
+
+- How many people like this exist?
+- Where do they congregate? (communities, platforms, locations)
+- How would you reach them?
+
+**Deliverable:** Write your JTBD + Value Proposition + Ideal Customer Profile directly in your submission template.
+
+#### Part 5: Loom Reflection Video
+
+Record a 2-minute Loom video reflecting on your Sprint 2 journey. In your video, address:
+
+- Which problem you chose and why
+- Walk through the worksheet scores you gave it
+- What you learned from the AI interview and customer interview
+- Why you're excited about solving this problem
+
+**Deliverable:** Add your Loom video URL to your submission template.
+
+#### Turn In
+
+Make a copy of the **[Sprint 2 Submission Template](https://docs.google.com/document/d/1AnK5Jo8JtcRR6mllhXQmAHFrnufvclO8Qe3z7Wrf2M8/copy)** and fill in all sections. Your worksheet link, AI interview link, customer interview, transcript analysis, JTBD/Value Prop/ICP, and reflection video all go in this single document.
+
+**Submit:** Your completed Google Doc URL.
+
+#### Grading Rubric (50 points)
 
 | Category | Points |
 |----------|--------|
-| 5 interviews completed with synthesis | 15 |
-| Clear problem statement | 10 |
-| Target customer defined | 5 |
-| v0.1 deployed with Supabase auth | 15 |
-| Loom video walkthrough | 5 |
+| Problem Discovery Worksheet (2 problems scored with complete fields) | 10 |
+| AI Interview (shared conversation URL showing deep, challenging dialogue) | 10 |
+| Customer Interview (Loom recording + AI-assisted transcript analysis with your reflections) | 10 |
+| JTBD + Value Proposition + Ideal Customer Profile (clear, specific, grounded in your research) | 10 |
+| Loom reflection video (2 min, covers problem choice, scores, learnings, and excitement) | 10 |
 
 ---
 
