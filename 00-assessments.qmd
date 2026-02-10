@@ -237,11 +237,36 @@ Problems aren't only about pain. Both **frustration** (pain to relieve) and **de
 
 #### Problem Discovery Framework
 
-Expand the box below and copy-paste the framework into your AI conversation in Part 2. You can also read the full [Problem Discovery Framework](94-problem-discovery-framework.qmd) reference page.
+Expand the box below and copy-paste the framework into your AI conversation in Part 2. Review the full [Problem Discovery Framework](94-problem-discovery-framework.qmd) reference page.
 
-::: {.callout-note title="Problem Discovery Framework (click to expand and copy)" collapse="true"}
+#### Part 1: Describe 3 Problems
 
-````
+**Start with your "unfair" advantages.** Before scanning every domain, pause and ask: *Where do I have unusual insight that most people don't?* Maybe you grew up on a cattle ranch, served a mission in rural Southeast Asia, worked night shifts at a fulfillment center, or spent years managing your family's small business. Those experiences give you a front-row seat to problems that people outside that world would never think to solve and that's exactly the kind of edge that can make for a great product discovery. List 2-3 domains where you have this kind of special access, and start there.
+
+If nothing jumps out at you, then broaden your thinking. Scan the worksheet's remaining life domains. For each domain, reflect on the example **activities** listed and ask yourself:
+
+- **Frustration:** What made me or someone close to me angry, stuck, or anxious recently?
+- **Delight:** What do I love doing that could be even better?
+
+Choose **3 problems** you'd want to explore further. These can be any mix of problems from Sprint 1 or new ideas. For each row, fill in the **narrative fields only**, no scores yet:
+
+- **Who** — A real person's name (not a persona, you'll create that at the end)
+- **Frustration / Delight** — What they experience
+- **Customer's Job to be Done** — "I'm trying to [verb] so I can [outcome]"
+- **Value Proposition, i.e. how you would do the customer's job** — "We help [who] [do what] by [how]"
+
+Do this on your own before moving to Part 2. The goal is to articulate each problem in your own words first. Complete your [Problem Discovery Worksheet](https://docs.google.com/spreadsheets/d/1_4JSjwVJuFU-D2lYZnL91c6GHApj7lYkCJ9jQ5In_GM/copy) with 3 problems described (narrative fields above filled in).
+
+#### Part 2: AI-Assisted Scoring & Evaluation
+
+Pick the most compelling **2 problems** from Part 1 and use AI as described below for a structured evaluation. You must use **Claude.ai, ChatGPT, or Gemini** so you can share a link to the conversation.
+
+**How to start:** Copy the prompt below into your AI conversation and update with your 2 problem descriptions.
+
+```
+I'm exploring 2 problems for a product I want to build. Here is
+the Problem Discovery Framework my course uses:
+
 PROBLEM DISCOVERY FRAMEWORK
 
 OPPORTUNITY SIGNALS
@@ -278,39 +303,6 @@ GOSPEL FRAMEWORK (directional checks)
 
 Not every product needs all three. The question is directional: for the needs
 you DO touch, are you on the right side?
-````
-
-:::
-
-#### Part 1: Describe 3 Problems
-
-**Start with your "unfair" advantages.** Before scanning every domain, pause and ask: *Where do I have unusual insight that most people don't?* Maybe you grew up on a cattle ranch, served a mission in rural Southeast Asia, worked night shifts at a fulfillment center, or spent years managing your family's small business. Those experiences give you a front-row seat to problems that people outside that world would never think to solve and that's exactly the kind of edge that can make for a great product discovery. List 2-3 domains where you have this kind of special access, and start there.
-
-If nothing jumps out at you, then broaden your thinking. Scan the worksheet's remaining life domains. For each domain, reflect on the example **activities** listed and ask yourself:
-
-- **Frustration:** What made me or someone close to me angry, stuck, or anxious recently?
-- **Delight:** What do I love doing that could be even better?
-
-Choose **3 problems** you'd want to explore further. These can be any mix of problems from Sprint 1 or new ideas. For each row, fill in the **narrative fields only**, no scores yet:
-
-- **Who** — A real person's name (not a persona, you'll create that at the end)
-- **Frustration / Delight** — What they experience
-- **Customer's Job to be Done** — "I'm trying to [verb] so I can [outcome]"
-- **Value Proposition, i.e. how you would do the customer's job** — "We help [who] [do what] by [how]"
-
-Do this on your own before moving to Part 2. The goal is to articulate each problem in your own words first. Complete your [Problem Discovery Worksheet](https://docs.google.com/spreadsheets/d/1_4JSjwVJuFU-D2lYZnL91c6GHApj7lYkCJ9jQ5In_GM/copy) with 3 problems described (narrative fields above filled in).
-
-#### Part 2: AI-Assisted Scoring & Evaluation
-
-Pick the most compelling **2 problems** from Part 1 and use AI as described below for a structured evaluation. You must use **Claude.ai, ChatGPT, or Gemini** so you can share a link to the conversation.
-
-**How to start:** Copy the Problem Discovery Framework above and paste it into your AI conversation along with your 2 problem descriptions. Here's a starter prompt you can copy-paste:
-
-```
-I'm exploring 2 problems for a product I want to build. Here is
-the Problem Discovery Framework my course uses:
-
-[Paste the Problem Discovery Framework from above]
 
 Here are my 2 problems:
 
