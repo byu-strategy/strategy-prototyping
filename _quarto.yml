@@ -30,6 +30,7 @@ book:
     - part: Resources
       chapters:
     # Resources and Appendices
+      - 94-problem-discovery-framework.qmd
       - 95-eng-checklist.qmd
       - 96-code-base-review.qmd
       - 97-resources.qmd

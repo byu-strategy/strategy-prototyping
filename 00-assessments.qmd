@@ -237,7 +237,7 @@ Problems aren't only about pain. Both **frustration** (pain to relieve) and **de
 
 #### Problem Discovery Framework
 
-Expand the box below and copy-paste the framework into your AI conversation in Part 2.
+Expand the box below and copy-paste the framework into your AI conversation in Part 2. You can also read the full [Problem Discovery Framework](94-problem-discovery-framework.qmd) reference page.
 
 ::: {.callout-note title="Problem Discovery Framework (click to expand and copy)" collapse="true"}
 

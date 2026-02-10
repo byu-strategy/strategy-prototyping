@@ -1,0 +1,112 @@
+---
+title: "Problem Discovery Framework"
+---
+
+## Theoretical Foundation
+
+### Self-Determination Theory (Deci & Ryan)
+
+Three universal human needs that drive motivation and wellbeing:
+
+| Human Need | Definition | Gospel Framing |
+|---|---|---|
+| **Autonomy** | Control over your life and choices | **Agency** — moral agency, stewardship |
+| **Competence** | Growth, mastery, becoming more capable | **Becoming** — eternal progression, growing toward divine potential |
+| **Relatedness** | Connection to others, belonging | **Connection** — covenant relationships, community |
+
+### Core Insight
+
+**The user is always an individual.** Households and organizations don't click buttons — people do. SDT applies regardless of context (personal, household, or work).
+
+---
+
+## Theory of the Firm
+
+Organizations exist to **create value** and **capture a portion of it** (Brandenburger & Stuart 1996, Teece 2010).
+
+The Work sub-domains map to these two goals:
+
+| Goal | Activities |
+|---|---|
+| **Create Value** | Discovering, Designing, Producing |
+| **Capture Value** | Acquiring, Delivering, Retaining |
+
+B2B products solve friction at the intersection of an **organizational activity** and an **employee's unmet human need**.
+
+---
+
+## Opportunity Signals
+
+Both frustration and delight are valid signals pointing to product opportunities:
+
+| Signal | Opportunity Type | Product Strategy |
+|---|---|---|
+| **Frustration** | Pain Reliever | Reduce friction; remove obstacles; solve problems |
+| **Delight** | Gain Creator | Amplify joy; create more of what works; enhance experiences |
+
+::: {.callout-tip title="Frustration AND Delight"}
+Problems aren't only about pain. A frustration points to a **pain reliever** product. A delight points to a **gain creator** product. Both are valid starting points.
+:::
+
+---
+
+## Scoring
+
+### Opportunity Score (1–5 scales)
+
+| Score | Frequency | Intensity (Frustration) | Intensity (Delight) | Willingness to Pay | Market Size |
+|---|---|---|---|---|---|
+| 1 | Rarely | Shrug | Meh | Wouldn't pay | Just me |
+| 2 | Yearly | Minor annoyance | Mildly pleasant | Unlikely to pay | Small niche |
+| 3 | Monthly | Annoying | Enjoyable | Might pay | Moderate group |
+| 4 | Weekly | Frustrating | Love it | Probably would pay | Large segment |
+| 5 | Daily | I hate this | Can't live without | Already paying for solutions | Widespread |
+
+### Conviction Score (0/1 checkboxes, sum of 4)
+
+| Column | Meaning |
+|---|---|
+| Personal Pain | You live this problem yourself |
+| Close Relationship | Someone you love experiences this |
+| Moral Calling | You believe it's wrong that this problem exists |
+| Unique Insight or Skills | You see something others don't, or your skills position you to solve this |
+
+| Sum | Level | Interpretation |
+|---|---|---|
+| 0–1 | Low | Weak foundation — reconsider |
+| 2 | Moderate | Worth exploring further |
+| 3–4 | High | Strong conviction to pursue |
+
+### Technical Feasibility (0/1 checkboxes, sum of 3)
+
+| Column | Meaning |
+|---|---|
+| Data/API Access | I can get the data or API access I need |
+| Technology Readiness | Tech is good enough to deliver a great experience |
+| No Hardware or Regulatory Blockers | Does not require unavailable hardware or regulatory approval |
+
+| Sum | Level | Interpretation |
+|---|---|---|
+| 3 | Clear | Clear path to build |
+| 1–2 | Caution | Some challenges — have a plan |
+| 0 | Blocked | Major concerns — reconsider or simplify |
+
+---
+
+## Gospel Framework
+
+Three directional checks rooted in Self-Determination Theory and alignment with gospel principles:
+
+| Column | Gospel Root | Question |
+|---|---|---|
+| **Expands Agency** | Agency | Does my value proposition expand what users can do and choose? |
+| **Supports Becoming** | Becoming | Does my value proposition help users genuinely grow? |
+| **Deepens Connection** | Connection | Does my value proposition strengthen real relationships? |
+
+### Key Principles
+
+- **Not every product needs all three.** Pure tools (Uber, Amazon) may only expand agency — that's fine.
+- **The question is directional.** For the needs you DO touch, are you on the right side?
+- **Design details matter.** The same product type can be either beneficial or harmful.
+- **Dependency is not inherently bad.** Electricity creates dependency AND expands agency. The test is whether the dependency empowers or exploits.
+- **Principles from D&C 121:** Persuasion, long-suffering, love unfeigned — the relationship between product and user should be one of genuine service, not extraction.
