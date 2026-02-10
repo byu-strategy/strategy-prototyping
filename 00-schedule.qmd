@@ -21,7 +21,8 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 | 5 | 8 | Tue, Feb 3 | Evaluating opportunities | Client-side state, forms | – |
 | 5 | 9 | Thu, Feb 5 | Committing to a problem | Supabase setup + auth, CC: Agents | [Q4: Ch 4](04-validating-opportunities.qmd) |
 | 6 | 10 | Tue, Feb 10 | MVP scoping, user stories | Supabase database, tables, RLS | – |
-| 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd), **Sprint 2 Due**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
+| 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd) |
+| | | Tue, Feb 17 | | | **Sprint 2 Due (11:59pm)**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
 | 7 | 12 | Thu, Feb 19 | Usability testing, iteration | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd), **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
 | 8 | 13 | Tue, Feb 24 | Web vs mobile strategy | Capacitor / PWA basics | – |
 | 8 | 14 | Thu, Feb 26 | Platform decision framework | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
@@ -56,7 +57,7 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 | Sprint | Assigned | Due | Focus | Key Deliverables |
 |--------|----------|-----|-------|------------------|
 | 1 | Week 3 | Week 4 | Ship & Showcase | Portfolio live, 1 prototype, 5 problems |
-| 2 | Week 4 | Week 5 | Validate & Commit | Problem validated, v0.1 deployed |
+| 2 | Week 4 | Tue, Feb 17 | Validate & Commit | Worksheet, AI interview, customer interview, ICP |
 | 3 | Week 5 | Week 7 | Core Product | PRD, core feature, 3 user tests |
 | 4 | Week 7 | Week 9 | Measure & Position | Analytics, landing page, GTM plan |
 | 5 | Week 9 | Week 11 | Monetize & Scale | Business model, payments |
