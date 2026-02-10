@@ -510,39 +510,6 @@ cp .claude/skills/my-skill.md ~/.claude/skills/
 # Or package as a plugin (covered in Chapter 10)
 ```
 
-## This Week's Sprint Work
-
-**Sprint 3 requires:**
-
-1. **PRD document**: AI-assisted, covering your core feature
-2. **Core feature functional**: With data persistence
-3. **3 user tests**: Watch people use it
-4. **User feedback synthesis**: What worked? What didn't?
-5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
-
-**Running Your User Tests:**
-
-This week, find 3 people who fit your target user profile and run usability tests:
-
-1. Prepare your script (use the template above)
-2. Set up screen recording (Loom, QuickTime, or built-in tools)
-3. Run each test (20-30 minutes)
-4. Take notes during and immediately after
-5. Synthesize findings using affinity mapping
-
-**Use Claude Code to help:**
-
-```bash
-claude
-```
-
-> I just ran 3 usability tests. Here are my notes: [paste notes]
->
-> Help me synthesize these into:
-> 1. Key findings ordered by severity
-> 2. Specific changes to make
-> 3. What to keep because it worked well
-
 ## Key Concepts
 
 - **Curse of Knowledge**: You can't see your product like new users do

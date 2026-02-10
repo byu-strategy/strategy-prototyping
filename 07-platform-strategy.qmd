@@ -517,29 +517,6 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-## This Week's Sprint Work
-
-**Sprint 3 completion:**
-
-1. **PRD document**: AI-assisted, covering your core feature
-2. **Core feature functional**: With data persistence
-3. **3 user tests**: Watch people use it
-4. **User feedback synthesis**: What worked? What didn't?
-5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
-
-**Making Your Platform Decision:**
-
-Based on what you learned from user tests, decide your platform approach:
-
-| If users said... | Consider... |
-|------------------|-------------|
-| "I'd use this on my phone" | Mobile-responsive, then PWA |
-| "I'd use this at my desk" | Web-only is fine |
-| "I want it as an app" | PWA first, Capacitor if needed |
-| "I need it offline" | PWA with offline support |
-
-**Document your decision** in your portfolio with reasoning. There's no wrong answer, only informed choices.
-
 ## Key Concepts
 
 - **Platform Spectrum**: Web → PWA → Capacitor → React Native → Native

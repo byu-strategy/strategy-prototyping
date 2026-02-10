@@ -646,17 +646,6 @@ Claude Code is your primary tool for this course, but it's worth knowing about t
 
 **For this class**, we'll primarily use Claude Code. But when you want to quickly visualize a UI idea before building it, tools like Lovable can generate a working prototype in seconds.
 
-## This Week's Sprint Work
-
-**Sprint 1 requires:**
-
-1. **Portfolio site deployed**: Use the Quarto template
-2. **About section complete**: Tell your story
-3. **1 prototype deployed**: Your first app counts!
-4. **"Problems I'm Exploring" page**: With 5 problems you personally experience
-
-Your Streamlit app from today counts as a deployed prototype! Push it to GitHub and deploy on Streamlit Community Cloud.
-
 ## Key Concepts
 
 - **Product Management**: Identifying customer needs, aligning with business goals, building successful products

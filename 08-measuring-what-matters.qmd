@@ -475,37 +475,6 @@ export function identifyUser(userId, traits) {
 }
 ```
 
-## This Week's Sprint Work
-
-**Sprint 4 requires:**
-
-1. **Analytics implemented**: Tracking key events
-2. **Landing page live**: With conversion tracking
-3. **GTM plan drafted**: Distribution strategy
-4. **Key metrics defined**: North Star + inputs
-5. **2-min Loom video**: Demo your analytics setup
-
-**Getting Your Analytics Live:**
-
-1. **Define your North Star metric**: What's the one number that matters most?
-2. **Identify 3-5 key events**: Sign-up, activation, core action
-3. **Implement tracking**: Use the code examples above
-4. **Create a simple dashboard**: Even a Notion page with manual numbers works
-5. **Review weekly**: Build the habit of checking your metrics
-
-**Use Claude Code to help:**
-
-```bash
-claude
-```
-
-> Help me set up analytics tracking for my app. I want to track:
-> 1. User sign-ups
-> 2. First problem added (my activation event)
-> 3. Daily active users
->
-> Create the database table, tracking utility, and a simple dashboard component.
-
 ## Key Concepts
 
 - **North Star Metric**: The one number that best captures value delivered

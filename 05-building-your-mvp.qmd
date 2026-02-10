@@ -398,33 +398,6 @@ claude
 
 Claude will generate the SQL, React components, and API calls. Review each piece, understand how it works, then test.
 
-## This Week's Sprint Work
-
-**Sprint 3 requires:**
-
-1. **PRD document**: AI-assisted, covering your core feature
-2. **Core feature functional**: With data persistence
-3. **3 user tests**: Watch people use it
-4. **User feedback synthesis**: What worked? What didn't?
-5. **Platform strategy decision**: Web-only, PWA, or Capacitor?
-
-**Getting Your PRD:**
-
-Use Claude to draft your PRD:
-
-```bash
-claude
-```
-
-> Generate a PRD for my product. Here's the context:
-> - Problem: [your validated problem]
-> - Target user: [your persona]
-> - Solution: [what you're building]
->
-> Include user stories with acceptance criteria, functional requirements, and success metrics. Mark what's MVP vs. future.
-
-Save this to your portfolio as a PDF or page.
-
 ## Key Concepts
 
 - **MVP (Minimum Viable Product)**: Smallest thing that delivers real value

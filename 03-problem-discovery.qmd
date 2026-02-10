@@ -371,24 +371,6 @@ mkdir -p ~/.claude/commands
 
 Files here are available in any project. Great for commands like `/debug` or `/explain` that you use everywhere.
 
-## This Week's Sprint Work
-
-**Sprint 2 requires:**
-
-1. **5 problem interviews completed**: Use The Mom Test approach
-2. **Interview synthesis on portfolio**: Use the template above
-3. **Problem statement locked**: One clear sentence
-4. **Target customer defined**: Include a persona
-5. **v0.1 prototype deployed**: With Supabase auth
-
-Start interviewing this week. You can interview:
-- Friends who fit your target profile
-- Classmates with relevant experiences
-- People in relevant online communities
-- Family members (if they actually experience the problem!)
-
-Remember: you're not selling. You're learning. Ask about their life, not your idea.
-
 ## Key Concepts
 
 - **Jobs-to-be-Done (JTBD)**: Customers hire products to do jobs

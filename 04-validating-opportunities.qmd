@@ -400,36 +400,6 @@ Break large tasks into smaller, parallelizable pieces:
 
 This gives Claude a clear scope and lets you verify each piece works before moving on.
 
-## This Week's Sprint Work
-
-**Sprint 2 Completion:**
-
-By the end of this week, you should have:
-
-1. ✅ **5 problem interviews**: Completed and synthesized
-2. ✅ **Problem statement locked**: Using the value prop template
-3. ✅ **Target customer defined**: Clear persona
-4. ✅ **v0.1 prototype deployed**: With working authentication
-5. ✅ **Portfolio updated**: Featured project section started
-
-**Getting Started with v0.1:**
-
-Use Claude Code to scaffold your project:
-
-```bash
-mkdir my-product
-cd my-product
-claude
-```
-
-> Create a Next.js project with Supabase authentication. Include:
-> - Email/password signup and login
-> - A protected dashboard that shows "Welcome, [user email]"
-> - A public landing page
-> - Basic navigation
-
-Deploy to Vercel when ready. That's your v0.1!
-
 ## Key Concepts
 
 - **Frequency, Intensity, Willingness to Pay**: The three tests for opportunity validation

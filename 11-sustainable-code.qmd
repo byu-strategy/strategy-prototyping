@@ -604,35 +604,6 @@ function PresenceIndicator({ roomId, currentUser }) {
 | **Live dashboards** | Subscribe to metrics table updates |
 | **Activity feeds** | Subscribe to activity inserts |
 
-## This Week's Sprint Work
-
-This is build week, dedicated time to polish and improve.
-
-**Focus areas:**
-
-1. **Address critical bugs** from user testing
-2. **Improve onboarding** based on where users dropped off
-3. **Add at least one test** for your core functionality
-4. **Clean up one area of tech debt** you've been avoiding
-5. **Optional: Add a realtime feature** if it makes sense for your product
-
-**Tech Debt Audit:**
-
-Use Claude Code to audit your codebase:
-
-```bash
-claude
-```
-
-> Review my codebase and identify:
-> 1. Duplicated code that should be consolidated
-> 2. Large files that should be split
-> 3. Missing error handling
-> 4. Potential security issues
-> 5. Code that's hard to understand
->
-> Prioritize by impact and effort required.
-
 ## Key Concepts
 
 - **Technical Debt**: Cost of rework from choosing quick solutions over better ones
