@@ -237,63 +237,48 @@ Problems aren't only about pain. Both **frustration** (pain to relieve) and **de
 
 #### Problem Discovery Framework
 
-::: {.callout-note title="Problem Discovery Framework" collapse="true"}
+Expand the box below and copy-paste the framework into your AI conversation in Part 2.
 
-**Opportunity Signals**
+::: {.callout-note title="Problem Discovery Framework (click to expand and copy)" collapse="true"}
 
-| Signal | Opportunity Type | Product Strategy |
-|---|---|---|
-| **Frustration** | Pain Reliever | Reduce friction; remove obstacles; solve problems |
-| **Delight** | Gain Creator | Amplify joy; create more of what works; enhance experiences |
+````
+PROBLEM DISCOVERY FRAMEWORK
 
-**Opportunity Score (1-5 scales)**
+OPPORTUNITY SIGNALS
+- Frustration → Pain Reliever: Reduce friction, remove obstacles, solve problems
+- Delight → Gain Creator: Amplify joy, create more of what works, enhance experiences
 
-| Score | Frequency | Intensity (Frustration) | Intensity (Delight) | Willingness to Pay | Market Size |
-|---|---|---|---|---|---|
-| 1 | Rarely | Shrug | Meh | Wouldn't pay | Just me |
-| 2 | Yearly | Minor annoyance | Mildly pleasant | Unlikely to pay | Small niche |
-| 3 | Monthly | Annoying | Enjoyable | Might pay | Moderate group |
-| 4 | Weekly | Frustrating | Love it | Probably would pay | Large segment |
-| 5 | Daily | I hate this | Can't live without | Already paying for solutions | Widespread |
+OPPORTUNITY SCORE (1-5 scales)
 
-**Conviction Score (0/1 checkboxes, sum of 4)**
+Frequency:      1=Rarely, 2=Yearly, 3=Monthly, 4=Weekly, 5=Daily
+Intensity (F):  1=Shrug, 2=Minor annoyance, 3=Annoying, 4=Frustrating, 5=I hate this
+Intensity (D):  1=Meh, 2=Mildly pleasant, 3=Enjoyable, 4=Love it, 5=Can't live without
+Willingness:    1=Wouldn't pay, 2=Unlikely, 3=Might pay, 4=Probably would, 5=Already paying
+Market Size:    1=Just me, 2=Small niche, 3=Moderate group, 4=Large segment, 5=Widespread
 
-| Column | Meaning |
-|---|---|
-| Personal Pain | You live this problem yourself |
-| Close Relationship | Someone you love experiences this |
-| Moral Calling | You believe it's wrong that this problem exists |
-| Unique Insight or Skills | You see something others don't, or your skills position you to solve this |
+CONVICTION SCORE (0/1 checkboxes, sum of 4)
+- Personal Pain: You live this problem yourself
+- Close Relationship: Someone you love experiences this
+- Moral Calling: You believe it's wrong that this problem exists
+- Unique Insight or Skills: You see something others don't
 
-| Sum | Level | Interpretation |
-|---|---|---|
-| 0-1 | Low | Weak foundation — reconsider |
-| 2 | Moderate | Worth exploring further |
-| 3-4 | High | Strong conviction to pursue |
+Sum 0-1 = Low (reconsider) | 2 = Moderate (explore further) | 3-4 = High (strong conviction)
 
-**Technical Feasibility (0/1 checkboxes, sum of 3)**
+TECHNICAL FEASIBILITY (0/1 checkboxes, sum of 3)
+- Data/API Access: I can get the data or API access I need
+- Technology Readiness: Tech is good enough to deliver a great experience
+- No Hardware or Regulatory Blockers: No unavailable hardware or regulatory approval needed
 
-| Column | Meaning |
-|---|---|
-| Data/API Access | I can get the data or API access I need |
-| Technology Readiness | Tech is good enough to deliver a great experience |
-| No Hardware or Regulatory Blockers | Does not require unavailable hardware or regulatory approval |
+Sum 3 = Clear path | 1-2 = Caution (have a plan) | 0 = Blocked (reconsider)
 
-| Sum | Level | Interpretation |
-|---|---|---|
-| 3 | Clear | Clear path to build |
-| 1-2 | Caution | Some challenges — have a plan |
-| 0 | Blocked | Major concerns — reconsider or simplify |
+GOSPEL FRAMEWORK (directional checks)
+- Expands Agency: Does my value proposition expand what users can do and choose?
+- Supports Becoming: Does my value proposition help users genuinely grow?
+- Deepens Connection: Does my value proposition strengthen real relationships?
 
-**Gospel Framework (directional checks)**
-
-| Column | Gospel Root | Question |
-|---|---|---|
-| **Expands Agency** | Agency | Does my value proposition expand what users can do and choose? |
-| **Supports Becoming** | Becoming | Does my value proposition help users genuinely grow? |
-| **Deepens Connection** | Connection | Does my value proposition strengthen real relationships? |
-
-Not every product needs all three. Pure tools (Uber, Amazon) may only expand agency — that's fine. The question is directional: for the needs you DO touch, are you on the right side?
+Not every product needs all three. The question is directional: for the needs
+you DO touch, are you on the right side?
+````
 
 :::
 
