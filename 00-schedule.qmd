@@ -20,12 +20,12 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 | 4 | 7 | Thu, Jan 29 | Problem interviews (Mom Test) | CC: Slash commands | [Q3: Ch 3](03-problem-discovery.qmd), **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2-validate-and-commit) |
 | 5 | 8 | Tue, Feb 3 | Evaluating opportunities | Client-side state, forms | – |
 | 5 | 9 | Thu, Feb 5 | Committing to a problem | Supabase setup + auth, CC: Agents | [Q4: Ch 4](04-validating-opportunities.qmd) |
-| 6 | 10 | Tue, Feb 10 | MVP scoping, user stories | Supabase database, tables, RLS | – |
+| 6 | 10 | Tue, Feb 10 | MVP scoping, user stories, Guest: [Daniel Alberson](https://www.linkedin.com/in/alberson/) (Agentive) | Supabase database, tables, RLS | – |
 | 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd) |
 | | | Tue, Feb 17 | | | **Sprint 2 Due (11:59pm)**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product) |
-| 7 | 12 | Thu, Feb 19 | Usability testing, iteration | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd), **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
-| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy | Capacitor / PWA basics | – |
-| 8 | 14 | Thu, Feb 26 | Platform decision framework | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
+| 7 | 12 | Thu, Feb 19 | Usability testing, iteration, Guest: [Feroz Samiyulla](https://www.linkedin.com/in/ferozsamiyulla/) (The Home Depot) | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd), **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
+| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy, Guest: [Taylor Baker](https://www.linkedin.com/in/taylormbaker/) (Adobe) | Capacitor / PWA basics | – |
+| 8 | 14 | Thu, Feb 26 | Platform decision framework, Guest: [Caleb Wilcox](https://www.linkedin.com/in/calebwilcox/) (Applause) | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
 | 9 | 15 | Tue, Mar 3 | Product metrics | Analytics setup | – |
 | 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd), **Sprint 4 Due**, [Sprint 5 Assigned](00-assessments.qmd#sprint-5-monetize-and-scale) |
 | 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | – |
