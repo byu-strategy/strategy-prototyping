@@ -23,14 +23,14 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 | 6 | 10 | Tue, Feb 10 | MVP scoping, user stories, Guest: [Daniel Alberson](https://www.linkedin.com/in/alberson/) (Agentive) | Supabase database, tables, RLS | – |
 | 6 | 11 | Thu, Feb 12 | PRDs (AI-assisted) | CRUD operations, relations | [Q5: Ch 5](05-building-your-mvp.qmd) |
 | | | Tue, Feb 17 | | | **Sprint 2 Due (11:59pm)** |
-| 7 | 12 | Thu, Feb 19 | Usability testing, iteration, Guest: [Feroz Samiyulla](https://www.linkedin.com/in/ferozsamiyulla/) (The Home Depot) | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd) |
-| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy, Guest: [Taylor Baker](https://www.linkedin.com/in/taylormbaker/) (Adobe) | Capacitor / PWA basics | [Sprint 3 Assigned](00-assessments.qmd#sprint-3-core-product), [Mid-Semester Survey Due](00-assessments.qmd#mid-semester-feedback-survey) |
+| 7 | 12 | Thu, Feb 19 | Usability testing, iteration | Supabase storage, CC: Skills | [Q6: Ch 6](06-testing-with-users.qmd) |
+| 8 | 13 | Tue, Feb 24 | Web vs mobile strategy, Guest: [Taylor Baker](https://www.linkedin.com/in/taylormbaker/) (Adobe) | Capacitor / PWA basics | [Sprint 3 Assigned](00-assessments.qmd#sprint-3-product-mvp), [Mid-Semester Survey Due](00-assessments.qmd#mid-semester-feedback-survey) |
 | 8 | 14 | Thu, Feb 26 | Platform decision framework, Guest: [Caleb Wilcox](https://www.linkedin.com/in/calebwilcox/) (Applause) | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
-| 9 | 15 | Tue, Mar 3 | Product metrics | Analytics setup | – |
-| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd), **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position) |
-| 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | – |
-| 10 | 18 | Thu, Mar 12 | Distribution channels | Edge functions | [Q9: Ch 9](09-go-to-market.qmd), [Peer Code Review Due](00-assessments.qmd#peer-code-review) |
-| 11 | 19 | Tue, Mar 17 | Business models | Stripe setup | – |
+| 9 | 15 | Tue, Mar 3 | Product metrics, Guest: [Feroz Samiyulla](https://www.linkedin.com/in/ferozsamiyulla/) (The Home Depot) | Analytics setup | – |
+| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd) |
+| 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position), [Peer Code Review Assigned](00-assessments.qmd#peer-code-review) |
+| 10 | 18 | Thu, Mar 12 | Distribution channels | Edge functions | [Q9: Ch 9](09-go-to-market.qmd) |
+| 11 | 19 | Tue, Mar 17 | Business models | Stripe setup | [Peer Code Review Due](00-assessments.qmd#peer-code-review) |
 | 11 | 20 | Thu, Mar 19 | Pricing strategy | Webhooks, subscriptions, CC: Plugins | [Q10: Ch 10](10-business-models.qmd), **Sprint 4 Due**, [Sprint 5 Assigned](00-assessments.qmd#sprint-5-monetize-and-scale) |
 | 12 | 21 | Tue, Mar 24 | Tech debt concepts | Testing basics, linting | – |
 | 12 | 22 | Thu, Mar 26 | Growth & retention | Supabase realtime | – |
@@ -46,7 +46,7 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 |-------|-------|-------|
 | 1-3 | Problems Worth Solving | Explore problems, build throwaway prototypes, validate |
 | 4-5 | Prototype & Validate | Commit to problem, build real MVP, get user feedback |
-| 6-7 | Core Product | Build core feature, user testing, iterate |
+| 6-7 | Product MVP | Build core feature, user testing, iterate |
 | 8-9 | Measure & Position | Analytics, platform strategy, GTM planning |
 | 10-11 | Monetize & Scale | Business model, payments, growth |
 | 12-13 | Build & Polish | Dedicated build time, tech debt cleanup |
@@ -58,8 +58,8 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 |--------|----------|-----|-------|------------------|
 | 1 | Week 3 | Week 4 | Ship & Showcase | Portfolio live, 1 prototype, 5 problems |
 | 2 | Week 4 | Tue, Feb 17 | Validate & Commit | Worksheet, AI interview, customer interview, ICP |
-| 3 | Week 8 | Week 9 | Core Product | PRD, core feature, 3 user tests |
-| 4 | Week 9 | Week 11 | Measure & Position | Analytics, landing page, GTM plan |
+| 3 | Week 8 | Tue, Mar 10 | Product MVP | Spec docs, core feature, 3 user tests |
+| 4 | Week 10 | Week 11 | Measure & Position | Analytics, landing page, GTM plan |
 | 5 | Week 11 | Week 13 | Monetize & Scale | Business model, payments |
 | Final | Week 11 | Week 15 | Launch & Present | Live product, presentation, 5+ users |
 
@@ -67,7 +67,7 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 
 | Assignment | Due | Focus |
 |------------|-----|-------|
-| [Peer Code Review](00-assessments.qmd#peer-code-review) | Thu, Mar 12 | AI-assisted analysis of peer's codebase |
+| [Peer Code Review](00-assessments.qmd#peer-code-review) | Tue, Mar 17 | AI-assisted analysis of peer's codebase |
 | [Peer Product Testing](00-assessments.qmd#peer-product-testing) | Thu, Apr 2 | Be a real test user for peer's app |
 
 ## Readings

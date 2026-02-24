@@ -30,7 +30,7 @@ editor: visual
 | Quiz | [Quiz 10 - Business Models](10-business-models.qmd) | 5 | 4 |
 | Sprint | [Sprint 1 - Ship & Showcase](#sprint-1-ship-and-showcase) | 50 | 1 |
 | Sprint | [Sprint 2 - Validate & Commit](#sprint-2-validate-and-commit) | 50 | 2, 3 |
-| Sprint | [Sprint 3 - Core Product](#sprint-3-core-product) | 50 | 4 |
+| Sprint | [Sprint 3 - Product MVP](#sprint-3-product-mvp) | 50 | 4 |
 | Sprint | [Sprint 4 - Measure & Position](#sprint-4-measure-and-position) | 50 | 4 |
 | Sprint | [Sprint 5 - Monetize & Scale](#sprint-5-monetize-and-scale) | 50 | 4 |
 | Peer | [Peer Code Review](#peer-code-review) | 50 | 4 |
@@ -420,41 +420,297 @@ Make a copy of the **[Sprint 2 Submission Template](https://docs.google.com/docu
 
 ---
 
-### Sprint 3: Core Product
+### Sprint 3: Product MVP
 
-**Weeks 5-7 | 50 points | Due: Thu, Feb 19**
+**50 points | Assigned: Tue, Feb 24 | Due: Tue, Mar 10**
 
-**Goal:** Build the core feature that delivers your value proposition.
+**Goal:** Build the core feature that delivers your value proposition, test it with real users, and decide on your platform strategy.
 
-**Deliverables:**
-
-- PRD document (AI-assisted)
-- Core feature functional with data persistence
-- 3 user tests completed
-- User feedback synthesis
-- Platform strategy decision (web-only, PWA, or Capacitor)
-
-**Portfolio additions:**
-
-- PRD artifact (PDF or page)
-- User feedback summary (polished)
-- Updated product link
-- Screenshots of core feature
-
-**Turn in:**
-
-- 2-min Loom video (required)
-- Portfolio updated
-
-**Grading Rubric (50 points)**
-
-| Category | Points |
-|----------|--------|
-| PRD document complete | 10 |
+| Deliverable | Points |
+|---|--:|
+| Product Spec Documents (AI-assisted) | 10 |
 | Core feature functional with data persistence | 15 |
-| 3 user tests with synthesis | 15 |
-| Platform strategy documented | 5 |
-| Loom video walkthrough | 5 |
+| 3 user tests with feedback synthesis | 15 |
+| Platform strategy decision documented | 5 |
+| Loom reflection video (2 min) | 5 |
+| **Total** | **50** |
+
+**What you turn in:** A single Google Doc link on LearningSuite using the [Sprint 3 Submission Template](https://docs.google.com/document/d/14DCFSVRxwG4djSrESHcmspmy3z37scMhkmGpJSkGyPc/copy). Your Google Doc collects all links (Updated Portfolio, GitHub, Vercel, Loom recordings) and written deliverables in one place.
+
+#### Part 1: Product Spec Documents (AI-Assisted)
+
+Your product spec documents live in your codebase and tell both you and Claude Code what you're building. The key documents are:
+
+1. **CLAUDE.md** — Your project's instruction file. This should contain your product overview, target user, value proposition, tech stack, and key decisions. Claude Code reads this every time it starts, so keeping it current means better AI assistance.
+2. **Spec documents** — Detailed requirements, user stories, and feature specs. These can live in a `specs/` or `docs/` folder in your repo, or wherever makes sense for your project.
+
+**What your spec documents might cover (not all required, use what makes sense for your app, if you don't know, ask Claude):**
+
+| Section | Where It Lives | Purpose |
+|---------|---------------|---------|
+| Product overview, JTBD, value prop, ICP | `CLAUDE.md` | Quick context for you and Claude Code |
+| User stories with acceptance criteria | Spec doc(s) | What to build, in detail |
+| Functional requirements | Spec doc(s) | What the MVP must do |
+| Out of scope | Spec doc(s) or `CLAUDE.md` | What you're explicitly NOT building |
+| Success metrics | Spec doc(s) | How you'll know it's working |
+| Database Schema | Spec doc(s) or `CLAUDE.md` | How data is persisted |
+
+**How to start:** Use AI to help you generate appropriate documents for your product. You may copy the prompt below to get started. Or chart your own path from scratch.
+
+```
+I'm building a product and need spec documents. Here's my context:
+
+- Job to be Done: [paste your JTBD from Sprint 2]
+- Value Proposition: [paste your Value Prop from Sprint 2]
+- Ideal Customer Profile: [paste your ICP summary from Sprint 2]
+
+Generate:
+
+1. A CLAUDE.md I can add to my project with: product
+   overview, target user, value proposition, and tech stack
+
+2. A product spec document with:
+   - 5 user stories in "As a [user], I want [goal] so that
+     [benefit]" format, each with acceptance criteria
+   - Functional requirements — what must the MVP do?
+   - Success metrics — how will we know it's working?
+   - Out of scope — what we are explicitly NOT building
+
+For the user stories, prioritize using the MoSCoW method:
+- Must have: MVP fails without this
+- Should have: Important but MVP works without it
+- Could have: Nice if time permits
+- Won't have: Explicitly out of scope for now
+
+Be ruthless about scope. This is an MVP. Focus on the ONE core
+action users must be able to complete.
+```
+
+After generating, review carefully. Ask yourself:
+
+- Does the "Must have" list truly contain only what's essential?
+- Could you cut one more user story and still deliver value?
+- Are the success metrics things you can actually measure?
+- Does your CLAUDE.md give Claude Code enough context to help you build?
+
+**Deliverable:** GitHub URLs to your CLAUDE.md and spec documents committed to your repo. Share your report with sdmurff, nmccaul, and twall03 if private.
+
+#### Part 2: Build Your Core Feature
+
+This is the heart of Sprint 3. Your app should do the one thing that delivers your value proposition. Remember: an MVP isn't a complete product with every layer finished. It's a thin slice through all the layers — functional, reliable, usable, and even a little delightful — for your core action only.
+
+![Image source: The Lean Product Playbook by Dan Olsen](images/mvp.png)
+
+**Requirements:**
+
+- **Core action works end-to-end**: A user can complete the main task your product promises
+- **Data persistence**: User data is saved to Supabase (not just local state)
+- **Authentication**: Users can sign up/log in and see only their own data (RLS enabled)
+- **Deployed**: Your app is live at a public URL (e.g. Vercel)
+
+**Tips for building with Claude Code:**
+
+Give Claude Code your spec documents as context. A good prompt:
+
+```
+In @file_name.md, build the core feature described in the "Must have" user stories.
+I will eventually use Supabase for the database and auth. Help me design the database schema as well. The app will be deployed to Vercel.
+```
+
+Break the work into pieces. Don't ask Claude Code to build everything at once. This is bit of trial an error on how much Claude can bite off at one time. Experiment to get a feel for it. If you burn through your Claude tokens, try switching over to the native Antigavity agent. Tag your Claude.md and spec files and ask the agent to pick up where Claude left off. 
+
+
+**What "functional" means for grading:**
+
+- A TA can sign up, complete the core action, and see their data persist
+- No placeholder data or hardcoded content, it works with real user input
+- Basic error states are handled (empty states, failed saves)
+
+**Deliverable:** Working app at a public URL (Vercel) with core feature functional. Add your Vercel link, and your GitHub repo link to your portfolio and submission. If you GitHub repo is private, go to setting and share it with the TAs: 
+
+#### Part 3: Conduct 3 User Tests
+
+Now that your core feature works, watch real people try to use it. For deeper background, see [Chapter 6](06-testing-with-users.qmd).
+
+**Why this matters:** You built this thing. You know exactly where every button is and what every label means. Your users don't. This is the **curse of knowledge** — once you know something, it's nearly impossible to imagine not knowing it. The only cure is watching people who don't know.
+
+Usability testing is not a demo. It's not a survey. It's observing real users attempt real tasks while you stay quiet and take notes.
+
+**Who to test with:** People who match your Ideal Customer Profile from Sprint 2.
+
+**Test script structure:**
+
+Use this structure for each ~10 minute session:
+
+```
+INTRO (1 minute)
+"Thanks for helping me test this. I'm testing the product,
+not you — there are no wrong answers. Please think out loud
+as you go. I'll mostly stay quiet and take notes."
+
+TASK (5-7 minutes)
+"Imagine you want to [core action]. Go ahead and try."
+[Stay quiet. Observe. Take notes.]
+
+FOLLOW-UP (2-3 minutes)
+"What was that experience like?"
+"What was most confusing?"
+"What would you change?"
+```
+
+**During the session:**
+
+| Do | Don't |
+|----|-------|
+| Stay silent while they work | Help them unless completely stuck |
+| Let them struggle (painful but necessary) | Explain why something works that way |
+| Note where they pause, click wrong things, hesitate | Defend your design decisions |
+| Ask "What are you thinking?" if they go quiet | Lead with "Did you see the button in the corner?" |
+| Take notes on behavior, not just outcomes | Ask "Do you like it?" (opinions aren't data) |
+
+**How to run each test:**
+
+1. **Share your live URL** — don't demo it for them, let them find their way
+2. **Give them a task** — "Imagine you want to [core action]. Go ahead and try."
+3. **Stay quiet** — this is the hard part. Don't help. Don't explain. Just watch and take notes.
+4. **Record the session** — use Loom to capture screen + audio (get their permission)
+5. **Ask follow-up questions** after they finish
+
+**Severity levels** — use these to classify issues you find:
+
+| Severity | Definition | Example |
+|----------|------------|---------|
+| **Critical** | User cannot complete the core task | Can't sign up, main action broken |
+| **Major** | Task is possible but difficult | Takes 5 minutes to find the main feature |
+| **Minor** | Annoying but doesn't block anything | Confusing label, awkward layout |
+
+**Use this observation template for each test:**
+
+```
+Test #: ___
+Tester name: ___
+Why is this person a good tester? ___
+Date: ___
+
+Task given: ___
+
+OBSERVATIONS:
+- Could they complete the core task? (Yes / No / Partially)
+- Time to complete: ___
+- Where did they get stuck?
+- Where did they click wrong things or hesitate?
+- What did they say out loud?
+- Facial expressions / body language:
+
+FOLLOW-UP RESPONSES:
+- What was confusing?
+- What would they change?
+- Would they use this again?
+
+SEVERITY OF ISSUES FOUND:
+- Critical (can't complete core task):
+- Major (difficult but possible):
+- Minor (annoying but not blocking):
+```
+
+**After all 3 tests, synthesize your findings.** You can paste your notes (and loom transcript) into AI to help:
+
+```
+Here are my usability test notes from 3 sessions testing my product:
+
+[Paste all 3 observation notes]
+
+Synthesize these into:
+1. A summary paragraph of overall findings
+2. Issues found, grouped by severity (critical, major, minor)
+3. Patterns: what did multiple testers experience?
+4. Key quotes from testers that illustrate important findings
+5. Top 3 prioritized changes I should make, with rationale
+```
+
+**Deliverable:** Your 3 test observation notes + AI-assisted synthesis. Include Loom recording URLs for each session. Add a polished user feedback summary to your portfolio.
+
+#### Part 4: Platform Strategy Decision
+
+Document your platform strategy decision. For deeper background, see [Chapter 7](07-platform-strategy.qmd).
+
+**The Platform Decision Framework** — start by answering these questions honestly:
+
+| Question | If Yes → | If No → |
+|----------|----------|---------|
+| Do users need this away from a computer? | Consider mobile | Web is fine |
+| Does it need device hardware (camera, GPS, sensors)? | Consider mobile | Web is fine |
+| Is your core user flow < 30 seconds? | Mobile-friendly matters | Desktop-first okay |
+| Do competitors have apps? | Understand why | May not need one |
+| Will users install another app? | Maybe mobile | Probably web |
+
+**The platform spectrum** — you don't have to choose between "web only" and "native app." There's a progression:
+
+| Approach | Effort | Native Feel | App Store? | Best For |
+|----------|--------|-------------|------------|----------|
+| **Responsive Web** | Low | Low | No | Most B2B, productivity, content apps |
+| **PWA** | Medium | Medium | Limited | Internal tools, B2B, content-heavy apps |
+| **Capacitor** | Medium | Medium-High | Yes | Consumer apps needing store presence |
+| **React Native** | High | High | Yes | Performance-critical consumer apps |
+| **Native (Swift/Kotlin)** | Highest | Highest | Yes | Games, AR, deep OS integration |
+
+For most of you, the sweet spot is **Responsive Web → PWA → Capacitor** as your product grows. Start simple, upgrade when you have evidence you need to.
+
+**Answer these questions in your submission** (a few sentences each):
+
+1. **Where do your users need your product?** (At a desk? On the go? Both?)
+2. **Does your product need device hardware?** (Camera, GPS, sensors, etc.)
+3. **What is your platform decision?** Choose one:
+   - **Web-only** — responsive web app, no app store
+   - **PWA** — installable web app with offline support
+   - **Capacitor** — web app wrapped for app store distribution
+4. **Why?** Justify using the decision framework above
+5. **What would change your mind?** What signal would cause you to upgrade (e.g., from web-only to PWA)?
+
+**Deliverable:** Platform strategy writeup in your submission document.
+
+#### Part 5: Loom Reflection Video
+
+Record a 2-minute Loom video reflecting on your Sprint 3 work. In your video:
+
+- **Demo your core feature** — show a user completing the main task
+- **Share what you learned from user testing** — what surprised you? What broke?
+- **Describe your top change** — what's the #1 thing you're going to fix based on feedback?
+- **State your platform decision** and why
+
+**Deliverable:** Add your Loom video URL to your submission document.
+
+#### Portfolio Updates
+
+By the Sprint 3 deadline, your portfolio should include:
+
+- **Product spec documents** — as a page, downloadable PDF, or linked from your repo
+- **Updated product link** — pointing to your live, functional app
+- **Screenshots** — showing your core feature in action
+- **User feedback summary** — a polished writeup of what you learned from testing
+
+#### Turn In
+
+Submit your completed Google Doc link on LearningSuite. Use the [Sprint 3 Submission Template](https://docs.google.com/document/d/14DCFSVRxwG4djSrESHcmspmy3z37scMhkmGpJSkGyPc/copy). Your doc should contain all links and written deliverables in one place:
+
+1. GitHub repo URL (share with TAs if private)
+2. Live product URL (Vercel)
+3. GitHub URLs to your CLAUDE.md and spec documents
+4. All 3 user test observation notes + AI synthesis
+5. Loom URLs for each user test recording
+6. Platform strategy writeup
+7. Loom reflection video URL
+8. Link to your updated portfolio
+
+#### Grading Rubric (50 points)
+
+| Category | Points | Expectations |
+|----------|--------|--------------|
+| **Product Spec Documents** | 10 | CLAUDE.md contains product overview, target user, value prop, and tech stack. Spec doc(s) include user stories with acceptance criteria, functional requirements, success metrics, and out of scope. Scope is focused on MVP, not a wish list. |
+| **Core Feature Functional** | 15 | Core action works end-to-end. Data persists in Supabase. Auth and RLS enabled. Deployed to public URL. TA can sign up and complete the core task. |
+| **3 User Tests + Synthesis** | 15 | 3 documented test sessions with observation notes. AI-assisted synthesis with severity-ranked issues, patterns, and prioritized changes. |
+| **Platform Strategy** | 5 | Clear decision with justification using the decision framework. Thoughtful, not just "I picked web because it's easiest." |
+| **Loom Reflection Video** | 5 | 2-min video covering demo, testing learnings, top change, and platform decision. |
 
 ---
 
@@ -541,7 +797,7 @@ Peer assignments teach you to give and receive constructive feedback, a critical
 
 ### Peer Code Review
 
-**Week 9-10 | 50 points | Due: Thu, Mar 12**
+**50 points | Assigned: Tue, Mar 10 | Due: Tue, Mar 17**
 
 **Goal:** Apply code analysis skills to a peer's codebase and provide constructive feedback.
 
