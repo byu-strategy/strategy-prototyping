@@ -27,7 +27,7 @@ Below is the planned schedule. Dates, topics, and assignments may adjust as need
 | 8 | 13 | Tue, Feb 24 | Web vs mobile strategy, Guest: [Taylor Baker](https://www.linkedin.com/in/taylormbaker/) (Adobe) | Capacitor / PWA basics | [Sprint 3 Assigned](00-assessments.qmd#sprint-3-product-mvp), [Mid-Semester Survey Due](00-assessments.qmd#mid-semester-feedback-survey) |
 | 8 | 14 | Thu, Feb 26 | Platform decision framework, Guest: [Caleb Wilcox](https://www.linkedin.com/in/calebwilcox/) (Applause) | APIs & integrations, CC: Hooks | [Q7: Ch 7](07-platform-strategy.qmd) |
 | 9 | 15 | Tue, Mar 3 | Product metrics, Guest: [Feroz Samiyulla](https://www.linkedin.com/in/ferozsamiyulla/) (The Home Depot) | Analytics setup | – |
-| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd) |
+| 9 | 16 | Thu, Mar 5 | Leading vs lagging indicators, Guest: [Ben Cullen](https://www.linkedin.com/in/ben-n-cullen/) (Palantir) | Event tracking, dashboards | [Q8: Ch 8](08-measuring-what-matters.qmd) |
 | 10 | 17 | Tue, Mar 10 | Go-to-market strategy | Landing pages, SEO basics | **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4-measure-and-position), [Peer Code Review Assigned](00-assessments.qmd#peer-code-review) |
 | 10 | 18 | Thu, Mar 12 | Distribution channels | Edge functions | [Q9: Ch 9](09-go-to-market.qmd) |
 | 11 | 19 | Tue, Mar 17 | Business models | Stripe setup | [Peer Code Review Due](00-assessments.qmd#peer-code-review) |
