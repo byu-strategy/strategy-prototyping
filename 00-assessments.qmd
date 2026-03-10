@@ -845,9 +845,13 @@ Write a 1-2 page review covering:
 
 **Turn in:**
 
-- The 3 AI-generated markdown files
-- Your written review (PDF or markdown)
-- Brief notes from your testing session
+Make a copy of the [Peer Code Review submission template](https://docs.google.com/document/d/1zJvmAGrGa5NdCZDLVCl6d2tGngZzgUKooLVv-FHfO6c/copy) and fill in each section. All deliverables go in this single document:
+
+- The 3 AI-generated analysis outputs (pasted into the template)
+- Your written review covering architecture, code quality, security, and 3 specific suggestions
+- Notes from your hands-on testing session
+
+Submit the link to your completed Google Doc on Learning Suite.
 
 **Grading Rubric (50 points)**
 
